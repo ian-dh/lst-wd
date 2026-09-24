@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Winter weather monitor for Les Schwab operating markets.">
+  <title>Les Schwab Winter Weather Monitor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <p class="eyebrow">LES SCHWAB</p>
+      <h1>Winter Weather Monitor</h1>
+      <p class="subhead">Broad market screen → focused road and PR activation signals.</p>
+    </div>
+    <div class="header-meta">
+      <div><span>Last updated</span><strong id="last-updated">Loading…</strong></div>
+      <button id="refresh-btn" type="button">Refresh page</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="seed-banner" class="banner hidden">
+      Live weather data has not been generated yet. Run the GitHub Action once after deployment.
+    </div>
+
+    <section class="summary" aria-label="Status summary">
+      <button class="summary-card activate" data-filter="ACTIVATE"><span>ACTIVATE</span><strong id="count-activate">0</strong></button>
+      <button class="summary-card prepare" data-filter="PREPARE"><span>PREPARE</span><strong id="count-prepare">0</strong></button>
+      <button class="summary-card watch" data-filter="WATCH"><span>WATCH</span><strong id="count-watch">0</strong></button>
+      <button class="summary-card clear" data-filter="CLEAR"><span>CLEAR</span><strong id="count-clear">0</strong></button>
+    </section>
+
+    <section id="changes-panel" class="panel hidden">
+      <div class="section-heading">
+        <div><p class="eyebrow">SINCE LAST UPDATE</p><h2>What changed</h2></div>
+      </div>
+      <div id="changes-list" class="changes-list"></div>
+    </section>
+
+    <section class="controls panel">
+      <div class="control">
+        <label for="search">Find a market</label>
+        <input id="search" type="search" placeholder="Spokane, Reno, Fargo…">
+      </div>
+      <div class="control">
+        <label for="state-filter">State</label>
+        <select id="state-filter"><option value="">All states</option></select>
+      </div>
+      <div class="control">
+        <label for="status-filter">Status</label>
+        <select id="status-filter">
+          <option value="">Actionable first</option>
+          <option value="ACTIVATE">Activate</option>
+          <option value="PREPARE">Prepare</option>
+          <option value="WATCH">Watch</option>
+          <option value="CLEAR">Clear</option>
+        </select>
+      </div>
+    </section>
+
+    <section id="market-sections"></section>
+  </main>
+
+  <footer>
+    <p>Decision-support only. Weather: National Weather Service. Road links: state DOT / 511 sources. Confirm current conditions before external outreach.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

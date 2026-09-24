@@ -1,0 +1,2575 @@
+{
+  "markets": [
+    {
+      "id": "AK-juneau",
+      "name": "Juneau",
+      "state": "AK",
+      "locationQuery": "Juneau, AK",
+      "priority": "Medium",
+      "mediaMarkets": [
+        "Local TV/radio + community news"
+      ],
+      "corridors": [
+        {
+          "name": "Juneau urban/airport corridor",
+          "routes": "Egan Dr / Glacier Hwy",
+          "risk": "Urban snow/ice, freezing rain, heavy wet snow"
+        }
+      ],
+      "roadSources": [
+        "https://511.alaska.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ak/juneau/8555-airport-blvd"
+      ],
+      "notes": []
+    },
+    {
+      "id": "CA-auburn",
+      "name": "Auburn",
+      "state": "CA",
+      "locationQuery": "Auburn, CA",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Sacramento + Reno",
+        "Sacramento"
+      ],
+      "corridors": [
+        {
+          "name": "Donner Summit",
+          "routes": "I-80",
+          "risk": "Heavy snow, chain controls, closures"
+        },
+        {
+          "name": "Auburn / Sierra foothill approaches",
+          "routes": "I-80 / US-50",
+          "risk": "Rapid snowline changes, chain controls upstream"
+        }
+      ],
+      "roadSources": [
+        "https://quickmap.dot.ca.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ca"
+      ],
+      "notes": []
+    },
+    {
+      "id": "CA-bishop",
+      "name": "Bishop",
+      "state": "CA",
+      "locationQuery": "Bishop, CA",
+      "priority": "High",
+      "mediaMarkets": [
+        "Eastern Sierra"
+      ],
+      "corridors": [
+        {
+          "name": "Mammoth / Bishop corridor",
+          "routes": "US-395",
+          "risk": "Heavy snow, wind, closures"
+        }
+      ],
+      "roadSources": [
+        "https://quickmap.dot.ca.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ca"
+      ],
+      "notes": []
+    },
+    {
+      "id": "CA-redding",
+      "name": "Redding",
+      "state": "CA",
+      "locationQuery": "Redding, CA",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Redding + Medford"
+      ],
+      "corridors": [
+        {
+          "name": "Siskiyou Summit / Mt. Shasta corridor",
+          "routes": "I-5",
+          "risk": "Heavy snow, chain controls, closures"
+        }
+      ],
+      "roadSources": [
+        "https://quickmap.dot.ca.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ca/redding"
+      ],
+      "notes": []
+    },
+    {
+      "id": "CA-south-lake-tahoe",
+      "name": "South Lake Tahoe",
+      "state": "CA",
+      "locationQuery": "South Lake Tahoe, CA",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Sacramento + Reno/Tahoe"
+      ],
+      "corridors": [
+        {
+          "name": "Echo Summit / Tahoe basin",
+          "routes": "US-50 / CA-89",
+          "risk": "Heavy snow, chain controls, closures"
+        }
+      ],
+      "roadSources": [
+        "https://quickmap.dot.ca.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ca/south-lake-tahoe"
+      ],
+      "notes": []
+    },
+    {
+      "id": "CA-susanville",
+      "name": "Susanville",
+      "state": "CA",
+      "locationQuery": "Susanville, CA",
+      "priority": "High",
+      "mediaMarkets": [
+        "Redding/Reno regional"
+      ],
+      "corridors": [
+        {
+          "name": "Susanville / Fredonyer Summit",
+          "routes": "CA-36 / US-395",
+          "risk": "Snow, ice, chain controls"
+        }
+      ],
+      "roadSources": [
+        "https://quickmap.dot.ca.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ca"
+      ],
+      "notes": []
+    },
+    {
+      "id": "CA-truckee",
+      "name": "Truckee",
+      "state": "CA",
+      "locationQuery": "Truckee, CA",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Sacramento + Reno"
+      ],
+      "corridors": [
+        {
+          "name": "Donner Summit",
+          "routes": "I-80",
+          "risk": "Heavy snow, chain controls, closures"
+        }
+      ],
+      "roadSources": [
+        "https://quickmap.dot.ca.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ca"
+      ],
+      "notes": []
+    },
+    {
+      "id": "CA-yreka",
+      "name": "Yreka",
+      "state": "CA",
+      "locationQuery": "Yreka, CA",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Redding + Medford"
+      ],
+      "corridors": [
+        {
+          "name": "Siskiyou Summit / Mt. Shasta corridor",
+          "routes": "I-5",
+          "risk": "Heavy snow, chain controls, closures"
+        }
+      ],
+      "roadSources": [
+        "https://quickmap.dot.ca.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ca/redding"
+      ],
+      "notes": []
+    },
+    {
+      "id": "CO-brighton",
+      "name": "Brighton",
+      "state": "CO",
+      "locationQuery": "Brighton, CO",
+      "priority": "High",
+      "mediaMarkets": [
+        "Denver + northeast Colorado"
+      ],
+      "corridors": [
+        {
+          "name": "Denver to Sterling I-76 corridor",
+          "routes": "I-76",
+          "risk": "Blizzards, wind, whiteouts, interstate closures"
+        }
+      ],
+      "roadSources": [
+        "https://www.cotrip.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/co"
+      ],
+      "notes": []
+    },
+    {
+      "id": "CO-castle-rock",
+      "name": "Castle Rock",
+      "state": "CO",
+      "locationQuery": "Castle Rock, CO",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Denver + Colorado Springs"
+      ],
+      "corridors": [
+        {
+          "name": "Monument Hill",
+          "routes": "I-25",
+          "risk": "Snow, wind, crashes"
+        }
+      ],
+      "roadSources": [
+        "https://www.cotrip.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/co"
+      ],
+      "notes": []
+    },
+    {
+      "id": "CO-colorado-springs",
+      "name": "Colorado Springs",
+      "state": "CO",
+      "locationQuery": "Colorado Springs, CO",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Denver + Colorado Springs"
+      ],
+      "corridors": [
+        {
+          "name": "Monument Hill",
+          "routes": "I-25",
+          "risk": "Snow, wind, crashes"
+        }
+      ],
+      "roadSources": [
+        "https://www.cotrip.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/co"
+      ],
+      "notes": []
+    },
+    {
+      "id": "CO-denver",
+      "name": "Denver",
+      "state": "CO",
+      "locationQuery": "Denver, CO",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Denver + Western Slope"
+      ],
+      "corridors": [
+        {
+          "name": "I-70 mountain corridor",
+          "routes": "I-70",
+          "risk": "Heavy snow, traction law, closures"
+        }
+      ],
+      "roadSources": [
+        "https://www.cotrip.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/co"
+      ],
+      "notes": []
+    },
+    {
+      "id": "CO-durango",
+      "name": "Durango",
+      "state": "CO",
+      "locationQuery": "Durango, CO",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Durango",
+        "Durango + Montrose"
+      ],
+      "corridors": [
+        {
+          "name": "Wolf Creek Pass",
+          "routes": "US-160",
+          "risk": "Heavy snow, avalanche/closure risk"
+        },
+        {
+          "name": "Red Mountain / Coal Bank / Molas corridor",
+          "routes": "US-550",
+          "risk": "Heavy snow, avalanche, closures"
+        }
+      ],
+      "roadSources": [
+        "https://www.cotrip.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/co"
+      ],
+      "notes": []
+    },
+    {
+      "id": "CO-grand-junction",
+      "name": "Grand Junction",
+      "state": "CO",
+      "locationQuery": "Grand Junction, CO",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Denver + Western Slope",
+        "Grand Junction"
+      ],
+      "corridors": [
+        {
+          "name": "I-70 mountain corridor",
+          "routes": "I-70",
+          "risk": "Heavy snow, traction law, closures"
+        },
+        {
+          "name": "Grand Junction / I-70 corridor",
+          "routes": "I-70",
+          "risk": "Snow, ice, canyon closures upstream"
+        }
+      ],
+      "roadSources": [
+        "https://www.cotrip.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/co"
+      ],
+      "notes": []
+    },
+    {
+      "id": "CO-lakewood",
+      "name": "Lakewood",
+      "state": "CO",
+      "locationQuery": "Lakewood, CO",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Denver + Western Slope"
+      ],
+      "corridors": [
+        {
+          "name": "I-70 mountain corridor",
+          "routes": "I-70",
+          "risk": "Heavy snow, traction law, closures"
+        }
+      ],
+      "roadSources": [
+        "https://www.cotrip.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/co"
+      ],
+      "notes": []
+    },
+    {
+      "id": "CO-montrose",
+      "name": "Montrose",
+      "state": "CO",
+      "locationQuery": "Montrose, CO",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Durango + Montrose"
+      ],
+      "corridors": [
+        {
+          "name": "Red Mountain / Coal Bank / Molas corridor",
+          "routes": "US-550",
+          "risk": "Heavy snow, avalanche, closures"
+        }
+      ],
+      "roadSources": [
+        "https://www.cotrip.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/co"
+      ],
+      "notes": []
+    },
+    {
+      "id": "CO-monument",
+      "name": "Monument",
+      "state": "CO",
+      "locationQuery": "Monument, CO",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Denver + Colorado Springs"
+      ],
+      "corridors": [
+        {
+          "name": "Monument Hill",
+          "routes": "I-25",
+          "risk": "Snow, wind, crashes"
+        }
+      ],
+      "roadSources": [
+        "https://www.cotrip.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/co"
+      ],
+      "notes": []
+    },
+    {
+      "id": "CO-pagosa-springs",
+      "name": "Pagosa Springs",
+      "state": "CO",
+      "locationQuery": "Pagosa Springs, CO",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Durango"
+      ],
+      "corridors": [
+        {
+          "name": "Wolf Creek Pass",
+          "routes": "US-160",
+          "risk": "Heavy snow, avalanche/closure risk"
+        }
+      ],
+      "roadSources": [
+        "https://www.cotrip.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/co"
+      ],
+      "notes": []
+    },
+    {
+      "id": "CO-sterling",
+      "name": "Sterling",
+      "state": "CO",
+      "locationQuery": "Sterling, CO",
+      "priority": "High",
+      "mediaMarkets": [
+        "Denver + northeast Colorado"
+      ],
+      "corridors": [
+        {
+          "name": "Denver to Sterling I-76 corridor",
+          "routes": "I-76",
+          "risk": "Blizzards, wind, whiteouts, interstate closures"
+        }
+      ],
+      "roadSources": [
+        "https://www.cotrip.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/co"
+      ],
+      "notes": []
+    },
+    {
+      "id": "ID-ammon",
+      "name": "Ammon",
+      "state": "ID",
+      "locationQuery": "Ammon, ID",
+      "priority": "High",
+      "mediaMarkets": [
+        "Idaho Falls + Pocatello"
+      ],
+      "corridors": [
+        {
+          "name": "Idaho Falls / I-15 corridor",
+          "routes": "I-15 / US-20",
+          "risk": "Blowing snow, whiteouts, severe cold"
+        }
+      ],
+      "roadSources": [
+        "https://511.idaho.gov/roadconditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/id"
+      ],
+      "notes": []
+    },
+    {
+      "id": "ID-boise",
+      "name": "Boise",
+      "state": "ID",
+      "locationQuery": "Boise, ID",
+      "priority": "High",
+      "mediaMarkets": [
+        "Boise"
+      ],
+      "corridors": [
+        {
+          "name": "Boise metro / I-84",
+          "routes": "I-84",
+          "risk": "Snow, freezing rain, black ice"
+        }
+      ],
+      "roadSources": [
+        "https://511.idaho.gov/roadconditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/id"
+      ],
+      "notes": []
+    },
+    {
+      "id": "ID-coeur-d-alene",
+      "name": "Coeur d'Alene",
+      "state": "ID",
+      "locationQuery": "Coeur d'Alene, ID",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Spokane + Coeur d'Alene",
+        "Spokane + North Idaho"
+      ],
+      "corridors": [
+        {
+          "name": "Fourth of July Pass",
+          "routes": "I-90",
+          "risk": "Heavy snow, ice, crashes"
+        },
+        {
+          "name": "Lookout Pass",
+          "routes": "I-90",
+          "risk": "Heavy snow, closures, chain issues"
+        }
+      ],
+      "roadSources": [
+        "https://511.idaho.gov/roadconditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/id"
+      ],
+      "notes": []
+    },
+    {
+      "id": "ID-grangeville",
+      "name": "Grangeville",
+      "state": "ID",
+      "locationQuery": "Grangeville, ID",
+      "priority": "High",
+      "mediaMarkets": [
+        "Lewiston"
+      ],
+      "corridors": [
+        {
+          "name": "White Bird Grade",
+          "routes": "US-95",
+          "risk": "Snow/ice, steep grades"
+        }
+      ],
+      "roadSources": [
+        "https://511.idaho.gov/roadconditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/id"
+      ],
+      "notes": []
+    },
+    {
+      "id": "ID-lewiston",
+      "name": "Lewiston",
+      "state": "ID",
+      "locationQuery": "Lewiston, ID",
+      "priority": "High",
+      "mediaMarkets": [
+        "Lewiston"
+      ],
+      "corridors": [
+        {
+          "name": "White Bird Grade",
+          "routes": "US-95",
+          "risk": "Snow/ice, steep grades"
+        }
+      ],
+      "roadSources": [
+        "https://511.idaho.gov/roadconditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/id"
+      ],
+      "notes": []
+    },
+    {
+      "id": "ID-meridian",
+      "name": "Meridian",
+      "state": "ID",
+      "locationQuery": "Meridian, ID",
+      "priority": "High",
+      "mediaMarkets": [
+        "Boise"
+      ],
+      "corridors": [
+        {
+          "name": "Boise metro / I-84",
+          "routes": "I-84",
+          "risk": "Snow, freezing rain, black ice"
+        }
+      ],
+      "roadSources": [
+        "https://511.idaho.gov/roadconditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/id"
+      ],
+      "notes": []
+    },
+    {
+      "id": "ID-nampa",
+      "name": "Nampa",
+      "state": "ID",
+      "locationQuery": "Nampa, ID",
+      "priority": "High",
+      "mediaMarkets": [
+        "Boise"
+      ],
+      "corridors": [
+        {
+          "name": "Boise metro / I-84",
+          "routes": "I-84",
+          "risk": "Snow, freezing rain, black ice"
+        }
+      ],
+      "roadSources": [
+        "https://511.idaho.gov/roadconditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/id"
+      ],
+      "notes": []
+    },
+    {
+      "id": "ID-pocatello",
+      "name": "Pocatello",
+      "state": "ID",
+      "locationQuery": "Pocatello, ID",
+      "priority": "High",
+      "mediaMarkets": [
+        "Idaho Falls + Pocatello"
+      ],
+      "corridors": [
+        {
+          "name": "Idaho Falls / I-15 corridor",
+          "routes": "I-15 / US-20",
+          "risk": "Blowing snow, whiteouts, severe cold"
+        }
+      ],
+      "roadSources": [
+        "https://511.idaho.gov/roadconditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/id"
+      ],
+      "notes": []
+    },
+    {
+      "id": "ID-post-falls",
+      "name": "Post Falls",
+      "state": "ID",
+      "locationQuery": "Post Falls, ID",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Spokane + Coeur d'Alene",
+        "Spokane + North Idaho"
+      ],
+      "corridors": [
+        {
+          "name": "Fourth of July Pass",
+          "routes": "I-90",
+          "risk": "Heavy snow, ice, crashes"
+        },
+        {
+          "name": "Lookout Pass",
+          "routes": "I-90",
+          "risk": "Heavy snow, closures, chain issues"
+        }
+      ],
+      "roadSources": [
+        "https://511.idaho.gov/roadconditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/id"
+      ],
+      "notes": []
+    },
+    {
+      "id": "MN-apple-valley",
+      "name": "Apple Valley",
+      "state": "MN",
+      "locationQuery": "Apple Valley, MN",
+      "priority": "High",
+      "mediaMarkets": [
+        "Minneapolis-St. Paul"
+      ],
+      "corridors": [
+        {
+          "name": "Twin Cities metro snow/ice",
+          "routes": "I-94 / I-35 / I-494",
+          "risk": "Heavy snow, freezing rain, black ice"
+        }
+      ],
+      "roadSources": [
+        "https://511mn.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/mn"
+      ],
+      "notes": []
+    },
+    {
+      "id": "MN-austin",
+      "name": "Austin",
+      "state": "MN",
+      "locationQuery": "Austin, MN",
+      "priority": "High",
+      "mediaMarkets": [
+        "Rochester/Mankato regional"
+      ],
+      "corridors": [
+        {
+          "name": "I-90 corridor",
+          "routes": "I-90",
+          "risk": "Blizzard, ice, wind"
+        }
+      ],
+      "roadSources": [
+        "https://511mn.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/mn"
+      ],
+      "notes": []
+    },
+    {
+      "id": "MN-blaine",
+      "name": "Blaine",
+      "state": "MN",
+      "locationQuery": "Blaine, MN",
+      "priority": "High",
+      "mediaMarkets": [
+        "Minneapolis-St. Paul"
+      ],
+      "corridors": [
+        {
+          "name": "Twin Cities metro snow/ice",
+          "routes": "I-94 / I-35 / I-494",
+          "risk": "Heavy snow, freezing rain, black ice"
+        }
+      ],
+      "roadSources": [
+        "https://511mn.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/mn"
+      ],
+      "notes": []
+    },
+    {
+      "id": "MN-monticello",
+      "name": "Monticello",
+      "state": "MN",
+      "locationQuery": "Monticello, MN",
+      "priority": "High",
+      "mediaMarkets": [
+        "St. Cloud"
+      ],
+      "corridors": [
+        {
+          "name": "St. Cloud / I-94 corridor",
+          "routes": "I-94",
+          "risk": "Heavy snow, blowing snow"
+        }
+      ],
+      "roadSources": [
+        "https://511mn.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/mn"
+      ],
+      "notes": []
+    },
+    {
+      "id": "MN-moorhead",
+      "name": "Moorhead",
+      "state": "MN",
+      "locationQuery": "Moorhead, MN",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Fargo-Moorhead"
+      ],
+      "corridors": [
+        {
+          "name": "Moorhead / I-94 corridor",
+          "routes": "I-94",
+          "risk": "Blizzard, blowing snow, closures"
+        }
+      ],
+      "roadSources": [
+        "https://511mn.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/mn"
+      ],
+      "notes": []
+    },
+    {
+      "id": "MN-richfield",
+      "name": "Richfield",
+      "state": "MN",
+      "locationQuery": "Richfield, MN",
+      "priority": "High",
+      "mediaMarkets": [
+        "Minneapolis-St. Paul"
+      ],
+      "corridors": [
+        {
+          "name": "Twin Cities metro snow/ice",
+          "routes": "I-94 / I-35 / I-494",
+          "risk": "Heavy snow, freezing rain, black ice"
+        }
+      ],
+      "roadSources": [
+        "https://511mn.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/mn"
+      ],
+      "notes": []
+    },
+    {
+      "id": "MN-sartell",
+      "name": "Sartell",
+      "state": "MN",
+      "locationQuery": "Sartell, MN",
+      "priority": "High",
+      "mediaMarkets": [
+        "St. Cloud"
+      ],
+      "corridors": [
+        {
+          "name": "St. Cloud / I-94 corridor",
+          "routes": "I-94",
+          "risk": "Heavy snow, blowing snow"
+        }
+      ],
+      "roadSources": [
+        "https://511mn.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/mn"
+      ],
+      "notes": []
+    },
+    {
+      "id": "MN-worthington",
+      "name": "Worthington",
+      "state": "MN",
+      "locationQuery": "Worthington, MN",
+      "priority": "High",
+      "mediaMarkets": [
+        "Rochester/Mankato regional"
+      ],
+      "corridors": [
+        {
+          "name": "I-90 corridor",
+          "routes": "I-90",
+          "risk": "Blizzard, ice, wind"
+        }
+      ],
+      "roadSources": [
+        "https://511mn.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/mn"
+      ],
+      "notes": []
+    },
+    {
+      "id": "MT-bozeman",
+      "name": "Bozeman",
+      "state": "MT",
+      "locationQuery": "Bozeman, MT",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Butte + Bozeman",
+        "Bozeman"
+      ],
+      "corridors": [
+        {
+          "name": "Homestake Pass",
+          "routes": "I-90",
+          "risk": "Snow, wind, closures"
+        },
+        {
+          "name": "Bozeman Pass",
+          "routes": "I-90",
+          "risk": "Snow, wind, crashes"
+        }
+      ],
+      "roadSources": [
+        "https://www.511mt.net/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/mt"
+      ],
+      "notes": []
+    },
+    {
+      "id": "MT-butte",
+      "name": "Butte",
+      "state": "MT",
+      "locationQuery": "Butte, MT",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Butte + Bozeman"
+      ],
+      "corridors": [
+        {
+          "name": "Homestake Pass",
+          "routes": "I-90",
+          "risk": "Snow, wind, closures"
+        }
+      ],
+      "roadSources": [
+        "https://www.511mt.net/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/mt"
+      ],
+      "notes": []
+    },
+    {
+      "id": "MT-columbia-falls",
+      "name": "Columbia Falls",
+      "state": "MT",
+      "locationQuery": "Columbia Falls, MT",
+      "priority": "High",
+      "mediaMarkets": [
+        "Kalispell"
+      ],
+      "corridors": [
+        {
+          "name": "Marias Pass / Glacier corridor",
+          "routes": "US-2",
+          "risk": "Heavy snow, cold, wind"
+        }
+      ],
+      "roadSources": [
+        "https://www.511mt.net/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/mt"
+      ],
+      "notes": []
+    },
+    {
+      "id": "MT-helena",
+      "name": "Helena",
+      "state": "MT",
+      "locationQuery": "Helena, MT",
+      "priority": "High",
+      "mediaMarkets": [
+        "Helena"
+      ],
+      "corridors": [
+        {
+          "name": "MacDonald Pass",
+          "routes": "US-12",
+          "risk": "Snow, ice, wind"
+        }
+      ],
+      "roadSources": [
+        "https://www.511mt.net/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/mt"
+      ],
+      "notes": []
+    },
+    {
+      "id": "MT-kalispell",
+      "name": "Kalispell",
+      "state": "MT",
+      "locationQuery": "Kalispell, MT",
+      "priority": "High",
+      "mediaMarkets": [
+        "Kalispell"
+      ],
+      "corridors": [
+        {
+          "name": "Marias Pass / Glacier corridor",
+          "routes": "US-2",
+          "risk": "Heavy snow, cold, wind"
+        }
+      ],
+      "roadSources": [
+        "https://www.511mt.net/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/mt"
+      ],
+      "notes": []
+    },
+    {
+      "id": "MT-missoula",
+      "name": "Missoula",
+      "state": "MT",
+      "locationQuery": "Missoula, MT",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Missoula + Spokane"
+      ],
+      "corridors": [
+        {
+          "name": "Lookout Pass",
+          "routes": "I-90",
+          "risk": "Heavy snow, closures"
+        }
+      ],
+      "roadSources": [
+        "https://www.511mt.net/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/mt"
+      ],
+      "notes": []
+    },
+    {
+      "id": "MT-whitefish",
+      "name": "Whitefish",
+      "state": "MT",
+      "locationQuery": "Whitefish, MT",
+      "priority": "High",
+      "mediaMarkets": [
+        "Kalispell"
+      ],
+      "corridors": [
+        {
+          "name": "Marias Pass / Glacier corridor",
+          "routes": "US-2",
+          "risk": "Heavy snow, cold, wind"
+        }
+      ],
+      "roadSources": [
+        "https://www.511mt.net/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/mt"
+      ],
+      "notes": []
+    },
+    {
+      "id": "ND-bismarck",
+      "name": "Bismarck",
+      "state": "ND",
+      "locationQuery": "Bismarck, ND",
+      "priority": "High",
+      "mediaMarkets": [
+        "Bismarck"
+      ],
+      "corridors": [
+        {
+          "name": "Bismarck / I-94 corridor",
+          "routes": "I-94",
+          "risk": "Blizzard, ice, closures"
+        }
+      ],
+      "roadSources": [
+        "https://travel.dot.nd.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/nd"
+      ],
+      "notes": []
+    },
+    {
+      "id": "ND-devils-lake",
+      "name": "Devils Lake",
+      "state": "ND",
+      "locationQuery": "Devils Lake, ND",
+      "priority": "High",
+      "mediaMarkets": [
+        "Grand Forks"
+      ],
+      "corridors": [
+        {
+          "name": "Grand Forks / US-2 corridor",
+          "routes": "US-2 / I-29",
+          "risk": "Blizzard, whiteout, extreme cold"
+        }
+      ],
+      "roadSources": [
+        "https://travel.dot.nd.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/nd"
+      ],
+      "notes": []
+    },
+    {
+      "id": "ND-dickinson",
+      "name": "Dickinson",
+      "state": "ND",
+      "locationQuery": "Dickinson, ND",
+      "priority": "High",
+      "mediaMarkets": [
+        "Western North Dakota"
+      ],
+      "corridors": [
+        {
+          "name": "Dickinson / I-94 corridor",
+          "routes": "I-94",
+          "risk": "Blizzard, wind, closures"
+        }
+      ],
+      "roadSources": [
+        "https://travel.dot.nd.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/nd"
+      ],
+      "notes": []
+    },
+    {
+      "id": "ND-fargo",
+      "name": "Fargo",
+      "state": "ND",
+      "locationQuery": "Fargo, ND",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Fargo"
+      ],
+      "corridors": [
+        {
+          "name": "Fargo / I-94 and I-29",
+          "routes": "I-94 / I-29",
+          "risk": "Blizzard, whiteout, extreme cold"
+        }
+      ],
+      "roadSources": [
+        "https://travel.dot.nd.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/nd"
+      ],
+      "notes": []
+    },
+    {
+      "id": "ND-grand-forks",
+      "name": "Grand Forks",
+      "state": "ND",
+      "locationQuery": "Grand Forks, ND",
+      "priority": "High",
+      "mediaMarkets": [
+        "Grand Forks"
+      ],
+      "corridors": [
+        {
+          "name": "Grand Forks / US-2 corridor",
+          "routes": "US-2 / I-29",
+          "risk": "Blizzard, whiteout, extreme cold"
+        }
+      ],
+      "roadSources": [
+        "https://travel.dot.nd.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/nd"
+      ],
+      "notes": []
+    },
+    {
+      "id": "ND-jamestown",
+      "name": "Jamestown",
+      "state": "ND",
+      "locationQuery": "Jamestown, ND",
+      "priority": "High",
+      "mediaMarkets": [
+        "Bismarck"
+      ],
+      "corridors": [
+        {
+          "name": "Bismarck / I-94 corridor",
+          "routes": "I-94",
+          "risk": "Blizzard, ice, closures"
+        }
+      ],
+      "roadSources": [
+        "https://travel.dot.nd.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/nd"
+      ],
+      "notes": []
+    },
+    {
+      "id": "ND-west-fargo",
+      "name": "West Fargo",
+      "state": "ND",
+      "locationQuery": "West Fargo, ND",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Fargo"
+      ],
+      "corridors": [
+        {
+          "name": "Fargo / I-94 and I-29",
+          "routes": "I-94 / I-29",
+          "risk": "Blizzard, whiteout, extreme cold"
+        }
+      ],
+      "roadSources": [
+        "https://travel.dot.nd.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/nd"
+      ],
+      "notes": []
+    },
+    {
+      "id": "NE-fremont",
+      "name": "Fremont",
+      "state": "NE",
+      "locationQuery": "Fremont, NE",
+      "priority": "High",
+      "mediaMarkets": [
+        "Omaha"
+      ],
+      "corridors": [
+        {
+          "name": "Omaha / I-80 metro approaches",
+          "routes": "I-80 / US-75",
+          "risk": "Snow, freezing rain, crashes"
+        }
+      ],
+      "roadSources": [
+        "https://511.nebraska.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ne"
+      ],
+      "notes": []
+    },
+    {
+      "id": "NE-north-platte",
+      "name": "North Platte",
+      "state": "NE",
+      "locationQuery": "North Platte, NE",
+      "priority": "High",
+      "mediaMarkets": [
+        "North Platte"
+      ],
+      "corridors": [
+        {
+          "name": "North Platte I-80 corridor",
+          "routes": "I-80",
+          "risk": "Blizzard, ice, interstate closures"
+        }
+      ],
+      "roadSources": [
+        "https://511.nebraska.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ne/north-platte"
+      ],
+      "notes": []
+    },
+    {
+      "id": "NE-papillion",
+      "name": "Papillion",
+      "state": "NE",
+      "locationQuery": "Papillion, NE",
+      "priority": "High",
+      "mediaMarkets": [
+        "Omaha"
+      ],
+      "corridors": [
+        {
+          "name": "Omaha / I-80 metro approaches",
+          "routes": "I-80 / US-75",
+          "risk": "Snow, freezing rain, crashes"
+        }
+      ],
+      "roadSources": [
+        "https://511.nebraska.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ne"
+      ],
+      "notes": []
+    },
+    {
+      "id": "NE-scottsbluff",
+      "name": "Scottsbluff",
+      "state": "NE",
+      "locationQuery": "Scottsbluff, NE",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Scottsbluff + Cheyenne"
+      ],
+      "corridors": [
+        {
+          "name": "Scottsbluff-Sidney I-80 approaches",
+          "routes": "I-80 / US-26",
+          "risk": "Blizzard, high wind, closures"
+        }
+      ],
+      "roadSources": [
+        "https://511.nebraska.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ne"
+      ],
+      "notes": []
+    },
+    {
+      "id": "NE-sidney",
+      "name": "Sidney",
+      "state": "NE",
+      "locationQuery": "Sidney, NE",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Scottsbluff + Cheyenne"
+      ],
+      "corridors": [
+        {
+          "name": "Scottsbluff-Sidney I-80 approaches",
+          "routes": "I-80 / US-26",
+          "risk": "Blizzard, high wind, closures"
+        }
+      ],
+      "roadSources": [
+        "https://511.nebraska.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ne"
+      ],
+      "notes": []
+    },
+    {
+      "id": "NM-farmington",
+      "name": "Farmington",
+      "state": "NM",
+      "locationQuery": "Farmington, NM",
+      "priority": "High",
+      "mediaMarkets": [
+        "Four Corners",
+        "Farmington/Durango regional"
+      ],
+      "corridors": [
+        {
+          "name": "Farmington / US-550 corridor",
+          "routes": "US-550",
+          "risk": "Snow, black ice, high desert cold"
+        },
+        {
+          "name": "Farmington to Colorado approaches",
+          "routes": "US-550 / US-64",
+          "risk": "Snow, icy grades, cross-state travel impacts"
+        }
+      ],
+      "roadSources": [
+        "https://www.nmroads.com/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/nm",
+        "https://www.lesschwab.com/stores/nm/farmington"
+      ],
+      "notes": []
+    },
+    {
+      "id": "NV-carson-city",
+      "name": "Carson City",
+      "state": "NV",
+      "locationQuery": "Carson City, NV",
+      "priority": "High",
+      "mediaMarkets": [
+        "Reno/Tahoe"
+      ],
+      "corridors": [
+        {
+          "name": "Carson Valley / Tahoe approaches",
+          "routes": "US-50 / US-395",
+          "risk": "Snow, chain controls, mountain closures"
+        }
+      ],
+      "roadSources": [
+        "https://www.nvroads.com/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/nv"
+      ],
+      "notes": []
+    },
+    {
+      "id": "NV-elko",
+      "name": "Elko",
+      "state": "NV",
+      "locationQuery": "Elko, NV",
+      "priority": "High",
+      "mediaMarkets": [
+        "Elko"
+      ],
+      "corridors": [
+        {
+          "name": "Elko / Pequop & Emigrant corridors",
+          "routes": "I-80",
+          "risk": "Snow, wind, interstate closures"
+        }
+      ],
+      "roadSources": [
+        "https://www.nvroads.com/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/nv"
+      ],
+      "notes": []
+    },
+    {
+      "id": "NV-gardnerville",
+      "name": "Gardnerville",
+      "state": "NV",
+      "locationQuery": "Gardnerville, NV",
+      "priority": "High",
+      "mediaMarkets": [
+        "Reno/Tahoe"
+      ],
+      "corridors": [
+        {
+          "name": "Carson Valley / Tahoe approaches",
+          "routes": "US-50 / US-395",
+          "risk": "Snow, chain controls, mountain closures"
+        }
+      ],
+      "roadSources": [
+        "https://www.nvroads.com/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/nv"
+      ],
+      "notes": []
+    },
+    {
+      "id": "NV-reno",
+      "name": "Reno",
+      "state": "NV",
+      "locationQuery": "Reno, NV",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Reno"
+      ],
+      "corridors": [
+        {
+          "name": "Reno / Donner approaches",
+          "routes": "I-80 / US-395",
+          "risk": "Heavy snow, chain controls nearby, wind"
+        }
+      ],
+      "roadSources": [
+        "https://www.nvroads.com/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/nv"
+      ],
+      "notes": []
+    },
+    {
+      "id": "NV-sparks",
+      "name": "Sparks",
+      "state": "NV",
+      "locationQuery": "Sparks, NV",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Reno"
+      ],
+      "corridors": [
+        {
+          "name": "Reno / Donner approaches",
+          "routes": "I-80 / US-395",
+          "risk": "Heavy snow, chain controls nearby, wind"
+        }
+      ],
+      "roadSources": [
+        "https://www.nvroads.com/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/nv"
+      ],
+      "notes": []
+    },
+    {
+      "id": "NV-winnemucca",
+      "name": "Winnemucca",
+      "state": "NV",
+      "locationQuery": "Winnemucca, NV",
+      "priority": "High",
+      "mediaMarkets": [
+        "Elko",
+        "Northern Nevada"
+      ],
+      "corridors": [
+        {
+          "name": "Elko / Pequop & Emigrant corridors",
+          "routes": "I-80",
+          "risk": "Snow, wind, interstate closures"
+        },
+        {
+          "name": "Winnemucca / I-80 corridor",
+          "routes": "I-80",
+          "risk": "Snow, black ice, high winds"
+        }
+      ],
+      "roadSources": [
+        "https://www.nvroads.com/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/nv"
+      ],
+      "notes": []
+    },
+    {
+      "id": "OR-ashland",
+      "name": "Ashland",
+      "state": "OR",
+      "locationQuery": "Ashland, OR",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Medford"
+      ],
+      "corridors": [
+        {
+          "name": "Siskiyou Summit",
+          "routes": "I-5",
+          "risk": "Heavy snow, chain restrictions, interstate closures"
+        }
+      ],
+      "roadSources": [
+        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/or"
+      ],
+      "notes": []
+    },
+    {
+      "id": "OR-baker-city",
+      "name": "Baker City",
+      "state": "OR",
+      "locationQuery": "Baker City, OR",
+      "priority": "High",
+      "mediaMarkets": [
+        "Eastern Oregon"
+      ],
+      "corridors": [
+        {
+          "name": "Baker City / I-84 corridor",
+          "routes": "I-84",
+          "risk": "Snow, blowing snow, interstate closures"
+        }
+      ],
+      "roadSources": [
+        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/or"
+      ],
+      "notes": []
+    },
+    {
+      "id": "OR-bend",
+      "name": "Bend",
+      "state": "OR",
+      "locationQuery": "Bend, OR",
+      "priority": "High",
+      "mediaMarkets": [
+        "Bend + Willamette Valley"
+      ],
+      "corridors": [
+        {
+          "name": "Santiam Pass",
+          "routes": "US-20 / OR-22",
+          "risk": "Heavy snow, traction requirements"
+        }
+      ],
+      "roadSources": [
+        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/or"
+      ],
+      "notes": []
+    },
+    {
+      "id": "OR-eugene",
+      "name": "Eugene",
+      "state": "OR",
+      "locationQuery": "Eugene, OR",
+      "priority": "High",
+      "mediaMarkets": [
+        "Eugene + Bend"
+      ],
+      "corridors": [
+        {
+          "name": "Willamette Pass",
+          "routes": "OR-58",
+          "risk": "Snow, ice, closures"
+        }
+      ],
+      "roadSources": [
+        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/or/eugene"
+      ],
+      "notes": []
+    },
+    {
+      "id": "OR-la-grande",
+      "name": "La Grande",
+      "state": "OR",
+      "locationQuery": "La Grande, OR",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Pendleton + Tri-Cities"
+      ],
+      "corridors": [
+        {
+          "name": "Cabbage Hill / Deadman Pass",
+          "routes": "I-84",
+          "risk": "Snow, ice, wind, truck closures"
+        }
+      ],
+      "roadSources": [
+        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/or"
+      ],
+      "notes": []
+    },
+    {
+      "id": "OR-la-pine",
+      "name": "La Pine",
+      "state": "OR",
+      "locationQuery": "La Pine, OR",
+      "priority": "High",
+      "mediaMarkets": [
+        "Eugene + Bend"
+      ],
+      "corridors": [
+        {
+          "name": "Willamette Pass",
+          "routes": "OR-58",
+          "risk": "Snow, ice, closures"
+        }
+      ],
+      "roadSources": [
+        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/or/eugene"
+      ],
+      "notes": []
+    },
+    {
+      "id": "OR-medford",
+      "name": "Medford",
+      "state": "OR",
+      "locationQuery": "Medford, OR",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Medford"
+      ],
+      "corridors": [
+        {
+          "name": "Siskiyou Summit",
+          "routes": "I-5",
+          "risk": "Heavy snow, chain restrictions, interstate closures"
+        }
+      ],
+      "roadSources": [
+        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/or"
+      ],
+      "notes": []
+    },
+    {
+      "id": "OR-pendleton",
+      "name": "Pendleton",
+      "state": "OR",
+      "locationQuery": "Pendleton, OR",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Pendleton + Tri-Cities"
+      ],
+      "corridors": [
+        {
+          "name": "Cabbage Hill / Deadman Pass",
+          "routes": "I-84",
+          "risk": "Snow, ice, wind, truck closures"
+        }
+      ],
+      "roadSources": [
+        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/or"
+      ],
+      "notes": []
+    },
+    {
+      "id": "OR-portland",
+      "name": "Portland",
+      "state": "OR",
+      "locationQuery": "Portland, OR",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Portland"
+      ],
+      "corridors": [
+        {
+          "name": "Government Camp / Mt. Hood",
+          "routes": "US-26",
+          "risk": "Heavy snow, traction requirements, crashes"
+        },
+        {
+          "name": "Gorge + metro ice events",
+          "routes": "I-84 / I-205 / US-26",
+          "risk": "Freezing rain, ice, gorge wind"
+        }
+      ],
+      "roadSources": [
+        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/or",
+        "https://www.lesschwab.com/stores/or/portland"
+      ],
+      "notes": []
+    },
+    {
+      "id": "OR-sandy",
+      "name": "Sandy",
+      "state": "OR",
+      "locationQuery": "Sandy, OR",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Portland"
+      ],
+      "corridors": [
+        {
+          "name": "Government Camp / Mt. Hood",
+          "routes": "US-26",
+          "risk": "Heavy snow, traction requirements, crashes"
+        },
+        {
+          "name": "Gorge + metro ice events",
+          "routes": "I-84 / I-205 / US-26",
+          "risk": "Freezing rain, ice, gorge wind"
+        }
+      ],
+      "roadSources": [
+        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/or",
+        "https://www.lesschwab.com/stores/or/portland"
+      ],
+      "notes": []
+    },
+    {
+      "id": "OR-sisters",
+      "name": "Sisters",
+      "state": "OR",
+      "locationQuery": "Sisters, OR",
+      "priority": "High",
+      "mediaMarkets": [
+        "Bend + Willamette Valley"
+      ],
+      "corridors": [
+        {
+          "name": "Santiam Pass",
+          "routes": "US-20 / OR-22",
+          "risk": "Heavy snow, traction requirements"
+        }
+      ],
+      "roadSources": [
+        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/or"
+      ],
+      "notes": []
+    },
+    {
+      "id": "SD-aberdeen",
+      "name": "Aberdeen",
+      "state": "SD",
+      "locationQuery": "Aberdeen, SD",
+      "priority": "High",
+      "mediaMarkets": [
+        "Northeast South Dakota"
+      ],
+      "corridors": [
+        {
+          "name": "Watertown / I-29 corridor",
+          "routes": "I-29",
+          "risk": "Blizzard, extreme cold, whiteout"
+        }
+      ],
+      "roadSources": [
+        "https://www.sd511.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/sd"
+      ],
+      "notes": []
+    },
+    {
+      "id": "SD-brandon",
+      "name": "Brandon",
+      "state": "SD",
+      "locationQuery": "Brandon, SD",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Sioux Falls"
+      ],
+      "corridors": [
+        {
+          "name": "Sioux Falls / I-90 & I-29",
+          "routes": "I-90 / I-29",
+          "risk": "Blizzard, freezing rain, closures"
+        }
+      ],
+      "roadSources": [
+        "https://www.sd511.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/sd"
+      ],
+      "notes": []
+    },
+    {
+      "id": "SD-mitchell",
+      "name": "Mitchell",
+      "state": "SD",
+      "locationQuery": "Mitchell, SD",
+      "priority": "High",
+      "mediaMarkets": [
+        "Mitchell/Sioux Falls regional"
+      ],
+      "corridors": [
+        {
+          "name": "Mitchell / I-90 corridor",
+          "routes": "I-90",
+          "risk": "Blizzard, wind, interstate closures"
+        }
+      ],
+      "roadSources": [
+        "https://www.sd511.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/sd"
+      ],
+      "notes": []
+    },
+    {
+      "id": "SD-sioux-falls",
+      "name": "Sioux Falls",
+      "state": "SD",
+      "locationQuery": "Sioux Falls, SD",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Sioux Falls"
+      ],
+      "corridors": [
+        {
+          "name": "Sioux Falls / I-90 & I-29",
+          "routes": "I-90 / I-29",
+          "risk": "Blizzard, freezing rain, closures"
+        }
+      ],
+      "roadSources": [
+        "https://www.sd511.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/sd"
+      ],
+      "notes": []
+    },
+    {
+      "id": "SD-spearfish",
+      "name": "Spearfish",
+      "state": "SD",
+      "locationQuery": "Spearfish, SD",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Rapid City/Black Hills"
+      ],
+      "corridors": [
+        {
+          "name": "Spearfish / I-90 corridor",
+          "routes": "I-90",
+          "risk": "Heavy snow, wind, interstate closures"
+        }
+      ],
+      "roadSources": [
+        "https://www.sd511.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/sd"
+      ],
+      "notes": []
+    },
+    {
+      "id": "SD-watertown",
+      "name": "Watertown",
+      "state": "SD",
+      "locationQuery": "Watertown, SD",
+      "priority": "High",
+      "mediaMarkets": [
+        "Northeast South Dakota"
+      ],
+      "corridors": [
+        {
+          "name": "Watertown / I-29 corridor",
+          "routes": "I-29",
+          "risk": "Blizzard, extreme cold, whiteout"
+        }
+      ],
+      "roadSources": [
+        "https://www.sd511.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/sd"
+      ],
+      "notes": []
+    },
+    {
+      "id": "UT-logan",
+      "name": "Logan",
+      "state": "UT",
+      "locationQuery": "Logan, UT",
+      "priority": "High",
+      "mediaMarkets": [
+        "Logan"
+      ],
+      "corridors": [
+        {
+          "name": "Sardine Canyon",
+          "routes": "US-89/91",
+          "risk": "Heavy snow, crashes"
+        }
+      ],
+      "roadSources": [
+        "https://www.udottraffic.utah.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ut"
+      ],
+      "notes": []
+    },
+    {
+      "id": "UT-riverdale",
+      "name": "Riverdale",
+      "state": "UT",
+      "locationQuery": "Riverdale, UT",
+      "priority": "High",
+      "mediaMarkets": [
+        "Salt Lake/Ogden"
+      ],
+      "corridors": [
+        {
+          "name": "Weber Canyon / Ogden approaches",
+          "routes": "I-84 / I-15",
+          "risk": "Snow, wind, canyon travel impacts"
+        }
+      ],
+      "roadSources": [
+        "https://www.udottraffic.utah.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ut"
+      ],
+      "notes": []
+    },
+    {
+      "id": "UT-salt-lake",
+      "name": "Salt Lake",
+      "state": "UT",
+      "locationQuery": "Salt Lake, UT",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Salt Lake City"
+      ],
+      "corridors": [
+        {
+          "name": "Parleys Canyon",
+          "routes": "I-80",
+          "risk": "Heavy snow, canyon crashes, traction restrictions"
+        }
+      ],
+      "roadSources": [
+        "https://www.udottraffic.utah.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ut"
+      ],
+      "notes": []
+    },
+    {
+      "id": "UT-santaquin",
+      "name": "Santaquin",
+      "state": "UT",
+      "locationQuery": "Santaquin, UT",
+      "priority": "High",
+      "mediaMarkets": [
+        "Salt Lake/Utah County"
+      ],
+      "corridors": [
+        {
+          "name": "I-15 Santaquin / Nephi corridor",
+          "routes": "I-15",
+          "risk": "Snow squalls, black ice, wind"
+        }
+      ],
+      "roadSources": [
+        "https://www.udottraffic.utah.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ut"
+      ],
+      "notes": []
+    },
+    {
+      "id": "UT-south-ogden",
+      "name": "South Ogden",
+      "state": "UT",
+      "locationQuery": "South Ogden, UT",
+      "priority": "High",
+      "mediaMarkets": [
+        "Salt Lake/Ogden"
+      ],
+      "corridors": [
+        {
+          "name": "Weber Canyon / Ogden approaches",
+          "routes": "I-84 / I-15",
+          "risk": "Snow, wind, canyon travel impacts"
+        }
+      ],
+      "roadSources": [
+        "https://www.udottraffic.utah.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ut"
+      ],
+      "notes": []
+    },
+    {
+      "id": "UT-woods-cross",
+      "name": "Woods Cross",
+      "state": "UT",
+      "locationQuery": "Woods Cross, UT",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Salt Lake City"
+      ],
+      "corridors": [
+        {
+          "name": "Parleys Canyon",
+          "routes": "I-80",
+          "risk": "Heavy snow, canyon crashes, traction restrictions"
+        }
+      ],
+      "roadSources": [
+        "https://www.udottraffic.utah.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ut"
+      ],
+      "notes": []
+    },
+    {
+      "id": "WA-bellevue",
+      "name": "Bellevue",
+      "state": "WA",
+      "locationQuery": "Bellevue, WA",
+      "priority": "High",
+      "mediaMarkets": [
+        "Seattle-Tacoma"
+      ],
+      "corridors": [
+        {
+          "name": "Seattle-Tacoma freeze events",
+          "routes": "I-5 / I-405 / SR-18",
+          "risk": "Lowland snow, black ice, freezing rain"
+        }
+      ],
+      "roadSources": [
+        "https://wsdot.wa.gov/travel"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wa/seattle"
+      ],
+      "notes": []
+    },
+    {
+      "id": "WA-ellensburg",
+      "name": "Ellensburg",
+      "state": "WA",
+      "locationQuery": "Ellensburg, WA",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Seattle + Yakima/Ellensburg",
+        "Wenatchee + Yakima"
+      ],
+      "corridors": [
+        {
+          "name": "Snoqualmie Pass",
+          "routes": "I-90",
+          "risk": "Heavy snow, chain restrictions, closures, avalanche control"
+        },
+        {
+          "name": "Blewett Pass",
+          "routes": "US-97",
+          "risk": "Snow, compact snow/ice, spinouts"
+        }
+      ],
+      "roadSources": [
+        "https://wsdot.com/travel/real-time/mountain-pass-reports"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wa/north-bend/610-e-north-bend-way",
+        "https://www.lesschwab.com/stores/wa/ellensburg"
+      ],
+      "notes": []
+    },
+    {
+      "id": "WA-enumclaw",
+      "name": "Enumclaw",
+      "state": "WA",
+      "locationQuery": "Enumclaw, WA",
+      "priority": "High",
+      "mediaMarkets": [
+        "Seattle/Tacoma + Yakima"
+      ],
+      "corridors": [
+        {
+          "name": "Chinook / White Pass approaches",
+          "routes": "SR-410 / US-12",
+          "risk": "Snow, closures, seasonal restrictions"
+        }
+      ],
+      "roadSources": [
+        "https://wsdot.com/travel/real-time/mountain-pass-reports"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wa"
+      ],
+      "notes": []
+    },
+    {
+      "id": "WA-kent",
+      "name": "Kent",
+      "state": "WA",
+      "locationQuery": "Kent, WA",
+      "priority": "High",
+      "mediaMarkets": [
+        "Seattle-Tacoma"
+      ],
+      "corridors": [
+        {
+          "name": "Seattle-Tacoma freeze events",
+          "routes": "I-5 / I-405 / SR-18",
+          "risk": "Lowland snow, black ice, freezing rain"
+        }
+      ],
+      "roadSources": [
+        "https://wsdot.wa.gov/travel"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wa/seattle"
+      ],
+      "notes": []
+    },
+    {
+      "id": "WA-monroe",
+      "name": "Monroe",
+      "state": "WA",
+      "locationQuery": "Monroe, WA",
+      "priority": "High",
+      "mediaMarkets": [
+        "Seattle + Wenatchee"
+      ],
+      "corridors": [
+        {
+          "name": "Stevens Pass",
+          "routes": "US-2",
+          "risk": "Heavy snow, chain restrictions, closures"
+        }
+      ],
+      "roadSources": [
+        "https://wsdot.com/travel/real-time/mountain-pass-reports"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wa"
+      ],
+      "notes": []
+    },
+    {
+      "id": "WA-north-bend",
+      "name": "North Bend",
+      "state": "WA",
+      "locationQuery": "North Bend, WA",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Seattle + Yakima/Ellensburg"
+      ],
+      "corridors": [
+        {
+          "name": "Snoqualmie Pass",
+          "routes": "I-90",
+          "risk": "Heavy snow, chain restrictions, closures, avalanche control"
+        }
+      ],
+      "roadSources": [
+        "https://wsdot.com/travel/real-time/mountain-pass-reports"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wa/north-bend/610-e-north-bend-way"
+      ],
+      "notes": []
+    },
+    {
+      "id": "WA-puyallup",
+      "name": "Puyallup",
+      "state": "WA",
+      "locationQuery": "Puyallup, WA",
+      "priority": "High",
+      "mediaMarkets": [
+        "Seattle-Tacoma"
+      ],
+      "corridors": [
+        {
+          "name": "Seattle-Tacoma freeze events",
+          "routes": "I-5 / I-405 / SR-18",
+          "risk": "Lowland snow, black ice, freezing rain"
+        }
+      ],
+      "roadSources": [
+        "https://wsdot.wa.gov/travel"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wa/seattle"
+      ],
+      "notes": []
+    },
+    {
+      "id": "WA-seattle",
+      "name": "Seattle",
+      "state": "WA",
+      "locationQuery": "Seattle, WA",
+      "priority": "High",
+      "mediaMarkets": [
+        "Seattle-Tacoma"
+      ],
+      "corridors": [
+        {
+          "name": "Seattle-Tacoma freeze events",
+          "routes": "I-5 / I-405 / SR-18",
+          "risk": "Lowland snow, black ice, freezing rain"
+        }
+      ],
+      "roadSources": [
+        "https://wsdot.wa.gov/travel"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wa/seattle"
+      ],
+      "notes": []
+    },
+    {
+      "id": "WA-spokane",
+      "name": "Spokane",
+      "state": "WA",
+      "locationQuery": "Spokane, WA",
+      "priority": "High",
+      "mediaMarkets": [
+        "Spokane"
+      ],
+      "corridors": [
+        {
+          "name": "Spokane / I-90 corridor",
+          "routes": "I-90",
+          "risk": "Snow, ice, blowing snow, interstate crashes"
+        }
+      ],
+      "roadSources": [
+        "https://wsdot.wa.gov/travel"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wa"
+      ],
+      "notes": []
+    },
+    {
+      "id": "WA-spokane-valley",
+      "name": "Spokane Valley",
+      "state": "WA",
+      "locationQuery": "Spokane Valley, WA",
+      "priority": "High",
+      "mediaMarkets": [
+        "Spokane"
+      ],
+      "corridors": [
+        {
+          "name": "Spokane / I-90 corridor",
+          "routes": "I-90",
+          "risk": "Snow, ice, blowing snow, interstate crashes"
+        }
+      ],
+      "roadSources": [
+        "https://wsdot.wa.gov/travel"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wa"
+      ],
+      "notes": []
+    },
+    {
+      "id": "WA-wenatchee",
+      "name": "Wenatchee",
+      "state": "WA",
+      "locationQuery": "Wenatchee, WA",
+      "priority": "High",
+      "mediaMarkets": [
+        "Seattle + Wenatchee",
+        "Wenatchee + Yakima"
+      ],
+      "corridors": [
+        {
+          "name": "Stevens Pass",
+          "routes": "US-2",
+          "risk": "Heavy snow, chain restrictions, closures"
+        },
+        {
+          "name": "Blewett Pass",
+          "routes": "US-97",
+          "risk": "Snow, compact snow/ice, spinouts"
+        }
+      ],
+      "roadSources": [
+        "https://wsdot.com/travel/real-time/mountain-pass-reports"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wa",
+        "https://www.lesschwab.com/stores/wa/ellensburg"
+      ],
+      "notes": []
+    },
+    {
+      "id": "WA-yakima",
+      "name": "Yakima",
+      "state": "WA",
+      "locationQuery": "Yakima, WA",
+      "priority": "High",
+      "mediaMarkets": [
+        "Seattle/Tacoma + Yakima"
+      ],
+      "corridors": [
+        {
+          "name": "Chinook / White Pass approaches",
+          "routes": "SR-410 / US-12",
+          "risk": "Snow, closures, seasonal restrictions"
+        }
+      ],
+      "roadSources": [
+        "https://wsdot.com/travel/real-time/mountain-pass-reports"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wa"
+      ],
+      "notes": []
+    },
+    {
+      "id": "WY-casper",
+      "name": "Casper",
+      "state": "WY",
+      "locationQuery": "Casper, WY",
+      "priority": "High",
+      "mediaMarkets": [
+        "Casper"
+      ],
+      "corridors": [
+        {
+          "name": "Casper / I-25 corridor",
+          "routes": "I-25",
+          "risk": "Snow, wind, black ice"
+        }
+      ],
+      "roadSources": [
+        "https://www.wyoroad.info/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wy"
+      ],
+      "notes": []
+    },
+    {
+      "id": "WY-cheyenne",
+      "name": "Cheyenne",
+      "state": "WY",
+      "locationQuery": "Cheyenne, WY",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Cheyenne + Laramie"
+      ],
+      "corridors": [
+        {
+          "name": "Elk Mountain / Arlington corridor",
+          "routes": "I-80",
+          "risk": "Blizzard, extreme wind, interstate closures"
+        }
+      ],
+      "roadSources": [
+        "https://www.wyoroad.info/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wy/laramie"
+      ],
+      "notes": []
+    },
+    {
+      "id": "WY-evanston",
+      "name": "Evanston",
+      "state": "WY",
+      "locationQuery": "Evanston, WY",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Southwest Wyoming"
+      ],
+      "corridors": [
+        {
+          "name": "Evanston-Rock Springs I-80",
+          "routes": "I-80",
+          "risk": "Snow, wind, closures"
+        }
+      ],
+      "roadSources": [
+        "https://www.wyoroad.info/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wy"
+      ],
+      "notes": []
+    },
+    {
+      "id": "WY-gillette",
+      "name": "Gillette",
+      "state": "WY",
+      "locationQuery": "Gillette, WY",
+      "priority": "High",
+      "mediaMarkets": [
+        "Gillette/Sheridan"
+      ],
+      "corridors": [
+        {
+          "name": "Gillette / I-90 corridor",
+          "routes": "I-90",
+          "risk": "Blizzard, wind, closures"
+        }
+      ],
+      "roadSources": [
+        "https://www.wyoroad.info/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wy"
+      ],
+      "notes": []
+    },
+    {
+      "id": "WY-laramie",
+      "name": "Laramie",
+      "state": "WY",
+      "locationQuery": "Laramie, WY",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Cheyenne + Laramie"
+      ],
+      "corridors": [
+        {
+          "name": "Elk Mountain / Arlington corridor",
+          "routes": "I-80",
+          "risk": "Blizzard, extreme wind, interstate closures"
+        }
+      ],
+      "roadSources": [
+        "https://www.wyoroad.info/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wy/laramie"
+      ],
+      "notes": []
+    },
+    {
+      "id": "WY-rock-springs",
+      "name": "Rock Springs",
+      "state": "WY",
+      "locationQuery": "Rock Springs, WY",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Southwest Wyoming"
+      ],
+      "corridors": [
+        {
+          "name": "Evanston-Rock Springs I-80",
+          "routes": "I-80",
+          "risk": "Snow, wind, closures"
+        }
+      ],
+      "roadSources": [
+        "https://www.wyoroad.info/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wy"
+      ],
+      "notes": []
+    },
+    {
+      "id": "WY-sheridan",
+      "name": "Sheridan",
+      "state": "WY",
+      "locationQuery": "Sheridan, WY",
+      "priority": "High",
+      "mediaMarkets": [
+        "Gillette/Sheridan"
+      ],
+      "corridors": [
+        {
+          "name": "Gillette / I-90 corridor",
+          "routes": "I-90",
+          "risk": "Blizzard, wind, closures"
+        }
+      ],
+      "roadSources": [
+        "https://www.wyoroad.info/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wy"
+      ],
+      "notes": []
+    }
+  ]
+}
