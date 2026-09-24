@@ -1,0 +1,1100 @@
+{
+  "corridors": [
+    {
+      "id": "ak-juneau-urban-airport-corridor",
+      "state": "AK",
+      "name": "Juneau urban/airport corridor",
+      "routes": "Egan Dr / Glacier Hwy",
+      "risk": "Urban snow/ice, freezing rain, heavy wet snow",
+      "monitorLocations": [
+        "Juneau, Alaska"
+      ],
+      "impactedMarkets": [
+        "Juneau"
+      ],
+      "roadSources": [
+        "https://511.alaska.gov/"
+      ]
+    },
+    {
+      "id": "ca-auburn-sierra-foothill-approaches",
+      "state": "CA",
+      "name": "Auburn / Sierra foothill approaches",
+      "routes": "I-80 / US-50",
+      "risk": "Rapid snowline changes, chain controls upstream",
+      "monitorLocations": [
+        "Auburn, California"
+      ],
+      "impactedMarkets": [
+        "Auburn"
+      ],
+      "roadSources": [
+        "https://quickmap.dot.ca.gov/"
+      ]
+    },
+    {
+      "id": "ca-donner-summit",
+      "state": "CA",
+      "name": "Donner Summit",
+      "routes": "I-80",
+      "risk": "Heavy snow, chain controls, closures",
+      "monitorLocations": [
+        "Soda Springs, California"
+      ],
+      "impactedMarkets": [
+        "Auburn",
+        "Truckee"
+      ],
+      "roadSources": [
+        "https://quickmap.dot.ca.gov/"
+      ]
+    },
+    {
+      "id": "ca-echo-summit-tahoe-basin",
+      "state": "CA",
+      "name": "Echo Summit / Tahoe basin",
+      "routes": "US-50 / CA-89",
+      "risk": "Heavy snow, chain controls, closures",
+      "monitorLocations": [
+        "South Lake Tahoe, California"
+      ],
+      "impactedMarkets": [
+        "South Lake Tahoe"
+      ],
+      "roadSources": [
+        "https://quickmap.dot.ca.gov/"
+      ]
+    },
+    {
+      "id": "ca-mammoth-bishop-corridor",
+      "state": "CA",
+      "name": "Mammoth / Bishop corridor",
+      "routes": "US-395",
+      "risk": "Heavy snow, wind, closures",
+      "monitorLocations": [
+        "Mammoth Lakes, California"
+      ],
+      "impactedMarkets": [
+        "Bishop"
+      ],
+      "roadSources": [
+        "https://quickmap.dot.ca.gov/"
+      ]
+    },
+    {
+      "id": "ca-siskiyou-summit-mt-shasta-corridor",
+      "state": "CA",
+      "name": "Siskiyou Summit / Mt. Shasta corridor",
+      "routes": "I-5",
+      "risk": "Heavy snow, chain controls, closures",
+      "monitorLocations": [
+        "Mount Shasta, California"
+      ],
+      "impactedMarkets": [
+        "Redding",
+        "Yreka"
+      ],
+      "roadSources": [
+        "https://quickmap.dot.ca.gov/"
+      ]
+    },
+    {
+      "id": "ca-susanville-fredonyer-summit",
+      "state": "CA",
+      "name": "Susanville / Fredonyer Summit",
+      "routes": "CA-36 / US-395",
+      "risk": "Snow, ice, chain controls",
+      "monitorLocations": [
+        "Westwood, California"
+      ],
+      "impactedMarkets": [
+        "Susanville"
+      ],
+      "roadSources": [
+        "https://quickmap.dot.ca.gov/"
+      ]
+    },
+    {
+      "id": "co-denver-to-sterling-i-76-corridor",
+      "state": "CO",
+      "name": "Denver to Sterling I-76 corridor",
+      "routes": "I-76",
+      "risk": "Blizzards, wind, whiteouts, interstate closures",
+      "monitorLocations": [
+        "Fort Morgan, Colorado"
+      ],
+      "impactedMarkets": [
+        "Brighton",
+        "Sterling"
+      ],
+      "roadSources": [
+        "https://www.cotrip.org/"
+      ]
+    },
+    {
+      "id": "co-grand-junction-i-70-corridor",
+      "state": "CO",
+      "name": "Grand Junction / I-70 corridor",
+      "routes": "I-70",
+      "risk": "Snow, ice, canyon closures upstream",
+      "monitorLocations": [
+        "Grand Junction, Colorado"
+      ],
+      "impactedMarkets": [
+        "Grand Junction"
+      ],
+      "roadSources": [
+        "https://www.cotrip.org/"
+      ]
+    },
+    {
+      "id": "co-i-70-mountain-corridor",
+      "state": "CO",
+      "name": "I-70 mountain corridor",
+      "routes": "I-70",
+      "risk": "Heavy snow, traction law, closures",
+      "monitorLocations": [
+        "Georgetown, Colorado",
+        "Silverthorne, Colorado",
+        "Vail, Colorado"
+      ],
+      "impactedMarkets": [
+        "Denver",
+        "Grand Junction",
+        "Lakewood"
+      ],
+      "roadSources": [
+        "https://www.cotrip.org/"
+      ]
+    },
+    {
+      "id": "co-monument-hill",
+      "state": "CO",
+      "name": "Monument Hill",
+      "routes": "I-25",
+      "risk": "Snow, wind, crashes",
+      "monitorLocations": [
+        "Monument, Colorado"
+      ],
+      "impactedMarkets": [
+        "Castle Rock",
+        "Colorado Springs",
+        "Monument"
+      ],
+      "roadSources": [
+        "https://www.cotrip.org/"
+      ]
+    },
+    {
+      "id": "co-red-mountain-coal-bank-molas-corridor",
+      "state": "CO",
+      "name": "Red Mountain / Coal Bank / Molas corridor",
+      "routes": "US-550",
+      "risk": "Heavy snow, avalanche, closures",
+      "monitorLocations": [
+        "Silverton, Colorado"
+      ],
+      "impactedMarkets": [
+        "Durango",
+        "Montrose"
+      ],
+      "roadSources": [
+        "https://www.cotrip.org/"
+      ]
+    },
+    {
+      "id": "co-wolf-creek-pass",
+      "state": "CO",
+      "name": "Wolf Creek Pass",
+      "routes": "US-160",
+      "risk": "Heavy snow, avalanche/closure risk",
+      "monitorLocations": [
+        "South Fork, Colorado",
+        "Pagosa Springs, Colorado"
+      ],
+      "impactedMarkets": [
+        "Durango",
+        "Pagosa Springs"
+      ],
+      "roadSources": [
+        "https://www.cotrip.org/"
+      ]
+    },
+    {
+      "id": "id-boise-metro-i-84",
+      "state": "ID",
+      "name": "Boise metro / I-84",
+      "routes": "I-84",
+      "risk": "Snow, freezing rain, black ice",
+      "monitorLocations": [
+        "Boise, Idaho"
+      ],
+      "impactedMarkets": [
+        "Boise",
+        "Meridian",
+        "Nampa"
+      ],
+      "roadSources": [
+        "https://511.idaho.gov/roadconditions"
+      ]
+    },
+    {
+      "id": "id-fourth-of-july-pass",
+      "state": "ID",
+      "name": "Fourth of July Pass",
+      "routes": "I-90",
+      "risk": "Heavy snow, ice, crashes",
+      "monitorLocations": [
+        "Coeur d Alene, Idaho"
+      ],
+      "impactedMarkets": [
+        "Coeur d'Alene",
+        "Post Falls"
+      ],
+      "roadSources": [
+        "https://511.idaho.gov/roadconditions"
+      ]
+    },
+    {
+      "id": "id-idaho-falls-i-15-corridor",
+      "state": "ID",
+      "name": "Idaho Falls / I-15 corridor",
+      "routes": "I-15 / US-20",
+      "risk": "Blowing snow, whiteouts, severe cold",
+      "monitorLocations": [
+        "Idaho Falls, Idaho"
+      ],
+      "impactedMarkets": [
+        "Ammon",
+        "Pocatello"
+      ],
+      "roadSources": [
+        "https://511.idaho.gov/roadconditions"
+      ]
+    },
+    {
+      "id": "id-lookout-pass",
+      "state": "ID",
+      "name": "Lookout Pass",
+      "routes": "I-90",
+      "risk": "Heavy snow, closures, chain issues",
+      "monitorLocations": [
+        "Wallace, Idaho"
+      ],
+      "impactedMarkets": [
+        "Coeur d'Alene",
+        "Post Falls"
+      ],
+      "roadSources": [
+        "https://511.idaho.gov/roadconditions"
+      ]
+    },
+    {
+      "id": "id-white-bird-grade",
+      "state": "ID",
+      "name": "White Bird Grade",
+      "routes": "US-95",
+      "risk": "Snow/ice, steep grades",
+      "monitorLocations": [
+        "White Bird, Idaho"
+      ],
+      "impactedMarkets": [
+        "Grangeville",
+        "Lewiston"
+      ],
+      "roadSources": [
+        "https://511.idaho.gov/roadconditions"
+      ]
+    },
+    {
+      "id": "mn-i-90-corridor",
+      "state": "MN",
+      "name": "I-90 corridor",
+      "routes": "I-90",
+      "risk": "Blizzard, ice, wind",
+      "monitorLocations": [
+        "Albert Lea, Minnesota"
+      ],
+      "impactedMarkets": [
+        "Austin",
+        "Worthington"
+      ],
+      "roadSources": [
+        "https://511mn.org/"
+      ]
+    },
+    {
+      "id": "mn-moorhead-i-94-corridor",
+      "state": "MN",
+      "name": "Moorhead / I-94 corridor",
+      "routes": "I-94",
+      "risk": "Blizzard, blowing snow, closures",
+      "monitorLocations": [
+        "Moorhead, Minnesota"
+      ],
+      "impactedMarkets": [
+        "Moorhead"
+      ],
+      "roadSources": [
+        "https://511mn.org/"
+      ]
+    },
+    {
+      "id": "mn-st-cloud-i-94-corridor",
+      "state": "MN",
+      "name": "St. Cloud / I-94 corridor",
+      "routes": "I-94",
+      "risk": "Heavy snow, blowing snow",
+      "monitorLocations": [
+        "St Cloud, Minnesota"
+      ],
+      "impactedMarkets": [
+        "Monticello",
+        "Sartell"
+      ],
+      "roadSources": [
+        "https://511mn.org/"
+      ]
+    },
+    {
+      "id": "mn-twin-cities-metro-snow-ice",
+      "state": "MN",
+      "name": "Twin Cities metro snow/ice",
+      "routes": "I-94 / I-35 / I-494",
+      "risk": "Heavy snow, freezing rain, black ice",
+      "monitorLocations": [
+        "Minneapolis, Minnesota"
+      ],
+      "impactedMarkets": [
+        "Apple Valley",
+        "Blaine",
+        "Richfield"
+      ],
+      "roadSources": [
+        "https://511mn.org/"
+      ]
+    },
+    {
+      "id": "mt-bozeman-pass",
+      "state": "MT",
+      "name": "Bozeman Pass",
+      "routes": "I-90",
+      "risk": "Snow, wind, crashes",
+      "monitorLocations": [
+        "Livingston, Montana"
+      ],
+      "impactedMarkets": [
+        "Bozeman"
+      ],
+      "roadSources": [
+        "https://www.511mt.net/"
+      ]
+    },
+    {
+      "id": "mt-homestake-pass",
+      "state": "MT",
+      "name": "Homestake Pass",
+      "routes": "I-90",
+      "risk": "Snow, wind, closures",
+      "monitorLocations": [
+        "Butte, Montana"
+      ],
+      "impactedMarkets": [
+        "Bozeman",
+        "Butte"
+      ],
+      "roadSources": [
+        "https://www.511mt.net/"
+      ]
+    },
+    {
+      "id": "mt-lookout-pass",
+      "state": "MT",
+      "name": "Lookout Pass",
+      "routes": "I-90",
+      "risk": "Heavy snow, closures",
+      "monitorLocations": [
+        "Superior, Montana"
+      ],
+      "impactedMarkets": [
+        "Missoula"
+      ],
+      "roadSources": [
+        "https://www.511mt.net/"
+      ]
+    },
+    {
+      "id": "mt-macdonald-pass",
+      "state": "MT",
+      "name": "MacDonald Pass",
+      "routes": "US-12",
+      "risk": "Snow, ice, wind",
+      "monitorLocations": [
+        "Helena, Montana"
+      ],
+      "impactedMarkets": [
+        "Helena"
+      ],
+      "roadSources": [
+        "https://www.511mt.net/"
+      ]
+    },
+    {
+      "id": "mt-marias-pass-glacier-corridor",
+      "state": "MT",
+      "name": "Marias Pass / Glacier corridor",
+      "routes": "US-2",
+      "risk": "Heavy snow, cold, wind",
+      "monitorLocations": [
+        "East Glacier Park, Montana"
+      ],
+      "impactedMarkets": [
+        "Columbia Falls",
+        "Kalispell",
+        "Whitefish"
+      ],
+      "roadSources": [
+        "https://www.511mt.net/"
+      ]
+    },
+    {
+      "id": "nd-bismarck-i-94-corridor",
+      "state": "ND",
+      "name": "Bismarck / I-94 corridor",
+      "routes": "I-94",
+      "risk": "Blizzard, ice, closures",
+      "monitorLocations": [
+        "Bismarck, North Dakota"
+      ],
+      "impactedMarkets": [
+        "Bismarck",
+        "Jamestown"
+      ],
+      "roadSources": [
+        "https://travel.dot.nd.gov/"
+      ]
+    },
+    {
+      "id": "nd-dickinson-i-94-corridor",
+      "state": "ND",
+      "name": "Dickinson / I-94 corridor",
+      "routes": "I-94",
+      "risk": "Blizzard, wind, closures",
+      "monitorLocations": [
+        "Dickinson, North Dakota"
+      ],
+      "impactedMarkets": [
+        "Dickinson"
+      ],
+      "roadSources": [
+        "https://travel.dot.nd.gov/"
+      ]
+    },
+    {
+      "id": "nd-fargo-i-94-and-i-29",
+      "state": "ND",
+      "name": "Fargo / I-94 and I-29",
+      "routes": "I-94 / I-29",
+      "risk": "Blizzard, whiteout, extreme cold",
+      "monitorLocations": [
+        "Fargo, North Dakota"
+      ],
+      "impactedMarkets": [
+        "Fargo",
+        "West Fargo"
+      ],
+      "roadSources": [
+        "https://travel.dot.nd.gov/"
+      ]
+    },
+    {
+      "id": "nd-grand-forks-us-2-corridor",
+      "state": "ND",
+      "name": "Grand Forks / US-2 corridor",
+      "routes": "US-2 / I-29",
+      "risk": "Blizzard, whiteout, extreme cold",
+      "monitorLocations": [
+        "Grand Forks, North Dakota"
+      ],
+      "impactedMarkets": [
+        "Devils Lake",
+        "Grand Forks"
+      ],
+      "roadSources": [
+        "https://travel.dot.nd.gov/"
+      ]
+    },
+    {
+      "id": "ne-north-platte-i-80-corridor",
+      "state": "NE",
+      "name": "North Platte I-80 corridor",
+      "routes": "I-80",
+      "risk": "Blizzard, ice, interstate closures",
+      "monitorLocations": [
+        "North Platte, Nebraska"
+      ],
+      "impactedMarkets": [
+        "North Platte"
+      ],
+      "roadSources": [
+        "https://511.nebraska.gov/"
+      ]
+    },
+    {
+      "id": "ne-omaha-i-80-metro-approaches",
+      "state": "NE",
+      "name": "Omaha / I-80 metro approaches",
+      "routes": "I-80 / US-75",
+      "risk": "Snow, freezing rain, crashes",
+      "monitorLocations": [
+        "Omaha, Nebraska"
+      ],
+      "impactedMarkets": [
+        "Fremont",
+        "Papillion"
+      ],
+      "roadSources": [
+        "https://511.nebraska.gov/"
+      ]
+    },
+    {
+      "id": "ne-scottsbluff-sidney-i-80-approaches",
+      "state": "NE",
+      "name": "Scottsbluff-Sidney I-80 approaches",
+      "routes": "I-80 / US-26",
+      "risk": "Blizzard, high wind, closures",
+      "monitorLocations": [
+        "Sidney, Nebraska"
+      ],
+      "impactedMarkets": [
+        "Scottsbluff",
+        "Sidney"
+      ],
+      "roadSources": [
+        "https://511.nebraska.gov/"
+      ]
+    },
+    {
+      "id": "nm-farmington-us-550-corridor",
+      "state": "NM",
+      "name": "Farmington / US-550 corridor",
+      "routes": "US-550",
+      "risk": "Snow, black ice, high desert cold",
+      "monitorLocations": [
+        "Farmington, New Mexico"
+      ],
+      "impactedMarkets": [
+        "Farmington"
+      ],
+      "roadSources": [
+        "https://www.nmroads.com/"
+      ]
+    },
+    {
+      "id": "nm-farmington-to-colorado-approaches",
+      "state": "NM",
+      "name": "Farmington to Colorado approaches",
+      "routes": "US-550 / US-64",
+      "risk": "Snow, icy grades, cross-state travel impacts",
+      "monitorLocations": [
+        "Aztec, New Mexico"
+      ],
+      "impactedMarkets": [
+        "Farmington"
+      ],
+      "roadSources": [
+        "https://www.nmroads.com/"
+      ]
+    },
+    {
+      "id": "nv-carson-valley-tahoe-approaches",
+      "state": "NV",
+      "name": "Carson Valley / Tahoe approaches",
+      "routes": "US-50 / US-395",
+      "risk": "Snow, chain controls, mountain closures",
+      "monitorLocations": [
+        "Carson City, Nevada"
+      ],
+      "impactedMarkets": [
+        "Carson City",
+        "Gardnerville"
+      ],
+      "roadSources": [
+        "https://www.nvroads.com/"
+      ]
+    },
+    {
+      "id": "nv-elko-pequop-emigrant-corridors",
+      "state": "NV",
+      "name": "Elko / Pequop & Emigrant corridors",
+      "routes": "I-80",
+      "risk": "Snow, wind, interstate closures",
+      "monitorLocations": [
+        "Wells, Nevada"
+      ],
+      "impactedMarkets": [
+        "Elko",
+        "Winnemucca"
+      ],
+      "roadSources": [
+        "https://www.nvroads.com/"
+      ]
+    },
+    {
+      "id": "nv-reno-donner-approaches",
+      "state": "NV",
+      "name": "Reno / Donner approaches",
+      "routes": "I-80 / US-395",
+      "risk": "Heavy snow, chain controls nearby, wind",
+      "monitorLocations": [
+        "Verdi, Nevada"
+      ],
+      "impactedMarkets": [
+        "Reno",
+        "Sparks"
+      ],
+      "roadSources": [
+        "https://www.nvroads.com/"
+      ]
+    },
+    {
+      "id": "nv-winnemucca-i-80-corridor",
+      "state": "NV",
+      "name": "Winnemucca / I-80 corridor",
+      "routes": "I-80",
+      "risk": "Snow, black ice, high winds",
+      "monitorLocations": [
+        "Winnemucca, Nevada"
+      ],
+      "impactedMarkets": [
+        "Winnemucca"
+      ],
+      "roadSources": [
+        "https://www.nvroads.com/"
+      ]
+    },
+    {
+      "id": "or-baker-city-i-84-corridor",
+      "state": "OR",
+      "name": "Baker City / I-84 corridor",
+      "routes": "I-84",
+      "risk": "Snow, blowing snow, interstate closures",
+      "monitorLocations": [
+        "Baker City, Oregon"
+      ],
+      "impactedMarkets": [
+        "Baker City"
+      ],
+      "roadSources": [
+        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
+      ]
+    },
+    {
+      "id": "or-cabbage-hill-deadman-pass",
+      "state": "OR",
+      "name": "Cabbage Hill / Deadman Pass",
+      "routes": "I-84",
+      "risk": "Snow, ice, wind, truck closures",
+      "monitorLocations": [
+        "Meacham, Oregon"
+      ],
+      "impactedMarkets": [
+        "La Grande",
+        "Pendleton"
+      ],
+      "roadSources": [
+        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
+      ]
+    },
+    {
+      "id": "or-gorge-metro-ice-events",
+      "state": "OR",
+      "name": "Gorge + metro ice events",
+      "routes": "I-84 / I-205 / US-26",
+      "risk": "Freezing rain, ice, gorge wind",
+      "monitorLocations": [
+        "Cascade Locks, Oregon"
+      ],
+      "impactedMarkets": [
+        "Portland",
+        "Sandy"
+      ],
+      "roadSources": [
+        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
+      ]
+    },
+    {
+      "id": "or-government-camp-mt-hood",
+      "state": "OR",
+      "name": "Government Camp / Mt. Hood",
+      "routes": "US-26",
+      "risk": "Heavy snow, traction requirements, crashes",
+      "monitorLocations": [
+        "Government Camp, Oregon"
+      ],
+      "impactedMarkets": [
+        "Portland",
+        "Sandy"
+      ],
+      "roadSources": [
+        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
+      ]
+    },
+    {
+      "id": "or-santiam-pass",
+      "state": "OR",
+      "name": "Santiam Pass",
+      "routes": "US-20 / OR-22",
+      "risk": "Heavy snow, traction requirements",
+      "monitorLocations": [
+        "Sisters, Oregon"
+      ],
+      "impactedMarkets": [
+        "Bend",
+        "Sisters"
+      ],
+      "roadSources": [
+        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
+      ]
+    },
+    {
+      "id": "or-siskiyou-summit",
+      "state": "OR",
+      "name": "Siskiyou Summit",
+      "routes": "I-5",
+      "risk": "Heavy snow, chain restrictions, interstate closures",
+      "monitorLocations": [
+        "Ashland, Oregon"
+      ],
+      "impactedMarkets": [
+        "Ashland",
+        "Medford"
+      ],
+      "roadSources": [
+        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
+      ]
+    },
+    {
+      "id": "or-willamette-pass",
+      "state": "OR",
+      "name": "Willamette Pass",
+      "routes": "OR-58",
+      "risk": "Snow, ice, closures",
+      "monitorLocations": [
+        "Oakridge, Oregon"
+      ],
+      "impactedMarkets": [
+        "Eugene",
+        "La Pine"
+      ],
+      "roadSources": [
+        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
+      ]
+    },
+    {
+      "id": "sd-mitchell-i-90-corridor",
+      "state": "SD",
+      "name": "Mitchell / I-90 corridor",
+      "routes": "I-90",
+      "risk": "Blizzard, wind, interstate closures",
+      "monitorLocations": [
+        "Mitchell, South Dakota"
+      ],
+      "impactedMarkets": [
+        "Mitchell"
+      ],
+      "roadSources": [
+        "https://www.sd511.org/"
+      ]
+    },
+    {
+      "id": "sd-sioux-falls-i-90-i-29",
+      "state": "SD",
+      "name": "Sioux Falls / I-90 & I-29",
+      "routes": "I-90 / I-29",
+      "risk": "Blizzard, freezing rain, closures",
+      "monitorLocations": [
+        "Sioux Falls, South Dakota"
+      ],
+      "impactedMarkets": [
+        "Brandon",
+        "Sioux Falls"
+      ],
+      "roadSources": [
+        "https://www.sd511.org/"
+      ]
+    },
+    {
+      "id": "sd-spearfish-i-90-corridor",
+      "state": "SD",
+      "name": "Spearfish / I-90 corridor",
+      "routes": "I-90",
+      "risk": "Heavy snow, wind, interstate closures",
+      "monitorLocations": [
+        "Spearfish, South Dakota"
+      ],
+      "impactedMarkets": [
+        "Spearfish"
+      ],
+      "roadSources": [
+        "https://www.sd511.org/"
+      ]
+    },
+    {
+      "id": "sd-watertown-i-29-corridor",
+      "state": "SD",
+      "name": "Watertown / I-29 corridor",
+      "routes": "I-29",
+      "risk": "Blizzard, extreme cold, whiteout",
+      "monitorLocations": [
+        "Watertown, South Dakota"
+      ],
+      "impactedMarkets": [
+        "Aberdeen",
+        "Watertown"
+      ],
+      "roadSources": [
+        "https://www.sd511.org/"
+      ]
+    },
+    {
+      "id": "ut-i-15-santaquin-nephi-corridor",
+      "state": "UT",
+      "name": "I-15 Santaquin / Nephi corridor",
+      "routes": "I-15",
+      "risk": "Snow squalls, black ice, wind",
+      "monitorLocations": [
+        "Nephi, Utah"
+      ],
+      "impactedMarkets": [
+        "Santaquin"
+      ],
+      "roadSources": [
+        "https://www.udottraffic.utah.gov/"
+      ]
+    },
+    {
+      "id": "ut-parleys-canyon",
+      "state": "UT",
+      "name": "Parleys Canyon",
+      "routes": "I-80",
+      "risk": "Heavy snow, canyon crashes, traction restrictions",
+      "monitorLocations": [
+        "Summit Park, Utah"
+      ],
+      "impactedMarkets": [
+        "Salt Lake",
+        "Woods Cross"
+      ],
+      "roadSources": [
+        "https://www.udottraffic.utah.gov/"
+      ]
+    },
+    {
+      "id": "ut-sardine-canyon",
+      "state": "UT",
+      "name": "Sardine Canyon",
+      "routes": "US-89/91",
+      "risk": "Heavy snow, crashes",
+      "monitorLocations": [
+        "Mantua, Utah"
+      ],
+      "impactedMarkets": [
+        "Logan"
+      ],
+      "roadSources": [
+        "https://www.udottraffic.utah.gov/"
+      ]
+    },
+    {
+      "id": "ut-weber-canyon-ogden-approaches",
+      "state": "UT",
+      "name": "Weber Canyon / Ogden approaches",
+      "routes": "I-84 / I-15",
+      "risk": "Snow, wind, canyon travel impacts",
+      "monitorLocations": [
+        "Morgan, Utah"
+      ],
+      "impactedMarkets": [
+        "Riverdale",
+        "South Ogden"
+      ],
+      "roadSources": [
+        "https://www.udottraffic.utah.gov/"
+      ]
+    },
+    {
+      "id": "wa-blewett-pass",
+      "state": "WA",
+      "name": "Blewett Pass",
+      "routes": "US-97",
+      "risk": "Snow, compact snow/ice, spinouts",
+      "monitorLocations": [
+        "Cle Elum, Washington"
+      ],
+      "impactedMarkets": [
+        "Ellensburg",
+        "Wenatchee"
+      ],
+      "roadSources": [
+        "https://wsdot.com/travel/real-time/mountain-pass-reports"
+      ]
+    },
+    {
+      "id": "wa-chinook-white-pass-approaches",
+      "state": "WA",
+      "name": "Chinook / White Pass approaches",
+      "routes": "SR-410 / US-12",
+      "risk": "Snow, closures, seasonal restrictions",
+      "monitorLocations": [
+        "Packwood, Washington"
+      ],
+      "impactedMarkets": [
+        "Enumclaw",
+        "Yakima"
+      ],
+      "roadSources": [
+        "https://wsdot.com/travel/real-time/mountain-pass-reports"
+      ]
+    },
+    {
+      "id": "wa-seattle-tacoma-freeze-events",
+      "state": "WA",
+      "name": "Seattle-Tacoma freeze events",
+      "routes": "I-5 / I-405 / SR-18",
+      "risk": "Lowland snow, black ice, freezing rain",
+      "monitorLocations": [
+        "Seattle, Washington",
+        "Kent, Washington"
+      ],
+      "impactedMarkets": [
+        "Bellevue",
+        "Kent",
+        "Puyallup",
+        "Seattle"
+      ],
+      "roadSources": [
+        "https://wsdot.wa.gov/travel"
+      ]
+    },
+    {
+      "id": "wa-snoqualmie-pass",
+      "state": "WA",
+      "name": "Snoqualmie Pass",
+      "routes": "I-90",
+      "risk": "Heavy snow, chain restrictions, closures, avalanche control",
+      "monitorLocations": [
+        "Snoqualmie Pass, Washington"
+      ],
+      "impactedMarkets": [
+        "Ellensburg",
+        "North Bend"
+      ],
+      "roadSources": [
+        "https://wsdot.com/travel/real-time/mountain-pass-reports"
+      ]
+    },
+    {
+      "id": "wa-spokane-i-90-corridor",
+      "state": "WA",
+      "name": "Spokane / I-90 corridor",
+      "routes": "I-90",
+      "risk": "Snow, ice, blowing snow, interstate crashes",
+      "monitorLocations": [
+        "Spokane, Washington"
+      ],
+      "impactedMarkets": [
+        "Spokane",
+        "Spokane Valley"
+      ],
+      "roadSources": [
+        "https://wsdot.wa.gov/travel"
+      ]
+    },
+    {
+      "id": "wa-stevens-pass",
+      "state": "WA",
+      "name": "Stevens Pass",
+      "routes": "US-2",
+      "risk": "Heavy snow, chain restrictions, closures",
+      "monitorLocations": [
+        "Skykomish, Washington"
+      ],
+      "impactedMarkets": [
+        "Monroe",
+        "Wenatchee"
+      ],
+      "roadSources": [
+        "https://wsdot.com/travel/real-time/mountain-pass-reports"
+      ]
+    },
+    {
+      "id": "wy-casper-i-25-corridor",
+      "state": "WY",
+      "name": "Casper / I-25 corridor",
+      "routes": "I-25",
+      "risk": "Snow, wind, black ice",
+      "monitorLocations": [
+        "Casper, Wyoming"
+      ],
+      "impactedMarkets": [
+        "Casper"
+      ],
+      "roadSources": [
+        "https://www.wyoroad.info/"
+      ]
+    },
+    {
+      "id": "wy-elk-mountain-arlington-corridor",
+      "state": "WY",
+      "name": "Elk Mountain / Arlington corridor",
+      "routes": "I-80",
+      "risk": "Blizzard, extreme wind, interstate closures",
+      "monitorLocations": [
+        "Elk Mountain, Wyoming"
+      ],
+      "impactedMarkets": [
+        "Cheyenne",
+        "Laramie"
+      ],
+      "roadSources": [
+        "https://www.wyoroad.info/"
+      ]
+    },
+    {
+      "id": "wy-evanston-rock-springs-i-80",
+      "state": "WY",
+      "name": "Evanston-Rock Springs I-80",
+      "routes": "I-80",
+      "risk": "Snow, wind, closures",
+      "monitorLocations": [
+        "Little America, Wyoming",
+        "Rock Springs, Wyoming"
+      ],
+      "impactedMarkets": [
+        "Evanston",
+        "Rock Springs"
+      ],
+      "roadSources": [
+        "https://www.wyoroad.info/"
+      ]
+    },
+    {
+      "id": "wy-gillette-i-90-corridor",
+      "state": "WY",
+      "name": "Gillette / I-90 corridor",
+      "routes": "I-90",
+      "risk": "Blizzard, wind, closures",
+      "monitorLocations": [
+        "Gillette, Wyoming"
+      ],
+      "impactedMarkets": [
+        "Gillette",
+        "Sheridan"
+      ],
+      "roadSources": [
+        "https://www.wyoroad.info/"
+      ]
+    }
+  ]
+}

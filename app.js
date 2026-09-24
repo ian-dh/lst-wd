@@ -1,4 +1,3 @@
-
 const STATUS_ORDER = ["ACTIVATE","PREPARE","WATCH","CLEAR"];
 let DATA = null;
 
@@ -18,7 +17,6 @@ async function loadData(){
   buildStateFilter();
   render();
 }
-
 function buildStateFilter(){
   const sel = document.getElementById("state-filter");
   if(sel.options.length > 1) return;
@@ -27,8 +25,7 @@ function buildStateFilter(){
   });
 }
 function setCount(status){
-  document.getElementById(`count-${status.toLowerCase()}`).textContent =
-    DATA.markets.filter(m=>m.status===status).length;
+  document.getElementById(`count-${status.toLowerCase()}`).textContent = DATA.markets.filter(m=>m.status===status).length;
 }
 function renderChanges(){
   const panel=document.getElementById("changes-panel");
@@ -43,9 +40,19 @@ function renderChanges(){
     list.appendChild(div);
   });
 }
+function corridorSignalHtml(m){
+  const sigs=(m.corridorSignals||[]).filter(c=>c.status && c.status!=="CLEAR");
+  if(!sigs.length) return "";
+  return `<div class="local-context">${sigs.map(c=>`
+    <p><strong>Corridor signal:</strong> ${esc(c.status)} — ${esc(c.name)}${c.routes?` (${esc(c.routes)})`:""}</p>
+    <p><strong>Implications:</strong> ${esc((c.impactedMarkets||[]).join(" · "))}${c.triggerPoint?` · monitored near ${esc(c.triggerPoint)}`:""}</p>
+  `).join("")}</div>`;
+}
 function card(m){
   const corridorText=(m.corridors||[]).slice(0,3).map(c=>`${c.name}${c.routes?` (${c.routes})`:""}`).join(" · ");
-  const weatherLink=m.weatherUrl?`<a href="${esc(m.weatherUrl)}" target="_blank" rel="noopener">NWS</a>`:"";
+  const weatherLink=m.weatherUrl?`<a href="${esc(m.weatherUrl)}" target="_blank" rel="noopener">NWS market</a>`:"";
+  const activeCorridor=(m.corridorSignals||[]).find(c=>c.status && c.status!=="CLEAR" && c.weatherUrl);
+  const corridorLink=activeCorridor?`<a href="${esc(activeCorridor.weatherUrl)}" target="_blank" rel="noopener">NWS corridor</a>`:"";
   const roadLinks=(m.roadSources||[]).slice(0,2).map((u,i)=>`<a href="${esc(u)}" target="_blank" rel="noopener">DOT / 511${i?` ${i+1}`:""}</a>`).join("");
   const storeUrl=(m.lesSchwabSources||[])[0];
   const storeIsLocal=storeUrl && /\/stores\/[a-z]{2}\/[^/?#]+/i.test(storeUrl);
@@ -57,16 +64,18 @@ function card(m){
     <p class="forecast">${esc(safe(m.forecast,"No meaningful winter-weather signal."))}</p>
     <div class="facts">
       <div class="fact"><span>Timing</span><strong>${esc(safe(m.timing))}</strong></div>
-      <div class="fact"><span>Low temp</span><strong>${m.temperatureMin==null?"—":`${Math.round(m.temperatureMin)}°F`}</strong></div>
-      <div class="fact"><span>Max precip</span><strong>${m.maxPrecipProbability==null?"—":`${Math.round(m.maxPrecipProbability)}%`}</strong></div>
+      <div class="fact"><span>Market low</span><strong>${m.temperatureMin==null?"—":`${Math.round(m.temperatureMin)}°F`}</strong></div>
+      <div class="fact"><span>Market precip</span><strong>${m.maxPrecipProbability==null?"—":`${Math.round(m.maxPrecipProbability)}%`}</strong></div>
     </div>
     <div class="local-context">
       <p><strong>Local Les Schwab market:</strong> ${esc(m.name)}, ${esc(m.state)}</p>
       ${mediaText?`<p><strong>Media market:</strong> ${esc(mediaText)}</p>`:""}
+      ${m.cityStatus?`<p><strong>City signal:</strong> ${esc(m.cityStatus)}</p>`:""}
     </div>
+    ${corridorSignalHtml(m)}
     ${corridorText?`<p class="corridors"><strong>Nearby:</strong> ${esc(corridorText)}</p>`:""}
     <p class="corridors"><strong>Recommended action:</strong> ${esc(safe(m.prAction, m.status==="CLEAR"?"No action. Keep in the broad market screen.":"Verify conditions and assess local activation."))}</p>
-    <div class="links">${weatherLink}${roadLinks}${storeLink}</div>
+    <div class="links">${weatherLink}${corridorLink}${roadLinks}${storeLink}</div>
   </article>`;
 }
 function render(){
@@ -96,7 +105,5 @@ document.querySelectorAll(".summary-card").forEach(b=>b.addEventListener("click"
   document.getElementById("status-filter").value=b.dataset.filter; render();
   document.querySelector(".controls").scrollIntoView({behavior:"smooth"});
 }));
-loadData().catch(err=>{
-  console.error(err); document.getElementById("last-updated").textContent="Data load failed";
-});
+loadData().catch(err=>{ console.error(err); document.getElementById("last-updated").textContent="Data load failed"; });
 setInterval(loadData,5*60*1000);
