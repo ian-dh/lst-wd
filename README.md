@@ -81,3 +81,21 @@ Road status is **linked, not automatically parsed**. State DOT/511 systems diffe
 If you want team pings, add a repository secret named `SLACK_WEBHOOK_URL` containing an incoming Slack webhook URL. The updater will send a compact notification only when a market **changes into PREPARE or ACTIVATE**. If the secret is absent, everything still runs normally.
 
 This avoids pinging the team for routine WATCH/CLEAR refreshes.
+
+## Slack notifications
+
+Slack is optional and uses an incoming webhook. The updater already sends a Slack message only when a market changes **into PREPARE or ACTIVATE**, which avoids routine noise.
+
+1. In Slack, create an **Incoming Webhook** for the channel you want to use.
+2. In GitHub, open **Settings → Secrets and variables → Actions → New repository secret**.
+3. Name the secret exactly `SLACK_WEBHOOK_URL`.
+4. Paste the Slack webhook URL as the value and save it.
+5. Run **Refresh weather and deploy Pages** manually once to test.
+
+The workflow passes that secret to `scripts/update_weather.py`. If no webhook secret exists, the weather refresh works normally and simply skips Slack.
+
+For email alerts, a separate SMTP or email-service credential would be required. Slack is the simplest no-database option for this MVP.
+
+## Local store references
+
+Each card now calls out the **local Les Schwab market** and the relevant media market. Where the source data has a city/store-specific Les Schwab URL, the button is labeled **Local store**. Otherwise it remains a **Store locator** link. Exact store pages can be enriched over time in `data/markets.json` without changing the app.

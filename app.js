@@ -47,7 +47,10 @@ function card(m){
   const corridorText=(m.corridors||[]).slice(0,3).map(c=>`${c.name}${c.routes?` (${c.routes})`:""}`).join(" · ");
   const weatherLink=m.weatherUrl?`<a href="${esc(m.weatherUrl)}" target="_blank" rel="noopener">NWS</a>`:"";
   const roadLinks=(m.roadSources||[]).slice(0,2).map((u,i)=>`<a href="${esc(u)}" target="_blank" rel="noopener">DOT / 511${i?` ${i+1}`:""}</a>`).join("");
-  const storeLink=(m.lesSchwabSources||[])[0]?`<a href="${esc(m.lesSchwabSources[0])}" target="_blank" rel="noopener">Stores</a>`:"";
+  const storeUrl=(m.lesSchwabSources||[])[0];
+  const storeIsLocal=storeUrl && /\/stores\/[a-z]{2}\/[^/?#]+/i.test(storeUrl);
+  const storeLink=storeUrl?`<a href="${esc(storeUrl)}" target="_blank" rel="noopener">${storeIsLocal?"Local store":"Store locator"}</a>`:"";
+  const mediaText=(m.mediaMarkets||[]).join(" · ");
   return `<article class="market-card ${esc(m.status)}">
     <div class="card-top"><div><h3 class="market-name">${esc(m.name)}</h3><div class="state">${esc(m.state)} · baseline ${esc(m.priority)}</div></div><span class="badge">${esc(m.status)}</span></div>
     <p class="reason">${esc(m.reason)}</p>
@@ -56,6 +59,10 @@ function card(m){
       <div class="fact"><span>Timing</span><strong>${esc(safe(m.timing))}</strong></div>
       <div class="fact"><span>Low temp</span><strong>${m.temperatureMin==null?"—":`${Math.round(m.temperatureMin)}°F`}</strong></div>
       <div class="fact"><span>Max precip</span><strong>${m.maxPrecipProbability==null?"—":`${Math.round(m.maxPrecipProbability)}%`}</strong></div>
+    </div>
+    <div class="local-context">
+      <p><strong>Local Les Schwab market:</strong> ${esc(m.name)}, ${esc(m.state)}</p>
+      ${mediaText?`<p><strong>Media market:</strong> ${esc(mediaText)}</p>`:""}
     </div>
     ${corridorText?`<p class="corridors"><strong>Nearby:</strong> ${esc(corridorText)}</p>`:""}
     <p class="corridors"><strong>Recommended action:</strong> ${esc(safe(m.prAction, m.status==="CLEAR"?"No action. Keep in the broad market screen.":"Verify conditions and assess local activation."))}</p>
