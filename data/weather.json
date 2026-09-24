@@ -1,31 +1,15 @@
 {
-  "updatedAt": null,
-  "dataState": "seed",
-  "sourceNote": "Awaiting first automated NWS refresh.",
+  "updatedAt": "2026-09-24T03:24:48.081135+00:00",
+  "dataState": "live",
+  "sourceNote": "National Weather Service forecast and active-alert screen; DOT/511 links supplied for verification.",
   "changes": [],
   "markets": [
     {
       "id": "AK-juneau",
       "name": "Juneau",
       "state": "AK",
+      "locationQuery": "Juneau, AK",
       "priority": "Medium",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://511.alaska.gov/"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/ak/juneau/8555-airport-blvd"
-      ],
       "mediaMarkets": [
         "Local TV/radio + community news"
       ],
@@ -35,30 +19,33 @@
           "routes": "Egan Dr / Glacier Hwy",
           "risk": "Urban snow/ice, freezing rain, heavy wet snow"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://511.alaska.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ak/juneau/8555-airport-blvd"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 42,
+      "maxPrecipProbability": 80,
+      "maxWindMph": 10,
+      "lat": 58.30194,
+      "lon": -134.41972,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=58.3019&lon=-134.4197",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "CA-auburn",
       "name": "Auburn",
       "state": "CA",
+      "locationQuery": "Auburn, CA",
       "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://quickmap.dot.ca.gov/"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/ca"
-      ],
       "mediaMarkets": [
         "Sacramento + Reno",
         "Sacramento"
@@ -74,30 +61,33 @@
           "routes": "I-80 / US-50",
           "risk": "Rapid snowline changes, chain controls upstream"
         }
-      ]
-    },
-    {
-      "id": "CA-bishop",
-      "name": "Bishop",
-      "state": "CA",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://quickmap.dot.ca.gov/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/ca"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 58,
+      "maxPrecipProbability": 0,
+      "maxWindMph": 6,
+      "lat": 38.89657,
+      "lon": -121.07689,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=38.8966&lon=-121.0769",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "CA-bishop",
+      "name": "Bishop",
+      "state": "CA",
+      "locationQuery": "Bishop, CA",
+      "priority": "High",
       "mediaMarkets": [
         "Eastern Sierra"
       ],
@@ -107,30 +97,33 @@
           "routes": "US-395",
           "risk": "Heavy snow, wind, closures"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://quickmap.dot.ca.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ca"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 52,
+      "maxPrecipProbability": 0,
+      "maxWindMph": 13,
+      "lat": 37.36354,
+      "lon": -118.39511,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=37.3635&lon=-118.3951",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "CA-redding",
       "name": "Redding",
       "state": "CA",
+      "locationQuery": "Redding, CA",
       "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://quickmap.dot.ca.gov/"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/ca/redding"
-      ],
       "mediaMarkets": [
         "Redding + Medford"
       ],
@@ -140,30 +133,33 @@
           "routes": "I-5",
           "risk": "Heavy snow, chain controls, closures"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://quickmap.dot.ca.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ca/redding"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 60,
+      "maxPrecipProbability": 0,
+      "maxWindMph": 9,
+      "lat": 40.58654,
+      "lon": -122.39168,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=40.5865&lon=-122.3917",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "CA-south-lake-tahoe",
       "name": "South Lake Tahoe",
       "state": "CA",
+      "locationQuery": "South Lake Tahoe, CA",
       "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://quickmap.dot.ca.gov/"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/ca/south-lake-tahoe"
-      ],
       "mediaMarkets": [
         "Sacramento + Reno/Tahoe"
       ],
@@ -173,30 +169,33 @@
           "routes": "US-50 / CA-89",
           "risk": "Heavy snow, chain controls, closures"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://quickmap.dot.ca.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ca/south-lake-tahoe"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 48,
+      "maxPrecipProbability": 0,
+      "maxWindMph": 15,
+      "lat": 38.93324,
+      "lon": -119.98435,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=38.9332&lon=-119.9844",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "CA-susanville",
       "name": "Susanville",
       "state": "CA",
+      "locationQuery": "Susanville, CA",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://quickmap.dot.ca.gov/"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/ca"
-      ],
       "mediaMarkets": [
         "Redding/Reno regional"
       ],
@@ -206,30 +205,33 @@
           "routes": "CA-36 / US-395",
           "risk": "Snow, ice, chain controls"
         }
-      ]
-    },
-    {
-      "id": "CA-truckee",
-      "name": "Truckee",
-      "state": "CA",
-      "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://quickmap.dot.ca.gov/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/ca"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 43,
+      "maxPrecipProbability": 0,
+      "maxWindMph": 15,
+      "lat": 40.41628,
+      "lon": -120.65301,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=40.4163&lon=-120.6530",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "CA-truckee",
+      "name": "Truckee",
+      "state": "CA",
+      "locationQuery": "Truckee, CA",
+      "priority": "Critical",
       "mediaMarkets": [
         "Sacramento + Reno"
       ],
@@ -239,30 +241,33 @@
           "routes": "I-80",
           "risk": "Heavy snow, chain controls, closures"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://quickmap.dot.ca.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ca"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 37,
+      "maxPrecipProbability": 0,
+      "maxWindMph": 15,
+      "lat": 39.32796,
+      "lon": -120.18325,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=39.3280&lon=-120.1833",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "CA-yreka",
       "name": "Yreka",
       "state": "CA",
+      "locationQuery": "Yreka, CA",
       "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://quickmap.dot.ca.gov/"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/ca/redding"
-      ],
       "mediaMarkets": [
         "Redding + Medford"
       ],
@@ -272,30 +277,33 @@
           "routes": "I-5",
           "risk": "Heavy snow, chain controls, closures"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://quickmap.dot.ca.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ca/redding"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 41,
+      "maxPrecipProbability": 16,
+      "maxWindMph": 13,
+      "lat": 41.73542,
+      "lon": -122.63447,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.7354&lon=-122.6345",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "CO-brighton",
       "name": "Brighton",
       "state": "CO",
+      "locationQuery": "Brighton, CO",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://www.cotrip.org/"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/co"
-      ],
       "mediaMarkets": [
         "Denver + northeast Colorado"
       ],
@@ -305,30 +313,33 @@
           "routes": "I-76",
           "risk": "Blizzards, wind, whiteouts, interstate closures"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://www.cotrip.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/co"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 55,
+      "maxPrecipProbability": 47,
+      "maxWindMph": 9,
+      "lat": 39.98526,
+      "lon": -104.82053,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=39.9853&lon=-104.8205",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "CO-castle-rock",
       "name": "Castle Rock",
       "state": "CO",
+      "locationQuery": "Castle Rock, CO",
       "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://www.cotrip.org/"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/co"
-      ],
       "mediaMarkets": [
         "Denver + Colorado Springs"
       ],
@@ -338,30 +349,33 @@
           "routes": "I-25",
           "risk": "Snow, wind, crashes"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://www.cotrip.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/co"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 49,
+      "maxPrecipProbability": 67,
+      "maxWindMph": 9,
+      "lat": 39.37221,
+      "lon": -104.85609,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=39.3722&lon=-104.8561",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "CO-colorado-springs",
       "name": "Colorado Springs",
       "state": "CO",
+      "locationQuery": "Colorado Springs, CO",
       "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://www.cotrip.org/"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/co"
-      ],
       "mediaMarkets": [
         "Denver + Colorado Springs"
       ],
@@ -371,30 +385,33 @@
           "routes": "I-25",
           "risk": "Snow, wind, crashes"
         }
-      ]
-    },
-    {
-      "id": "CO-denver",
-      "name": "Denver",
-      "state": "CO",
-      "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.cotrip.org/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/co"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 50,
+      "maxPrecipProbability": 64,
+      "maxWindMph": 10,
+      "lat": 38.83388,
+      "lon": -104.82136,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=38.8339&lon=-104.8214",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "CO-denver",
+      "name": "Denver",
+      "state": "CO",
+      "locationQuery": "Denver, CO",
+      "priority": "Critical",
       "mediaMarkets": [
         "Denver + Western Slope"
       ],
@@ -404,30 +421,33 @@
           "routes": "I-70",
           "risk": "Heavy snow, traction law, closures"
         }
-      ]
-    },
-    {
-      "id": "CO-durango",
-      "name": "Durango",
-      "state": "CO",
-      "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.cotrip.org/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/co"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 54,
+      "maxPrecipProbability": 53,
+      "maxWindMph": 9,
+      "lat": 39.73915,
+      "lon": -104.9847,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=39.7392&lon=-104.9847",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "CO-durango",
+      "name": "Durango",
+      "state": "CO",
+      "locationQuery": "Durango, CO",
+      "priority": "Critical",
       "mediaMarkets": [
         "Durango",
         "Durango + Montrose"
@@ -443,30 +463,40 @@
           "routes": "US-550",
           "risk": "Heavy snow, avalanche, closures"
         }
-      ]
-    },
-    {
-      "id": "CO-grand-junction",
-      "name": "Grand Junction",
-      "state": "CO",
-      "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.cotrip.org/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/co"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [
+        {
+          "event": "Flood Watch",
+          "headline": "Flood Watch issued September 23 at 11:21AM MDT until September 25 at 6:00AM MDT by NWS Grand Junction CO",
+          "severity": "Severe",
+          "ends": "2026-09-25T06:00:00-06:00"
+        }
+      ],
+      "temperatureMin": 46,
+      "maxPrecipProbability": 64,
+      "maxWindMph": 10,
+      "lat": 37.27528,
+      "lon": -107.88007,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=37.2753&lon=-107.8801",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "CO-grand-junction",
+      "name": "Grand Junction",
+      "state": "CO",
+      "locationQuery": "Grand Junction, CO",
+      "priority": "Critical",
       "mediaMarkets": [
         "Denver + Western Slope",
         "Grand Junction"
@@ -482,30 +512,33 @@
           "routes": "I-70",
           "risk": "Snow, ice, canyon closures upstream"
         }
-      ]
-    },
-    {
-      "id": "CO-lakewood",
-      "name": "Lakewood",
-      "state": "CO",
-      "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.cotrip.org/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/co"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 54,
+      "maxPrecipProbability": 16,
+      "maxWindMph": 10,
+      "lat": 39.06387,
+      "lon": -108.55065,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=39.0639&lon=-108.5507",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "CO-lakewood",
+      "name": "Lakewood",
+      "state": "CO",
+      "locationQuery": "Lakewood, CO",
+      "priority": "Critical",
       "mediaMarkets": [
         "Denver + Western Slope"
       ],
@@ -515,30 +548,33 @@
           "routes": "I-70",
           "risk": "Heavy snow, traction law, closures"
         }
-      ]
-    },
-    {
-      "id": "CO-montrose",
-      "name": "Montrose",
-      "state": "CO",
-      "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.cotrip.org/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/co"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 53,
+      "maxPrecipProbability": 53,
+      "maxWindMph": 10,
+      "lat": 39.70471,
+      "lon": -105.08137,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=39.7047&lon=-105.0814",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "CO-montrose",
+      "name": "Montrose",
+      "state": "CO",
+      "locationQuery": "Montrose, CO",
+      "priority": "Critical",
       "mediaMarkets": [
         "Durango + Montrose"
       ],
@@ -548,30 +584,33 @@
           "routes": "US-550",
           "risk": "Heavy snow, avalanche, closures"
         }
-      ]
-    },
-    {
-      "id": "CO-monument",
-      "name": "Monument",
-      "state": "CO",
-      "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.cotrip.org/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/co"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 46,
+      "maxPrecipProbability": 40,
+      "maxWindMph": 10,
+      "lat": 38.47832,
+      "lon": -107.87617,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=38.4783&lon=-107.8762",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "CO-monument",
+      "name": "Monument",
+      "state": "CO",
+      "locationQuery": "Monument, CO",
+      "priority": "Critical",
       "mediaMarkets": [
         "Denver + Colorado Springs"
       ],
@@ -581,30 +620,33 @@
           "routes": "I-25",
           "risk": "Snow, wind, crashes"
         }
-      ]
-    },
-    {
-      "id": "CO-pagosa-springs",
-      "name": "Pagosa Springs",
-      "state": "CO",
-      "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.cotrip.org/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/co"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 45,
+      "maxPrecipProbability": 66,
+      "maxWindMph": 15,
+      "lat": 39.09166,
+      "lon": -104.87276,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=39.0917&lon=-104.8728",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "CO-pagosa-springs",
+      "name": "Pagosa Springs",
+      "state": "CO",
+      "locationQuery": "Pagosa Springs, CO",
+      "priority": "Critical",
       "mediaMarkets": [
         "Durango"
       ],
@@ -614,30 +656,40 @@
           "routes": "US-160",
           "risk": "Heavy snow, avalanche/closure risk"
         }
-      ]
-    },
-    {
-      "id": "CO-sterling",
-      "name": "Sterling",
-      "state": "CO",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.cotrip.org/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/co"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [
+        {
+          "event": "Flood Watch",
+          "headline": "Flood Watch issued September 23 at 11:21AM MDT until September 25 at 6:00AM MDT by NWS Grand Junction CO",
+          "severity": "Severe",
+          "ends": "2026-09-25T06:00:00-06:00"
+        }
+      ],
+      "temperatureMin": 38,
+      "maxPrecipProbability": 74,
+      "maxWindMph": 10,
+      "lat": 37.26945,
+      "lon": -107.00976,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=37.2694&lon=-107.0098",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "CO-sterling",
+      "name": "Sterling",
+      "state": "CO",
+      "locationQuery": "Sterling, CO",
+      "priority": "High",
       "mediaMarkets": [
         "Denver + northeast Colorado"
       ],
@@ -647,30 +699,33 @@
           "routes": "I-76",
           "risk": "Blizzards, wind, whiteouts, interstate closures"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://www.cotrip.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/co"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 52,
+      "maxPrecipProbability": 61,
+      "maxWindMph": 13,
+      "lat": 40.62554,
+      "lon": -103.20771,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=40.6255&lon=-103.2077",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "ID-ammon",
       "name": "Ammon",
       "state": "ID",
+      "locationQuery": "Ammon, ID",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://511.idaho.gov/roadconditions"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/id"
-      ],
       "mediaMarkets": [
         "Idaho Falls + Pocatello"
       ],
@@ -680,30 +735,33 @@
           "routes": "I-15 / US-20",
           "risk": "Blowing snow, whiteouts, severe cold"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://511.idaho.gov/roadconditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/id"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 44,
+      "maxPrecipProbability": 0,
+      "maxWindMph": 16,
+      "lat": 43.46964,
+      "lon": -111.96664,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=43.4696&lon=-111.9666",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "ID-boise",
       "name": "Boise",
       "state": "ID",
+      "locationQuery": "Boise, ID",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://511.idaho.gov/roadconditions"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/id"
-      ],
       "mediaMarkets": [
         "Boise"
       ],
@@ -713,30 +771,33 @@
           "routes": "I-84",
           "risk": "Snow, freezing rain, black ice"
         }
-      ]
-    },
-    {
-      "id": "ID-coeur-d-alene",
-      "name": "Coeur d'Alene",
-      "state": "ID",
-      "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://511.idaho.gov/roadconditions"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/id"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 49,
+      "maxPrecipProbability": 1,
+      "maxWindMph": 14,
+      "lat": 43.6135,
+      "lon": -116.20345,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=43.6135&lon=-116.2035",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "ID-coeur-d-alene",
+      "name": "Coeur d'Alene",
+      "state": "ID",
+      "locationQuery": "Coeur d'Alene, ID",
+      "priority": "Critical",
       "mediaMarkets": [
         "Spokane + Coeur d'Alene",
         "Spokane + North Idaho"
@@ -752,30 +813,33 @@
           "routes": "I-90",
           "risk": "Heavy snow, closures, chain issues"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://511.idaho.gov/roadconditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/id"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 46,
+      "maxPrecipProbability": 97,
+      "maxWindMph": 16,
+      "lat": 47.67768,
+      "lon": -116.78047,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.6777&lon=-116.7805",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "ID-grangeville",
       "name": "Grangeville",
       "state": "ID",
+      "locationQuery": "Grangeville, ID",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://511.idaho.gov/roadconditions"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/id"
-      ],
       "mediaMarkets": [
         "Lewiston"
       ],
@@ -785,30 +849,33 @@
           "routes": "US-95",
           "risk": "Snow/ice, steep grades"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://511.idaho.gov/roadconditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/id"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 40,
+      "maxPrecipProbability": 70,
+      "maxWindMph": 20,
+      "lat": 45.92655,
+      "lon": -116.12237,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.9265&lon=-116.1224",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "ID-lewiston",
       "name": "Lewiston",
       "state": "ID",
+      "locationQuery": "Lewiston, ID",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://511.idaho.gov/roadconditions"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/id"
-      ],
       "mediaMarkets": [
         "Lewiston"
       ],
@@ -818,30 +885,33 @@
           "routes": "US-95",
           "risk": "Snow/ice, steep grades"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://511.idaho.gov/roadconditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/id"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 49,
+      "maxPrecipProbability": 83,
+      "maxWindMph": 22,
+      "lat": 46.41655,
+      "lon": -117.01766,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.4166&lon=-117.0177",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "ID-meridian",
       "name": "Meridian",
       "state": "ID",
+      "locationQuery": "Meridian, ID",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://511.idaho.gov/roadconditions"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/id"
-      ],
       "mediaMarkets": [
         "Boise"
       ],
@@ -851,30 +921,33 @@
           "routes": "I-84",
           "risk": "Snow, freezing rain, black ice"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://511.idaho.gov/roadconditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/id"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 47,
+      "maxPrecipProbability": 1,
+      "maxWindMph": 16,
+      "lat": 43.61211,
+      "lon": -116.39151,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=43.6121&lon=-116.3915",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "ID-nampa",
       "name": "Nampa",
       "state": "ID",
+      "locationQuery": "Nampa, ID",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://511.idaho.gov/roadconditions"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/id"
-      ],
       "mediaMarkets": [
         "Boise"
       ],
@@ -884,30 +957,33 @@
           "routes": "I-84",
           "risk": "Snow, freezing rain, black ice"
         }
-      ]
-    },
-    {
-      "id": "ID-pocatello",
-      "name": "Pocatello",
-      "state": "ID",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://511.idaho.gov/roadconditions"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/id"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 47,
+      "maxPrecipProbability": 1,
+      "maxWindMph": 17,
+      "lat": 43.54072,
+      "lon": -116.56346,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=43.5407&lon=-116.5635",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "ID-pocatello",
+      "name": "Pocatello",
+      "state": "ID",
+      "locationQuery": "Pocatello, ID",
+      "priority": "High",
       "mediaMarkets": [
         "Idaho Falls + Pocatello"
       ],
@@ -917,30 +993,33 @@
           "routes": "I-15 / US-20",
           "risk": "Blowing snow, whiteouts, severe cold"
         }
-      ]
-    },
-    {
-      "id": "ID-post-falls",
-      "name": "Post Falls",
-      "state": "ID",
-      "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://511.idaho.gov/roadconditions"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/id"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 47,
+      "maxPrecipProbability": 1,
+      "maxWindMph": 13,
+      "lat": 42.8713,
+      "lon": -112.44553,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=42.8713&lon=-112.4455",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "ID-post-falls",
+      "name": "Post Falls",
+      "state": "ID",
+      "locationQuery": "Post Falls, ID",
+      "priority": "Critical",
       "mediaMarkets": [
         "Spokane + Coeur d'Alene",
         "Spokane + North Idaho"
@@ -956,30 +1035,33 @@
           "routes": "I-90",
           "risk": "Heavy snow, closures, chain issues"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://511.idaho.gov/roadconditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/id"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 45,
+      "maxPrecipProbability": 97,
+      "maxWindMph": 16,
+      "lat": 47.71796,
+      "lon": -116.95159,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.7180&lon=-116.9516",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "MN-apple-valley",
       "name": "Apple Valley",
       "state": "MN",
+      "locationQuery": "Apple Valley, MN",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://511mn.org/"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/mn"
-      ],
       "mediaMarkets": [
         "Minneapolis-St. Paul"
       ],
@@ -989,30 +1071,33 @@
           "routes": "I-94 / I-35 / I-494",
           "risk": "Heavy snow, freezing rain, black ice"
         }
-      ]
-    },
-    {
-      "id": "MN-austin",
-      "name": "Austin",
-      "state": "MN",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://511mn.org/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/mn"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 52,
+      "maxPrecipProbability": 66,
+      "maxWindMph": 10,
+      "lat": 44.73191,
+      "lon": -93.21772,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.7319&lon=-93.2177",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "MN-austin",
+      "name": "Austin",
+      "state": "MN",
+      "locationQuery": "Austin, MN",
+      "priority": "High",
       "mediaMarkets": [
         "Rochester/Mankato regional"
       ],
@@ -1022,30 +1107,33 @@
           "routes": "I-90",
           "risk": "Blizzard, ice, wind"
         }
-      ]
-    },
-    {
-      "id": "MN-blaine",
-      "name": "Blaine",
-      "state": "MN",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://511mn.org/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/mn"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 51,
+      "maxPrecipProbability": 69,
+      "maxWindMph": 14,
+      "lat": 43.66663,
+      "lon": -92.97464,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=43.6666&lon=-92.9746",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "MN-blaine",
+      "name": "Blaine",
+      "state": "MN",
+      "locationQuery": "Blaine, MN",
+      "priority": "High",
       "mediaMarkets": [
         "Minneapolis-St. Paul"
       ],
@@ -1055,30 +1143,33 @@
           "routes": "I-94 / I-35 / I-494",
           "risk": "Heavy snow, freezing rain, black ice"
         }
-      ]
-    },
-    {
-      "id": "MN-monticello",
-      "name": "Monticello",
-      "state": "MN",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://511mn.org/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/mn"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 52,
+      "maxPrecipProbability": 63,
+      "maxWindMph": 15,
+      "lat": 45.1608,
+      "lon": -93.23495,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.1608&lon=-93.2349",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "MN-monticello",
+      "name": "Monticello",
+      "state": "MN",
+      "locationQuery": "Monticello, MN",
+      "priority": "High",
       "mediaMarkets": [
         "St. Cloud"
       ],
@@ -1088,30 +1179,33 @@
           "routes": "I-94",
           "risk": "Heavy snow, blowing snow"
         }
-      ]
-    },
-    {
-      "id": "MN-moorhead",
-      "name": "Moorhead",
-      "state": "MN",
-      "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://511mn.org/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/mn"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 63,
+      "maxPrecipProbability": 2,
+      "maxWindMph": 10,
+      "lat": 33.629,
+      "lon": -91.79096,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=33.6290&lon=-91.7910",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "MN-moorhead",
+      "name": "Moorhead",
+      "state": "MN",
+      "locationQuery": "Moorhead, MN",
+      "priority": "Critical",
       "mediaMarkets": [
         "Fargo-Moorhead"
       ],
@@ -1121,30 +1215,33 @@
           "routes": "I-94",
           "risk": "Blizzard, blowing snow, closures"
         }
-      ]
-    },
-    {
-      "id": "MN-richfield",
-      "name": "Richfield",
-      "state": "MN",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://511mn.org/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/mn"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 56,
+      "maxPrecipProbability": 97,
+      "maxWindMph": 20,
+      "lat": 46.87386,
+      "lon": -96.76951,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8739&lon=-96.7695",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "MN-richfield",
+      "name": "Richfield",
+      "state": "MN",
+      "locationQuery": "Richfield, MN",
+      "priority": "High",
       "mediaMarkets": [
         "Minneapolis-St. Paul"
       ],
@@ -1154,30 +1251,33 @@
           "routes": "I-94 / I-35 / I-494",
           "risk": "Heavy snow, freezing rain, black ice"
         }
-      ]
-    },
-    {
-      "id": "MN-sartell",
-      "name": "Sartell",
-      "state": "MN",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://511mn.org/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/mn"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 54,
+      "maxPrecipProbability": 66,
+      "maxWindMph": 10,
+      "lat": 44.8833,
+      "lon": -93.283,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.8833&lon=-93.2830",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "MN-sartell",
+      "name": "Sartell",
+      "state": "MN",
+      "locationQuery": "Sartell, MN",
+      "priority": "High",
       "mediaMarkets": [
         "St. Cloud"
       ],
@@ -1187,30 +1287,33 @@
           "routes": "I-94",
           "risk": "Heavy snow, blowing snow"
         }
-      ]
-    },
-    {
-      "id": "MN-worthington",
-      "name": "Worthington",
-      "state": "MN",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://511mn.org/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/mn"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 54,
+      "maxPrecipProbability": 96,
+      "maxWindMph": 15,
+      "lat": 45.62163,
+      "lon": -94.20694,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.6216&lon=-94.2069",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "MN-worthington",
+      "name": "Worthington",
+      "state": "MN",
+      "locationQuery": "Worthington, MN",
+      "priority": "High",
       "mediaMarkets": [
         "Rochester/Mankato regional"
       ],
@@ -1220,30 +1323,33 @@
           "routes": "I-90",
           "risk": "Blizzard, ice, wind"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://511mn.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/mn"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 54,
+      "maxPrecipProbability": 98,
+      "maxWindMph": 15,
+      "lat": 43.61996,
+      "lon": -95.5964,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=43.6200&lon=-95.5964",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "MT-bozeman",
       "name": "Bozeman",
       "state": "MT",
+      "locationQuery": "Bozeman, MT",
       "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://www.511mt.net/"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/mt"
-      ],
       "mediaMarkets": [
         "Butte + Bozeman",
         "Bozeman"
@@ -1259,30 +1365,33 @@
           "routes": "I-90",
           "risk": "Snow, wind, crashes"
         }
-      ]
-    },
-    {
-      "id": "MT-butte",
-      "name": "Butte",
-      "state": "MT",
-      "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.511mt.net/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/mt"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 45,
+      "maxPrecipProbability": 2,
+      "maxWindMph": 20,
+      "lat": 45.67965,
+      "lon": -111.03856,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.6797&lon=-111.0386",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "MT-butte",
+      "name": "Butte",
+      "state": "MT",
+      "locationQuery": "Butte, MT",
+      "priority": "Critical",
       "mediaMarkets": [
         "Butte + Bozeman"
       ],
@@ -1292,30 +1401,33 @@
           "routes": "I-90",
           "risk": "Snow, wind, closures"
         }
-      ]
-    },
-    {
-      "id": "MT-columbia-falls",
-      "name": "Columbia Falls",
-      "state": "MT",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.511mt.net/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/mt"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 39,
+      "maxPrecipProbability": 8,
+      "maxWindMph": 21,
+      "lat": 46.00382,
+      "lon": -112.53474,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.0038&lon=-112.5347",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "MT-columbia-falls",
+      "name": "Columbia Falls",
+      "state": "MT",
+      "locationQuery": "Columbia Falls, MT",
+      "priority": "High",
       "mediaMarkets": [
         "Kalispell"
       ],
@@ -1325,30 +1437,33 @@
           "routes": "US-2",
           "risk": "Heavy snow, cold, wind"
         }
-      ]
-    },
-    {
-      "id": "MT-helena",
-      "name": "Helena",
-      "state": "MT",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.511mt.net/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/mt"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 44,
+      "maxPrecipProbability": 59,
+      "maxWindMph": 20,
+      "lat": 48.37246,
+      "lon": -114.18152,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=48.3725&lon=-114.1815",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "MT-helena",
+      "name": "Helena",
+      "state": "MT",
+      "locationQuery": "Helena, MT",
+      "priority": "High",
       "mediaMarkets": [
         "Helena"
       ],
@@ -1358,30 +1473,33 @@
           "routes": "US-12",
           "risk": "Snow, ice, wind"
         }
-      ]
-    },
-    {
-      "id": "MT-kalispell",
-      "name": "Kalispell",
-      "state": "MT",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.511mt.net/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/mt"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 48,
+      "maxPrecipProbability": 9,
+      "maxWindMph": 17,
+      "lat": 46.59271,
+      "lon": -112.03611,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.5927&lon=-112.0361",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "MT-kalispell",
+      "name": "Kalispell",
+      "state": "MT",
+      "locationQuery": "Kalispell, MT",
+      "priority": "High",
       "mediaMarkets": [
         "Kalispell"
       ],
@@ -1391,30 +1509,33 @@
           "routes": "US-2",
           "risk": "Heavy snow, cold, wind"
         }
-      ]
-    },
-    {
-      "id": "MT-missoula",
-      "name": "Missoula",
-      "state": "MT",
-      "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.511mt.net/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/mt"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 44,
+      "maxPrecipProbability": 42,
+      "maxWindMph": 25,
+      "lat": 48.19579,
+      "lon": -114.31291,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=48.1958&lon=-114.3129",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "MT-missoula",
+      "name": "Missoula",
+      "state": "MT",
+      "locationQuery": "Missoula, MT",
+      "priority": "Critical",
       "mediaMarkets": [
         "Missoula + Spokane"
       ],
@@ -1424,30 +1545,33 @@
           "routes": "I-90",
           "risk": "Heavy snow, closures"
         }
-      ]
-    },
-    {
-      "id": "MT-whitefish",
-      "name": "Whitefish",
-      "state": "MT",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.511mt.net/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/mt"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 43,
+      "maxPrecipProbability": 28,
+      "maxWindMph": 23,
+      "lat": 46.87215,
+      "lon": -113.994,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8721&lon=-113.9940",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "MT-whitefish",
+      "name": "Whitefish",
+      "state": "MT",
+      "locationQuery": "Whitefish, MT",
+      "priority": "High",
       "mediaMarkets": [
         "Kalispell"
       ],
@@ -1457,30 +1581,33 @@
           "routes": "US-2",
           "risk": "Heavy snow, cold, wind"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://www.511mt.net/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/mt"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 43,
+      "maxPrecipProbability": 49,
+      "maxWindMph": 21,
+      "lat": 48.41108,
+      "lon": -114.33763,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=48.4111&lon=-114.3376",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "ND-bismarck",
       "name": "Bismarck",
       "state": "ND",
+      "locationQuery": "Bismarck, ND",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://travel.dot.nd.gov/"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/nd"
-      ],
       "mediaMarkets": [
         "Bismarck"
       ],
@@ -1490,30 +1617,33 @@
           "routes": "I-94",
           "risk": "Blizzard, ice, closures"
         }
-      ]
-    },
-    {
-      "id": "ND-devils-lake",
-      "name": "Devils Lake",
-      "state": "ND",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://travel.dot.nd.gov/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/nd"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 55,
+      "maxPrecipProbability": 59,
+      "maxWindMph": 14,
+      "lat": 46.80833,
+      "lon": -100.78374,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8083&lon=-100.7837",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "ND-devils-lake",
+      "name": "Devils Lake",
+      "state": "ND",
+      "locationQuery": "Devils Lake, ND",
+      "priority": "High",
       "mediaMarkets": [
         "Grand Forks"
       ],
@@ -1523,30 +1653,33 @@
           "routes": "US-2 / I-29",
           "risk": "Blizzard, whiteout, extreme cold"
         }
-      ]
-    },
-    {
-      "id": "ND-dickinson",
-      "name": "Dickinson",
-      "state": "ND",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://travel.dot.nd.gov/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/nd"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 55,
+      "maxPrecipProbability": 66,
+      "maxWindMph": 20,
+      "lat": 48.11278,
+      "lon": -98.86512,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=48.1128&lon=-98.8651",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "ND-dickinson",
+      "name": "Dickinson",
+      "state": "ND",
+      "locationQuery": "Dickinson, ND",
+      "priority": "High",
       "mediaMarkets": [
         "Western North Dakota"
       ],
@@ -1556,30 +1689,33 @@
           "routes": "I-94",
           "risk": "Blizzard, wind, closures"
         }
-      ]
-    },
-    {
-      "id": "ND-fargo",
-      "name": "Fargo",
-      "state": "ND",
-      "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://travel.dot.nd.gov/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/nd"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 52,
+      "maxPrecipProbability": 12,
+      "maxWindMph": 17,
+      "lat": 46.87918,
+      "lon": -102.78962,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8792&lon=-102.7896",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "ND-fargo",
+      "name": "Fargo",
+      "state": "ND",
+      "locationQuery": "Fargo, ND",
+      "priority": "Critical",
       "mediaMarkets": [
         "Fargo"
       ],
@@ -1589,30 +1725,33 @@
           "routes": "I-94 / I-29",
           "risk": "Blizzard, whiteout, extreme cold"
         }
-      ]
-    },
-    {
-      "id": "ND-grand-forks",
-      "name": "Grand Forks",
-      "state": "ND",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://travel.dot.nd.gov/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/nd"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 56,
+      "maxPrecipProbability": 98,
+      "maxWindMph": 20,
+      "lat": 46.87719,
+      "lon": -96.7898,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8772&lon=-96.7898",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "ND-grand-forks",
+      "name": "Grand Forks",
+      "state": "ND",
+      "locationQuery": "Grand Forks, ND",
+      "priority": "High",
       "mediaMarkets": [
         "Grand Forks"
       ],
@@ -1622,30 +1761,33 @@
           "routes": "US-2 / I-29",
           "risk": "Blizzard, whiteout, extreme cold"
         }
-      ]
-    },
-    {
-      "id": "ND-jamestown",
-      "name": "Jamestown",
-      "state": "ND",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://travel.dot.nd.gov/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/nd"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 56,
+      "maxPrecipProbability": 98,
+      "maxWindMph": 17,
+      "lat": 47.92526,
+      "lon": -97.03285,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.9253&lon=-97.0328",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "ND-jamestown",
+      "name": "Jamestown",
+      "state": "ND",
+      "locationQuery": "Jamestown, ND",
+      "priority": "High",
       "mediaMarkets": [
         "Bismarck"
       ],
@@ -1655,30 +1797,33 @@
           "routes": "I-94",
           "risk": "Blizzard, ice, closures"
         }
-      ]
-    },
-    {
-      "id": "ND-west-fargo",
-      "name": "West Fargo",
-      "state": "ND",
-      "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://travel.dot.nd.gov/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/nd"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 57,
+      "maxPrecipProbability": 71,
+      "maxWindMph": 16,
+      "lat": 46.91054,
+      "lon": -98.70844,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.9105&lon=-98.7084",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "ND-west-fargo",
+      "name": "West Fargo",
+      "state": "ND",
+      "locationQuery": "West Fargo, ND",
+      "priority": "Critical",
       "mediaMarkets": [
         "Fargo"
       ],
@@ -1688,30 +1833,33 @@
           "routes": "I-94 / I-29",
           "risk": "Blizzard, whiteout, extreme cold"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://travel.dot.nd.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/nd"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 56,
+      "maxPrecipProbability": 99,
+      "maxWindMph": 20,
+      "lat": 46.87497,
+      "lon": -96.90036,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8750&lon=-96.9004",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "NE-fremont",
       "name": "Fremont",
       "state": "NE",
+      "locationQuery": "Fremont, NE",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://511.nebraska.gov/"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/ne"
-      ],
       "mediaMarkets": [
         "Omaha"
       ],
@@ -1721,30 +1869,33 @@
           "routes": "I-80 / US-75",
           "risk": "Snow, freezing rain, crashes"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://511.nebraska.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ne"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 58,
+      "maxPrecipProbability": 90,
+      "maxWindMph": 12,
+      "lat": 41.43333,
+      "lon": -96.49808,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.4333&lon=-96.4981",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "NE-north-platte",
       "name": "North Platte",
       "state": "NE",
+      "locationQuery": "North Platte, NE",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://511.nebraska.gov/"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/ne/north-platte"
-      ],
       "mediaMarkets": [
         "North Platte"
       ],
@@ -1754,30 +1905,33 @@
           "routes": "I-80",
           "risk": "Blizzard, ice, interstate closures"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://511.nebraska.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ne/north-platte"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 58,
+      "maxPrecipProbability": 70,
+      "maxWindMph": 15,
+      "lat": 41.12389,
+      "lon": -100.76542,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.1239&lon=-100.7654",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "NE-papillion",
       "name": "Papillion",
       "state": "NE",
+      "locationQuery": "Papillion, NE",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://511.nebraska.gov/"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/ne"
-      ],
       "mediaMarkets": [
         "Omaha"
       ],
@@ -1787,30 +1941,33 @@
           "routes": "I-80 / US-75",
           "risk": "Snow, freezing rain, crashes"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://511.nebraska.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ne"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 59,
+      "maxPrecipProbability": 90,
+      "maxWindMph": 12,
+      "lat": 41.15444,
+      "lon": -96.04224,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.1544&lon=-96.0422",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "NE-scottsbluff",
       "name": "Scottsbluff",
       "state": "NE",
+      "locationQuery": "Scottsbluff, NE",
       "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://511.nebraska.gov/"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/ne"
-      ],
       "mediaMarkets": [
         "Scottsbluff + Cheyenne"
       ],
@@ -1820,30 +1977,33 @@
           "routes": "I-80 / US-26",
           "risk": "Blizzard, high wind, closures"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://511.nebraska.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ne"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 51,
+      "maxPrecipProbability": 36,
+      "maxWindMph": 10,
+      "lat": 41.86663,
+      "lon": -103.66717,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.8666&lon=-103.6672",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "NE-sidney",
       "name": "Sidney",
       "state": "NE",
+      "locationQuery": "Sidney, NE",
       "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://511.nebraska.gov/"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/ne"
-      ],
       "mediaMarkets": [
         "Scottsbluff + Cheyenne"
       ],
@@ -1853,31 +2013,33 @@
           "routes": "I-80 / US-26",
           "risk": "Blizzard, high wind, closures"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://511.nebraska.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ne"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 52,
+      "maxPrecipProbability": 51,
+      "maxWindMph": 10,
+      "lat": 41.14276,
+      "lon": -102.97798,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.1428&lon=-102.9780",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "NM-farmington",
       "name": "Farmington",
       "state": "NM",
+      "locationQuery": "Farmington, NM",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://www.nmroads.com/"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/nm",
-        "https://www.lesschwab.com/stores/nm/farmington"
-      ],
       "mediaMarkets": [
         "Four Corners",
         "Farmington/Durango regional"
@@ -1893,30 +2055,34 @@
           "routes": "US-550 / US-64",
           "risk": "Snow, icy grades, cross-state travel impacts"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://www.nmroads.com/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/nm",
+        "https://www.lesschwab.com/stores/nm/farmington"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 51,
+      "maxPrecipProbability": 45,
+      "maxWindMph": 5,
+      "lat": 36.72806,
+      "lon": -108.21869,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=36.7281&lon=-108.2187",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "NV-carson-city",
       "name": "Carson City",
       "state": "NV",
+      "locationQuery": "Carson City, NV",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://www.nvroads.com/"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/nv"
-      ],
       "mediaMarkets": [
         "Reno/Tahoe"
       ],
@@ -1926,30 +2092,40 @@
           "routes": "US-50 / US-395",
           "risk": "Snow, chain controls, mountain closures"
         }
-      ]
-    },
-    {
-      "id": "NV-elko",
-      "name": "Elko",
-      "state": "NV",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.nvroads.com/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/nv"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [
+        {
+          "event": "Fire Weather Watch",
+          "headline": "Fire Weather Watch issued September 23 at 12:47PM PDT until September 25 at 10:00PM PDT by NWS Reno NV",
+          "severity": "Severe",
+          "ends": "2026-09-25T22:00:00-07:00"
+        }
+      ],
+      "temperatureMin": 48,
+      "maxPrecipProbability": 0,
+      "maxWindMph": 20,
+      "lat": 39.1638,
+      "lon": -119.7674,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=39.1638&lon=-119.7674",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "NV-elko",
+      "name": "Elko",
+      "state": "NV",
+      "locationQuery": "Elko, NV",
+      "priority": "High",
       "mediaMarkets": [
         "Elko"
       ],
@@ -1959,30 +2135,33 @@
           "routes": "I-80",
           "risk": "Snow, wind, interstate closures"
         }
-      ]
-    },
-    {
-      "id": "NV-gardnerville",
-      "name": "Gardnerville",
-      "state": "NV",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.nvroads.com/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/nv"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 43,
+      "maxPrecipProbability": 0,
+      "maxWindMph": 25,
+      "lat": 40.83242,
+      "lon": -115.76312,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=40.8324&lon=-115.7631",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "NV-gardnerville",
+      "name": "Gardnerville",
+      "state": "NV",
+      "locationQuery": "Gardnerville, NV",
+      "priority": "High",
       "mediaMarkets": [
         "Reno/Tahoe"
       ],
@@ -1992,30 +2171,40 @@
           "routes": "US-50 / US-395",
           "risk": "Snow, chain controls, mountain closures"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://www.nvroads.com/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/nv"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [
+        {
+          "event": "Fire Weather Watch",
+          "headline": "Fire Weather Watch issued September 23 at 12:47PM PDT until September 25 at 10:00PM PDT by NWS Reno NV",
+          "severity": "Severe",
+          "ends": "2026-09-25T22:00:00-07:00"
+        }
+      ],
+      "temperatureMin": 45,
+      "maxPrecipProbability": 0,
+      "maxWindMph": 20,
+      "lat": 38.9413,
+      "lon": -119.74962,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=38.9413&lon=-119.7496",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "NV-reno",
       "name": "Reno",
       "state": "NV",
+      "locationQuery": "Reno, NV",
       "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://www.nvroads.com/"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/nv"
-      ],
       "mediaMarkets": [
         "Reno"
       ],
@@ -2025,30 +2214,40 @@
           "routes": "I-80 / US-395",
           "risk": "Heavy snow, chain controls nearby, wind"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://www.nvroads.com/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/nv"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [
+        {
+          "event": "Fire Weather Watch",
+          "headline": "Fire Weather Watch issued September 23 at 12:47PM PDT until September 25 at 10:00PM PDT by NWS Reno NV",
+          "severity": "Severe",
+          "ends": "2026-09-25T22:00:00-07:00"
+        }
+      ],
+      "temperatureMin": 50,
+      "maxPrecipProbability": 0,
+      "maxWindMph": 25,
+      "lat": 39.52963,
+      "lon": -119.8138,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=39.5296&lon=-119.8138",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "NV-sparks",
       "name": "Sparks",
       "state": "NV",
+      "locationQuery": "Sparks, NV",
       "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://www.nvroads.com/"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/nv"
-      ],
       "mediaMarkets": [
         "Reno"
       ],
@@ -2058,30 +2257,40 @@
           "routes": "I-80 / US-395",
           "risk": "Heavy snow, chain controls nearby, wind"
         }
-      ]
-    },
-    {
-      "id": "NV-winnemucca",
-      "name": "Winnemucca",
-      "state": "NV",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.nvroads.com/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/nv"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [
+        {
+          "event": "Fire Weather Watch",
+          "headline": "Fire Weather Watch issued September 23 at 12:47PM PDT until September 25 at 10:00PM PDT by NWS Reno NV",
+          "severity": "Severe",
+          "ends": "2026-09-25T22:00:00-07:00"
+        }
+      ],
+      "temperatureMin": 49,
+      "maxPrecipProbability": 0,
+      "maxWindMph": 25,
+      "lat": 39.53491,
+      "lon": -119.75269,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=39.5349&lon=-119.7527",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "NV-winnemucca",
+      "name": "Winnemucca",
+      "state": "NV",
+      "locationQuery": "Winnemucca, NV",
+      "priority": "High",
       "mediaMarkets": [
         "Elko",
         "Northern Nevada"
@@ -2097,30 +2306,33 @@
           "routes": "I-80",
           "risk": "Snow, black ice, high winds"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://www.nvroads.com/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/nv"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 44,
+      "maxPrecipProbability": 0,
+      "maxWindMph": 25,
+      "lat": 40.97296,
+      "lon": -117.73568,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=40.9730&lon=-117.7357",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "OR-ashland",
       "name": "Ashland",
       "state": "OR",
+      "locationQuery": "Ashland, OR",
       "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/or"
-      ],
       "mediaMarkets": [
         "Medford"
       ],
@@ -2130,30 +2342,33 @@
           "routes": "I-5",
           "risk": "Heavy snow, chain restrictions, interstate closures"
         }
-      ]
-    },
-    {
-      "id": "OR-baker-city",
-      "name": "Baker City",
-      "state": "OR",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://tripcheck.com/DynamicReports/Report/RoadConditions"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/or"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 39,
+      "maxPrecipProbability": 56,
+      "maxWindMph": 10,
+      "lat": 42.19458,
+      "lon": -122.70948,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=42.1946&lon=-122.7095",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "OR-baker-city",
+      "name": "Baker City",
+      "state": "OR",
+      "locationQuery": "Baker City, OR",
+      "priority": "High",
       "mediaMarkets": [
         "Eastern Oregon"
       ],
@@ -2163,30 +2378,33 @@
           "routes": "I-84",
           "risk": "Snow, blowing snow, interstate closures"
         }
-      ]
-    },
-    {
-      "id": "OR-bend",
-      "name": "Bend",
-      "state": "OR",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://tripcheck.com/DynamicReports/Report/RoadConditions"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/or"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 37,
+      "maxPrecipProbability": 20,
+      "maxWindMph": 14,
+      "lat": 44.77487,
+      "lon": -117.83438,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.7749&lon=-117.8344",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "OR-bend",
+      "name": "Bend",
+      "state": "OR",
+      "locationQuery": "Bend, OR",
+      "priority": "High",
       "mediaMarkets": [
         "Bend + Willamette Valley"
       ],
@@ -2196,30 +2414,33 @@
           "routes": "US-20 / OR-22",
           "risk": "Heavy snow, traction requirements"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/or"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 36,
+      "maxPrecipProbability": 79,
+      "maxWindMph": 20,
+      "lat": 44.05817,
+      "lon": -121.31531,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.0582&lon=-121.3153",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "OR-eugene",
       "name": "Eugene",
       "state": "OR",
+      "locationQuery": "Eugene, OR",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/or/eugene"
-      ],
       "mediaMarkets": [
         "Eugene + Bend"
       ],
@@ -2229,30 +2450,33 @@
           "routes": "OR-58",
           "risk": "Snow, ice, closures"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/or/eugene"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 46,
+      "maxPrecipProbability": 93,
+      "maxWindMph": 12,
+      "lat": 44.05207,
+      "lon": -123.08675,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.0521&lon=-123.0867",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "OR-la-grande",
       "name": "La Grande",
       "state": "OR",
+      "locationQuery": "La Grande, OR",
       "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/or"
-      ],
       "mediaMarkets": [
         "Pendleton + Tri-Cities"
       ],
@@ -2262,30 +2486,33 @@
           "routes": "I-84",
           "risk": "Snow, ice, wind, truck closures"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/or"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 40,
+      "maxPrecipProbability": 60,
+      "maxWindMph": 21,
+      "lat": 45.32458,
+      "lon": -118.08772,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.3246&lon=-118.0877",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "OR-la-pine",
       "name": "La Pine",
       "state": "OR",
+      "locationQuery": "La Pine, OR",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/or/eugene"
-      ],
       "mediaMarkets": [
         "Eugene + Bend"
       ],
@@ -2295,30 +2522,33 @@
           "routes": "OR-58",
           "risk": "Snow, ice, closures"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/or/eugene"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 25,
+      "maxPrecipProbability": 79,
+      "maxWindMph": 17,
+      "lat": 43.6704,
+      "lon": -121.50364,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=43.6704&lon=-121.5036",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "OR-medford",
       "name": "Medford",
       "state": "OR",
+      "locationQuery": "Medford, OR",
       "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/or"
-      ],
       "mediaMarkets": [
         "Medford"
       ],
@@ -2328,30 +2558,33 @@
           "routes": "I-5",
           "risk": "Heavy snow, chain restrictions, interstate closures"
         }
-      ]
-    },
-    {
-      "id": "OR-pendleton",
-      "name": "Pendleton",
-      "state": "OR",
-      "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://tripcheck.com/DynamicReports/Report/RoadConditions"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/or"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 44,
+      "maxPrecipProbability": 64,
+      "maxWindMph": 9,
+      "lat": 42.32652,
+      "lon": -122.87559,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=42.3265&lon=-122.8756",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "OR-pendleton",
+      "name": "Pendleton",
+      "state": "OR",
+      "locationQuery": "Pendleton, OR",
+      "priority": "Critical",
       "mediaMarkets": [
         "Pendleton + Tri-Cities"
       ],
@@ -2361,108 +2594,117 @@
           "routes": "I-84",
           "risk": "Snow, ice, wind, truck closures"
         }
-      ]
-    },
-    {
-      "id": "OR-portland",
-      "name": "Portland",
-      "state": "OR",
-      "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
       ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/or",
-        "https://www.lesschwab.com/stores/or/portland"
-      ],
-      "mediaMarkets": [
-        "Portland"
-      ],
-      "corridors": [
-        {
-          "name": "Government Camp / Mt. Hood",
-          "routes": "US-26",
-          "risk": "Heavy snow, traction requirements, crashes"
-        },
-        {
-          "name": "Gorge + metro ice events",
-          "routes": "I-84 / I-205 / US-26",
-          "risk": "Freezing rain, ice, gorge wind"
-        }
-      ]
-    },
-    {
-      "id": "OR-sandy",
-      "name": "Sandy",
-      "state": "OR",
-      "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/or",
-        "https://www.lesschwab.com/stores/or/portland"
-      ],
-      "mediaMarkets": [
-        "Portland"
-      ],
-      "corridors": [
-        {
-          "name": "Government Camp / Mt. Hood",
-          "routes": "US-26",
-          "risk": "Heavy snow, traction requirements, crashes"
-        },
-        {
-          "name": "Gorge + metro ice events",
-          "routes": "I-84 / I-205 / US-26",
-          "risk": "Freezing rain, ice, gorge wind"
-        }
-      ]
-    },
-    {
-      "id": "OR-sisters",
-      "name": "Sisters",
-      "state": "OR",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
       "roadSources": [
         "https://tripcheck.com/DynamicReports/Report/RoadConditions"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/or"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 41,
+      "maxPrecipProbability": 80,
+      "maxWindMph": 26,
+      "lat": 45.67207,
+      "lon": -118.7886,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.6721&lon=-118.7886",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "OR-portland",
+      "name": "Portland",
+      "state": "OR",
+      "locationQuery": "Portland, OR",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Portland"
+      ],
+      "corridors": [
+        {
+          "name": "Government Camp / Mt. Hood",
+          "routes": "US-26",
+          "risk": "Heavy snow, traction requirements, crashes"
+        },
+        {
+          "name": "Gorge + metro ice events",
+          "routes": "I-84 / I-205 / US-26",
+          "risk": "Freezing rain, ice, gorge wind"
+        }
+      ],
+      "roadSources": [
+        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/or",
+        "https://www.lesschwab.com/stores/or/portland"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 50,
+      "maxPrecipProbability": 98,
+      "maxWindMph": 15,
+      "lat": 45.52345,
+      "lon": -122.67621,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.5234&lon=-122.6762",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "OR-sandy",
+      "name": "Sandy",
+      "state": "OR",
+      "locationQuery": "Sandy, OR",
+      "priority": "Critical",
+      "mediaMarkets": [
+        "Portland"
+      ],
+      "corridors": [
+        {
+          "name": "Government Camp / Mt. Hood",
+          "routes": "US-26",
+          "risk": "Heavy snow, traction requirements, crashes"
+        },
+        {
+          "name": "Gorge + metro ice events",
+          "routes": "I-84 / I-205 / US-26",
+          "risk": "Freezing rain, ice, gorge wind"
+        }
+      ],
+      "roadSources": [
+        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/or",
+        "https://www.lesschwab.com/stores/or/portland"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 47,
+      "maxPrecipProbability": 96,
+      "maxWindMph": 16,
+      "lat": 45.53929,
+      "lon": -122.38731,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.5393&lon=-122.3873",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "OR-sisters",
+      "name": "Sisters",
+      "state": "OR",
+      "locationQuery": "Sisters, OR",
+      "priority": "High",
       "mediaMarkets": [
         "Bend + Willamette Valley"
       ],
@@ -2472,30 +2714,33 @@
           "routes": "US-20 / OR-22",
           "risk": "Heavy snow, traction requirements"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://tripcheck.com/DynamicReports/Report/RoadConditions"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/or"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 31,
+      "maxPrecipProbability": 82,
+      "maxWindMph": 17,
+      "lat": 44.29095,
+      "lon": -121.54921,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.2910&lon=-121.5492",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "SD-aberdeen",
       "name": "Aberdeen",
       "state": "SD",
+      "locationQuery": "Aberdeen, SD",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://www.sd511.org/"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/sd"
-      ],
       "mediaMarkets": [
         "Northeast South Dakota"
       ],
@@ -2505,30 +2750,33 @@
           "routes": "I-29",
           "risk": "Blizzard, extreme cold, whiteout"
         }
-      ]
-    },
-    {
-      "id": "SD-brandon",
-      "name": "Brandon",
-      "state": "SD",
-      "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.sd511.org/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/sd"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 57,
+      "maxPrecipProbability": 83,
+      "maxWindMph": 17,
+      "lat": 45.4647,
+      "lon": -98.48648,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.4647&lon=-98.4865",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "SD-brandon",
+      "name": "Brandon",
+      "state": "SD",
+      "locationQuery": "Brandon, SD",
+      "priority": "Critical",
       "mediaMarkets": [
         "Sioux Falls"
       ],
@@ -2538,30 +2786,33 @@
           "routes": "I-90 / I-29",
           "risk": "Blizzard, freezing rain, closures"
         }
-      ]
-    },
-    {
-      "id": "SD-mitchell",
-      "name": "Mitchell",
-      "state": "SD",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.sd511.org/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/sd"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 56,
+      "maxPrecipProbability": 100,
+      "maxWindMph": 15,
+      "lat": 43.5947,
+      "lon": -96.57199,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=43.5947&lon=-96.5720",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "SD-mitchell",
+      "name": "Mitchell",
+      "state": "SD",
+      "locationQuery": "Mitchell, SD",
+      "priority": "High",
       "mediaMarkets": [
         "Mitchell/Sioux Falls regional"
       ],
@@ -2571,30 +2822,33 @@
           "routes": "I-90",
           "risk": "Blizzard, wind, interstate closures"
         }
-      ]
-    },
-    {
-      "id": "SD-sioux-falls",
-      "name": "Sioux Falls",
-      "state": "SD",
-      "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.sd511.org/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/sd"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 58,
+      "maxPrecipProbability": 77,
+      "maxWindMph": 20,
+      "lat": 43.70943,
+      "lon": -98.0298,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=43.7094&lon=-98.0298",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "SD-sioux-falls",
+      "name": "Sioux Falls",
+      "state": "SD",
+      "locationQuery": "Sioux Falls, SD",
+      "priority": "Critical",
       "mediaMarkets": [
         "Sioux Falls"
       ],
@@ -2604,30 +2858,33 @@
           "routes": "I-90 / I-29",
           "risk": "Blizzard, freezing rain, closures"
         }
-      ]
-    },
-    {
-      "id": "SD-spearfish",
-      "name": "Spearfish",
-      "state": "SD",
-      "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.sd511.org/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/sd"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 57,
+      "maxPrecipProbability": 100,
+      "maxWindMph": 15,
+      "lat": 43.54369,
+      "lon": -96.72796,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=43.5437&lon=-96.7280",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "SD-spearfish",
+      "name": "Spearfish",
+      "state": "SD",
+      "locationQuery": "Spearfish, SD",
+      "priority": "Critical",
       "mediaMarkets": [
         "Rapid City/Black Hills"
       ],
@@ -2637,30 +2894,33 @@
           "routes": "I-90",
           "risk": "Heavy snow, wind, interstate closures"
         }
-      ]
-    },
-    {
-      "id": "SD-watertown",
-      "name": "Watertown",
-      "state": "SD",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.sd511.org/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/sd"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 52,
+      "maxPrecipProbability": 17,
+      "maxWindMph": 15,
+      "lat": 44.49082,
+      "lon": -103.85937,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.4908&lon=-103.8594",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "SD-watertown",
+      "name": "Watertown",
+      "state": "SD",
+      "locationQuery": "Watertown, SD",
+      "priority": "High",
       "mediaMarkets": [
         "Northeast South Dakota"
       ],
@@ -2670,30 +2930,33 @@
           "routes": "I-29",
           "risk": "Blizzard, extreme cold, whiteout"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://www.sd511.org/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/sd"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 56,
+      "maxPrecipProbability": 79,
+      "maxWindMph": 16,
+      "lat": 44.89941,
+      "lon": -97.11507,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.8994&lon=-97.1151",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "UT-logan",
       "name": "Logan",
       "state": "UT",
+      "locationQuery": "Logan, UT",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://www.udottraffic.utah.gov/"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/ut"
-      ],
       "mediaMarkets": [
         "Logan"
       ],
@@ -2703,30 +2966,33 @@
           "routes": "US-89/91",
           "risk": "Heavy snow, crashes"
         }
-      ]
-    },
-    {
-      "id": "UT-riverdale",
-      "name": "Riverdale",
-      "state": "UT",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.udottraffic.utah.gov/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/ut"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 46,
+      "maxPrecipProbability": 3,
+      "maxWindMph": 8,
+      "lat": 41.73549,
+      "lon": -111.83439,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.7355&lon=-111.8344",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "UT-riverdale",
+      "name": "Riverdale",
+      "state": "UT",
+      "locationQuery": "Riverdale, UT",
+      "priority": "High",
       "mediaMarkets": [
         "Salt Lake/Ogden"
       ],
@@ -2736,30 +3002,33 @@
           "routes": "I-84 / I-15",
           "risk": "Snow, wind, canyon travel impacts"
         }
-      ]
-    },
-    {
-      "id": "UT-salt-lake",
-      "name": "Salt Lake",
-      "state": "UT",
-      "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.udottraffic.utah.gov/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/ut"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 53,
+      "maxPrecipProbability": 3,
+      "maxWindMph": 10,
+      "lat": 41.17689,
+      "lon": -112.00383,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.1769&lon=-112.0038",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "UT-salt-lake",
+      "name": "Salt Lake",
+      "state": "UT",
+      "locationQuery": "Salt Lake, UT",
+      "priority": "Critical",
       "mediaMarkets": [
         "Salt Lake City"
       ],
@@ -2769,30 +3038,33 @@
           "routes": "I-80",
           "risk": "Heavy snow, canyon crashes, traction restrictions"
         }
-      ]
-    },
-    {
-      "id": "UT-santaquin",
-      "name": "Santaquin",
-      "state": "UT",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.udottraffic.utah.gov/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/ut"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 53,
+      "maxPrecipProbability": 2,
+      "maxWindMph": 10,
+      "lat": 40.76078,
+      "lon": -111.89105,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=40.7608&lon=-111.8911",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "UT-santaquin",
+      "name": "Santaquin",
+      "state": "UT",
+      "locationQuery": "Santaquin, UT",
+      "priority": "High",
       "mediaMarkets": [
         "Salt Lake/Utah County"
       ],
@@ -2802,30 +3074,33 @@
           "routes": "I-15",
           "risk": "Snow squalls, black ice, wind"
         }
-      ]
-    },
-    {
-      "id": "UT-south-ogden",
-      "name": "South Ogden",
-      "state": "UT",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.udottraffic.utah.gov/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/ut"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 51,
+      "maxPrecipProbability": 0,
+      "maxWindMph": 13,
+      "lat": 39.97551,
+      "lon": -111.78521,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=39.9755&lon=-111.7852",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "UT-south-ogden",
+      "name": "South Ogden",
+      "state": "UT",
+      "locationQuery": "South Ogden, UT",
+      "priority": "High",
       "mediaMarkets": [
         "Salt Lake/Ogden"
       ],
@@ -2835,30 +3110,33 @@
           "routes": "I-84 / I-15",
           "risk": "Snow, wind, canyon travel impacts"
         }
-      ]
-    },
-    {
-      "id": "UT-woods-cross",
-      "name": "Woods Cross",
-      "state": "UT",
-      "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.udottraffic.utah.gov/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/ut"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 54,
+      "maxPrecipProbability": 3,
+      "maxWindMph": 10,
+      "lat": 41.19189,
+      "lon": -111.97133,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.1919&lon=-111.9713",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "UT-woods-cross",
+      "name": "Woods Cross",
+      "state": "UT",
+      "locationQuery": "Woods Cross, UT",
+      "priority": "Critical",
       "mediaMarkets": [
         "Salt Lake City"
       ],
@@ -2868,30 +3146,33 @@
           "routes": "I-80",
           "risk": "Heavy snow, canyon crashes, traction restrictions"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://www.udottraffic.utah.gov/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/ut"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 55,
+      "maxPrecipProbability": 2,
+      "maxWindMph": 14,
+      "lat": 40.87161,
+      "lon": -111.89216,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=40.8716&lon=-111.8922",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "WA-bellevue",
       "name": "Bellevue",
       "state": "WA",
+      "locationQuery": "Bellevue, WA",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://wsdot.wa.gov/travel"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/wa/seattle"
-      ],
       "mediaMarkets": [
         "Seattle-Tacoma"
       ],
@@ -2901,31 +3182,33 @@
           "routes": "I-5 / I-405 / SR-18",
           "risk": "Lowland snow, black ice, freezing rain"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://wsdot.wa.gov/travel"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wa/seattle"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 49,
+      "maxPrecipProbability": 96,
+      "maxWindMph": 7,
+      "lat": 47.61038,
+      "lon": -122.20068,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.6104&lon=-122.2007",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "WA-ellensburg",
       "name": "Ellensburg",
       "state": "WA",
+      "locationQuery": "Ellensburg, WA",
       "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://wsdot.com/travel/real-time/mountain-pass-reports"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/wa/north-bend/610-e-north-bend-way",
-        "https://www.lesschwab.com/stores/wa/ellensburg"
-      ],
       "mediaMarkets": [
         "Seattle + Yakima/Ellensburg",
         "Wenatchee + Yakima"
@@ -2941,30 +3224,34 @@
           "routes": "US-97",
           "risk": "Snow, compact snow/ice, spinouts"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://wsdot.com/travel/real-time/mountain-pass-reports"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wa/north-bend/610-e-north-bend-way",
+        "https://www.lesschwab.com/stores/wa/ellensburg"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 37,
+      "maxPrecipProbability": 84,
+      "maxWindMph": 13,
+      "lat": 46.99651,
+      "lon": -120.54785,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.9965&lon=-120.5478",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "WA-enumclaw",
       "name": "Enumclaw",
       "state": "WA",
+      "locationQuery": "Enumclaw, WA",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://wsdot.com/travel/real-time/mountain-pass-reports"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/wa"
-      ],
       "mediaMarkets": [
         "Seattle/Tacoma + Yakima"
       ],
@@ -2974,30 +3261,33 @@
           "routes": "SR-410 / US-12",
           "risk": "Snow, closures, seasonal restrictions"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://wsdot.com/travel/real-time/mountain-pass-reports"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wa"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 42,
+      "maxPrecipProbability": 92,
+      "maxWindMph": 10,
+      "lat": 47.20427,
+      "lon": -121.9915,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.2043&lon=-121.9915",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "WA-kent",
       "name": "Kent",
       "state": "WA",
+      "locationQuery": "Kent, WA",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://wsdot.wa.gov/travel"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/wa/seattle"
-      ],
       "mediaMarkets": [
         "Seattle-Tacoma"
       ],
@@ -3007,30 +3297,33 @@
           "routes": "I-5 / I-405 / SR-18",
           "risk": "Lowland snow, black ice, freezing rain"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://wsdot.wa.gov/travel"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wa/seattle"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 47,
+      "maxPrecipProbability": 96,
+      "maxWindMph": 10,
+      "lat": 47.38093,
+      "lon": -122.23484,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.3809&lon=-122.2348",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "WA-monroe",
       "name": "Monroe",
       "state": "WA",
+      "locationQuery": "Monroe, WA",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://wsdot.com/travel/real-time/mountain-pass-reports"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/wa"
-      ],
       "mediaMarkets": [
         "Seattle + Wenatchee"
       ],
@@ -3040,30 +3333,33 @@
           "routes": "US-2",
           "risk": "Heavy snow, chain restrictions, closures"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://wsdot.com/travel/real-time/mountain-pass-reports"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wa"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 43,
+      "maxPrecipProbability": 97,
+      "maxWindMph": 5,
+      "lat": 47.85538,
+      "lon": -121.97096,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.8554&lon=-121.9710",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "WA-north-bend",
       "name": "North Bend",
       "state": "WA",
+      "locationQuery": "North Bend, WA",
       "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://wsdot.com/travel/real-time/mountain-pass-reports"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/wa/north-bend/610-e-north-bend-way"
-      ],
       "mediaMarkets": [
         "Seattle + Yakima/Ellensburg"
       ],
@@ -3073,30 +3369,33 @@
           "routes": "I-90",
           "risk": "Heavy snow, chain restrictions, closures, avalanche control"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://wsdot.com/travel/real-time/mountain-pass-reports"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wa/north-bend/610-e-north-bend-way"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 42,
+      "maxPrecipProbability": 97,
+      "maxWindMph": 7,
+      "lat": 47.49566,
+      "lon": -121.78678,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.4957&lon=-121.7868",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "WA-puyallup",
       "name": "Puyallup",
       "state": "WA",
+      "locationQuery": "Puyallup, WA",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://wsdot.wa.gov/travel"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/wa/seattle"
-      ],
       "mediaMarkets": [
         "Seattle-Tacoma"
       ],
@@ -3106,30 +3405,33 @@
           "routes": "I-5 / I-405 / SR-18",
           "risk": "Lowland snow, black ice, freezing rain"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://wsdot.wa.gov/travel"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wa/seattle"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 47,
+      "maxPrecipProbability": 97,
+      "maxWindMph": 13,
+      "lat": 47.18538,
+      "lon": -122.2929,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.1854&lon=-122.2929",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "WA-seattle",
       "name": "Seattle",
       "state": "WA",
+      "locationQuery": "Seattle, WA",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://wsdot.wa.gov/travel"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/wa/seattle"
-      ],
       "mediaMarkets": [
         "Seattle-Tacoma"
       ],
@@ -3139,30 +3441,33 @@
           "routes": "I-5 / I-405 / SR-18",
           "risk": "Lowland snow, black ice, freezing rain"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://wsdot.wa.gov/travel"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wa/seattle"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 50,
+      "maxPrecipProbability": 97,
+      "maxWindMph": 8,
+      "lat": 47.60621,
+      "lon": -122.33207,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.6062&lon=-122.3321",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "WA-spokane",
       "name": "Spokane",
       "state": "WA",
+      "locationQuery": "Spokane, WA",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://wsdot.wa.gov/travel"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/wa"
-      ],
       "mediaMarkets": [
         "Spokane"
       ],
@@ -3172,30 +3477,33 @@
           "routes": "I-90",
           "risk": "Snow, ice, blowing snow, interstate crashes"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://wsdot.wa.gov/travel"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wa"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 45,
+      "maxPrecipProbability": 95,
+      "maxWindMph": 18,
+      "lat": 47.65966,
+      "lon": -117.42908,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.6597&lon=-117.4291",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "WA-spokane-valley",
       "name": "Spokane Valley",
       "state": "WA",
+      "locationQuery": "Spokane Valley, WA",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://wsdot.wa.gov/travel"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/wa"
-      ],
       "mediaMarkets": [
         "Spokane"
       ],
@@ -3205,31 +3513,33 @@
           "routes": "I-90",
           "risk": "Snow, ice, blowing snow, interstate crashes"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://wsdot.wa.gov/travel"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wa"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 44,
+      "maxPrecipProbability": 96,
+      "maxWindMph": 18,
+      "lat": 47.67323,
+      "lon": -117.23937,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.6732&lon=-117.2394",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "WA-wenatchee",
       "name": "Wenatchee",
       "state": "WA",
+      "locationQuery": "Wenatchee, WA",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://wsdot.com/travel/real-time/mountain-pass-reports"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/wa",
-        "https://www.lesschwab.com/stores/wa/ellensburg"
-      ],
       "mediaMarkets": [
         "Seattle + Wenatchee",
         "Wenatchee + Yakima"
@@ -3245,30 +3555,34 @@
           "routes": "US-97",
           "risk": "Snow, compact snow/ice, spinouts"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://wsdot.com/travel/real-time/mountain-pass-reports"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wa",
+        "https://www.lesschwab.com/stores/wa/ellensburg"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 47,
+      "maxPrecipProbability": 81,
+      "maxWindMph": 23,
+      "lat": 47.42346,
+      "lon": -120.31035,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.4235&lon=-120.3103",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "WA-yakima",
       "name": "Yakima",
       "state": "WA",
+      "locationQuery": "Yakima, WA",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://wsdot.com/travel/real-time/mountain-pass-reports"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/wa"
-      ],
       "mediaMarkets": [
         "Seattle/Tacoma + Yakima"
       ],
@@ -3278,30 +3592,33 @@
           "routes": "SR-410 / US-12",
           "risk": "Snow, closures, seasonal restrictions"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://wsdot.com/travel/real-time/mountain-pass-reports"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wa"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 42,
+      "maxPrecipProbability": 76,
+      "maxWindMph": 21,
+      "lat": 46.60207,
+      "lon": -120.5059,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.6021&lon=-120.5059",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "WY-casper",
       "name": "Casper",
       "state": "WY",
+      "locationQuery": "Casper, WY",
       "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://www.wyoroad.info/"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/wy"
-      ],
       "mediaMarkets": [
         "Casper"
       ],
@@ -3311,30 +3628,33 @@
           "routes": "I-25",
           "risk": "Snow, wind, black ice"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://www.wyoroad.info/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wy"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 47,
+      "maxPrecipProbability": 8,
+      "maxWindMph": 15,
+      "lat": 42.86663,
+      "lon": -106.31308,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=42.8666&lon=-106.3131",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "WY-cheyenne",
       "name": "Cheyenne",
       "state": "WY",
+      "locationQuery": "Cheyenne, WY",
       "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://www.wyoroad.info/"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/wy/laramie"
-      ],
       "mediaMarkets": [
         "Cheyenne + Laramie"
       ],
@@ -3344,30 +3664,33 @@
           "routes": "I-80",
           "risk": "Blizzard, extreme wind, interstate closures"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://www.wyoroad.info/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wy/laramie"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 47,
+      "maxPrecipProbability": 40,
+      "maxWindMph": 15,
+      "lat": 41.13998,
+      "lon": -104.82025,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.1400&lon=-104.8203",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "WY-evanston",
       "name": "Evanston",
       "state": "WY",
+      "locationQuery": "Evanston, WY",
       "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://www.wyoroad.info/"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/wy"
-      ],
       "mediaMarkets": [
         "Southwest Wyoming"
       ],
@@ -3377,30 +3700,33 @@
           "routes": "I-80",
           "risk": "Snow, wind, closures"
         }
-      ]
-    },
-    {
-      "id": "WY-gillette",
-      "name": "Gillette",
-      "state": "WY",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.wyoroad.info/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/wy"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 37,
+      "maxPrecipProbability": 0,
+      "maxWindMph": 15,
+      "lat": 41.26828,
+      "lon": -110.96324,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.2683&lon=-110.9632",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "WY-gillette",
+      "name": "Gillette",
+      "state": "WY",
+      "locationQuery": "Gillette, WY",
+      "priority": "High",
       "mediaMarkets": [
         "Gillette/Sheridan"
       ],
@@ -3410,30 +3736,33 @@
           "routes": "I-90",
           "risk": "Blizzard, wind, closures"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://www.wyoroad.info/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wy"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 51,
+      "maxPrecipProbability": 6,
+      "maxWindMph": 20,
+      "lat": 44.29109,
+      "lon": -105.50222,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.2911&lon=-105.5022",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "WY-laramie",
       "name": "Laramie",
       "state": "WY",
+      "locationQuery": "Laramie, WY",
       "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://www.wyoroad.info/"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/wy/laramie"
-      ],
       "mediaMarkets": [
         "Cheyenne + Laramie"
       ],
@@ -3443,30 +3772,33 @@
           "routes": "I-80",
           "risk": "Blizzard, extreme wind, interstate closures"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://www.wyoroad.info/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wy/laramie"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 43,
+      "maxPrecipProbability": 33,
+      "maxWindMph": 20,
+      "lat": 41.31137,
+      "lon": -105.5911,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.3114&lon=-105.5911",
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "WY-rock-springs",
       "name": "Rock Springs",
       "state": "WY",
+      "locationQuery": "Rock Springs, WY",
       "priority": "Critical",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
-      "roadSources": [
-        "https://www.wyoroad.info/"
-      ],
-      "lesSchwabSources": [
-        "https://www.lesschwab.com/stores/wy"
-      ],
       "mediaMarkets": [
         "Southwest Wyoming"
       ],
@@ -3476,30 +3808,33 @@
           "routes": "I-80",
           "risk": "Snow, wind, closures"
         }
-      ]
-    },
-    {
-      "id": "WY-sheridan",
-      "name": "Sheridan",
-      "state": "WY",
-      "priority": "High",
-      "status": "CLEAR",
-      "reason": "Awaiting first automated refresh.",
-      "timing": null,
-      "forecast": null,
-      "alerts": [],
-      "temperatureMin": null,
-      "maxPrecipProbability": null,
-      "maxWindMph": null,
-      "lat": null,
-      "lon": null,
-      "weatherUrl": null,
+      ],
       "roadSources": [
         "https://www.wyoroad.info/"
       ],
       "lesSchwabSources": [
         "https://www.lesschwab.com/stores/wy"
       ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 44,
+      "maxPrecipProbability": 2,
+      "maxWindMph": 14,
+      "lat": 41.58746,
+      "lon": -109.2029,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.5875&lon=-109.2029",
+      "prAction": "No action. Keep in the broad market screen."
+    },
+    {
+      "id": "WY-sheridan",
+      "name": "Sheridan",
+      "state": "WY",
+      "locationQuery": "Sheridan, WY",
+      "priority": "High",
       "mediaMarkets": [
         "Gillette/Sheridan"
       ],
@@ -3509,7 +3844,26 @@
           "routes": "I-90",
           "risk": "Blizzard, wind, closures"
         }
-      ]
+      ],
+      "roadSources": [
+        "https://www.wyoroad.info/"
+      ],
+      "lesSchwabSources": [
+        "https://www.lesschwab.com/stores/wy"
+      ],
+      "notes": [],
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 45,
+      "maxPrecipProbability": 2,
+      "maxWindMph": 12,
+      "lat": 44.79719,
+      "lon": -106.95618,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.7972&lon=-106.9562",
+      "prAction": "No action. Keep in the broad market screen."
     }
   ]
 }
