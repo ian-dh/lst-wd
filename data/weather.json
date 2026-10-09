@@ -1,51 +1,8 @@
 {
-  "updatedAt": "2026-10-08T20:54:23.269863+00:00",
+  "updatedAt": "2026-10-09T01:03:44.155706+00:00",
   "dataState": "live",
   "sourceNote": "National Weather Service city + corridor forecast/alert screen; DOT/511 links supplied for verification.",
-  "changes": [
-    {
-      "id": "CA-bishop",
-      "name": "Bishop",
-      "state": "CA",
-      "from": "CLEAR",
-      "to": "WATCH"
-    },
-    {
-      "id": "CA-susanville",
-      "name": "Susanville",
-      "state": "CA",
-      "from": "CLEAR",
-      "to": "WATCH"
-    },
-    {
-      "id": "ID-coeur-d-alene",
-      "name": "Coeur d'Alene",
-      "state": "ID",
-      "from": "WATCH",
-      "to": "CLEAR"
-    },
-    {
-      "id": "ID-post-falls",
-      "name": "Post Falls",
-      "state": "ID",
-      "from": "WATCH",
-      "to": "CLEAR"
-    },
-    {
-      "id": "WA-ellensburg",
-      "name": "Ellensburg",
-      "state": "WA",
-      "from": "CLEAR",
-      "to": "WATCH"
-    },
-    {
-      "id": "WA-north-bend",
-      "name": "North Bend",
-      "state": "WA",
-      "from": "CLEAR",
-      "to": "WATCH"
-    }
-  ],
+  "changes": [],
   "markets": [
     {
       "id": "AK-juneau",
@@ -75,8 +32,8 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 38,
-      "maxPrecipProbability": 78,
+      "temperatureMin": 39,
+      "maxPrecipProbability": 100,
       "maxWindMph": 10,
       "lat": 58.30194,
       "lon": -134.41972,
@@ -141,7 +98,7 @@
       "alerts": [
         {
           "event": "Heat Advisory",
-          "headline": "Heat Advisory issued October 7 at 8:51AM PDT until October 8 at 10:00PM PDT by NWS Sacramento CA",
+          "headline": "Heat Advisory issued October 8 at 3:25PM PDT until October 8 at 10:00PM PDT by NWS Sacramento CA",
           "severity": "Moderate",
           "ends": "2026-10-08T22:00:00-07:00"
         }
@@ -220,7 +177,7 @@
       "forecast": "Chance Rain And Snow Showers",
       "alerts": [],
       "temperatureMin": 44,
-      "maxPrecipProbability": 43,
+      "maxPrecipProbability": 48,
       "maxWindMph": 21,
       "lat": 37.36354,
       "lon": -118.39511,
@@ -281,7 +238,7 @@
       "alerts": [
         {
           "event": "Heat Advisory",
-          "headline": "Heat Advisory issued October 7 at 8:51AM PDT until October 8 at 10:00PM PDT by NWS Sacramento CA",
+          "headline": "Heat Advisory issued October 8 at 3:25PM PDT until October 8 at 10:00PM PDT by NWS Sacramento CA",
           "severity": "Moderate",
           "ends": "2026-10-08T22:00:00-07:00"
         }
@@ -353,7 +310,7 @@
         }
       ],
       "temperatureMin": 39,
-      "maxPrecipProbability": 45,
+      "maxPrecipProbability": 76,
       "maxWindMph": 15,
       "lat": 38.93324,
       "lon": -119.98435,
@@ -476,7 +433,7 @@
         }
       ],
       "temperatureMin": 29,
-      "maxPrecipProbability": 56,
+      "maxPrecipProbability": 73,
       "maxWindMph": 20,
       "lat": 39.32796,
       "lon": -120.18325,
@@ -536,7 +493,7 @@
       "alerts": [],
       "temperatureMin": 35,
       "maxPrecipProbability": 8,
-      "maxWindMph": 15,
+      "maxWindMph": 17,
       "lat": 41.73542,
       "lon": -122.63447,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.7354&lon=-122.6345",
@@ -594,7 +551,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 55,
-      "maxPrecipProbability": 2,
+      "maxPrecipProbability": 3,
       "maxWindMph": 10,
       "lat": 39.98526,
       "lon": -104.82053,
@@ -653,7 +610,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 52,
-      "maxPrecipProbability": 7,
+      "maxPrecipProbability": 6,
       "maxWindMph": 13,
       "lat": 39.37221,
       "lon": -104.85609,
@@ -713,7 +670,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 51,
-      "maxPrecipProbability": 5,
+      "maxPrecipProbability": 1,
       "maxWindMph": 15,
       "lat": 38.83388,
       "lon": -104.82136,
@@ -839,7 +796,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 46,
-      "maxPrecipProbability": 95,
+      "maxPrecipProbability": 98,
       "maxWindMph": 10,
       "lat": 37.27528,
       "lon": -107.88007,
@@ -993,7 +950,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 54,
-      "maxPrecipProbability": 6,
+      "maxPrecipProbability": 5,
       "maxWindMph": 10,
       "lat": 39.70471,
       "lon": -105.08137,
@@ -1112,7 +1069,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 47,
-      "maxPrecipProbability": 7,
+      "maxPrecipProbability": 3,
       "maxWindMph": 15,
       "lat": 39.09166,
       "lon": -104.87276,
@@ -1172,7 +1129,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 36,
-      "maxPrecipProbability": 94,
+      "maxPrecipProbability": 98,
       "maxWindMph": 10,
       "lat": 37.26945,
       "lon": -107.00976,
@@ -1231,7 +1188,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 51,
-      "maxPrecipProbability": 0,
+      "maxPrecipProbability": 4,
       "maxWindMph": 13,
       "lat": 40.62554,
       "lon": -103.20771,
@@ -1349,7 +1306,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 40,
-      "maxPrecipProbability": 23,
+      "maxPrecipProbability": 46,
       "maxWindMph": 9,
       "lat": 43.6135,
       "lon": -116.20345,
@@ -1607,7 +1564,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 38,
-      "maxPrecipProbability": 18,
+      "maxPrecipProbability": 45,
       "maxWindMph": 9,
       "lat": 43.61211,
       "lon": -116.39151,
@@ -1667,7 +1624,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 38,
-      "maxPrecipProbability": 17,
+      "maxPrecipProbability": 45,
       "maxWindMph": 10,
       "lat": 43.54072,
       "lon": -116.56346,
@@ -1865,7 +1822,7 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 49,
+      "temperatureMin": 48,
       "maxPrecipProbability": 3,
       "maxWindMph": 20,
       "lat": 44.73191,
@@ -1984,8 +1941,8 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 47,
-      "maxPrecipProbability": 3,
+      "temperatureMin": 46,
+      "maxPrecipProbability": 2,
       "maxWindMph": 20,
       "lat": 45.1608,
       "lon": -93.23495,
@@ -2104,7 +2061,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 43,
-      "maxPrecipProbability": 7,
+      "maxPrecipProbability": 12,
       "maxWindMph": 21,
       "lat": 46.87386,
       "lon": -96.76951,
@@ -2221,8 +2178,8 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 45,
-      "maxPrecipProbability": 2,
+      "temperatureMin": 43,
+      "maxPrecipProbability": 5,
       "maxWindMph": 20,
       "lat": 45.62163,
       "lon": -94.20694,
@@ -2888,7 +2845,7 @@
       "alerts": [],
       "temperatureMin": 44,
       "maxPrecipProbability": 51,
-      "maxWindMph": 22,
+      "maxWindMph": 21,
       "lat": 48.11278,
       "lon": -98.86512,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=48.1128&lon=-98.8651",
@@ -3004,8 +2961,8 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 43,
-      "maxPrecipProbability": 7,
-      "maxWindMph": 22,
+      "maxPrecipProbability": 12,
+      "maxWindMph": 21,
       "lat": 46.87719,
       "lon": -96.7898,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8772&lon=-96.7898",
@@ -3063,7 +3020,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 41,
-      "maxPrecipProbability": 31,
+      "maxPrecipProbability": 34,
       "maxWindMph": 21,
       "lat": 47.92526,
       "lon": -97.03285,
@@ -3181,7 +3138,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 42,
-      "maxPrecipProbability": 7,
+      "maxPrecipProbability": 12,
       "maxWindMph": 22,
       "lat": 46.87497,
       "lon": -96.90036,
@@ -3299,7 +3256,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 53,
-      "maxPrecipProbability": 0,
+      "maxPrecipProbability": 2,
       "maxWindMph": 20,
       "lat": 41.12389,
       "lon": -100.76542,
@@ -3416,7 +3373,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 46,
-      "maxPrecipProbability": 5,
+      "maxPrecipProbability": 16,
       "maxWindMph": 15,
       "lat": 41.86663,
       "lon": -103.66717,
@@ -3475,7 +3432,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 50,
-      "maxPrecipProbability": 0,
+      "maxPrecipProbability": 7,
       "maxWindMph": 15,
       "lat": 41.14276,
       "lon": -102.97798,
@@ -3626,7 +3583,7 @@
         }
       ],
       "temperatureMin": 40,
-      "maxPrecipProbability": 48,
+      "maxPrecipProbability": 70,
       "maxWindMph": 20,
       "lat": 39.1638,
       "lon": -119.7674,
@@ -3685,26 +3642,26 @@
       "forecast": null,
       "alerts": [
         {
-          "event": "Hydrologic Outlook",
-          "headline": "Hydrologic Outlook issued October 8 at 1:46PM PDT by NWS Elko NV",
-          "severity": "Unknown",
-          "ends": null
+          "event": "Red Flag Warning",
+          "headline": "Red Flag Warning issued October 8 at 5:18PM PDT until October 9 at 10:00PM PDT by NWS Elko NV",
+          "severity": "Severe",
+          "ends": "2026-10-09T22:00:00-07:00"
         },
         {
           "event": "Fire Weather Watch",
-          "headline": "Fire Weather Watch issued October 8 at 11:12AM PDT until October 10 at 11:00PM PDT by NWS Elko NV",
+          "headline": "Fire Weather Watch issued October 8 at 5:18PM PDT until October 10 at 11:00PM PDT by NWS Elko NV",
           "severity": "Severe",
           "ends": "2026-10-10T23:00:00-07:00"
         },
         {
-          "event": "Red Flag Warning",
-          "headline": "Red Flag Warning issued October 8 at 11:12AM PDT until October 9 at 10:00PM PDT by NWS Elko NV",
-          "severity": "Severe",
-          "ends": "2026-10-09T22:00:00-07:00"
+          "event": "Hydrologic Outlook",
+          "headline": "Hydrologic Outlook issued October 8 at 1:46PM PDT by NWS Elko NV",
+          "severity": "Unknown",
+          "ends": null
         }
       ],
       "temperatureMin": 39,
-      "maxPrecipProbability": 72,
+      "maxPrecipProbability": 84,
       "maxWindMph": 20,
       "lat": 40.83242,
       "lon": -115.76312,
@@ -3776,7 +3733,7 @@
         }
       ],
       "temperatureMin": 37,
-      "maxPrecipProbability": 42,
+      "maxPrecipProbability": 71,
       "maxWindMph": 20,
       "lat": 38.9413,
       "lon": -119.74962,
@@ -3848,7 +3805,7 @@
         }
       ],
       "temperatureMin": 41,
-      "maxPrecipProbability": 56,
+      "maxPrecipProbability": 62,
       "maxWindMph": 25,
       "lat": 39.52963,
       "lon": -119.8138,
@@ -3920,7 +3877,7 @@
         }
       ],
       "temperatureMin": 40,
-      "maxPrecipProbability": 53,
+      "maxPrecipProbability": 61,
       "maxWindMph": 25,
       "lat": 39.53491,
       "lon": -119.75269,
@@ -3986,13 +3943,13 @@
       "alerts": [
         {
           "event": "Fire Weather Watch",
-          "headline": "Fire Weather Watch issued October 8 at 11:12AM PDT until October 10 at 11:00PM PDT by NWS Elko NV",
+          "headline": "Fire Weather Watch issued October 8 at 5:18PM PDT until October 10 at 11:00PM PDT by NWS Elko NV",
           "severity": "Severe",
           "ends": "2026-10-10T23:00:00-07:00"
         }
       ],
       "temperatureMin": 37,
-      "maxPrecipProbability": 41,
+      "maxPrecipProbability": 57,
       "maxWindMph": 25,
       "lat": 40.97296,
       "lon": -117.73568,
@@ -4066,7 +4023,7 @@
       "alerts": [],
       "temperatureMin": 31,
       "maxPrecipProbability": 42,
-      "maxWindMph": 17,
+      "maxWindMph": 13,
       "lat": 42.19458,
       "lon": -122.70948,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=42.1946&lon=-122.7095",
@@ -4125,7 +4082,7 @@
       "alerts": [],
       "temperatureMin": 29,
       "maxPrecipProbability": 19,
-      "maxWindMph": 14,
+      "maxWindMph": 17,
       "lat": 44.77487,
       "lon": -117.83438,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.7749&lon=-117.8344",
@@ -4183,7 +4140,7 @@
       "alerts": [
         {
           "event": "Freeze Watch",
-          "headline": "Freeze Watch issued October 8 at 11:36AM PDT until October 10 at 10:00AM PDT by NWS Pendleton OR",
+          "headline": "Freeze Watch issued October 8 at 5:43PM PDT until October 10 at 10:00AM PDT by NWS Pendleton OR",
           "severity": "Severe",
           "ends": "2026-10-10T10:00:00-07:00"
         }
@@ -4249,7 +4206,7 @@
       "alerts": [],
       "temperatureMin": 40,
       "maxPrecipProbability": 31,
-      "maxWindMph": 8,
+      "maxWindMph": 14,
       "lat": 44.05207,
       "lon": -123.08675,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.0521&lon=-123.0867",
@@ -4308,7 +4265,7 @@
       "alerts": [
         {
           "event": "Freeze Watch",
-          "headline": "Freeze Watch issued October 8 at 11:36AM PDT until October 10 at 10:00AM PDT by NWS Pendleton OR",
+          "headline": "Freeze Watch issued October 8 at 5:43PM PDT until October 10 at 10:00AM PDT by NWS Pendleton OR",
           "severity": "Severe",
           "ends": "2026-10-10T10:00:00-07:00"
         }
@@ -4433,7 +4390,7 @@
       "alerts": [],
       "temperatureMin": 35,
       "maxPrecipProbability": 22,
-      "maxWindMph": 17,
+      "maxWindMph": 14,
       "lat": 42.32652,
       "lon": -122.87559,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=42.3265&lon=-122.8756",
@@ -4715,7 +4672,7 @@
       "alerts": [],
       "temperatureMin": 25,
       "maxPrecipProbability": 25,
-      "maxWindMph": 14,
+      "maxWindMph": 16,
       "lat": 44.29095,
       "lon": -121.54921,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.2910&lon=-121.5492",
@@ -4891,7 +4848,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 54,
-      "maxPrecipProbability": 6,
+      "maxPrecipProbability": 3,
       "maxWindMph": 25,
       "lat": 43.70943,
       "lon": -98.0298,
@@ -5014,8 +4971,8 @@
           "ends": "2026-10-09T20:00:00-06:00"
         }
       ],
-      "temperatureMin": 47,
-      "maxPrecipProbability": 35,
+      "temperatureMin": 46,
+      "maxPrecipProbability": 66,
       "maxWindMph": 21,
       "lat": 44.49082,
       "lon": -103.85937,
@@ -5130,7 +5087,14 @@
       "reason": "No meaningful winter-weather signal in the next 72 hours",
       "timing": null,
       "forecast": null,
-      "alerts": [],
+      "alerts": [
+        {
+          "event": "Hydrologic Outlook",
+          "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
+          "severity": "Unknown",
+          "ends": null
+        }
+      ],
       "temperatureMin": 50,
       "maxPrecipProbability": 99,
       "maxWindMph": 12,
@@ -5188,7 +5152,14 @@
       "reason": "No meaningful winter-weather signal in the next 72 hours",
       "timing": null,
       "forecast": null,
-      "alerts": [],
+      "alerts": [
+        {
+          "event": "Hydrologic Outlook",
+          "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
+          "severity": "Unknown",
+          "ends": null
+        }
+      ],
       "temperatureMin": 57,
       "maxPrecipProbability": 97,
       "maxWindMph": 20,
@@ -5247,7 +5218,14 @@
       "reason": "No meaningful winter-weather signal in the next 72 hours",
       "timing": null,
       "forecast": null,
-      "alerts": [],
+      "alerts": [
+        {
+          "event": "Hydrologic Outlook",
+          "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
+          "severity": "Unknown",
+          "ends": null
+        }
+      ],
       "temperatureMin": 56,
       "maxPrecipProbability": 96,
       "maxWindMph": 20,
@@ -5306,7 +5284,14 @@
       "reason": "No meaningful winter-weather signal in the next 72 hours",
       "timing": null,
       "forecast": null,
-      "alerts": [],
+      "alerts": [
+        {
+          "event": "Hydrologic Outlook",
+          "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
+          "severity": "Unknown",
+          "ends": null
+        }
+      ],
       "temperatureMin": 53,
       "maxPrecipProbability": 97,
       "maxWindMph": 17,
@@ -5364,7 +5349,14 @@
       "reason": "No meaningful winter-weather signal in the next 72 hours",
       "timing": null,
       "forecast": null,
-      "alerts": [],
+      "alerts": [
+        {
+          "event": "Hydrologic Outlook",
+          "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
+          "severity": "Unknown",
+          "ends": null
+        }
+      ],
       "temperatureMin": 57,
       "maxPrecipProbability": 97,
       "maxWindMph": 20,
@@ -5423,7 +5415,14 @@
       "reason": "No meaningful winter-weather signal in the next 72 hours",
       "timing": null,
       "forecast": null,
-      "alerts": [],
+      "alerts": [
+        {
+          "event": "Hydrologic Outlook",
+          "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
+          "severity": "Unknown",
+          "ends": null
+        }
+      ],
       "temperatureMin": 57,
       "maxPrecipProbability": 96,
       "maxWindMph": 23,
@@ -6269,7 +6268,7 @@
         }
       ],
       "temperatureMin": 45,
-      "maxPrecipProbability": 66,
+      "maxPrecipProbability": 85,
       "maxWindMph": 29,
       "lat": 42.86663,
       "lon": -106.31308,
@@ -6327,7 +6326,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 51,
-      "maxPrecipProbability": 6,
+      "maxPrecipProbability": 17,
       "maxWindMph": 15,
       "lat": 41.13998,
       "lon": -104.82025,
@@ -6384,7 +6383,14 @@
       "reason": "No meaningful winter-weather signal in the next 72 hours",
       "timing": null,
       "forecast": null,
-      "alerts": [],
+      "alerts": [
+        {
+          "event": "Hydrologic Outlook",
+          "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
+          "severity": "Unknown",
+          "ends": null
+        }
+      ],
       "temperatureMin": 42,
       "maxPrecipProbability": 89,
       "maxWindMph": 22,
@@ -6451,8 +6457,8 @@
           "ends": "2026-10-09T20:00:00-06:00"
         }
       ],
-      "temperatureMin": 42,
-      "maxPrecipProbability": 40,
+      "temperatureMin": 41,
+      "maxPrecipProbability": 82,
       "maxWindMph": 20,
       "lat": 44.29109,
       "lon": -105.50222,
@@ -6511,7 +6517,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 46,
-      "maxPrecipProbability": 13,
+      "maxPrecipProbability": 46,
       "maxWindMph": 20,
       "lat": 41.31137,
       "lon": -105.5911,
@@ -6583,7 +6589,7 @@
         }
       ],
       "temperatureMin": 43,
-      "maxPrecipProbability": 69,
+      "maxPrecipProbability": 73,
       "maxWindMph": 23,
       "lat": 41.58746,
       "lon": -109.2029,
@@ -6649,7 +6655,7 @@
         }
       ],
       "temperatureMin": 35,
-      "maxPrecipProbability": 85,
+      "maxPrecipProbability": 92,
       "maxWindMph": 15,
       "lat": 44.79719,
       "lon": -106.95618,
@@ -6701,8 +6707,8 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 38,
-      "maxPrecipProbability": 78,
+      "temperatureMin": 39,
+      "maxPrecipProbability": 100,
       "maxWindMph": 10,
       "lat": 58.30194,
       "lon": -134.41972,
@@ -6714,8 +6720,8 @@
           "timing": null,
           "forecast": null,
           "alerts": [],
-          "temperatureMin": 38,
-          "maxPrecipProbability": 78,
+          "temperatureMin": 39,
+          "maxPrecipProbability": 100,
           "maxWindMph": 10,
           "lat": 58.30194,
           "lon": -134.41972,
@@ -6748,7 +6754,7 @@
       "alerts": [
         {
           "event": "Heat Advisory",
-          "headline": "Heat Advisory issued October 7 at 8:51AM PDT until October 8 at 10:00PM PDT by NWS Sacramento CA",
+          "headline": "Heat Advisory issued October 8 at 3:25PM PDT until October 8 at 10:00PM PDT by NWS Sacramento CA",
           "severity": "Moderate",
           "ends": "2026-10-08T22:00:00-07:00"
         }
@@ -6768,7 +6774,7 @@
           "alerts": [
             {
               "event": "Heat Advisory",
-              "headline": "Heat Advisory issued October 7 at 8:51AM PDT until October 8 at 10:00PM PDT by NWS Sacramento CA",
+              "headline": "Heat Advisory issued October 8 at 3:25PM PDT until October 8 at 10:00PM PDT by NWS Sacramento CA",
               "severity": "Moderate",
               "ends": "2026-10-08T22:00:00-07:00"
             }
@@ -6808,7 +6814,7 @@
       "alerts": [
         {
           "event": "Heat Advisory",
-          "headline": "Heat Advisory issued October 8 at 9:53AM PDT until October 8 at 10:00PM PDT by NWS Hanford CA",
+          "headline": "Heat Advisory issued October 8 at 5:31PM PDT until October 8 at 10:00PM PDT by NWS Hanford CA",
           "severity": "Moderate",
           "ends": "2026-10-08T22:00:00-07:00"
         }
@@ -6828,7 +6834,7 @@
           "alerts": [
             {
               "event": "Heat Advisory",
-              "headline": "Heat Advisory issued October 8 at 9:53AM PDT until October 8 at 10:00PM PDT by NWS Hanford CA",
+              "headline": "Heat Advisory issued October 8 at 5:31PM PDT until October 8 at 10:00PM PDT by NWS Hanford CA",
               "severity": "Moderate",
               "ends": "2026-10-08T22:00:00-07:00"
             }
@@ -6873,7 +6879,7 @@
         }
       ],
       "temperatureMin": 39,
-      "maxPrecipProbability": 45,
+      "maxPrecipProbability": 76,
       "maxWindMph": 15,
       "lat": 38.93324,
       "lon": -119.98435,
@@ -6893,7 +6899,7 @@
             }
           ],
           "temperatureMin": 39,
-          "maxPrecipProbability": 45,
+          "maxPrecipProbability": 76,
           "maxWindMph": 15,
           "lat": 38.93324,
           "lon": -119.98435,
@@ -6938,7 +6944,7 @@
         }
       ],
       "temperatureMin": 36,
-      "maxPrecipProbability": 47,
+      "maxPrecipProbability": 49,
       "maxWindMph": 20,
       "lat": 37.64855,
       "lon": -118.97208,
@@ -6964,7 +6970,7 @@
             }
           ],
           "temperatureMin": 36,
-          "maxPrecipProbability": 47,
+          "maxPrecipProbability": 49,
           "maxWindMph": 20,
           "lat": 37.64855,
           "lon": -118.97208,
@@ -7042,7 +7048,7 @@
       "forecast": "Slight Chance Rain And Snow Showers",
       "alerts": [],
       "temperatureMin": 28,
-      "maxPrecipProbability": 38,
+      "maxPrecipProbability": 41,
       "maxWindMph": 10,
       "lat": 40.306,
       "lon": -121.00579,
@@ -7055,7 +7061,7 @@
           "forecast": "Slight Chance Rain And Snow Showers",
           "alerts": [],
           "temperatureMin": 28,
-          "maxPrecipProbability": 38,
+          "maxPrecipProbability": 41,
           "maxWindMph": 10,
           "lat": 40.306,
           "lon": -121.00579,
@@ -7088,7 +7094,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 51,
-      "maxPrecipProbability": 1,
+      "maxPrecipProbability": 4,
       "maxWindMph": 14,
       "lat": 40.25026,
       "lon": -103.79995,
@@ -7101,7 +7107,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 51,
-          "maxPrecipProbability": 1,
+          "maxPrecipProbability": 4,
           "maxWindMph": 14,
           "lat": 40.25026,
           "lon": -103.79995,
@@ -7209,7 +7215,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 33,
-          "maxPrecipProbability": 26,
+          "maxPrecipProbability": 32,
           "maxWindMph": 12,
           "lat": 39.63214,
           "lon": -106.07428,
@@ -7223,7 +7229,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 39,
-          "maxPrecipProbability": 32,
+          "maxPrecipProbability": 38,
           "maxWindMph": 10,
           "lat": 39.64026,
           "lon": -106.3742,
@@ -7257,7 +7263,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 47,
-      "maxPrecipProbability": 7,
+      "maxPrecipProbability": 6,
       "maxWindMph": 15,
       "lat": 39.09166,
       "lon": -104.87276,
@@ -7270,7 +7276,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 47,
-          "maxPrecipProbability": 7,
+          "maxPrecipProbability": 6,
           "maxWindMph": 15,
           "lat": 39.09166,
           "lon": -104.87276,
@@ -7303,7 +7309,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 31,
-      "maxPrecipProbability": 97,
+      "maxPrecipProbability": 99,
       "maxWindMph": 15,
       "lat": 37.81194,
       "lon": -107.66451,
@@ -7316,7 +7322,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 31,
-          "maxPrecipProbability": 97,
+          "maxPrecipProbability": 99,
           "maxWindMph": 15,
           "lat": 37.81194,
           "lon": -107.66451,
@@ -7349,8 +7355,8 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 38,
-      "maxPrecipProbability": 80,
+      "temperatureMin": 36,
+      "maxPrecipProbability": 95,
       "maxWindMph": 20,
       "lat": 37.67,
       "lon": -106.63976,
@@ -7362,8 +7368,8 @@
           "timing": null,
           "forecast": null,
           "alerts": [],
-          "temperatureMin": 38,
-          "maxPrecipProbability": 80,
+          "temperatureMin": 36,
+          "maxPrecipProbability": 95,
           "maxWindMph": 20,
           "lat": 37.67,
           "lon": -106.63976,
@@ -7377,7 +7383,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 36,
-          "maxPrecipProbability": 94,
+          "maxPrecipProbability": 98,
           "maxWindMph": 10,
           "lat": 37.26945,
           "lon": -107.00976,
@@ -7411,7 +7417,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 40,
-      "maxPrecipProbability": 23,
+      "maxPrecipProbability": 46,
       "maxWindMph": 9,
       "lat": 43.6135,
       "lon": -116.20345,
@@ -7424,7 +7430,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 40,
-          "maxPrecipProbability": 23,
+          "maxPrecipProbability": 46,
           "maxWindMph": 9,
           "lat": 43.6135,
           "lon": -116.20345,
@@ -7616,7 +7622,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 51,
-      "maxPrecipProbability": 10,
+      "maxPrecipProbability": 12,
       "maxWindMph": 20,
       "lat": 43.64801,
       "lon": -93.36827,
@@ -7629,7 +7635,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 51,
-          "maxPrecipProbability": 10,
+          "maxPrecipProbability": 12,
           "maxWindMph": 20,
           "lat": 43.64801,
           "lon": -93.36827,
@@ -7661,7 +7667,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 43,
-      "maxPrecipProbability": 7,
+      "maxPrecipProbability": 12,
       "maxWindMph": 21,
       "lat": 46.87386,
       "lon": -96.76951,
@@ -7674,7 +7680,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 43,
-          "maxPrecipProbability": 7,
+          "maxPrecipProbability": 12,
           "maxWindMph": 21,
           "lat": 46.87386,
           "lon": -96.76951,
@@ -7728,7 +7734,7 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 50,
+      "temperatureMin": 49,
       "maxPrecipProbability": 3,
       "maxWindMph": 20,
       "lat": 44.97997,
@@ -7741,7 +7747,7 @@
           "timing": null,
           "forecast": null,
           "alerts": [],
-          "temperatureMin": 50,
+          "temperatureMin": 49,
           "maxPrecipProbability": 3,
           "maxWindMph": 20,
           "lat": 44.97997,
@@ -8148,8 +8154,8 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 43,
-      "maxPrecipProbability": 7,
-      "maxWindMph": 22,
+      "maxPrecipProbability": 12,
+      "maxWindMph": 21,
       "lat": 46.87719,
       "lon": -96.7898,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8772&lon=-96.7898",
@@ -8161,8 +8167,8 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 43,
-          "maxPrecipProbability": 7,
-          "maxWindMph": 22,
+          "maxPrecipProbability": 12,
+          "maxWindMph": 21,
           "lat": 46.87719,
           "lon": -96.7898,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8772&lon=-96.7898",
@@ -8194,7 +8200,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 41,
-      "maxPrecipProbability": 31,
+      "maxPrecipProbability": 34,
       "maxWindMph": 21,
       "lat": 47.92526,
       "lon": -97.03285,
@@ -8207,7 +8213,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 41,
-          "maxPrecipProbability": 31,
+          "maxPrecipProbability": 34,
           "maxWindMph": 21,
           "lat": 47.92526,
           "lon": -97.03285,
@@ -8239,7 +8245,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 53,
-      "maxPrecipProbability": 0,
+      "maxPrecipProbability": 2,
       "maxWindMph": 20,
       "lat": 41.12389,
       "lon": -100.76542,
@@ -8252,7 +8258,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 53,
-          "maxPrecipProbability": 0,
+          "maxPrecipProbability": 2,
           "maxWindMph": 20,
           "lat": 41.12389,
           "lon": -100.76542,
@@ -8331,7 +8337,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 50,
-      "maxPrecipProbability": 0,
+      "maxPrecipProbability": 7,
       "maxWindMph": 15,
       "lat": 41.14276,
       "lon": -102.97798,
@@ -8344,7 +8350,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 50,
-          "maxPrecipProbability": 0,
+          "maxPrecipProbability": 7,
           "maxWindMph": 15,
           "lat": 41.14276,
           "lon": -102.97798,
@@ -8421,8 +8427,8 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 49,
-      "maxPrecipProbability": 70,
-      "maxWindMph": 10,
+      "maxPrecipProbability": 81,
+      "maxWindMph": 15,
       "lat": 36.82223,
       "lon": -107.99285,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=36.8222&lon=-107.9929",
@@ -8434,8 +8440,8 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 49,
-          "maxPrecipProbability": 70,
-          "maxWindMph": 10,
+          "maxPrecipProbability": 81,
+          "maxWindMph": 15,
           "lat": 36.82223,
           "lon": -107.99285,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=36.8222&lon=-107.9929",
@@ -8480,7 +8486,7 @@
         }
       ],
       "temperatureMin": 40,
-      "maxPrecipProbability": 48,
+      "maxPrecipProbability": 70,
       "maxWindMph": 20,
       "lat": 39.1638,
       "lon": -119.7674,
@@ -8506,7 +8512,7 @@
             }
           ],
           "temperatureMin": 40,
-          "maxPrecipProbability": 48,
+          "maxPrecipProbability": 70,
           "maxWindMph": 20,
           "lat": 39.1638,
           "lon": -119.7674,
@@ -8539,26 +8545,26 @@
       "forecast": null,
       "alerts": [
         {
-          "event": "Hydrologic Outlook",
-          "headline": "Hydrologic Outlook issued October 8 at 1:46PM PDT by NWS Elko NV",
-          "severity": "Unknown",
-          "ends": null
+          "event": "Red Flag Warning",
+          "headline": "Red Flag Warning issued October 8 at 5:18PM PDT until October 9 at 10:00PM PDT by NWS Elko NV",
+          "severity": "Severe",
+          "ends": "2026-10-09T22:00:00-07:00"
         },
         {
           "event": "Fire Weather Watch",
-          "headline": "Fire Weather Watch issued October 8 at 11:12AM PDT until October 10 at 11:00PM PDT by NWS Elko NV",
+          "headline": "Fire Weather Watch issued October 8 at 5:18PM PDT until October 10 at 11:00PM PDT by NWS Elko NV",
           "severity": "Severe",
           "ends": "2026-10-10T23:00:00-07:00"
         },
         {
-          "event": "Red Flag Warning",
-          "headline": "Red Flag Warning issued October 8 at 11:12AM PDT until October 9 at 10:00PM PDT by NWS Elko NV",
-          "severity": "Severe",
-          "ends": "2026-10-09T22:00:00-07:00"
+          "event": "Hydrologic Outlook",
+          "headline": "Hydrologic Outlook issued October 8 at 1:46PM PDT by NWS Elko NV",
+          "severity": "Unknown",
+          "ends": null
         }
       ],
       "temperatureMin": 41,
-      "maxPrecipProbability": 84,
+      "maxPrecipProbability": 88,
       "maxWindMph": 20,
       "lat": 41.11159,
       "lon": -114.96449,
@@ -8571,26 +8577,26 @@
           "forecast": null,
           "alerts": [
             {
-              "event": "Hydrologic Outlook",
-              "headline": "Hydrologic Outlook issued October 8 at 1:46PM PDT by NWS Elko NV",
-              "severity": "Unknown",
-              "ends": null
+              "event": "Red Flag Warning",
+              "headline": "Red Flag Warning issued October 8 at 5:18PM PDT until October 9 at 10:00PM PDT by NWS Elko NV",
+              "severity": "Severe",
+              "ends": "2026-10-09T22:00:00-07:00"
             },
             {
               "event": "Fire Weather Watch",
-              "headline": "Fire Weather Watch issued October 8 at 11:12AM PDT until October 10 at 11:00PM PDT by NWS Elko NV",
+              "headline": "Fire Weather Watch issued October 8 at 5:18PM PDT until October 10 at 11:00PM PDT by NWS Elko NV",
               "severity": "Severe",
               "ends": "2026-10-10T23:00:00-07:00"
             },
             {
-              "event": "Red Flag Warning",
-              "headline": "Red Flag Warning issued October 8 at 11:12AM PDT until October 9 at 10:00PM PDT by NWS Elko NV",
-              "severity": "Severe",
-              "ends": "2026-10-09T22:00:00-07:00"
+              "event": "Hydrologic Outlook",
+              "headline": "Hydrologic Outlook issued October 8 at 1:46PM PDT by NWS Elko NV",
+              "severity": "Unknown",
+              "ends": null
             }
           ],
           "temperatureMin": 41,
-          "maxPrecipProbability": 84,
+          "maxPrecipProbability": 88,
           "maxWindMph": 20,
           "lat": 41.11159,
           "lon": -114.96449,
@@ -8636,7 +8642,7 @@
         }
       ],
       "temperatureMin": 45,
-      "maxPrecipProbability": 61,
+      "maxPrecipProbability": 65,
       "maxWindMph": 20,
       "lat": 39.51824,
       "lon": -119.98881,
@@ -8662,7 +8668,7 @@
             }
           ],
           "temperatureMin": 45,
-          "maxPrecipProbability": 61,
+          "maxPrecipProbability": 65,
           "maxWindMph": 20,
           "lat": 39.51824,
           "lon": -119.98881,
@@ -8695,13 +8701,13 @@
       "alerts": [
         {
           "event": "Fire Weather Watch",
-          "headline": "Fire Weather Watch issued October 8 at 11:12AM PDT until October 10 at 11:00PM PDT by NWS Elko NV",
+          "headline": "Fire Weather Watch issued October 8 at 5:18PM PDT until October 10 at 11:00PM PDT by NWS Elko NV",
           "severity": "Severe",
           "ends": "2026-10-10T23:00:00-07:00"
         }
       ],
       "temperatureMin": 37,
-      "maxPrecipProbability": 41,
+      "maxPrecipProbability": 57,
       "maxWindMph": 25,
       "lat": 40.97296,
       "lon": -117.73568,
@@ -8715,13 +8721,13 @@
           "alerts": [
             {
               "event": "Fire Weather Watch",
-              "headline": "Fire Weather Watch issued October 8 at 11:12AM PDT until October 10 at 11:00PM PDT by NWS Elko NV",
+              "headline": "Fire Weather Watch issued October 8 at 5:18PM PDT until October 10 at 11:00PM PDT by NWS Elko NV",
               "severity": "Severe",
               "ends": "2026-10-10T23:00:00-07:00"
             }
           ],
           "temperatureMin": 37,
-          "maxPrecipProbability": 41,
+          "maxPrecipProbability": 57,
           "maxWindMph": 25,
           "lat": 40.97296,
           "lon": -117.73568,
@@ -8754,7 +8760,7 @@
       "alerts": [],
       "temperatureMin": 29,
       "maxPrecipProbability": 19,
-      "maxWindMph": 14,
+      "maxWindMph": 17,
       "lat": 44.77487,
       "lon": -117.83438,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.7749&lon=-117.8344",
@@ -8767,7 +8773,7 @@
           "alerts": [],
           "temperatureMin": 29,
           "maxPrecipProbability": 19,
-          "maxWindMph": 14,
+          "maxWindMph": 17,
           "lat": 44.77487,
           "lon": -117.83438,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.7749&lon=-117.8344",
@@ -8938,7 +8944,7 @@
       "alerts": [],
       "temperatureMin": 25,
       "maxPrecipProbability": 25,
-      "maxWindMph": 14,
+      "maxWindMph": 16,
       "lat": 44.29095,
       "lon": -121.54921,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.2910&lon=-121.5492",
@@ -8951,7 +8957,7 @@
           "alerts": [],
           "temperatureMin": 25,
           "maxPrecipProbability": 25,
-          "maxWindMph": 14,
+          "maxWindMph": 16,
           "lat": 44.29095,
           "lon": -121.54921,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.2910&lon=-121.5492",
@@ -8984,7 +8990,7 @@
       "alerts": [],
       "temperatureMin": 31,
       "maxPrecipProbability": 42,
-      "maxWindMph": 17,
+      "maxWindMph": 13,
       "lat": 42.19458,
       "lon": -122.70948,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=42.1946&lon=-122.7095",
@@ -8997,7 +9003,7 @@
           "alerts": [],
           "temperatureMin": 31,
           "maxPrecipProbability": 42,
-          "maxWindMph": 17,
+          "maxWindMph": 13,
           "lat": 42.19458,
           "lon": -122.70948,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=42.1946&lon=-122.7095",
@@ -9074,7 +9080,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 54,
-      "maxPrecipProbability": 6,
+      "maxPrecipProbability": 5,
       "maxWindMph": 25,
       "lat": 43.70943,
       "lon": -98.0298,
@@ -9087,7 +9093,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 54,
-          "maxPrecipProbability": 6,
+          "maxPrecipProbability": 5,
           "maxWindMph": 25,
           "lat": 43.70943,
           "lon": -98.0298,
@@ -9120,7 +9126,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 55,
-      "maxPrecipProbability": 14,
+      "maxPrecipProbability": 19,
       "maxWindMph": 25,
       "lat": 43.54369,
       "lon": -96.72796,
@@ -9133,7 +9139,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 55,
-          "maxPrecipProbability": 14,
+          "maxPrecipProbability": 19,
           "maxWindMph": 25,
           "lat": 43.54369,
           "lon": -96.72796,
@@ -9172,7 +9178,7 @@
         }
       ],
       "temperatureMin": 47,
-      "maxPrecipProbability": 35,
+      "maxPrecipProbability": 66,
       "maxWindMph": 21,
       "lat": 44.49082,
       "lon": -103.85937,
@@ -9192,7 +9198,7 @@
             }
           ],
           "temperatureMin": 47,
-          "maxPrecipProbability": 35,
+          "maxPrecipProbability": 66,
           "maxWindMph": 21,
           "lat": 44.49082,
           "lon": -103.85937,
@@ -9268,7 +9274,14 @@
       "reason": "No meaningful winter-weather signal in the next 72 hours",
       "timing": null,
       "forecast": null,
-      "alerts": [],
+      "alerts": [
+        {
+          "event": "Hydrologic Outlook",
+          "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
+          "severity": "Unknown",
+          "ends": null
+        }
+      ],
       "temperatureMin": 51,
       "maxPrecipProbability": 95,
       "maxWindMph": 20,
@@ -9281,7 +9294,14 @@
           "reason": "No meaningful winter-weather signal in the next 72 hours",
           "timing": null,
           "forecast": null,
-          "alerts": [],
+          "alerts": [
+            {
+              "event": "Hydrologic Outlook",
+              "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
+              "severity": "Unknown",
+              "ends": null
+            }
+          ],
           "temperatureMin": 51,
           "maxPrecipProbability": 95,
           "maxWindMph": 20,
@@ -9314,7 +9334,14 @@
       "reason": "No meaningful winter-weather signal in the next 72 hours",
       "timing": null,
       "forecast": null,
-      "alerts": [],
+      "alerts": [
+        {
+          "event": "Hydrologic Outlook",
+          "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
+          "severity": "Unknown",
+          "ends": null
+        }
+      ],
       "temperatureMin": 46,
       "maxPrecipProbability": 99,
       "maxWindMph": 17,
@@ -9327,7 +9354,14 @@
           "reason": "No meaningful winter-weather signal in the next 72 hours",
           "timing": null,
           "forecast": null,
-          "alerts": [],
+          "alerts": [
+            {
+              "event": "Hydrologic Outlook",
+              "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
+              "severity": "Unknown",
+              "ends": null
+            }
+          ],
           "temperatureMin": 46,
           "maxPrecipProbability": 99,
           "maxWindMph": 17,
@@ -9359,7 +9393,14 @@
       "reason": "No meaningful winter-weather signal in the next 72 hours",
       "timing": null,
       "forecast": null,
-      "alerts": [],
+      "alerts": [
+        {
+          "event": "Hydrologic Outlook",
+          "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
+          "severity": "Unknown",
+          "ends": null
+        }
+      ],
       "temperatureMin": 51,
       "maxPrecipProbability": 97,
       "maxWindMph": 17,
@@ -9372,7 +9413,14 @@
           "reason": "No meaningful winter-weather signal in the next 72 hours",
           "timing": null,
           "forecast": null,
-          "alerts": [],
+          "alerts": [
+            {
+              "event": "Hydrologic Outlook",
+              "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
+              "severity": "Unknown",
+              "ends": null
+            }
+          ],
           "temperatureMin": 51,
           "maxPrecipProbability": 97,
           "maxWindMph": 17,
@@ -9405,7 +9453,14 @@
       "reason": "No meaningful winter-weather signal in the next 72 hours",
       "timing": null,
       "forecast": null,
-      "alerts": [],
+      "alerts": [
+        {
+          "event": "Hydrologic Outlook",
+          "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
+          "severity": "Unknown",
+          "ends": null
+        }
+      ],
       "temperatureMin": 47,
       "maxPrecipProbability": 97,
       "maxWindMph": 16,
@@ -9418,7 +9473,14 @@
           "reason": "No meaningful winter-weather signal in the next 72 hours",
           "timing": null,
           "forecast": null,
-          "alerts": [],
+          "alerts": [
+            {
+              "event": "Hydrologic Outlook",
+              "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
+              "severity": "Unknown",
+              "ends": null
+            }
+          ],
           "temperatureMin": 47,
           "maxPrecipProbability": 97,
           "maxWindMph": 16,
@@ -9766,7 +9828,7 @@
         }
       ],
       "temperatureMin": 45,
-      "maxPrecipProbability": 66,
+      "maxPrecipProbability": 85,
       "maxWindMph": 29,
       "lat": 42.86663,
       "lon": -106.31308,
@@ -9786,7 +9848,7 @@
             }
           ],
           "temperatureMin": 45,
-          "maxPrecipProbability": 66,
+          "maxPrecipProbability": 85,
           "maxWindMph": 29,
           "lat": 42.86663,
           "lon": -106.31308,
@@ -9826,7 +9888,7 @@
         }
       ],
       "temperatureMin": 48,
-      "maxPrecipProbability": 35,
+      "maxPrecipProbability": 64,
       "maxWindMph": 25,
       "lat": 41.68746,
       "lon": -106.41335,
@@ -9846,7 +9908,7 @@
             }
           ],
           "temperatureMin": 48,
-          "maxPrecipProbability": 35,
+          "maxPrecipProbability": 64,
           "maxWindMph": 25,
           "lat": 41.68746,
           "lon": -106.41335,
@@ -9894,7 +9956,7 @@
       ],
       "temperatureMin": 43,
       "maxPrecipProbability": 71,
-      "maxWindMph": 18,
+      "maxWindMph": 33,
       "lat": 41.54357,
       "lon": -109.85903,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.5436&lon=-109.8590",
@@ -9920,7 +9982,7 @@
           ],
           "temperatureMin": 43,
           "maxPrecipProbability": 71,
-          "maxWindMph": 18,
+          "maxWindMph": 33,
           "lat": 41.54357,
           "lon": -109.85903,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.5436&lon=-109.8590",
@@ -9946,7 +10008,7 @@
             }
           ],
           "temperatureMin": 43,
-          "maxPrecipProbability": 69,
+          "maxPrecipProbability": 73,
           "maxWindMph": 23,
           "lat": 41.58746,
           "lon": -109.2029,
@@ -9985,8 +10047,8 @@
           "ends": "2026-10-09T20:00:00-06:00"
         }
       ],
-      "temperatureMin": 42,
-      "maxPrecipProbability": 40,
+      "temperatureMin": 41,
+      "maxPrecipProbability": 82,
       "maxWindMph": 20,
       "lat": 44.29109,
       "lon": -105.50222,
@@ -10005,8 +10067,8 @@
               "ends": "2026-10-09T20:00:00-06:00"
             }
           ],
-          "temperatureMin": 42,
-          "maxPrecipProbability": 40,
+          "temperatureMin": 41,
+          "maxPrecipProbability": 82,
           "maxWindMph": 20,
           "lat": 44.29109,
           "lon": -105.50222,
