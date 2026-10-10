@@ -1,72 +1,8 @@
 {
-  "updatedAt": "2026-10-09T20:53:02.831458+00:00",
+  "updatedAt": "2026-10-10T01:01:21.175517+00:00",
   "dataState": "live",
   "sourceNote": "National Weather Service city + corridor forecast/alert screen; DOT/511 links supplied for verification.",
-  "changes": [
-    {
-      "id": "ID-grangeville",
-      "name": "Grangeville",
-      "state": "ID",
-      "from": "CLEAR",
-      "to": "PREPARE"
-    },
-    {
-      "id": "MT-bozeman",
-      "name": "Bozeman",
-      "state": "MT",
-      "from": "WATCH",
-      "to": "ACTIVATE"
-    },
-    {
-      "id": "MT-butte",
-      "name": "Butte",
-      "state": "MT",
-      "from": "WATCH",
-      "to": "ACTIVATE"
-    },
-    {
-      "id": "MT-helena",
-      "name": "Helena",
-      "state": "MT",
-      "from": "WATCH",
-      "to": "PREPARE"
-    },
-    {
-      "id": "NV-carson-city",
-      "name": "Carson City",
-      "state": "NV",
-      "from": "WATCH",
-      "to": "CLEAR"
-    },
-    {
-      "id": "NV-gardnerville",
-      "name": "Gardnerville",
-      "state": "NV",
-      "from": "WATCH",
-      "to": "CLEAR"
-    },
-    {
-      "id": "OR-bend",
-      "name": "Bend",
-      "state": "OR",
-      "from": "WATCH",
-      "to": "CLEAR"
-    },
-    {
-      "id": "OR-portland",
-      "name": "Portland",
-      "state": "OR",
-      "from": "WATCH",
-      "to": "PREPARE"
-    },
-    {
-      "id": "OR-sandy",
-      "name": "Sandy",
-      "state": "OR",
-      "from": "WATCH",
-      "to": "PREPARE"
-    }
-  ],
+  "changes": [],
   "markets": [
     {
       "id": "AK-juneau",
@@ -96,8 +32,8 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 39,
-      "maxPrecipProbability": 100,
+      "temperatureMin": 37,
+      "maxPrecipProbability": 98,
       "maxWindMph": 10,
       "lat": 58.30194,
       "lon": -134.41972,
@@ -721,8 +657,8 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 53,
-      "maxPrecipProbability": 1,
+      "temperatureMin": 52,
+      "maxPrecipProbability": 3,
       "maxWindMph": 15,
       "lat": 38.83388,
       "lon": -104.82136,
@@ -782,7 +718,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 56,
-      "maxPrecipProbability": 1,
+      "maxPrecipProbability": 2,
       "maxWindMph": 9,
       "lat": 39.73915,
       "lon": -104.9847,
@@ -1017,7 +953,7 @@
       "alerts": [],
       "temperatureMin": 56,
       "maxPrecipProbability": 2,
-      "maxWindMph": 8,
+      "maxWindMph": 9,
       "lat": 39.70471,
       "lon": -105.08137,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=39.7047&lon=-105.0814",
@@ -1142,7 +1078,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 49,
-      "maxPrecipProbability": 1,
+      "maxPrecipProbability": 3,
       "maxWindMph": 15,
       "lat": 39.09166,
       "lon": -104.87276,
@@ -1268,7 +1204,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 49,
-      "maxPrecipProbability": 3,
+      "maxPrecipProbability": 5,
       "maxWindMph": 12,
       "lat": 40.62554,
       "lon": -103.20771,
@@ -1459,8 +1395,8 @@
       "forecast": "Chance Rain And Snow Showers; Chance Snow Showers",
       "alerts": [],
       "temperatureMin": 35,
-      "maxPrecipProbability": 33,
-      "maxWindMph": 17,
+      "maxPrecipProbability": 25,
+      "maxWindMph": 15,
       "lat": 47.67768,
       "lon": -116.78047,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.6777&lon=-116.7805",
@@ -1536,7 +1472,7 @@
       "alerts": [],
       "temperatureMin": 34,
       "maxPrecipProbability": 80,
-      "maxWindMph": 15,
+      "maxWindMph": 8,
       "lat": 45.92655,
       "lon": -116.12237,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.9265&lon=-116.1224",
@@ -1595,7 +1531,7 @@
       "alerts": [],
       "temperatureMin": 38,
       "maxPrecipProbability": 19,
-      "maxWindMph": 18,
+      "maxWindMph": 17,
       "lat": 46.41655,
       "lon": -117.01766,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.4166&lon=-117.0177",
@@ -1845,8 +1781,8 @@
       "forecast": "Chance Rain And Snow Showers; Chance Snow Showers",
       "alerts": [],
       "temperatureMin": 33,
-      "maxPrecipProbability": 37,
-      "maxWindMph": 17,
+      "maxPrecipProbability": 18,
+      "maxWindMph": 14,
       "lat": 47.71796,
       "lon": -116.95159,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.7180&lon=-116.9516",
@@ -2160,7 +2096,7 @@
       "alerts": [],
       "temperatureMin": 44,
       "maxPrecipProbability": 59,
-      "maxWindMph": 21,
+      "maxWindMph": 20,
       "lat": 46.87386,
       "lon": -96.76951,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8739&lon=-96.7695",
@@ -2422,7 +2358,7 @@
       ],
       "temperatureMin": 30,
       "maxPrecipProbability": 99,
-      "maxWindMph": 23,
+      "maxWindMph": 17,
       "lat": 45.67965,
       "lon": -111.03856,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.6797&lon=-111.0386",
@@ -2510,7 +2446,7 @@
       ],
       "temperatureMin": 25,
       "maxPrecipProbability": 98,
-      "maxWindMph": 23,
+      "maxWindMph": 18,
       "lat": 46.00382,
       "lon": -112.53474,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.0038&lon=-112.5347",
@@ -2860,7 +2796,7 @@
         }
       ],
       "temperatureMin": 26,
-      "maxPrecipProbability": 34,
+      "maxPrecipProbability": 30,
       "maxWindMph": 26,
       "lat": 48.41108,
       "lon": -114.33763,
@@ -2923,7 +2859,7 @@
       "alerts": [],
       "temperatureMin": 39,
       "maxPrecipProbability": 85,
-      "maxWindMph": 16,
+      "maxWindMph": 15,
       "lat": 46.80833,
       "lon": -100.78374,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8083&lon=-100.7837",
@@ -2982,7 +2918,7 @@
       "alerts": [],
       "temperatureMin": 38,
       "maxPrecipProbability": 80,
-      "maxWindMph": 22,
+      "maxWindMph": 20,
       "lat": 48.11278,
       "lon": -98.86512,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=48.1128&lon=-98.8651",
@@ -3041,7 +2977,7 @@
       "alerts": [],
       "temperatureMin": 38,
       "maxPrecipProbability": 96,
-      "maxWindMph": 16,
+      "maxWindMph": 15,
       "lat": 46.87918,
       "lon": -102.78962,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8792&lon=-102.7896",
@@ -3099,7 +3035,7 @@
       "alerts": [],
       "temperatureMin": 44,
       "maxPrecipProbability": 59,
-      "maxWindMph": 21,
+      "maxWindMph": 20,
       "lat": 46.87719,
       "lon": -96.7898,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8772&lon=-96.7898",
@@ -3335,7 +3271,7 @@
       "alerts": [],
       "temperatureMin": 64,
       "maxPrecipProbability": 8,
-      "maxWindMph": 17,
+      "maxWindMph": 18,
       "lat": 41.43333,
       "lon": -96.49808,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.4333&lon=-96.4981",
@@ -3452,7 +3388,7 @@
       "alerts": [],
       "temperatureMin": 64,
       "maxPrecipProbability": 5,
-      "maxWindMph": 17,
+      "maxWindMph": 18,
       "lat": 41.15444,
       "lon": -96.04224,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.1544&lon=-96.0422",
@@ -3511,13 +3447,13 @@
       "alerts": [
         {
           "event": "Fire Weather Watch",
-          "headline": "Fire Weather Watch issued October 9 at 12:34PM MDT until October 10 at 6:00PM MDT by NWS Cheyenne WY",
+          "headline": "Fire Weather Watch issued October 9 at 6:49PM MDT until October 10 at 6:00PM MDT by NWS Cheyenne WY",
           "severity": "Severe",
           "ends": "2026-10-10T18:00:00-06:00"
         }
       ],
       "temperatureMin": 47,
-      "maxPrecipProbability": 24,
+      "maxPrecipProbability": 25,
       "maxWindMph": 15,
       "lat": 41.86663,
       "lon": -103.66717,
@@ -3577,13 +3513,13 @@
       "alerts": [
         {
           "event": "Fire Weather Watch",
-          "headline": "Fire Weather Watch issued October 9 at 12:34PM MDT until October 10 at 6:00PM MDT by NWS Cheyenne WY",
+          "headline": "Fire Weather Watch issued October 9 at 6:49PM MDT until October 10 at 6:00PM MDT by NWS Cheyenne WY",
           "severity": "Severe",
           "ends": "2026-10-10T18:00:00-06:00"
         }
       ],
       "temperatureMin": 48,
-      "maxPrecipProbability": 5,
+      "maxPrecipProbability": 12,
       "maxWindMph": 15,
       "lat": 41.14276,
       "lon": -102.97798,
@@ -3803,12 +3739,6 @@
           "headline": "Red Flag Warning issued October 9 at 9:35AM PDT until October 9 at 10:00PM PDT by NWS Elko NV",
           "severity": "Severe",
           "ends": "2026-10-09T22:00:00-07:00"
-        },
-        {
-          "event": "Hydrologic Outlook",
-          "headline": "Hydrologic Outlook issued October 9 at 12:13AM PDT by NWS Elko NV",
-          "severity": "Unknown",
-          "ends": null
         }
       ],
       "temperatureMin": 33,
@@ -4363,7 +4293,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 37,
-      "maxPrecipProbability": 31,
+      "maxPrecipProbability": 7,
       "maxWindMph": 13,
       "lat": 44.05207,
       "lon": -123.08675,
@@ -4607,14 +4537,14 @@
       "alerts": [
         {
           "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued October 9 at 12:08PM PDT by NWS Pendleton OR",
+          "headline": "Special Weather Statement issued October 9 at 5:03PM PDT by NWS Pendleton OR",
           "severity": "Moderate",
           "ends": null
         }
       ],
       "temperatureMin": 30,
       "maxPrecipProbability": 18,
-      "maxWindMph": 22,
+      "maxWindMph": 18,
       "lat": 45.67207,
       "lon": -118.7886,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.6721&lon=-118.7886",
@@ -4679,7 +4609,7 @@
       "alerts": [],
       "temperatureMin": 43,
       "maxPrecipProbability": 32,
-      "maxWindMph": 8,
+      "maxWindMph": 6,
       "lat": 45.52345,
       "lon": -122.67621,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.5234&lon=-122.6762",
@@ -4761,7 +4691,7 @@
       "alerts": [],
       "temperatureMin": 40,
       "maxPrecipProbability": 30,
-      "maxWindMph": 9,
+      "maxWindMph": 7,
       "lat": 45.53929,
       "lon": -122.38731,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.5393&lon=-122.3873",
@@ -5264,12 +5194,6 @@
           "headline": "Flood Watch issued October 9 at 1:04PM MDT until October 12 at 6:00PM MDT by NWS Salt Lake City UT",
           "severity": "Severe",
           "ends": "2026-10-12T18:00:00-06:00"
-        },
-        {
-          "event": "Hydrologic Outlook",
-          "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
-          "severity": "Unknown",
-          "ends": null
         }
       ],
       "temperatureMin": 46,
@@ -5341,12 +5265,6 @@
           "headline": "Flood Watch issued October 9 at 1:04PM MDT until October 12 at 6:00PM MDT by NWS Salt Lake City UT",
           "severity": "Severe",
           "ends": "2026-10-12T18:00:00-06:00"
-        },
-        {
-          "event": "Hydrologic Outlook",
-          "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
-          "severity": "Unknown",
-          "ends": null
         }
       ],
       "temperatureMin": 53,
@@ -5419,12 +5337,6 @@
           "headline": "Flood Watch issued October 9 at 1:04PM MDT until October 12 at 6:00PM MDT by NWS Salt Lake City UT",
           "severity": "Severe",
           "ends": "2026-10-12T18:00:00-06:00"
-        },
-        {
-          "event": "Hydrologic Outlook",
-          "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
-          "severity": "Unknown",
-          "ends": null
         }
       ],
       "temperatureMin": 52,
@@ -5497,12 +5409,6 @@
           "headline": "Flood Watch issued October 9 at 1:04PM MDT until October 12 at 6:00PM MDT by NWS Salt Lake City UT",
           "severity": "Severe",
           "ends": "2026-10-12T18:00:00-06:00"
-        },
-        {
-          "event": "Hydrologic Outlook",
-          "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
-          "severity": "Unknown",
-          "ends": null
         }
       ],
       "temperatureMin": 49,
@@ -5574,12 +5480,6 @@
           "headline": "Flood Watch issued October 9 at 1:04PM MDT until October 12 at 6:00PM MDT by NWS Salt Lake City UT",
           "severity": "Severe",
           "ends": "2026-10-12T18:00:00-06:00"
-        },
-        {
-          "event": "Hydrologic Outlook",
-          "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
-          "severity": "Unknown",
-          "ends": null
         }
       ],
       "temperatureMin": 53,
@@ -5652,12 +5552,6 @@
           "headline": "Flood Watch issued October 9 at 1:04PM MDT until October 12 at 6:00PM MDT by NWS Salt Lake City UT",
           "severity": "Severe",
           "ends": "2026-10-12T18:00:00-06:00"
-        },
-        {
-          "event": "Hydrologic Outlook",
-          "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
-          "severity": "Unknown",
-          "ends": null
         }
       ],
       "temperatureMin": 53,
@@ -5720,7 +5614,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 43,
-      "maxPrecipProbability": 33,
+      "maxPrecipProbability": 22,
       "maxWindMph": 8,
       "lat": 47.61038,
       "lon": -122.20068,
@@ -5788,21 +5682,21 @@
       "forecast": "Chance Rain And Snow Showers",
       "alerts": [
         {
+          "event": "Special Weather Statement",
+          "headline": "Special Weather Statement issued October 9 at 5:03PM PDT by NWS Pendleton OR",
+          "severity": "Moderate",
+          "ends": null
+        },
+        {
           "event": "Wind Advisory",
           "headline": "Wind Advisory issued October 9 at 1:02PM PDT until October 9 at 9:00PM PDT by NWS Pendleton OR",
           "severity": "Moderate",
           "ends": "2026-10-09T21:00:00-07:00"
-        },
-        {
-          "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued October 9 at 12:08PM PDT by NWS Pendleton OR",
-          "severity": "Moderate",
-          "ends": null
         }
       ],
       "temperatureMin": 29,
       "maxPrecipProbability": 32,
-      "maxWindMph": 21,
+      "maxWindMph": 17,
       "lat": 46.99651,
       "lon": -120.54785,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.9965&lon=-120.5478",
@@ -5884,8 +5778,8 @@
         }
       ],
       "temperatureMin": 36,
-      "maxPrecipProbability": 27,
-      "maxWindMph": 9,
+      "maxPrecipProbability": 23,
+      "maxWindMph": 7,
       "lat": 47.20427,
       "lon": -121.9915,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.2043&lon=-121.9915",
@@ -5943,7 +5837,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 41,
-      "maxPrecipProbability": 28,
+      "maxPrecipProbability": 15,
       "maxWindMph": 8,
       "lat": 47.38093,
       "lon": -122.23484,
@@ -6125,7 +6019,7 @@
       "alerts": [],
       "temperatureMin": 40,
       "maxPrecipProbability": 15,
-      "maxWindMph": 12,
+      "maxWindMph": 9,
       "lat": 47.18538,
       "lon": -122.2929,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.1854&lon=-122.2929",
@@ -6185,7 +6079,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 45,
-      "maxPrecipProbability": 31,
+      "maxPrecipProbability": 14,
       "maxWindMph": 10,
       "lat": 47.60621,
       "lon": -122.33207,
@@ -6254,7 +6148,7 @@
       ],
       "temperatureMin": 31,
       "maxPrecipProbability": 19,
-      "maxWindMph": 18,
+      "maxWindMph": 12,
       "lat": 47.65966,
       "lon": -117.42908,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.6597&lon=-117.4291",
@@ -6319,8 +6213,8 @@
         }
       ],
       "temperatureMin": 32,
-      "maxPrecipProbability": 19,
-      "maxWindMph": 17,
+      "maxPrecipProbability": 18,
+      "maxWindMph": 12,
       "lat": 47.67323,
       "lon": -117.23937,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.6732&lon=-117.2394",
@@ -6386,7 +6280,7 @@
       "alerts": [],
       "temperatureMin": 40,
       "maxPrecipProbability": 59,
-      "maxWindMph": 22,
+      "maxWindMph": 16,
       "lat": 47.42346,
       "lon": -120.31035,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.4235&lon=-120.3103",
@@ -6460,14 +6354,14 @@
       "alerts": [
         {
           "event": "Special Weather Statement",
-          "headline": "Special Weather Statement issued October 9 at 12:08PM PDT by NWS Pendleton OR",
+          "headline": "Special Weather Statement issued October 9 at 5:03PM PDT by NWS Pendleton OR",
           "severity": "Moderate",
           "ends": null
         }
       ],
       "temperatureMin": 35,
       "maxPrecipProbability": 21,
-      "maxWindMph": 18,
+      "maxWindMph": 17,
       "lat": 46.60207,
       "lon": -120.5059,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.6021&lon=-120.5059",
@@ -6523,14 +6417,7 @@
       "reason": "No meaningful winter-weather signal in the next 72 hours",
       "timing": null,
       "forecast": null,
-      "alerts": [
-        {
-          "event": "Red Flag Warning",
-          "headline": "Red Flag Warning issued October 9 at 8:43AM MDT until October 9 at 7:00PM MDT by NWS Riverton WY",
-          "severity": "Severe",
-          "ends": "2026-10-09T19:00:00-06:00"
-        }
-      ],
+      "alerts": [],
       "temperatureMin": 46,
       "maxPrecipProbability": 87,
       "maxWindMph": 29,
@@ -6590,7 +6477,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 47,
-      "maxPrecipProbability": 13,
+      "maxPrecipProbability": 24,
       "maxWindMph": 15,
       "lat": 41.13998,
       "lon": -104.82025,
@@ -6647,14 +6534,7 @@
       "reason": "No meaningful winter-weather signal in the next 72 hours",
       "timing": null,
       "forecast": null,
-      "alerts": [
-        {
-          "event": "Hydrologic Outlook",
-          "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
-          "severity": "Unknown",
-          "ends": null
-        }
-      ],
+      "alerts": [],
       "temperatureMin": 41,
       "maxPrecipProbability": 97,
       "maxWindMph": 22,
@@ -6838,14 +6718,7 @@
       "reason": "No meaningful winter-weather signal in the next 72 hours",
       "timing": null,
       "forecast": null,
-      "alerts": [
-        {
-          "event": "Red Flag Warning",
-          "headline": "Red Flag Warning issued October 9 at 8:43AM MDT until October 9 at 7:00PM MDT by NWS Riverton WY",
-          "severity": "Severe",
-          "ends": "2026-10-09T19:00:00-06:00"
-        }
-      ],
+      "alerts": [],
       "temperatureMin": 44,
       "maxPrecipProbability": 64,
       "maxWindMph": 29,
@@ -6965,8 +6838,8 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 39,
-      "maxPrecipProbability": 100,
+      "temperatureMin": 37,
+      "maxPrecipProbability": 98,
       "maxWindMph": 10,
       "lat": 58.30194,
       "lon": -134.41972,
@@ -6978,8 +6851,8 @@
           "timing": null,
           "forecast": null,
           "alerts": [],
-          "temperatureMin": 39,
-          "maxPrecipProbability": 100,
+          "temperatureMin": 37,
+          "maxPrecipProbability": 98,
           "maxWindMph": 10,
           "lat": 58.30194,
           "lon": -134.41972,
@@ -7056,9 +6929,9 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 43,
-      "maxPrecipProbability": 53,
-      "maxWindMph": 5,
+      "temperatureMin": 41,
+      "maxPrecipProbability": 27,
+      "maxWindMph": 10,
       "lat": 36.13023,
       "lon": -118.81815,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=36.1302&lon=-118.8182",
@@ -7069,9 +6942,9 @@
           "timing": null,
           "forecast": null,
           "alerts": [],
-          "temperatureMin": 43,
-          "maxPrecipProbability": 53,
-          "maxWindMph": 5,
+          "temperatureMin": 41,
+          "maxPrecipProbability": 27,
+          "maxWindMph": 10,
           "lat": 36.13023,
           "lon": -118.81815,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=36.1302&lon=-118.8182",
@@ -7174,7 +7047,7 @@
         }
       ],
       "temperatureMin": 31,
-      "maxPrecipProbability": 56,
+      "maxPrecipProbability": 61,
       "maxWindMph": 25,
       "lat": 37.64855,
       "lon": -118.97208,
@@ -7200,7 +7073,7 @@
             }
           ],
           "temperatureMin": 31,
-          "maxPrecipProbability": 56,
+          "maxPrecipProbability": 61,
           "maxWindMph": 25,
           "lat": 37.64855,
           "lon": -118.97208,
@@ -7507,7 +7380,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 49,
-      "maxPrecipProbability": 1,
+      "maxPrecipProbability": 3,
       "maxWindMph": 15,
       "lat": 39.09166,
       "lon": -104.87276,
@@ -7520,7 +7393,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 49,
-          "maxPrecipProbability": 1,
+          "maxPrecipProbability": 3,
           "maxWindMph": 15,
           "lat": 39.09166,
           "lon": -104.87276,
@@ -7613,7 +7486,7 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 39,
+      "temperatureMin": 38,
       "maxPrecipProbability": 95,
       "maxWindMph": 20,
       "lat": 37.67,
@@ -7626,7 +7499,7 @@
           "timing": null,
           "forecast": null,
           "alerts": [],
-          "temperatureMin": 39,
+          "temperatureMin": 38,
           "maxPrecipProbability": 95,
           "maxWindMph": 20,
           "lat": 37.67,
@@ -7810,7 +7683,7 @@
       "alerts": [],
       "temperatureMin": 27,
       "maxPrecipProbability": 68,
-      "maxWindMph": 15,
+      "maxWindMph": 10,
       "lat": 47.47409,
       "lon": -115.92794,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.4741&lon=-115.9279",
@@ -7823,7 +7696,7 @@
           "alerts": [],
           "temperatureMin": 27,
           "maxPrecipProbability": 68,
-          "maxWindMph": 15,
+          "maxWindMph": 10,
           "lat": 47.47409,
           "lon": -115.92794,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.4741&lon=-115.9279",
@@ -7856,7 +7729,7 @@
       "alerts": [],
       "temperatureMin": 35,
       "maxPrecipProbability": 70,
-      "maxWindMph": 16,
+      "maxWindMph": 8,
       "lat": 45.76155,
       "lon": -116.3007,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.7615&lon=-116.3007",
@@ -7869,7 +7742,7 @@
           "alerts": [],
           "temperatureMin": 35,
           "maxPrecipProbability": 70,
-          "maxWindMph": 16,
+          "maxWindMph": 8,
           "lat": 45.76155,
           "lon": -116.3007,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.7615&lon=-116.3007",
@@ -7947,7 +7820,7 @@
       "alerts": [],
       "temperatureMin": 44,
       "maxPrecipProbability": 59,
-      "maxWindMph": 21,
+      "maxWindMph": 20,
       "lat": 46.87386,
       "lon": -96.76951,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8739&lon=-96.7695",
@@ -7960,7 +7833,7 @@
           "alerts": [],
           "temperatureMin": 44,
           "maxPrecipProbability": 59,
-          "maxWindMph": 21,
+          "maxWindMph": 20,
           "lat": 46.87386,
           "lon": -96.76951,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8739&lon=-96.7695",
@@ -8067,7 +7940,7 @@
       ],
       "temperatureMin": 30,
       "maxPrecipProbability": 100,
-      "maxWindMph": 28,
+      "maxWindMph": 31,
       "lat": 45.66244,
       "lon": -110.56104,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.6624&lon=-110.5610",
@@ -8087,7 +7960,7 @@
           ],
           "temperatureMin": 30,
           "maxPrecipProbability": 100,
-          "maxWindMph": 28,
+          "maxWindMph": 31,
           "lat": 45.66244,
           "lon": -110.56104,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.6624&lon=-110.5610",
@@ -8133,7 +8006,7 @@
       ],
       "temperatureMin": 25,
       "maxPrecipProbability": 98,
-      "maxWindMph": 23,
+      "maxWindMph": 18,
       "lat": 46.00382,
       "lon": -112.53474,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.0038&lon=-112.5347",
@@ -8159,7 +8032,7 @@
           ],
           "temperatureMin": 25,
           "maxPrecipProbability": 98,
-          "maxWindMph": 23,
+          "maxWindMph": 18,
           "lat": 46.00382,
           "lon": -112.53474,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.0038&lon=-112.5347",
@@ -8316,7 +8189,7 @@
       ],
       "temperatureMin": 24,
       "maxPrecipProbability": 98,
-      "maxWindMph": 33,
+      "maxWindMph": 30,
       "lat": 48.44136,
       "lon": -113.21815,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=48.4414&lon=-113.2181",
@@ -8336,7 +8209,7 @@
           ],
           "temperatureMin": 24,
           "maxPrecipProbability": 98,
-          "maxWindMph": 33,
+          "maxWindMph": 30,
           "lat": 48.44136,
           "lon": -113.21815,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=48.4414&lon=-113.2181",
@@ -8369,7 +8242,7 @@
       "alerts": [],
       "temperatureMin": 39,
       "maxPrecipProbability": 85,
-      "maxWindMph": 16,
+      "maxWindMph": 15,
       "lat": 46.80833,
       "lon": -100.78374,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8083&lon=-100.7837",
@@ -8382,7 +8255,7 @@
           "alerts": [],
           "temperatureMin": 39,
           "maxPrecipProbability": 85,
-          "maxWindMph": 16,
+          "maxWindMph": 15,
           "lat": 46.80833,
           "lon": -100.78374,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8083&lon=-100.7837",
@@ -8414,7 +8287,7 @@
       "alerts": [],
       "temperatureMin": 38,
       "maxPrecipProbability": 96,
-      "maxWindMph": 16,
+      "maxWindMph": 15,
       "lat": 46.87918,
       "lon": -102.78962,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8792&lon=-102.7896",
@@ -8427,7 +8300,7 @@
           "alerts": [],
           "temperatureMin": 38,
           "maxPrecipProbability": 96,
-          "maxWindMph": 16,
+          "maxWindMph": 15,
           "lat": 46.87918,
           "lon": -102.78962,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8792&lon=-102.7896",
@@ -8460,7 +8333,7 @@
       "alerts": [],
       "temperatureMin": 44,
       "maxPrecipProbability": 59,
-      "maxWindMph": 21,
+      "maxWindMph": 20,
       "lat": 46.87719,
       "lon": -96.7898,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8772&lon=-96.7898",
@@ -8473,7 +8346,7 @@
           "alerts": [],
           "temperatureMin": 44,
           "maxPrecipProbability": 59,
-          "maxWindMph": 21,
+          "maxWindMph": 20,
           "lat": 46.87719,
           "lon": -96.7898,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8772&lon=-96.7898",
@@ -8597,7 +8470,7 @@
       "alerts": [],
       "temperatureMin": 65,
       "maxPrecipProbability": 6,
-      "maxWindMph": 16,
+      "maxWindMph": 17,
       "lat": 41.25626,
       "lon": -95.94043,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.2563&lon=-95.9404",
@@ -8610,7 +8483,7 @@
           "alerts": [],
           "temperatureMin": 65,
           "maxPrecipProbability": 6,
-          "maxWindMph": 16,
+          "maxWindMph": 17,
           "lat": 41.25626,
           "lon": -95.94043,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.2563&lon=-95.9404",
@@ -8643,13 +8516,13 @@
       "alerts": [
         {
           "event": "Fire Weather Watch",
-          "headline": "Fire Weather Watch issued October 9 at 12:34PM MDT until October 10 at 6:00PM MDT by NWS Cheyenne WY",
+          "headline": "Fire Weather Watch issued October 9 at 6:49PM MDT until October 10 at 6:00PM MDT by NWS Cheyenne WY",
           "severity": "Severe",
           "ends": "2026-10-10T18:00:00-06:00"
         }
       ],
       "temperatureMin": 48,
-      "maxPrecipProbability": 5,
+      "maxPrecipProbability": 12,
       "maxWindMph": 15,
       "lat": 41.14276,
       "lon": -102.97798,
@@ -8663,13 +8536,13 @@
           "alerts": [
             {
               "event": "Fire Weather Watch",
-              "headline": "Fire Weather Watch issued October 9 at 12:34PM MDT until October 10 at 6:00PM MDT by NWS Cheyenne WY",
+              "headline": "Fire Weather Watch issued October 9 at 6:49PM MDT until October 10 at 6:00PM MDT by NWS Cheyenne WY",
               "severity": "Severe",
               "ends": "2026-10-10T18:00:00-06:00"
             }
           ],
           "temperatureMin": 48,
-          "maxPrecipProbability": 5,
+          "maxPrecipProbability": 12,
           "maxWindMph": 15,
           "lat": 41.14276,
           "lon": -102.97798,
@@ -8880,17 +8753,11 @@
           "headline": "Red Flag Warning issued October 9 at 9:35AM PDT until October 9 at 10:00PM PDT by NWS Elko NV",
           "severity": "Severe",
           "ends": "2026-10-09T22:00:00-07:00"
-        },
-        {
-          "event": "Hydrologic Outlook",
-          "headline": "Hydrologic Outlook issued October 9 at 12:13AM PDT by NWS Elko NV",
-          "severity": "Unknown",
-          "ends": null
         }
       ],
       "temperatureMin": 35,
       "maxPrecipProbability": 95,
-      "maxWindMph": 20,
+      "maxWindMph": 15,
       "lat": 41.11159,
       "lon": -114.96449,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.1116&lon=-114.9645",
@@ -8918,17 +8785,11 @@
               "headline": "Red Flag Warning issued October 9 at 9:35AM PDT until October 9 at 10:00PM PDT by NWS Elko NV",
               "severity": "Severe",
               "ends": "2026-10-09T22:00:00-07:00"
-            },
-            {
-              "event": "Hydrologic Outlook",
-              "headline": "Hydrologic Outlook issued October 9 at 12:13AM PDT by NWS Elko NV",
-              "severity": "Unknown",
-              "ends": null
             }
           ],
           "temperatureMin": 35,
           "maxPrecipProbability": 95,
-          "maxWindMph": 20,
+          "maxWindMph": 15,
           "lat": 41.11159,
           "lon": -114.96449,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.1116&lon=-114.9645",
@@ -9137,7 +8998,7 @@
       "alerts": [],
       "temperatureMin": 21,
       "maxPrecipProbability": 42,
-      "maxWindMph": 8,
+      "maxWindMph": 7,
       "lat": 45.50652,
       "lon": -118.42135,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.5065&lon=-118.4214",
@@ -9150,7 +9011,7 @@
           "alerts": [],
           "temperatureMin": 21,
           "maxPrecipProbability": 42,
-          "maxWindMph": 8,
+          "maxWindMph": 7,
           "lat": 45.50652,
           "lon": -118.42135,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.5065&lon=-118.4214",
@@ -9228,7 +9089,7 @@
       "forecast": "Slight Chance Rain And Snow Showers",
       "alerts": [],
       "temperatureMin": 33,
-      "maxPrecipProbability": 63,
+      "maxPrecipProbability": 40,
       "maxWindMph": 6,
       "lat": 45.30401,
       "lon": -121.7548,
@@ -9241,7 +9102,7 @@
           "forecast": "Slight Chance Rain And Snow Showers",
           "alerts": [],
           "temperatureMin": 33,
-          "maxPrecipProbability": 63,
+          "maxPrecipProbability": 40,
           "maxWindMph": 6,
           "lat": 45.30401,
           "lon": -121.7548,
@@ -9387,7 +9248,7 @@
         }
       ],
       "temperatureMin": 35,
-      "maxPrecipProbability": 58,
+      "maxPrecipProbability": 57,
       "maxWindMph": 16,
       "lat": 43.74651,
       "lon": -122.46172,
@@ -9407,7 +9268,7 @@
             }
           ],
           "temperatureMin": 35,
-          "maxPrecipProbability": 58,
+          "maxPrecipProbability": 57,
           "maxWindMph": 16,
           "lat": 43.74651,
           "lon": -122.46172,
@@ -9651,12 +9512,6 @@
           "headline": "Flood Watch issued October 9 at 1:04PM MDT until October 12 at 6:00PM MDT by NWS Salt Lake City UT",
           "severity": "Severe",
           "ends": "2026-10-12T18:00:00-06:00"
-        },
-        {
-          "event": "Hydrologic Outlook",
-          "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
-          "severity": "Unknown",
-          "ends": null
         }
       ],
       "temperatureMin": 47,
@@ -9689,12 +9544,6 @@
               "headline": "Flood Watch issued October 9 at 1:04PM MDT until October 12 at 6:00PM MDT by NWS Salt Lake City UT",
               "severity": "Severe",
               "ends": "2026-10-12T18:00:00-06:00"
-            },
-            {
-              "event": "Hydrologic Outlook",
-              "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
-              "severity": "Unknown",
-              "ends": null
             }
           ],
           "temperatureMin": 47,
@@ -9735,12 +9584,6 @@
           "headline": "Flood Watch issued October 9 at 1:04PM MDT until October 12 at 6:00PM MDT by NWS Salt Lake City UT",
           "severity": "Severe",
           "ends": "2026-10-12T18:00:00-06:00"
-        },
-        {
-          "event": "Hydrologic Outlook",
-          "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
-          "severity": "Unknown",
-          "ends": null
         }
       ],
       "temperatureMin": 42,
@@ -9761,12 +9604,6 @@
               "headline": "Flood Watch issued October 9 at 1:04PM MDT until October 12 at 6:00PM MDT by NWS Salt Lake City UT",
               "severity": "Severe",
               "ends": "2026-10-12T18:00:00-06:00"
-            },
-            {
-              "event": "Hydrologic Outlook",
-              "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
-              "severity": "Unknown",
-              "ends": null
             }
           ],
           "temperatureMin": 42,
@@ -9806,12 +9643,6 @@
           "headline": "Flood Watch issued October 9 at 1:04PM MDT until October 12 at 6:00PM MDT by NWS Salt Lake City UT",
           "severity": "Severe",
           "ends": "2026-10-12T18:00:00-06:00"
-        },
-        {
-          "event": "Hydrologic Outlook",
-          "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
-          "severity": "Unknown",
-          "ends": null
         }
       ],
       "temperatureMin": 47,
@@ -9832,12 +9663,6 @@
               "headline": "Flood Watch issued October 9 at 1:04PM MDT until October 12 at 6:00PM MDT by NWS Salt Lake City UT",
               "severity": "Severe",
               "ends": "2026-10-12T18:00:00-06:00"
-            },
-            {
-              "event": "Hydrologic Outlook",
-              "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
-              "severity": "Unknown",
-              "ends": null
             }
           ],
           "temperatureMin": 47,
@@ -9884,12 +9709,6 @@
           "headline": "Flood Watch issued October 9 at 1:04PM MDT until October 12 at 6:00PM MDT by NWS Salt Lake City UT",
           "severity": "Severe",
           "ends": "2026-10-12T18:00:00-06:00"
-        },
-        {
-          "event": "Hydrologic Outlook",
-          "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
-          "severity": "Unknown",
-          "ends": null
         }
       ],
       "temperatureMin": 43,
@@ -9916,12 +9735,6 @@
               "headline": "Flood Watch issued October 9 at 1:04PM MDT until October 12 at 6:00PM MDT by NWS Salt Lake City UT",
               "severity": "Severe",
               "ends": "2026-10-12T18:00:00-06:00"
-            },
-            {
-              "event": "Hydrologic Outlook",
-              "headline": "Hydrologic Outlook issued October 8 at 3:13PM MDT by NWS Salt Lake City UT",
-              "severity": "Unknown",
-              "ends": null
             }
           ],
           "temperatureMin": 43,
@@ -9959,7 +9772,7 @@
       "alerts": [],
       "temperatureMin": 29,
       "maxPrecipProbability": 36,
-      "maxWindMph": 10,
+      "maxWindMph": 8,
       "lat": 47.1954,
       "lon": -120.93925,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.1954&lon=-120.9393",
@@ -9972,7 +9785,7 @@
           "alerts": [],
           "temperatureMin": 29,
           "maxPrecipProbability": 36,
-          "maxWindMph": 10,
+          "maxWindMph": 8,
           "lat": 47.1954,
           "lon": -120.93925,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.1954&lon=-120.9393",
@@ -10012,7 +9825,7 @@
       ],
       "temperatureMin": 35,
       "maxPrecipProbability": 33,
-      "maxWindMph": 14,
+      "maxWindMph": 10,
       "lat": 46.6065,
       "lon": -121.67064,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.6065&lon=-121.6706",
@@ -10032,7 +9845,7 @@
           ],
           "temperatureMin": 35,
           "maxPrecipProbability": 33,
-          "maxWindMph": 14,
+          "maxWindMph": 10,
           "lat": 46.6065,
           "lon": -121.67064,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.6065&lon=-121.6706",
@@ -10067,7 +9880,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 45,
-      "maxPrecipProbability": 31,
+      "maxPrecipProbability": 16,
       "maxWindMph": 10,
       "lat": 47.60621,
       "lon": -122.33207,
@@ -10080,7 +9893,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 45,
-          "maxPrecipProbability": 31,
+          "maxPrecipProbability": 16,
           "maxWindMph": 10,
           "lat": 47.60621,
           "lon": -122.33207,
@@ -10094,7 +9907,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 41,
-          "maxPrecipProbability": 28,
+          "maxPrecipProbability": 15,
           "maxWindMph": 8,
           "lat": 47.38093,
           "lon": -122.23484,
@@ -10128,7 +9941,7 @@
       "alerts": [],
       "temperatureMin": 32,
       "maxPrecipProbability": 54,
-      "maxWindMph": 7,
+      "maxWindMph": 6,
       "lat": 47.39233,
       "lon": -121.40009,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.3923&lon=-121.4001",
@@ -10141,7 +9954,7 @@
           "alerts": [],
           "temperatureMin": 32,
           "maxPrecipProbability": 54,
-          "maxWindMph": 7,
+          "maxWindMph": 6,
           "lat": 47.39233,
           "lon": -121.40009,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.3923&lon=-121.4001",
@@ -10181,7 +9994,7 @@
       ],
       "temperatureMin": 31,
       "maxPrecipProbability": 19,
-      "maxWindMph": 18,
+      "maxWindMph": 14,
       "lat": 47.65966,
       "lon": -117.42908,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.6597&lon=-117.4291",
@@ -10201,7 +10014,7 @@
           ],
           "temperatureMin": 31,
           "maxPrecipProbability": 19,
-          "maxWindMph": 18,
+          "maxWindMph": 14,
           "lat": 47.65966,
           "lon": -117.42908,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.6597&lon=-117.4291",
@@ -10234,7 +10047,7 @@
       "alerts": [],
       "temperatureMin": 34,
       "maxPrecipProbability": 74,
-      "maxWindMph": 9,
+      "maxWindMph": 8,
       "lat": 47.70927,
       "lon": -121.3601,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.7093&lon=-121.3601",
@@ -10247,7 +10060,7 @@
           "alerts": [],
           "temperatureMin": 34,
           "maxPrecipProbability": 74,
-          "maxWindMph": 9,
+          "maxWindMph": 8,
           "lat": 47.70927,
           "lon": -121.3601,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.7093&lon=-121.3601",
@@ -10279,7 +10092,7 @@
       "alerts": [
         {
           "event": "Red Flag Warning",
-          "headline": "Red Flag Warning issued October 9 at 8:43AM MDT until October 9 at 7:00PM MDT by NWS Riverton WY",
+          "headline": "Red Flag Warning issued October 9 at 6:54PM MDT until October 9 at 7:00PM MDT by NWS Riverton WY",
           "severity": "Severe",
           "ends": "2026-10-09T19:00:00-06:00"
         }
@@ -10299,7 +10112,7 @@
           "alerts": [
             {
               "event": "Red Flag Warning",
-              "headline": "Red Flag Warning issued October 9 at 8:43AM MDT until October 9 at 7:00PM MDT by NWS Riverton WY",
+              "headline": "Red Flag Warning issued October 9 at 6:54PM MDT until October 9 at 7:00PM MDT by NWS Riverton WY",
               "severity": "Severe",
               "ends": "2026-10-09T19:00:00-06:00"
             }
@@ -10339,7 +10152,7 @@
       "alerts": [
         {
           "event": "Red Flag Warning",
-          "headline": "Red Flag Warning issued October 9 at 12:34PM MDT until October 9 at 7:00PM MDT by NWS Cheyenne WY",
+          "headline": "Red Flag Warning issued October 9 at 6:49PM MDT until October 9 at 7:00PM MDT by NWS Cheyenne WY",
           "severity": "Severe",
           "ends": "2026-10-09T19:00:00-06:00"
         }
@@ -10359,7 +10172,7 @@
           "alerts": [
             {
               "event": "Red Flag Warning",
-              "headline": "Red Flag Warning issued October 9 at 12:34PM MDT until October 9 at 7:00PM MDT by NWS Cheyenne WY",
+              "headline": "Red Flag Warning issued October 9 at 6:49PM MDT until October 9 at 7:00PM MDT by NWS Cheyenne WY",
               "severity": "Severe",
               "ends": "2026-10-09T19:00:00-06:00"
             }
@@ -10400,13 +10213,13 @@
       "alerts": [
         {
           "event": "Red Flag Warning",
-          "headline": "Red Flag Warning issued October 9 at 8:43AM MDT until October 9 at 7:00PM MDT by NWS Riverton WY",
+          "headline": "Red Flag Warning issued October 9 at 6:54PM MDT until October 9 at 7:00PM MDT by NWS Riverton WY",
           "severity": "Severe",
           "ends": "2026-10-09T19:00:00-06:00"
         }
       ],
       "temperatureMin": 44,
-      "maxPrecipProbability": 62,
+      "maxPrecipProbability": 69,
       "maxWindMph": 24,
       "lat": 41.54357,
       "lon": -109.85903,
@@ -10420,13 +10233,13 @@
           "alerts": [
             {
               "event": "Red Flag Warning",
-              "headline": "Red Flag Warning issued October 9 at 8:43AM MDT until October 9 at 7:00PM MDT by NWS Riverton WY",
+              "headline": "Red Flag Warning issued October 9 at 6:54PM MDT until October 9 at 7:00PM MDT by NWS Riverton WY",
               "severity": "Severe",
               "ends": "2026-10-09T19:00:00-06:00"
             }
           ],
           "temperatureMin": 44,
-          "maxPrecipProbability": 62,
+          "maxPrecipProbability": 69,
           "maxWindMph": 24,
           "lat": 41.54357,
           "lon": -109.85903,
@@ -10441,7 +10254,7 @@
           "alerts": [
             {
               "event": "Red Flag Warning",
-              "headline": "Red Flag Warning issued October 9 at 8:43AM MDT until October 9 at 7:00PM MDT by NWS Riverton WY",
+              "headline": "Red Flag Warning issued October 9 at 6:54PM MDT until October 9 at 7:00PM MDT by NWS Riverton WY",
               "severity": "Severe",
               "ends": "2026-10-09T19:00:00-06:00"
             }
