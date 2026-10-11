@@ -1,46 +1,25 @@
 {
-  "updatedAt": "2026-10-11T12:56:34.369576+00:00",
+  "updatedAt": "2026-10-11T16:51:17.586029+00:00",
   "dataState": "live",
   "sourceNote": "National Weather Service city + corridor forecast/alert screen; DOT/511 links supplied for verification.",
   "changes": [
     {
-      "id": "AK-juneau",
-      "name": "Juneau",
-      "state": "AK",
-      "from": "CLEAR",
-      "to": "WATCH"
-    },
-    {
-      "id": "CA-south-lake-tahoe",
-      "name": "South Lake Tahoe",
-      "state": "CA",
-      "from": "WATCH",
-      "to": "PREPARE"
-    },
-    {
-      "id": "CA-truckee",
-      "name": "Truckee",
-      "state": "CA",
-      "from": "WATCH",
-      "to": "PREPARE"
-    },
-    {
-      "id": "CO-pagosa-springs",
-      "name": "Pagosa Springs",
+      "id": "CO-durango",
+      "name": "Durango",
       "state": "CO",
-      "from": "CLEAR",
-      "to": "WATCH"
+      "from": "WATCH",
+      "to": "PREPARE"
+    },
+    {
+      "id": "CO-montrose",
+      "name": "Montrose",
+      "state": "CO",
+      "from": "WATCH",
+      "to": "PREPARE"
     },
     {
       "id": "ID-coeur-d-alene",
       "name": "Coeur d'Alene",
-      "state": "ID",
-      "from": "PREPARE",
-      "to": "CLEAR"
-    },
-    {
-      "id": "ID-pocatello",
-      "name": "Pocatello",
       "state": "ID",
       "from": "CLEAR",
       "to": "WATCH"
@@ -49,78 +28,50 @@
       "id": "ID-post-falls",
       "name": "Post Falls",
       "state": "ID",
+      "from": "CLEAR",
+      "to": "WATCH"
+    },
+    {
+      "id": "MT-helena",
+      "name": "Helena",
+      "state": "MT",
       "from": "PREPARE",
-      "to": "CLEAR"
+      "to": "ACTIVATE"
     },
     {
-      "id": "NV-reno",
-      "name": "Reno",
+      "id": "NV-elko",
+      "name": "Elko",
       "state": "NV",
       "from": "WATCH",
-      "to": "CLEAR"
+      "to": "PREPARE"
     },
     {
-      "id": "NV-sparks",
-      "name": "Sparks",
+      "id": "NV-winnemucca",
+      "name": "Winnemucca",
       "state": "NV",
       "from": "WATCH",
-      "to": "CLEAR"
+      "to": "PREPARE"
     },
     {
       "id": "OR-la-grande",
       "name": "La Grande",
       "state": "OR",
-      "from": "CLEAR",
-      "to": "WATCH"
+      "from": "WATCH",
+      "to": "CLEAR"
     },
     {
       "id": "OR-pendleton",
       "name": "Pendleton",
       "state": "OR",
-      "from": "CLEAR",
-      "to": "WATCH"
-    },
-    {
-      "id": "UT-salt-lake",
-      "name": "Salt Lake",
-      "state": "UT",
-      "from": "CLEAR",
-      "to": "WATCH"
-    },
-    {
-      "id": "UT-woods-cross",
-      "name": "Woods Cross",
-      "state": "UT",
-      "from": "CLEAR",
-      "to": "WATCH"
-    },
-    {
-      "id": "WY-cheyenne",
-      "name": "Cheyenne",
-      "state": "WY",
-      "from": "CLEAR",
-      "to": "WATCH"
-    },
-    {
-      "id": "WY-evanston",
-      "name": "Evanston",
-      "state": "WY",
-      "from": "CLEAR",
-      "to": "WATCH"
-    },
-    {
-      "id": "WY-laramie",
-      "name": "Laramie",
-      "state": "WY",
-      "from": "CLEAR",
-      "to": "WATCH"
+      "from": "WATCH",
+      "to": "CLEAR"
     },
     {
       "id": "WY-rock-springs",
       "name": "Rock Springs",
       "state": "WY",
-      "from": "CLEAR",
-      "to": "WATCH"
+      "from": "WATCH",
+      "to": "CLEAR"
     }
   ],
   "markets": [
@@ -351,7 +302,7 @@
       "alerts": [
         {
           "event": "Red Flag Warning",
-          "headline": "Red Flag Warning issued October 10 at 10:16AM PDT until October 12 at 5:00AM PDT by NWS Sacramento CA",
+          "headline": "Red Flag Warning issued October 11 at 7:38AM PDT until October 12 at 5:00AM PDT by NWS Sacramento CA",
           "severity": "Severe",
           "ends": "2026-10-12T05:00:00-07:00"
         }
@@ -592,12 +543,6 @@
       "alerts": [
         {
           "event": "Freeze Warning",
-          "headline": "Freeze Warning issued October 11 at 3:03AM PDT until October 11 at 8:00AM PDT by NWS Medford OR",
-          "severity": "Severe",
-          "ends": "2026-10-11T08:00:00-07:00"
-        },
-        {
-          "event": "Freeze Warning",
           "headline": "Freeze Warning issued October 11 at 3:03AM PDT until October 12 at 9:00AM PDT by NWS Medford OR",
           "severity": "Severe",
           "ends": "2026-10-12T09:00:00-07:00"
@@ -721,7 +666,7 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 48,
+      "temperatureMin": 47,
       "maxPrecipProbability": 75,
       "maxWindMph": 17,
       "lat": 39.37221,
@@ -904,10 +849,10 @@
         "https://www.lesschwab.com/stores/co"
       ],
       "notes": [],
-      "status": "WATCH",
-      "reason": "Corridor signal \u2014 Wolf Creek Pass: Winter precipitation signal within 72 hours",
-      "timing": "2026-10-14T03:00:00-06:00",
-      "forecast": "Chance Rain And Snow Showers",
+      "status": "PREPARE",
+      "reason": "Corridor signal \u2014 Red Mountain / Coal Bank / Molas corridor: Winter precipitation signal within 24 hours",
+      "timing": "2026-10-12T05:00:00-06:00",
+      "forecast": "Isolated Rain And Snow Showers; Slight Chance Rain And Snow Showers; Chance Rain And Snow Showers",
       "alerts": [
         {
           "event": "Hydrologic Outlook",
@@ -917,7 +862,7 @@
         }
       ],
       "temperatureMin": 39,
-      "maxPrecipProbability": 92,
+      "maxPrecipProbability": 88,
       "maxWindMph": 15,
       "lat": 37.27528,
       "lon": -107.88007,
@@ -944,10 +889,10 @@
           "id": "co-red-mountain-coal-bank-molas-corridor",
           "name": "Red Mountain / Coal Bank / Molas corridor",
           "routes": "US-550",
-          "status": "WATCH",
-          "reason": "Winter precipitation signal within 72 hours",
-          "timing": "2026-10-14T06:00:00-06:00",
-          "forecast": "Chance Snow Showers",
+          "status": "PREPARE",
+          "reason": "Winter precipitation signal within 24 hours",
+          "timing": "2026-10-12T05:00:00-06:00",
+          "forecast": "Isolated Rain And Snow Showers; Slight Chance Rain And Snow Showers; Chance Rain And Snow Showers",
           "triggerPoint": "Silverton, Colorado",
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=37.8119&lon=-107.6645",
           "impactedMarkets": [
@@ -958,11 +903,11 @@
       ],
       "trigger": {
         "type": "corridor",
-        "name": "Wolf Creek Pass",
-        "routes": "US-160",
-        "point": "South Fork, Colorado"
+        "name": "Red Mountain / Coal Bank / Molas corridor",
+        "routes": "US-550",
+        "point": "Silverton, Colorado"
       },
-      "prAction": "Monitor the next forecast cycle for Wolf Creek Pass; no outreach yet unless road impacts strengthen."
+      "prAction": "Line up a local store spokesperson and verify road conditions for Red Mountain / Coal Bank / Molas corridor; prepare an outreach angle."
     },
     {
       "id": "CO-grand-junction",
@@ -1138,10 +1083,10 @@
         "https://www.lesschwab.com/stores/co"
       ],
       "notes": [],
-      "status": "WATCH",
-      "reason": "Corridor signal \u2014 Red Mountain / Coal Bank / Molas corridor: Winter precipitation signal within 72 hours",
-      "timing": "2026-10-14T06:00:00-06:00",
-      "forecast": "Chance Snow Showers",
+      "status": "PREPARE",
+      "reason": "Corridor signal \u2014 Red Mountain / Coal Bank / Molas corridor: Winter precipitation signal within 24 hours",
+      "timing": "2026-10-12T05:00:00-06:00",
+      "forecast": "Isolated Rain And Snow Showers; Slight Chance Rain And Snow Showers; Chance Rain And Snow Showers",
       "alerts": [
         {
           "event": "Hydrologic Outlook",
@@ -1163,10 +1108,10 @@
           "id": "co-red-mountain-coal-bank-molas-corridor",
           "name": "Red Mountain / Coal Bank / Molas corridor",
           "routes": "US-550",
-          "status": "WATCH",
-          "reason": "Winter precipitation signal within 72 hours",
-          "timing": "2026-10-14T06:00:00-06:00",
-          "forecast": "Chance Snow Showers",
+          "status": "PREPARE",
+          "reason": "Winter precipitation signal within 24 hours",
+          "timing": "2026-10-12T05:00:00-06:00",
+          "forecast": "Isolated Rain And Snow Showers; Slight Chance Rain And Snow Showers; Chance Rain And Snow Showers",
           "triggerPoint": "Silverton, Colorado",
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=37.8119&lon=-107.6645",
           "impactedMarkets": [
@@ -1181,7 +1126,7 @@
         "routes": "US-550",
         "point": "Silverton, Colorado"
       },
-      "prAction": "Monitor the next forecast cycle for Red Mountain / Coal Bank / Molas corridor; no outreach yet unless road impacts strengthen."
+      "prAction": "Line up a local store spokesperson and verify road conditions for Red Mountain / Coal Bank / Molas corridor; prepare an outreach angle."
     },
     {
       "id": "CO-monument",
@@ -1278,8 +1223,8 @@
           "ends": null
         }
       ],
-      "temperatureMin": 35,
-      "maxPrecipProbability": 98,
+      "temperatureMin": 34,
+      "maxPrecipProbability": 92,
       "maxWindMph": 15,
       "lat": 37.26945,
       "lon": -107.00976,
@@ -1405,7 +1350,7 @@
           "ends": "2026-10-12T18:00:00-06:00"
         }
       ],
-      "temperatureMin": 35,
+      "temperatureMin": 34,
       "maxPrecipProbability": 100,
       "maxWindMph": 9,
       "lat": 43.46964,
@@ -1525,14 +1470,14 @@
         "https://www.lesschwab.com/stores/id"
       ],
       "notes": [],
-      "status": "CLEAR",
-      "reason": "No meaningful winter-weather signal in the next 72 hours",
-      "timing": null,
-      "forecast": null,
+      "status": "WATCH",
+      "reason": "Corridor signal \u2014 Lookout Pass: Winter precipitation signal within 72 hours",
+      "timing": "2026-10-11T10:00:00-07:00",
+      "forecast": "Chance Snow Showers; Chance Rain And Snow Showers",
       "alerts": [],
       "temperatureMin": 32,
-      "maxPrecipProbability": 8,
-      "maxWindMph": 16,
+      "maxPrecipProbability": 18,
+      "maxWindMph": 13,
       "lat": 47.67768,
       "lon": -116.78047,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.6777&lon=-116.7805",
@@ -1558,10 +1503,10 @@
           "id": "id-lookout-pass",
           "name": "Lookout Pass",
           "routes": "I-90",
-          "status": "CLEAR",
-          "reason": "No meaningful winter-weather signal in the next 72 hours",
-          "timing": "2026-10-11T06:00:00-07:00",
-          "forecast": "Slight Chance Snow Showers",
+          "status": "WATCH",
+          "reason": "Winter precipitation signal within 72 hours",
+          "timing": "2026-10-11T10:00:00-07:00",
+          "forecast": "Chance Snow Showers; Chance Rain And Snow Showers",
           "triggerPoint": "Wallace, Idaho",
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.4741&lon=-115.9279",
           "impactedMarkets": [
@@ -1571,10 +1516,12 @@
         }
       ],
       "trigger": {
-        "type": "market",
-        "name": "Coeur d'Alene"
+        "type": "corridor",
+        "name": "Lookout Pass",
+        "routes": "I-90",
+        "point": "Wallace, Idaho"
       },
-      "prAction": "No action. Keep in the broad market screen."
+      "prAction": "Monitor the next forecast cycle for Lookout Pass; no outreach yet unless road impacts strengthen."
     },
     {
       "id": "ID-grangeville",
@@ -1663,8 +1610,8 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 36,
-      "maxPrecipProbability": 34,
+      "temperatureMin": 37,
+      "maxPrecipProbability": 32,
       "maxWindMph": 7,
       "lat": 46.41655,
       "lon": -117.01766,
@@ -1909,14 +1856,14 @@
         "https://www.lesschwab.com/stores/id"
       ],
       "notes": [],
-      "status": "CLEAR",
-      "reason": "No meaningful winter-weather signal in the next 72 hours",
-      "timing": null,
-      "forecast": null,
+      "status": "WATCH",
+      "reason": "Corridor signal \u2014 Lookout Pass: Winter precipitation signal within 72 hours",
+      "timing": "2026-10-11T10:00:00-07:00",
+      "forecast": "Chance Snow Showers; Chance Rain And Snow Showers",
       "alerts": [],
       "temperatureMin": 32,
-      "maxPrecipProbability": 6,
-      "maxWindMph": 15,
+      "maxPrecipProbability": 18,
+      "maxWindMph": 14,
       "lat": 47.71796,
       "lon": -116.95159,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.7180&lon=-116.9516",
@@ -1942,10 +1889,10 @@
           "id": "id-lookout-pass",
           "name": "Lookout Pass",
           "routes": "I-90",
-          "status": "CLEAR",
-          "reason": "No meaningful winter-weather signal in the next 72 hours",
-          "timing": "2026-10-11T06:00:00-07:00",
-          "forecast": "Slight Chance Snow Showers",
+          "status": "WATCH",
+          "reason": "Winter precipitation signal within 72 hours",
+          "timing": "2026-10-11T10:00:00-07:00",
+          "forecast": "Chance Snow Showers; Chance Rain And Snow Showers",
           "triggerPoint": "Wallace, Idaho",
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.4741&lon=-115.9279",
           "impactedMarkets": [
@@ -1955,10 +1902,12 @@
         }
       ],
       "trigger": {
-        "type": "market",
-        "name": "Post Falls"
+        "type": "corridor",
+        "name": "Lookout Pass",
+        "routes": "I-90",
+        "point": "Wallace, Idaho"
       },
-      "prAction": "No action. Keep in the broad market screen."
+      "prAction": "Monitor the next forecast cycle for Lookout Pass; no outreach yet unless road impacts strengthen."
     },
     {
       "id": "MN-apple-valley",
@@ -1988,8 +1937,8 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 49,
-      "maxPrecipProbability": 31,
+      "temperatureMin": 48,
+      "maxPrecipProbability": 16,
       "maxWindMph": 10,
       "lat": 44.73191,
       "lon": -93.21772,
@@ -2107,9 +2056,9 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 47,
-      "maxPrecipProbability": 44,
-      "maxWindMph": 15,
+      "temperatureMin": 45,
+      "maxPrecipProbability": 32,
+      "maxWindMph": 10,
       "lat": 45.1608,
       "lon": -93.23495,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.1608&lon=-93.2349",
@@ -2167,7 +2116,7 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 62,
+      "temperatureMin": 63,
       "maxPrecipProbability": 8,
       "maxWindMph": 10,
       "lat": 33.629,
@@ -2227,8 +2176,8 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 38,
-      "maxPrecipProbability": 58,
-      "maxWindMph": 17,
+      "maxPrecipProbability": 63,
+      "maxWindMph": 16,
       "lat": 46.87386,
       "lon": -96.76951,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8739&lon=-96.7695",
@@ -2284,8 +2233,8 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 50,
-      "maxPrecipProbability": 36,
+      "temperatureMin": 48,
+      "maxPrecipProbability": 22,
       "maxWindMph": 10,
       "lat": 44.8833,
       "lon": -93.283,
@@ -2344,8 +2293,8 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 43,
-      "maxPrecipProbability": 52,
+      "temperatureMin": 41,
+      "maxPrecipProbability": 33,
       "maxWindMph": 10,
       "lat": 45.62163,
       "lon": -94.20694,
@@ -2403,8 +2352,8 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 47,
-      "maxPrecipProbability": 8,
+      "temperatureMin": 45,
+      "maxPrecipProbability": 5,
       "maxWindMph": 15,
       "lat": 43.61996,
       "lon": -95.5964,
@@ -2465,20 +2414,14 @@
       "notes": [],
       "status": "ACTIVATE",
       "reason": "Winter Storm Warning",
-      "timing": "2026-10-11T07:00:00-06:00",
+      "timing": "2026-10-11T11:00:00-06:00",
       "forecast": "Rain And Snow",
       "alerts": [
         {
           "event": "Winter Storm Warning",
-          "headline": "Winter Storm Warning issued October 10 at 10:40PM MDT until October 12 at 9:00AM MDT by NWS Great Falls MT",
+          "headline": "Winter Storm Warning issued October 11 at 10:29AM MDT until October 12 at 6:00AM MDT by NWS Great Falls MT",
           "severity": "Severe",
-          "ends": "2026-10-12T09:00:00-06:00"
-        },
-        {
-          "event": "Winter Weather Advisory",
-          "headline": "Winter Weather Advisory issued October 10 at 10:40PM MDT until October 11 at 6:00PM MDT by NWS Great Falls MT",
-          "severity": "Moderate",
-          "ends": "2026-10-11T18:00:00-06:00"
+          "ends": "2026-10-12T06:00:00-06:00"
         }
       ],
       "temperatureMin": 25,
@@ -2496,8 +2439,8 @@
           "routes": "I-90",
           "status": "ACTIVATE",
           "reason": "Winter Storm Warning",
-          "timing": "2026-10-11T07:00:00-06:00",
-          "forecast": "Snow Likely; Chance Light Snow; Slight Chance Light Snow",
+          "timing": "2026-10-11T11:00:00-06:00",
+          "forecast": "Slight Chance Light Snow; Chance Light Snow",
           "triggerPoint": "Butte, Montana",
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.0038&lon=-112.5347",
           "impactedMarkets": [
@@ -2511,8 +2454,8 @@
           "routes": "I-90",
           "status": "PREPARE",
           "reason": "Winter Weather Advisory",
-          "timing": "2026-10-11T07:00:00-06:00",
-          "forecast": "Light Snow; Rain And Snow",
+          "timing": "2026-10-11T11:00:00-06:00",
+          "forecast": "Rain And Snow",
           "triggerPoint": "Livingston, Montana",
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.6624&lon=-110.5610",
           "impactedMarkets": [
@@ -2551,8 +2494,8 @@
       "notes": [],
       "status": "ACTIVATE",
       "reason": "Winter Storm Warning",
-      "timing": "2026-10-11T07:00:00-06:00",
-      "forecast": "Snow Likely; Chance Light Snow; Slight Chance Light Snow",
+      "timing": "2026-10-11T11:00:00-06:00",
+      "forecast": "Slight Chance Light Snow; Chance Light Snow",
       "alerts": [
         {
           "event": "Winter Storm Warning",
@@ -2582,8 +2525,8 @@
           "routes": "I-90",
           "status": "ACTIVATE",
           "reason": "Winter Storm Warning",
-          "timing": "2026-10-11T07:00:00-06:00",
-          "forecast": "Snow Likely; Chance Light Snow; Slight Chance Light Snow",
+          "timing": "2026-10-11T11:00:00-06:00",
+          "forecast": "Slight Chance Light Snow; Chance Light Snow",
           "triggerPoint": "Butte, Montana",
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.0038&lon=-112.5347",
           "impactedMarkets": [
@@ -2623,14 +2566,14 @@
       "notes": [],
       "status": "ACTIVATE",
       "reason": "Corridor signal \u2014 Marias Pass / Glacier corridor: Winter Storm Warning",
-      "timing": "2026-10-11T07:00:00-06:00",
-      "forecast": "Heavy Snow",
+      "timing": "2026-10-11T11:00:00-06:00",
+      "forecast": "Heavy Snow; Snow",
       "alerts": [
         {
-          "event": "Wind Advisory",
-          "headline": "Wind Advisory issued October 10 at 8:27AM MDT until October 11 at 3:00PM MDT by NWS Missoula MT",
+          "event": "Lake Wind Advisory",
+          "headline": "Lake Wind Advisory issued October 11 at 10:36AM MDT until October 12 at 6:00AM MDT by NWS Missoula MT",
           "severity": "Moderate",
-          "ends": "2026-10-11T15:00:00-06:00"
+          "ends": "2026-10-12T06:00:00-06:00"
         }
       ],
       "temperatureMin": 26,
@@ -2648,8 +2591,8 @@
           "routes": "US-2",
           "status": "ACTIVATE",
           "reason": "Winter Storm Warning",
-          "timing": "2026-10-11T07:00:00-06:00",
-          "forecast": "Heavy Snow",
+          "timing": "2026-10-11T11:00:00-06:00",
+          "forecast": "Heavy Snow; Snow",
           "triggerPoint": "East Glacier Park, Montana",
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=48.4414&lon=-113.2181",
           "impactedMarkets": [
@@ -2690,35 +2633,35 @@
         "https://www.lesschwab.com/stores/mt"
       ],
       "notes": [],
-      "status": "PREPARE",
-      "reason": "Winter Weather Advisory",
-      "timing": "2026-10-11T07:00:00-06:00",
-      "forecast": "Snow And Patchy Blowing Snow; Snow Likely",
+      "status": "ACTIVATE",
+      "reason": "Winter Storm Warning",
+      "timing": "2026-10-11T11:00:00-06:00",
+      "forecast": "Snow Likely; Light Snow Likely; Light Snow",
       "alerts": [
         {
-          "event": "Winter Weather Advisory",
-          "headline": "Winter Weather Advisory issued October 10 at 10:40PM MDT until October 12 at 6:00AM MDT by NWS Great Falls MT",
-          "severity": "Moderate",
+          "event": "Winter Storm Warning",
+          "headline": "Winter Storm Warning issued October 11 at 10:29AM MDT until October 12 at 6:00AM MDT by NWS Great Falls MT",
+          "severity": "Severe",
           "ends": "2026-10-12T06:00:00-06:00"
         }
       ],
       "temperatureMin": 24,
-      "maxPrecipProbability": 99,
-      "maxWindMph": 17,
+      "maxPrecipProbability": 100,
+      "maxWindMph": 15,
       "lat": 46.59271,
       "lon": -112.03611,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.5927&lon=-112.0361",
-      "cityStatus": "PREPARE",
-      "cityReason": "Winter Weather Advisory",
+      "cityStatus": "ACTIVATE",
+      "cityReason": "Winter Storm Warning",
       "corridorSignals": [
         {
           "id": "mt-macdonald-pass",
           "name": "MacDonald Pass",
           "routes": "US-12",
-          "status": "PREPARE",
-          "reason": "Winter Weather Advisory",
-          "timing": "2026-10-11T07:00:00-06:00",
-          "forecast": "Snow And Patchy Blowing Snow; Snow Likely",
+          "status": "ACTIVATE",
+          "reason": "Winter Storm Warning",
+          "timing": "2026-10-11T11:00:00-06:00",
+          "forecast": "Snow Likely; Light Snow Likely; Light Snow",
           "triggerPoint": "Helena, Montana",
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.5927&lon=-112.0361",
           "impactedMarkets": [
@@ -2730,7 +2673,7 @@
         "type": "market",
         "name": "Helena"
       },
-      "prAction": "Line up a local store spokesperson and verify road conditions for Helena; prepare an outreach angle."
+      "prAction": "Confirm DOT/511 conditions for Helena; activate a local store expert and consider timely customer/media guidance."
     },
     {
       "id": "MT-kalispell",
@@ -2757,14 +2700,14 @@
       "notes": [],
       "status": "ACTIVATE",
       "reason": "Corridor signal \u2014 Marias Pass / Glacier corridor: Winter Storm Warning",
-      "timing": "2026-10-11T07:00:00-06:00",
-      "forecast": "Heavy Snow",
+      "timing": "2026-10-11T11:00:00-06:00",
+      "forecast": "Heavy Snow; Snow",
       "alerts": [
         {
-          "event": "Wind Advisory",
-          "headline": "Wind Advisory issued October 10 at 8:27AM MDT until October 11 at 3:00PM MDT by NWS Missoula MT",
+          "event": "Lake Wind Advisory",
+          "headline": "Lake Wind Advisory issued October 11 at 10:36AM MDT until October 12 at 6:00AM MDT by NWS Missoula MT",
           "severity": "Moderate",
-          "ends": "2026-10-11T15:00:00-06:00"
+          "ends": "2026-10-12T06:00:00-06:00"
         }
       ],
       "temperatureMin": 26,
@@ -2782,8 +2725,8 @@
           "routes": "US-2",
           "status": "ACTIVATE",
           "reason": "Winter Storm Warning",
-          "timing": "2026-10-11T07:00:00-06:00",
-          "forecast": "Heavy Snow",
+          "timing": "2026-10-11T11:00:00-06:00",
+          "forecast": "Heavy Snow; Snow",
           "triggerPoint": "East Glacier Park, Montana",
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=48.4414&lon=-113.2181",
           "impactedMarkets": [
@@ -2826,8 +2769,8 @@
       "notes": [],
       "status": "PREPARE",
       "reason": "Winter precipitation signal within 24 hours",
-      "timing": "2026-10-11T07:00:00-06:00",
-      "forecast": "Rain And Snow Likely; Light Snow Likely; Chance Rain And Snow",
+      "timing": "2026-10-11T11:00:00-06:00",
+      "forecast": "Chance Rain And Snow",
       "alerts": [],
       "temperatureMin": 27,
       "maxPrecipProbability": 83,
@@ -2844,8 +2787,8 @@
           "routes": "I-90",
           "status": "PREPARE",
           "reason": "Winter precipitation signal within 24 hours",
-          "timing": "2026-10-11T07:00:00-06:00",
-          "forecast": "Rain And Snow Likely; Rain And Snow",
+          "timing": "2026-10-11T11:00:00-06:00",
+          "forecast": "Rain And Snow Likely; Rain And Snow; Chance Rain And Snow",
           "triggerPoint": "Superior, Montana",
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.1916&lon=-114.8918",
           "impactedMarkets": [
@@ -2884,14 +2827,14 @@
       "notes": [],
       "status": "ACTIVATE",
       "reason": "Corridor signal \u2014 Marias Pass / Glacier corridor: Winter Storm Warning",
-      "timing": "2026-10-11T07:00:00-06:00",
-      "forecast": "Heavy Snow",
+      "timing": "2026-10-11T11:00:00-06:00",
+      "forecast": "Heavy Snow; Snow",
       "alerts": [
         {
-          "event": "Wind Advisory",
-          "headline": "Wind Advisory issued October 10 at 8:27AM MDT until October 11 at 3:00PM MDT by NWS Missoula MT",
+          "event": "Lake Wind Advisory",
+          "headline": "Lake Wind Advisory issued October 11 at 10:36AM MDT until October 12 at 6:00AM MDT by NWS Missoula MT",
           "severity": "Moderate",
-          "ends": "2026-10-11T15:00:00-06:00"
+          "ends": "2026-10-12T06:00:00-06:00"
         }
       ],
       "temperatureMin": 26,
@@ -2909,8 +2852,8 @@
           "routes": "US-2",
           "status": "ACTIVATE",
           "reason": "Winter Storm Warning",
-          "timing": "2026-10-11T07:00:00-06:00",
-          "forecast": "Heavy Snow",
+          "timing": "2026-10-11T11:00:00-06:00",
+          "forecast": "Heavy Snow; Snow",
           "triggerPoint": "East Glacier Park, Montana",
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=48.4414&lon=-113.2181",
           "impactedMarkets": [
@@ -2958,7 +2901,7 @@
       "alerts": [],
       "temperatureMin": 37,
       "maxPrecipProbability": 71,
-      "maxWindMph": 15,
+      "maxWindMph": 18,
       "lat": 46.80833,
       "lon": -100.78374,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8083&lon=-100.7837",
@@ -3016,8 +2959,8 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 37,
-      "maxPrecipProbability": 94,
-      "maxWindMph": 20,
+      "maxPrecipProbability": 95,
+      "maxWindMph": 17,
       "lat": 48.11278,
       "lon": -98.86512,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=48.1128&lon=-98.8651",
@@ -3076,7 +3019,7 @@
       "alerts": [],
       "temperatureMin": 35,
       "maxPrecipProbability": 84,
-      "maxWindMph": 15,
+      "maxWindMph": 18,
       "lat": 46.87918,
       "lon": -102.78962,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8792&lon=-102.7896",
@@ -3133,7 +3076,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 39,
-      "maxPrecipProbability": 59,
+      "maxPrecipProbability": 62,
       "maxWindMph": 17,
       "lat": 46.87719,
       "lon": -96.7898,
@@ -3192,7 +3135,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 36,
-      "maxPrecipProbability": 87,
+      "maxPrecipProbability": 83,
       "maxWindMph": 18,
       "lat": 47.92526,
       "lon": -97.03285,
@@ -3252,7 +3195,7 @@
       "alerts": [],
       "temperatureMin": 37,
       "maxPrecipProbability": 75,
-      "maxWindMph": 17,
+      "maxWindMph": 18,
       "lat": 46.91054,
       "lon": -98.70844,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.9105&lon=-98.7084",
@@ -3310,8 +3253,8 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 37,
-      "maxPrecipProbability": 60,
-      "maxWindMph": 20,
+      "maxPrecipProbability": 63,
+      "maxWindMph": 17,
       "lat": 46.87497,
       "lon": -96.90036,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8750&lon=-96.9004",
@@ -3368,9 +3311,9 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 55,
+      "temperatureMin": 54,
       "maxPrecipProbability": 40,
-      "maxWindMph": 15,
+      "maxWindMph": 14,
       "lat": 41.43333,
       "lon": -96.49808,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.4333&lon=-96.4981",
@@ -3485,8 +3428,8 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 58,
-      "maxPrecipProbability": 56,
+      "temperatureMin": 57,
+      "maxPrecipProbability": 55,
       "maxWindMph": 15,
       "lat": 41.15444,
       "lon": -96.04224,
@@ -3795,10 +3738,10 @@
         "https://www.lesschwab.com/stores/nv"
       ],
       "notes": [],
-      "status": "WATCH",
-      "reason": "Winter precipitation signal within 72 hours",
-      "timing": "2026-10-12T23:00:00-07:00",
-      "forecast": "Chance Rain And Snow Showers",
+      "status": "PREPARE",
+      "reason": "Corridor signal \u2014 Elko / Pequop & Emigrant corridors: Winter precipitation signal within 24 hours",
+      "timing": "2026-10-12T08:00:00-07:00",
+      "forecast": "Chance Rain And Snow Showers; Rain And Snow Showers",
       "alerts": [
         {
           "event": "Flood Watch",
@@ -3820,8 +3763,8 @@
           "id": "nv-elko-pequop-emigrant-corridors",
           "name": "Elko / Pequop & Emigrant corridors",
           "routes": "I-80",
-          "status": "WATCH",
-          "reason": "Winter precipitation signal within 72 hours",
+          "status": "PREPARE",
+          "reason": "Winter precipitation signal within 24 hours",
           "timing": "2026-10-12T08:00:00-07:00",
           "forecast": "Chance Rain And Snow Showers; Rain And Snow Showers",
           "triggerPoint": "Wells, Nevada",
@@ -3833,10 +3776,12 @@
         }
       ],
       "trigger": {
-        "type": "market",
-        "name": "Elko"
+        "type": "corridor",
+        "name": "Elko / Pequop & Emigrant corridors",
+        "routes": "I-80",
+        "point": "Wells, Nevada"
       },
-      "prAction": "Monitor the next forecast cycle for Elko; no outreach yet unless road impacts strengthen."
+      "prAction": "Line up a local store spokesperson and verify road conditions for Elko / Pequop & Emigrant corridors; prepare an outreach angle."
     },
     {
       "id": "NV-gardnerville",
@@ -4044,8 +3989,8 @@
         "https://www.lesschwab.com/stores/nv"
       ],
       "notes": [],
-      "status": "WATCH",
-      "reason": "Corridor signal \u2014 Elko / Pequop & Emigrant corridors: Winter precipitation signal within 72 hours",
+      "status": "PREPARE",
+      "reason": "Corridor signal \u2014 Elko / Pequop & Emigrant corridors: Winter precipitation signal within 24 hours",
       "timing": "2026-10-12T08:00:00-07:00",
       "forecast": "Chance Rain And Snow Showers; Rain And Snow Showers",
       "alerts": [],
@@ -4062,8 +4007,8 @@
           "id": "nv-elko-pequop-emigrant-corridors",
           "name": "Elko / Pequop & Emigrant corridors",
           "routes": "I-80",
-          "status": "WATCH",
-          "reason": "Winter precipitation signal within 72 hours",
+          "status": "PREPARE",
+          "reason": "Winter precipitation signal within 24 hours",
           "timing": "2026-10-12T08:00:00-07:00",
           "forecast": "Chance Rain And Snow Showers; Rain And Snow Showers",
           "triggerPoint": "Wells, Nevada",
@@ -4094,7 +4039,7 @@
         "routes": "I-80",
         "point": "Wells, Nevada"
       },
-      "prAction": "Monitor the next forecast cycle for Elko / Pequop & Emigrant corridors; no outreach yet unless road impacts strengthen."
+      "prAction": "Line up a local store spokesperson and verify road conditions for Elko / Pequop & Emigrant corridors; prepare an outreach angle."
     },
     {
       "id": "OR-ashland",
@@ -4129,12 +4074,6 @@
           "headline": "Freeze Warning issued October 11 at 3:03AM PDT until October 12 at 9:00AM PDT by NWS Medford OR",
           "severity": "Severe",
           "ends": "2026-10-12T09:00:00-07:00"
-        },
-        {
-          "event": "Frost Advisory",
-          "headline": "Frost Advisory issued October 11 at 3:03AM PDT until October 11 at 8:00AM PDT by NWS Medford OR",
-          "severity": "Minor",
-          "ends": "2026-10-11T08:00:00-07:00"
         }
       ],
       "temperatureMin": 31,
@@ -4251,11 +4190,11 @@
       "notes": [],
       "status": "CLEAR",
       "reason": "No meaningful winter-weather signal in the next 72 hours",
-      "timing": "2026-10-11T08:00:00-07:00",
+      "timing": "2026-10-11T10:00:00-07:00",
       "forecast": "Slight Chance Rain And Snow Showers",
       "alerts": [],
       "temperatureMin": 30,
-      "maxPrecipProbability": 15,
+      "maxPrecipProbability": 17,
       "maxWindMph": 15,
       "lat": 44.05817,
       "lon": -121.31531,
@@ -4269,8 +4208,8 @@
           "routes": "US-20 / OR-22",
           "status": "CLEAR",
           "reason": "No meaningful winter-weather signal in the next 72 hours",
-          "timing": null,
-          "forecast": null,
+          "timing": "2026-10-11T10:00:00-07:00",
+          "forecast": "Slight Chance Rain And Snow Showers",
           "triggerPoint": "Sisters, Oregon",
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.2910&lon=-121.5492",
           "impactedMarkets": [
@@ -4312,14 +4251,7 @@
       "reason": "No meaningful winter-weather signal in the next 72 hours",
       "timing": null,
       "forecast": null,
-      "alerts": [
-        {
-          "event": "Frost Advisory",
-          "headline": "Frost Advisory issued October 11 at 1:01AM PDT until October 11 at 9:00AM PDT by NWS Portland OR",
-          "severity": "Minor",
-          "ends": "2026-10-11T09:00:00-07:00"
-        }
-      ],
+      "alerts": [],
       "temperatureMin": 36,
       "maxPrecipProbability": 0,
       "maxWindMph": 13,
@@ -4374,28 +4306,28 @@
         "https://www.lesschwab.com/stores/or"
       ],
       "notes": [],
-      "status": "WATCH",
-      "reason": "Winter precipitation signal within 72 hours",
-      "timing": "2026-10-12T05:00:00-07:00",
-      "forecast": "Chance Rain And Snow Showers",
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
       "alerts": [],
-      "temperatureMin": 28,
-      "maxPrecipProbability": 39,
-      "maxWindMph": 18,
+      "temperatureMin": 26,
+      "maxPrecipProbability": 25,
+      "maxWindMph": 15,
       "lat": 45.32458,
       "lon": -118.08772,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.3246&lon=-118.0877",
-      "cityStatus": "WATCH",
-      "cityReason": "Winter precipitation signal within 72 hours",
+      "cityStatus": "CLEAR",
+      "cityReason": "No meaningful winter-weather signal in the next 72 hours",
       "corridorSignals": [
         {
           "id": "or-cabbage-hill-deadman-pass",
           "name": "Cabbage Hill / Deadman Pass",
           "routes": "I-84",
-          "status": "WATCH",
-          "reason": "Winter precipitation signal within 72 hours",
-          "timing": "2026-10-11T06:00:00-07:00",
-          "forecast": "Slight Chance Rain And Snow Showers; Slight Chance Snow Showers",
+          "status": "CLEAR",
+          "reason": "No meaningful winter-weather signal in the next 72 hours",
+          "timing": "2026-10-11T10:00:00-07:00",
+          "forecast": "Slight Chance Rain And Snow Showers; Chance Rain And Snow Showers",
           "triggerPoint": "Meacham, Oregon",
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.5065&lon=-118.4214",
           "impactedMarkets": [
@@ -4408,7 +4340,7 @@
         "type": "market",
         "name": "La Grande"
       },
-      "prAction": "Monitor the next forecast cycle for La Grande; no outreach yet unless road impacts strengthen."
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "OR-la-pine",
@@ -4438,8 +4370,8 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 15,
-      "maxPrecipProbability": 5,
+      "temperatureMin": 16,
+      "maxPrecipProbability": 4,
       "maxWindMph": 15,
       "lat": 43.6704,
       "lon": -121.50364,
@@ -4502,12 +4434,6 @@
           "headline": "Freeze Warning issued October 11 at 3:03AM PDT until October 12 at 9:00AM PDT by NWS Medford OR",
           "severity": "Severe",
           "ends": "2026-10-12T09:00:00-07:00"
-        },
-        {
-          "event": "Frost Advisory",
-          "headline": "Frost Advisory issued October 11 at 3:03AM PDT until October 11 at 8:00AM PDT by NWS Medford OR",
-          "severity": "Minor",
-          "ends": "2026-10-11T08:00:00-07:00"
         }
       ],
       "temperatureMin": 33,
@@ -4564,20 +4490,13 @@
         "https://www.lesschwab.com/stores/or"
       ],
       "notes": [],
-      "status": "WATCH",
-      "reason": "Corridor signal \u2014 Cabbage Hill / Deadman Pass: Winter precipitation signal within 72 hours",
-      "timing": "2026-10-11T06:00:00-07:00",
-      "forecast": "Slight Chance Rain And Snow Showers; Slight Chance Snow Showers",
-      "alerts": [
-        {
-          "event": "Freeze Warning",
-          "headline": "Freeze Warning issued October 10 at 11:13PM PDT until October 11 at 10:00AM PDT by NWS Pendleton OR",
-          "severity": "Severe",
-          "ends": "2026-10-11T10:00:00-07:00"
-        }
-      ],
-      "temperatureMin": 30,
-      "maxPrecipProbability": 13,
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [],
+      "temperatureMin": 29,
+      "maxPrecipProbability": 21,
       "maxWindMph": 9,
       "lat": 45.67207,
       "lon": -118.7886,
@@ -4589,10 +4508,10 @@
           "id": "or-cabbage-hill-deadman-pass",
           "name": "Cabbage Hill / Deadman Pass",
           "routes": "I-84",
-          "status": "WATCH",
-          "reason": "Winter precipitation signal within 72 hours",
-          "timing": "2026-10-11T06:00:00-07:00",
-          "forecast": "Slight Chance Rain And Snow Showers; Slight Chance Snow Showers",
+          "status": "CLEAR",
+          "reason": "No meaningful winter-weather signal in the next 72 hours",
+          "timing": "2026-10-11T10:00:00-07:00",
+          "forecast": "Slight Chance Rain And Snow Showers; Chance Rain And Snow Showers",
           "triggerPoint": "Meacham, Oregon",
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.5065&lon=-118.4214",
           "impactedMarkets": [
@@ -4602,12 +4521,10 @@
         }
       ],
       "trigger": {
-        "type": "corridor",
-        "name": "Cabbage Hill / Deadman Pass",
-        "routes": "I-84",
-        "point": "Meacham, Oregon"
+        "type": "market",
+        "name": "Pendleton"
       },
-      "prAction": "Monitor the next forecast cycle for Cabbage Hill / Deadman Pass; no outreach yet unless road impacts strengthen."
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "OR-portland",
@@ -4794,12 +4711,12 @@
       "notes": [],
       "status": "CLEAR",
       "reason": "No meaningful winter-weather signal in the next 72 hours",
-      "timing": null,
-      "forecast": null,
+      "timing": "2026-10-11T10:00:00-07:00",
+      "forecast": "Slight Chance Rain And Snow Showers",
       "alerts": [],
       "temperatureMin": 23,
-      "maxPrecipProbability": 19,
-      "maxWindMph": 13,
+      "maxPrecipProbability": 22,
+      "maxWindMph": 12,
       "lat": 44.29095,
       "lon": -121.54921,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.2910&lon=-121.5492",
@@ -4812,8 +4729,8 @@
           "routes": "US-20 / OR-22",
           "status": "CLEAR",
           "reason": "No meaningful winter-weather signal in the next 72 hours",
-          "timing": null,
-          "forecast": null,
+          "timing": "2026-10-11T10:00:00-07:00",
+          "forecast": "Slight Chance Rain And Snow Showers",
           "triggerPoint": "Sisters, Oregon",
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.2910&lon=-121.5492",
           "impactedMarkets": [
@@ -4857,7 +4774,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 38,
-      "maxPrecipProbability": 40,
+      "maxPrecipProbability": 38,
       "maxWindMph": 17,
       "lat": 45.4647,
       "lon": -98.48648,
@@ -4915,8 +4832,8 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 48,
-      "maxPrecipProbability": 6,
+      "temperatureMin": 46,
+      "maxPrecipProbability": 4,
       "maxWindMph": 15,
       "lat": 43.5947,
       "lon": -96.57199,
@@ -4974,8 +4891,8 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 46,
-      "maxPrecipProbability": 9,
+      "temperatureMin": 43,
+      "maxPrecipProbability": 10,
       "maxWindMph": 15,
       "lat": 43.70943,
       "lon": -98.0298,
@@ -5032,8 +4949,8 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 48,
-      "maxPrecipProbability": 7,
+      "temperatureMin": 47,
+      "maxPrecipProbability": 4,
       "maxWindMph": 15,
       "lat": 43.54369,
       "lon": -96.72796,
@@ -5150,8 +5067,8 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 40,
-      "maxPrecipProbability": 32,
-      "maxWindMph": 12,
+      "maxPrecipProbability": 21,
+      "maxWindMph": 13,
       "lat": 44.89941,
       "lon": -97.11507,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.8994&lon=-97.1151",
@@ -5274,6 +5191,12 @@
       "forecast": null,
       "alerts": [
         {
+          "event": "Wind Advisory",
+          "headline": "Wind Advisory issued October 11 at 10:31AM MDT until October 11 at 9:00PM MDT by NWS Salt Lake City UT",
+          "severity": "Moderate",
+          "ends": "2026-10-11T21:00:00-06:00"
+        },
+        {
           "event": "Flood Watch",
           "headline": "Flood Watch issued October 11 at 6:42AM MDT until October 12 at 6:00PM MDT by NWS Salt Lake City UT",
           "severity": "Severe",
@@ -5281,7 +5204,7 @@
         }
       ],
       "temperatureMin": 44,
-      "maxPrecipProbability": 99,
+      "maxPrecipProbability": 98,
       "maxWindMph": 16,
       "lat": 41.17689,
       "lon": -112.00383,
@@ -5340,6 +5263,12 @@
       "forecast": "Rain And Snow Showers",
       "alerts": [
         {
+          "event": "Wind Advisory",
+          "headline": "Wind Advisory issued October 11 at 10:31AM MDT until October 11 at 9:00PM MDT by NWS Salt Lake City UT",
+          "severity": "Moderate",
+          "ends": "2026-10-11T21:00:00-06:00"
+        },
+        {
           "event": "Flood Watch",
           "headline": "Flood Watch issued October 11 at 6:42AM MDT until October 12 at 6:00PM MDT by NWS Salt Lake City UT",
           "severity": "Severe",
@@ -5347,7 +5276,7 @@
         }
       ],
       "temperatureMin": 42,
-      "maxPrecipProbability": 98,
+      "maxPrecipProbability": 96,
       "maxWindMph": 16,
       "lat": 40.76078,
       "lon": -111.89105,
@@ -5408,14 +5337,20 @@
       "forecast": null,
       "alerts": [
         {
+          "event": "Wind Advisory",
+          "headline": "Wind Advisory issued October 11 at 10:31AM MDT until October 11 at 9:00PM MDT by NWS Salt Lake City UT",
+          "severity": "Moderate",
+          "ends": "2026-10-11T21:00:00-06:00"
+        },
+        {
           "event": "Flood Watch",
           "headline": "Flood Watch issued October 11 at 6:42AM MDT until October 12 at 6:00PM MDT by NWS Salt Lake City UT",
           "severity": "Severe",
           "ends": "2026-10-12T18:00:00-06:00"
         }
       ],
-      "temperatureMin": 39,
-      "maxPrecipProbability": 97,
+      "temperatureMin": 38,
+      "maxPrecipProbability": 95,
       "maxWindMph": 17,
       "lat": 39.97551,
       "lon": -111.78521,
@@ -5473,6 +5408,12 @@
       "forecast": null,
       "alerts": [
         {
+          "event": "Wind Advisory",
+          "headline": "Wind Advisory issued October 11 at 10:31AM MDT until October 11 at 9:00PM MDT by NWS Salt Lake City UT",
+          "severity": "Moderate",
+          "ends": "2026-10-11T21:00:00-06:00"
+        },
+        {
           "event": "Flood Watch",
           "headline": "Flood Watch issued October 11 at 6:42AM MDT until October 12 at 6:00PM MDT by NWS Salt Lake City UT",
           "severity": "Severe",
@@ -5480,8 +5421,8 @@
         }
       ],
       "temperatureMin": 44,
-      "maxPrecipProbability": 100,
-      "maxWindMph": 16,
+      "maxPrecipProbability": 98,
+      "maxWindMph": 17,
       "lat": 41.19189,
       "lon": -111.97133,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.1919&lon=-111.9713",
@@ -5539,6 +5480,12 @@
       "forecast": "Rain And Snow Showers",
       "alerts": [
         {
+          "event": "Wind Advisory",
+          "headline": "Wind Advisory issued October 11 at 10:31AM MDT until October 11 at 9:00PM MDT by NWS Salt Lake City UT",
+          "severity": "Moderate",
+          "ends": "2026-10-11T21:00:00-06:00"
+        },
+        {
           "event": "Flood Watch",
           "headline": "Flood Watch issued October 11 at 6:42AM MDT until October 12 at 6:00PM MDT by NWS Salt Lake City UT",
           "severity": "Severe",
@@ -5546,8 +5493,8 @@
         }
       ],
       "temperatureMin": 44,
-      "maxPrecipProbability": 99,
-      "maxWindMph": 17,
+      "maxPrecipProbability": 96,
+      "maxWindMph": 20,
       "lat": 40.87161,
       "lon": -111.89216,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=40.8716&lon=-111.8922",
@@ -5676,13 +5623,13 @@
       "alerts": [
         {
           "event": "Freeze Watch",
-          "headline": "Freeze Watch issued October 10 at 11:13PM PDT until October 12 at 9:00AM PDT by NWS Pendleton OR",
+          "headline": "Freeze Watch issued October 11 at 9:05AM PDT until October 12 at 9:00AM PDT by NWS Pendleton OR",
           "severity": "Severe",
           "ends": "2026-10-12T09:00:00-07:00"
         }
       ],
-      "temperatureMin": 31,
-      "maxPrecipProbability": 1,
+      "temperatureMin": 30,
+      "maxPrecipProbability": 2,
       "maxWindMph": 5,
       "lat": 46.99651,
       "lon": -120.54785,
@@ -5757,13 +5704,7 @@
       "alerts": [
         {
           "event": "Frost Advisory",
-          "headline": "Frost Advisory issued October 10 at 10:50PM PDT until October 11 at 8:00AM PDT by NWS Seattle WA",
-          "severity": "Minor",
-          "ends": "2026-10-11T08:00:00-07:00"
-        },
-        {
-          "event": "Frost Advisory",
-          "headline": "Frost Advisory issued October 10 at 10:50PM PDT until October 12 at 8:00AM PDT by NWS Seattle WA",
+          "headline": "Frost Advisory issued October 11 at 7:34AM PDT until October 12 at 8:00AM PDT by NWS Seattle WA",
           "severity": "Minor",
           "ends": "2026-10-12T08:00:00-07:00"
         }
@@ -5829,7 +5770,7 @@
       "alerts": [
         {
           "event": "Frost Advisory",
-          "headline": "Frost Advisory issued October 10 at 10:50PM PDT until October 12 at 8:00AM PDT by NWS Seattle WA",
+          "headline": "Frost Advisory issued October 11 at 7:34AM PDT until October 12 at 8:00AM PDT by NWS Seattle WA",
           "severity": "Minor",
           "ends": "2026-10-12T08:00:00-07:00"
         }
@@ -6015,7 +5956,7 @@
       "alerts": [
         {
           "event": "Frost Advisory",
-          "headline": "Frost Advisory issued October 10 at 10:50PM PDT until October 12 at 8:00AM PDT by NWS Seattle WA",
+          "headline": "Frost Advisory issued October 11 at 7:34AM PDT until October 12 at 8:00AM PDT by NWS Seattle WA",
           "severity": "Minor",
           "ends": "2026-10-12T08:00:00-07:00"
         }
@@ -6142,8 +6083,8 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 29,
-      "maxPrecipProbability": 3,
+      "temperatureMin": 31,
+      "maxPrecipProbability": 16,
       "maxWindMph": 12,
       "lat": 47.65966,
       "lon": -117.42908,
@@ -6201,8 +6142,8 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 30,
-      "maxPrecipProbability": 5,
+      "temperatureMin": 31,
+      "maxPrecipProbability": 17,
       "maxWindMph": 12,
       "lat": 47.67323,
       "lon": -117.23937,
@@ -6268,8 +6209,8 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 39,
-      "maxPrecipProbability": 3,
-      "maxWindMph": 12,
+      "maxPrecipProbability": 7,
+      "maxWindMph": 10,
       "lat": 47.42346,
       "lon": -120.31035,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.4235&lon=-120.3103",
@@ -6341,9 +6282,9 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 35,
+      "temperatureMin": 36,
       "maxPrecipProbability": 2,
-      "maxWindMph": 16,
+      "maxWindMph": 15,
       "lat": 46.60207,
       "lon": -120.5059,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.6021&lon=-120.5059",
@@ -6401,15 +6342,15 @@
       "forecast": null,
       "alerts": [
         {
-          "event": "High Wind Watch",
-          "headline": "High Wind Watch issued October 11 at 12:37AM MDT until October 12 at 6:00AM MDT by NWS Riverton WY",
+          "event": "High Wind Warning",
+          "headline": "High Wind Warning issued October 11 at 10:32AM MDT until October 12 at 6:00AM MDT by NWS Riverton WY",
           "severity": "Severe",
           "ends": "2026-10-12T06:00:00-06:00"
         }
       ],
       "temperatureMin": 35,
-      "maxPrecipProbability": 81,
-      "maxWindMph": 30,
+      "maxPrecipProbability": 87,
+      "maxWindMph": 24,
       "lat": 42.86663,
       "lon": -106.31308,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=42.8666&lon=-106.3131",
@@ -6525,9 +6466,16 @@
       "reason": "Winter precipitation signal within 72 hours",
       "timing": "2026-10-14T06:00:00-06:00",
       "forecast": "Rain And Snow Showers Likely",
-      "alerts": [],
+      "alerts": [
+        {
+          "event": "High Wind Warning",
+          "headline": "High Wind Warning issued October 11 at 10:31AM MDT until October 12 at 12:00AM MDT by NWS Salt Lake City UT",
+          "severity": "Severe",
+          "ends": "2026-10-12T00:00:00-06:00"
+        }
+      ],
       "temperatureMin": 29,
-      "maxPrecipProbability": 99,
+      "maxPrecipProbability": 95,
       "maxWindMph": 23,
       "lat": 41.26828,
       "lon": -110.96324,
@@ -6539,12 +6487,12 @@
           "id": "wy-evanston-rock-springs-i-80",
           "name": "Evanston-Rock Springs I-80",
           "routes": "I-80",
-          "status": "WATCH",
-          "reason": "Winter precipitation signal within 72 hours",
-          "timing": "2026-10-14T06:00:00-06:00",
-          "forecast": "Rain And Snow Showers Likely",
-          "triggerPoint": "Rock Springs, Wyoming",
-          "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.5875&lon=-109.2029",
+          "status": "CLEAR",
+          "reason": "No meaningful winter-weather signal in the next 72 hours",
+          "timing": null,
+          "forecast": null,
+          "triggerPoint": "Little America, Wyoming",
+          "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.5436&lon=-109.8590",
           "impactedMarkets": [
             "Evanston",
             "Rock Springs"
@@ -6644,7 +6592,7 @@
       "timing": "2026-10-14T06:00:00-06:00",
       "forecast": "Rain And Snow Showers",
       "alerts": [],
-      "temperatureMin": 40,
+      "temperatureMin": 38,
       "maxPrecipProbability": 81,
       "maxWindMph": 20,
       "lat": 41.31137,
@@ -6698,30 +6646,37 @@
         "https://www.lesschwab.com/stores/wy"
       ],
       "notes": [],
-      "status": "WATCH",
-      "reason": "Winter precipitation signal within 72 hours",
-      "timing": "2026-10-14T06:00:00-06:00",
-      "forecast": "Rain And Snow Showers Likely",
-      "alerts": [],
-      "temperatureMin": 33,
-      "maxPrecipProbability": 80,
-      "maxWindMph": 31,
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [
+        {
+          "event": "High Wind Warning",
+          "headline": "High Wind Warning issued October 11 at 10:32AM MDT until October 12 at 6:00AM MDT by NWS Riverton WY",
+          "severity": "Severe",
+          "ends": "2026-10-12T06:00:00-06:00"
+        }
+      ],
+      "temperatureMin": 32,
+      "maxPrecipProbability": 81,
+      "maxWindMph": 32,
       "lat": 41.58746,
       "lon": -109.2029,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.5875&lon=-109.2029",
-      "cityStatus": "WATCH",
-      "cityReason": "Winter precipitation signal within 72 hours",
+      "cityStatus": "CLEAR",
+      "cityReason": "No meaningful winter-weather signal in the next 72 hours",
       "corridorSignals": [
         {
           "id": "wy-evanston-rock-springs-i-80",
           "name": "Evanston-Rock Springs I-80",
           "routes": "I-80",
-          "status": "WATCH",
-          "reason": "Winter precipitation signal within 72 hours",
-          "timing": "2026-10-14T06:00:00-06:00",
-          "forecast": "Rain And Snow Showers Likely",
-          "triggerPoint": "Rock Springs, Wyoming",
-          "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.5875&lon=-109.2029",
+          "status": "CLEAR",
+          "reason": "No meaningful winter-weather signal in the next 72 hours",
+          "timing": null,
+          "forecast": null,
+          "triggerPoint": "Little America, Wyoming",
+          "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.5436&lon=-109.8590",
           "impactedMarkets": [
             "Evanston",
             "Rock Springs"
@@ -6732,7 +6687,7 @@
         "type": "market",
         "name": "Rock Springs"
       },
-      "prAction": "Monitor the next forecast cycle for Rock Springs; no outreach yet unless road impacts strengthen."
+      "prAction": "No action. Keep in the broad market screen."
     },
     {
       "id": "WY-sheridan",
@@ -7044,19 +6999,13 @@
       "alerts": [
         {
           "event": "Freeze Warning",
-          "headline": "Freeze Warning issued October 11 at 3:03AM PDT until October 11 at 8:00AM PDT by NWS Medford OR",
-          "severity": "Severe",
-          "ends": "2026-10-11T08:00:00-07:00"
-        },
-        {
-          "event": "Freeze Warning",
           "headline": "Freeze Warning issued October 11 at 3:03AM PDT until October 12 at 9:00AM PDT by NWS Medford OR",
           "severity": "Severe",
           "ends": "2026-10-12T09:00:00-07:00"
         }
       ],
       "temperatureMin": 26,
-      "maxPrecipProbability": 2,
+      "maxPrecipProbability": 0,
       "maxWindMph": 15,
       "lat": 41.31024,
       "lon": -122.31225,
@@ -7070,19 +7019,13 @@
           "alerts": [
             {
               "event": "Freeze Warning",
-              "headline": "Freeze Warning issued October 11 at 3:03AM PDT until October 11 at 8:00AM PDT by NWS Medford OR",
-              "severity": "Severe",
-              "ends": "2026-10-11T08:00:00-07:00"
-            },
-            {
-              "event": "Freeze Warning",
               "headline": "Freeze Warning issued October 11 at 3:03AM PDT until October 12 at 9:00AM PDT by NWS Medford OR",
               "severity": "Severe",
               "ends": "2026-10-12T09:00:00-07:00"
             }
           ],
           "temperatureMin": 26,
-          "maxPrecipProbability": 2,
+          "maxPrecipProbability": 0,
           "maxWindMph": 15,
           "lat": 41.31024,
           "lon": -122.31225,
@@ -7308,7 +7251,7 @@
           "timing": "2026-10-14T00:00:00-06:00",
           "forecast": "Chance Rain And Snow Showers",
           "alerts": [],
-          "temperatureMin": 35,
+          "temperatureMin": 34,
           "maxPrecipProbability": 59,
           "maxWindMph": 10,
           "lat": 39.64026,
@@ -7383,10 +7326,10 @@
       "roadSources": [
         "https://www.cotrip.org/"
       ],
-      "status": "WATCH",
-      "reason": "Winter precipitation signal within 72 hours",
-      "timing": "2026-10-14T06:00:00-06:00",
-      "forecast": "Chance Snow Showers",
+      "status": "PREPARE",
+      "reason": "Winter precipitation signal within 24 hours",
+      "timing": "2026-10-12T05:00:00-06:00",
+      "forecast": "Isolated Rain And Snow Showers; Slight Chance Rain And Snow Showers; Chance Rain And Snow Showers",
       "alerts": [
         {
           "event": "Hydrologic Outlook",
@@ -7395,18 +7338,18 @@
           "ends": null
         }
       ],
-      "temperatureMin": 29,
-      "maxPrecipProbability": 97,
+      "temperatureMin": 27,
+      "maxPrecipProbability": 95,
       "maxWindMph": 20,
       "lat": 37.81194,
       "lon": -107.66451,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=37.8119&lon=-107.6645",
       "points": [
         {
-          "status": "WATCH",
-          "reason": "Winter precipitation signal within 72 hours",
-          "timing": "2026-10-14T06:00:00-06:00",
-          "forecast": "Chance Snow Showers",
+          "status": "PREPARE",
+          "reason": "Winter precipitation signal within 24 hours",
+          "timing": "2026-10-12T05:00:00-06:00",
+          "forecast": "Isolated Rain And Snow Showers; Slight Chance Rain And Snow Showers; Chance Rain And Snow Showers",
           "alerts": [
             {
               "event": "Hydrologic Outlook",
@@ -7415,8 +7358,8 @@
               "ends": null
             }
           ],
-          "temperatureMin": 29,
-          "maxPrecipProbability": 97,
+          "temperatureMin": 27,
+          "maxPrecipProbability": 95,
           "maxWindMph": 20,
           "lat": 37.81194,
           "lon": -107.66451,
@@ -7483,8 +7426,8 @@
               "ends": null
             }
           ],
-          "temperatureMin": 35,
-          "maxPrecipProbability": 98,
+          "temperatureMin": 34,
+          "maxPrecipProbability": 92,
           "maxWindMph": 15,
           "lat": 37.26945,
           "lon": -107.00976,
@@ -7639,27 +7582,27 @@
       "roadSources": [
         "https://511.idaho.gov/roadconditions"
       ],
-      "status": "CLEAR",
-      "reason": "No meaningful winter-weather signal in the next 72 hours",
-      "timing": "2026-10-11T06:00:00-07:00",
-      "forecast": "Slight Chance Snow Showers",
+      "status": "WATCH",
+      "reason": "Winter precipitation signal within 72 hours",
+      "timing": "2026-10-11T10:00:00-07:00",
+      "forecast": "Chance Snow Showers; Chance Rain And Snow Showers",
       "alerts": [],
-      "temperatureMin": 27,
-      "maxPrecipProbability": 24,
-      "maxWindMph": 9,
+      "temperatureMin": 28,
+      "maxPrecipProbability": 30,
+      "maxWindMph": 8,
       "lat": 47.47409,
       "lon": -115.92794,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.4741&lon=-115.9279",
       "points": [
         {
-          "status": "CLEAR",
-          "reason": "No meaningful winter-weather signal in the next 72 hours",
-          "timing": "2026-10-11T06:00:00-07:00",
-          "forecast": "Slight Chance Snow Showers",
+          "status": "WATCH",
+          "reason": "Winter precipitation signal within 72 hours",
+          "timing": "2026-10-11T10:00:00-07:00",
+          "forecast": "Chance Snow Showers; Chance Rain And Snow Showers",
           "alerts": [],
-          "temperatureMin": 27,
-          "maxPrecipProbability": 24,
-          "maxWindMph": 9,
+          "temperatureMin": 28,
+          "maxPrecipProbability": 30,
+          "maxWindMph": 8,
           "lat": 47.47409,
           "lon": -115.92794,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=47.4741&lon=-115.9279",
@@ -7736,8 +7679,8 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 49,
-      "maxPrecipProbability": 13,
+      "temperatureMin": 48,
+      "maxPrecipProbability": 5,
       "maxWindMph": 15,
       "lat": 43.64801,
       "lon": -93.36827,
@@ -7749,8 +7692,8 @@
           "timing": null,
           "forecast": null,
           "alerts": [],
-          "temperatureMin": 49,
-          "maxPrecipProbability": 13,
+          "temperatureMin": 48,
+          "maxPrecipProbability": 5,
           "maxWindMph": 15,
           "lat": 43.64801,
           "lon": -93.36827,
@@ -7782,8 +7725,8 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 38,
-      "maxPrecipProbability": 58,
-      "maxWindMph": 17,
+      "maxPrecipProbability": 63,
+      "maxWindMph": 16,
       "lat": 46.87386,
       "lon": -96.76951,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8739&lon=-96.7695",
@@ -7795,8 +7738,8 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 38,
-          "maxPrecipProbability": 58,
-          "maxWindMph": 17,
+          "maxPrecipProbability": 63,
+          "maxWindMph": 16,
           "lat": 46.87386,
           "lon": -96.76951,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8739&lon=-96.7695",
@@ -7849,8 +7792,8 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 50,
-      "maxPrecipProbability": 39,
+      "temperatureMin": 48,
+      "maxPrecipProbability": 26,
       "maxWindMph": 10,
       "lat": 44.97997,
       "lon": -93.26384,
@@ -7862,8 +7805,8 @@
           "timing": null,
           "forecast": null,
           "alerts": [],
-          "temperatureMin": 50,
-          "maxPrecipProbability": 39,
+          "temperatureMin": 48,
+          "maxPrecipProbability": 26,
           "maxWindMph": 10,
           "lat": 44.97997,
           "lon": -93.26384,
@@ -7891,8 +7834,8 @@
       ],
       "status": "PREPARE",
       "reason": "Winter Weather Advisory",
-      "timing": "2026-10-11T07:00:00-06:00",
-      "forecast": "Light Snow; Rain And Snow",
+      "timing": "2026-10-11T11:00:00-06:00",
+      "forecast": "Rain And Snow",
       "alerts": [
         {
           "event": "Winter Weather Advisory",
@@ -7903,7 +7846,7 @@
       ],
       "temperatureMin": 27,
       "maxPrecipProbability": 100,
-      "maxWindMph": 17,
+      "maxWindMph": 16,
       "lat": 45.66244,
       "lon": -110.56104,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.6624&lon=-110.5610",
@@ -7911,8 +7854,8 @@
         {
           "status": "PREPARE",
           "reason": "Winter Weather Advisory",
-          "timing": "2026-10-11T07:00:00-06:00",
-          "forecast": "Light Snow; Rain And Snow",
+          "timing": "2026-10-11T11:00:00-06:00",
+          "forecast": "Rain And Snow",
           "alerts": [
             {
               "event": "Winter Weather Advisory",
@@ -7923,7 +7866,7 @@
           ],
           "temperatureMin": 27,
           "maxPrecipProbability": 100,
-          "maxWindMph": 17,
+          "maxWindMph": 16,
           "lat": 45.66244,
           "lon": -110.56104,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.6624&lon=-110.5610",
@@ -7951,8 +7894,8 @@
       ],
       "status": "ACTIVATE",
       "reason": "Winter Storm Warning",
-      "timing": "2026-10-11T07:00:00-06:00",
-      "forecast": "Snow Likely; Chance Light Snow; Slight Chance Light Snow",
+      "timing": "2026-10-11T11:00:00-06:00",
+      "forecast": "Slight Chance Light Snow; Chance Light Snow",
       "alerts": [
         {
           "event": "Winter Storm Warning",
@@ -7977,8 +7920,8 @@
         {
           "status": "ACTIVATE",
           "reason": "Winter Storm Warning",
-          "timing": "2026-10-11T07:00:00-06:00",
-          "forecast": "Snow Likely; Chance Light Snow; Slight Chance Light Snow",
+          "timing": "2026-10-11T11:00:00-06:00",
+          "forecast": "Slight Chance Light Snow; Chance Light Snow",
           "alerts": [
             {
               "event": "Winter Storm Warning",
@@ -8022,11 +7965,11 @@
       ],
       "status": "PREPARE",
       "reason": "Winter precipitation signal within 24 hours",
-      "timing": "2026-10-11T07:00:00-06:00",
-      "forecast": "Rain And Snow Likely; Rain And Snow",
+      "timing": "2026-10-11T11:00:00-06:00",
+      "forecast": "Rain And Snow Likely; Rain And Snow; Chance Rain And Snow",
       "alerts": [],
       "temperatureMin": 26,
-      "maxPrecipProbability": 92,
+      "maxPrecipProbability": 76,
       "maxWindMph": 5,
       "lat": 47.19159,
       "lon": -114.8918,
@@ -8035,11 +7978,11 @@
         {
           "status": "PREPARE",
           "reason": "Winter precipitation signal within 24 hours",
-          "timing": "2026-10-11T07:00:00-06:00",
-          "forecast": "Rain And Snow Likely; Rain And Snow",
+          "timing": "2026-10-11T11:00:00-06:00",
+          "forecast": "Rain And Snow Likely; Rain And Snow; Chance Rain And Snow",
           "alerts": [],
           "temperatureMin": 26,
-          "maxPrecipProbability": 92,
+          "maxPrecipProbability": 76,
           "maxWindMph": 5,
           "lat": 47.19159,
           "lon": -114.8918,
@@ -8065,41 +8008,41 @@
       "roadSources": [
         "https://www.511mt.net/"
       ],
-      "status": "PREPARE",
-      "reason": "Winter Weather Advisory",
-      "timing": "2026-10-11T07:00:00-06:00",
-      "forecast": "Snow And Patchy Blowing Snow; Snow Likely",
+      "status": "ACTIVATE",
+      "reason": "Winter Storm Warning",
+      "timing": "2026-10-11T11:00:00-06:00",
+      "forecast": "Snow Likely; Light Snow Likely; Light Snow",
       "alerts": [
         {
-          "event": "Winter Weather Advisory",
-          "headline": "Winter Weather Advisory issued October 10 at 10:40PM MDT until October 12 at 6:00AM MDT by NWS Great Falls MT",
-          "severity": "Moderate",
+          "event": "Winter Storm Warning",
+          "headline": "Winter Storm Warning issued October 11 at 10:29AM MDT until October 12 at 6:00AM MDT by NWS Great Falls MT",
+          "severity": "Severe",
           "ends": "2026-10-12T06:00:00-06:00"
         }
       ],
       "temperatureMin": 24,
-      "maxPrecipProbability": 99,
-      "maxWindMph": 17,
+      "maxPrecipProbability": 100,
+      "maxWindMph": 15,
       "lat": 46.59271,
       "lon": -112.03611,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.5927&lon=-112.0361",
       "points": [
         {
-          "status": "PREPARE",
-          "reason": "Winter Weather Advisory",
-          "timing": "2026-10-11T07:00:00-06:00",
-          "forecast": "Snow And Patchy Blowing Snow; Snow Likely",
+          "status": "ACTIVATE",
+          "reason": "Winter Storm Warning",
+          "timing": "2026-10-11T11:00:00-06:00",
+          "forecast": "Snow Likely; Light Snow Likely; Light Snow",
           "alerts": [
             {
-              "event": "Winter Weather Advisory",
-              "headline": "Winter Weather Advisory issued October 10 at 10:40PM MDT until October 12 at 6:00AM MDT by NWS Great Falls MT",
-              "severity": "Moderate",
+              "event": "Winter Storm Warning",
+              "headline": "Winter Storm Warning issued October 11 at 10:29AM MDT until October 12 at 6:00AM MDT by NWS Great Falls MT",
+              "severity": "Severe",
               "ends": "2026-10-12T06:00:00-06:00"
             }
           ],
           "temperatureMin": 24,
-          "maxPrecipProbability": 99,
-          "maxWindMph": 17,
+          "maxPrecipProbability": 100,
+          "maxWindMph": 15,
           "lat": 46.59271,
           "lon": -112.03611,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.5927&lon=-112.0361",
@@ -8128,19 +8071,19 @@
       ],
       "status": "ACTIVATE",
       "reason": "Winter Storm Warning",
-      "timing": "2026-10-11T07:00:00-06:00",
-      "forecast": "Heavy Snow",
+      "timing": "2026-10-11T11:00:00-06:00",
+      "forecast": "Heavy Snow; Snow",
       "alerts": [
         {
           "event": "Winter Storm Warning",
-          "headline": "Winter Storm Warning issued October 10 at 10:40PM MDT until October 12 at 6:00AM MDT by NWS Great Falls MT",
+          "headline": "Winter Storm Warning issued October 11 at 10:29AM MDT until October 12 at 6:00AM MDT by NWS Great Falls MT",
           "severity": "Severe",
           "ends": "2026-10-12T06:00:00-06:00"
         }
       ],
       "temperatureMin": 21,
       "maxPrecipProbability": 99,
-      "maxWindMph": 14,
+      "maxWindMph": 16,
       "lat": 48.44136,
       "lon": -113.21815,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=48.4414&lon=-113.2181",
@@ -8148,19 +8091,19 @@
         {
           "status": "ACTIVATE",
           "reason": "Winter Storm Warning",
-          "timing": "2026-10-11T07:00:00-06:00",
-          "forecast": "Heavy Snow",
+          "timing": "2026-10-11T11:00:00-06:00",
+          "forecast": "Heavy Snow; Snow",
           "alerts": [
             {
               "event": "Winter Storm Warning",
-              "headline": "Winter Storm Warning issued October 10 at 10:40PM MDT until October 12 at 6:00AM MDT by NWS Great Falls MT",
+              "headline": "Winter Storm Warning issued October 11 at 10:29AM MDT until October 12 at 6:00AM MDT by NWS Great Falls MT",
               "severity": "Severe",
               "ends": "2026-10-12T06:00:00-06:00"
             }
           ],
           "temperatureMin": 21,
           "maxPrecipProbability": 99,
-          "maxWindMph": 14,
+          "maxWindMph": 16,
           "lat": 48.44136,
           "lon": -113.21815,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=48.4414&lon=-113.2181",
@@ -8193,7 +8136,7 @@
       "alerts": [],
       "temperatureMin": 37,
       "maxPrecipProbability": 71,
-      "maxWindMph": 15,
+      "maxWindMph": 18,
       "lat": 46.80833,
       "lon": -100.78374,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8083&lon=-100.7837",
@@ -8206,7 +8149,7 @@
           "alerts": [],
           "temperatureMin": 37,
           "maxPrecipProbability": 71,
-          "maxWindMph": 15,
+          "maxWindMph": 18,
           "lat": 46.80833,
           "lon": -100.78374,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8083&lon=-100.7837",
@@ -8238,7 +8181,7 @@
       "alerts": [],
       "temperatureMin": 35,
       "maxPrecipProbability": 84,
-      "maxWindMph": 15,
+      "maxWindMph": 18,
       "lat": 46.87918,
       "lon": -102.78962,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8792&lon=-102.7896",
@@ -8251,7 +8194,7 @@
           "alerts": [],
           "temperatureMin": 35,
           "maxPrecipProbability": 84,
-          "maxWindMph": 15,
+          "maxWindMph": 18,
           "lat": 46.87918,
           "lon": -102.78962,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8792&lon=-102.7896",
@@ -8283,7 +8226,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 39,
-      "maxPrecipProbability": 59,
+      "maxPrecipProbability": 62,
       "maxWindMph": 17,
       "lat": 46.87719,
       "lon": -96.7898,
@@ -8296,7 +8239,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 39,
-          "maxPrecipProbability": 59,
+          "maxPrecipProbability": 62,
           "maxWindMph": 17,
           "lat": 46.87719,
           "lon": -96.7898,
@@ -8329,7 +8272,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 36,
-      "maxPrecipProbability": 87,
+      "maxPrecipProbability": 83,
       "maxWindMph": 18,
       "lat": 47.92526,
       "lon": -97.03285,
@@ -8342,7 +8285,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 36,
-          "maxPrecipProbability": 87,
+          "maxPrecipProbability": 83,
           "maxWindMph": 18,
           "lat": 47.92526,
           "lon": -97.03285,
@@ -8419,9 +8362,9 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 59,
-      "maxPrecipProbability": 55,
-      "maxWindMph": 15,
+      "temperatureMin": 58,
+      "maxPrecipProbability": 54,
+      "maxWindMph": 14,
       "lat": 41.25626,
       "lon": -95.94043,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.2563&lon=-95.9404",
@@ -8432,9 +8375,9 @@
           "timing": null,
           "forecast": null,
           "alerts": [],
-          "temperatureMin": 59,
-          "maxPrecipProbability": 55,
-          "maxWindMph": 15,
+          "temperatureMin": 58,
+          "maxPrecipProbability": 54,
+          "maxWindMph": 14,
           "lat": 41.25626,
           "lon": -95.94043,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.2563&lon=-95.9404",
@@ -8642,8 +8585,8 @@
       "roadSources": [
         "https://www.nvroads.com/"
       ],
-      "status": "WATCH",
-      "reason": "Winter precipitation signal within 72 hours",
+      "status": "PREPARE",
+      "reason": "Winter precipitation signal within 24 hours",
       "timing": "2026-10-12T08:00:00-07:00",
       "forecast": "Chance Rain And Snow Showers; Rain And Snow Showers",
       "alerts": [
@@ -8662,8 +8605,8 @@
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.1116&lon=-114.9645",
       "points": [
         {
-          "status": "WATCH",
-          "reason": "Winter precipitation signal within 72 hours",
+          "status": "PREPARE",
+          "reason": "Winter precipitation signal within 24 hours",
           "timing": "2026-10-12T08:00:00-07:00",
           "forecast": "Chance Rain And Snow Showers; Rain And Snow Showers",
           "alerts": [
@@ -8838,26 +8781,26 @@
       "roadSources": [
         "https://tripcheck.com/DynamicReports/Report/RoadConditions"
       ],
-      "status": "WATCH",
-      "reason": "Winter precipitation signal within 72 hours",
-      "timing": "2026-10-11T06:00:00-07:00",
-      "forecast": "Slight Chance Rain And Snow Showers; Slight Chance Snow Showers",
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": "2026-10-11T10:00:00-07:00",
+      "forecast": "Slight Chance Rain And Snow Showers; Chance Rain And Snow Showers",
       "alerts": [],
-      "temperatureMin": 22,
-      "maxPrecipProbability": 33,
+      "temperatureMin": 21,
+      "maxPrecipProbability": 27,
       "maxWindMph": 5,
       "lat": 45.50652,
       "lon": -118.42135,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.5065&lon=-118.4214",
       "points": [
         {
-          "status": "WATCH",
-          "reason": "Winter precipitation signal within 72 hours",
-          "timing": "2026-10-11T06:00:00-07:00",
-          "forecast": "Slight Chance Rain And Snow Showers; Slight Chance Snow Showers",
+          "status": "CLEAR",
+          "reason": "No meaningful winter-weather signal in the next 72 hours",
+          "timing": "2026-10-11T10:00:00-07:00",
+          "forecast": "Slight Chance Rain And Snow Showers; Chance Rain And Snow Showers",
           "alerts": [],
-          "temperatureMin": 22,
-          "maxPrecipProbability": 33,
+          "temperatureMin": 21,
+          "maxPrecipProbability": 27,
           "maxWindMph": 5,
           "lat": 45.50652,
           "lon": -118.42135,
@@ -8978,12 +8921,12 @@
       ],
       "status": "CLEAR",
       "reason": "No meaningful winter-weather signal in the next 72 hours",
-      "timing": null,
-      "forecast": null,
+      "timing": "2026-10-11T10:00:00-07:00",
+      "forecast": "Slight Chance Rain And Snow Showers",
       "alerts": [],
       "temperatureMin": 23,
-      "maxPrecipProbability": 19,
-      "maxWindMph": 13,
+      "maxPrecipProbability": 22,
+      "maxWindMph": 12,
       "lat": 44.29095,
       "lon": -121.54921,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.2910&lon=-121.5492",
@@ -8991,12 +8934,12 @@
         {
           "status": "CLEAR",
           "reason": "No meaningful winter-weather signal in the next 72 hours",
-          "timing": null,
-          "forecast": null,
+          "timing": "2026-10-11T10:00:00-07:00",
+          "forecast": "Slight Chance Rain And Snow Showers",
           "alerts": [],
           "temperatureMin": 23,
-          "maxPrecipProbability": 19,
-          "maxWindMph": 13,
+          "maxPrecipProbability": 22,
+          "maxWindMph": 12,
           "lat": 44.29095,
           "lon": -121.54921,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.2910&lon=-121.5492",
@@ -9032,12 +8975,6 @@
           "headline": "Freeze Warning issued October 11 at 3:03AM PDT until October 12 at 9:00AM PDT by NWS Medford OR",
           "severity": "Severe",
           "ends": "2026-10-12T09:00:00-07:00"
-        },
-        {
-          "event": "Frost Advisory",
-          "headline": "Frost Advisory issued October 11 at 3:03AM PDT until October 11 at 8:00AM PDT by NWS Medford OR",
-          "severity": "Minor",
-          "ends": "2026-10-11T08:00:00-07:00"
         }
       ],
       "temperatureMin": 31,
@@ -9058,12 +8995,6 @@
               "headline": "Freeze Warning issued October 11 at 3:03AM PDT until October 12 at 9:00AM PDT by NWS Medford OR",
               "severity": "Severe",
               "ends": "2026-10-12T09:00:00-07:00"
-            },
-            {
-              "event": "Frost Advisory",
-              "headline": "Frost Advisory issued October 11 at 3:03AM PDT until October 11 at 8:00AM PDT by NWS Medford OR",
-              "severity": "Minor",
-              "ends": "2026-10-11T08:00:00-07:00"
             }
           ],
           "temperatureMin": 31,
@@ -9098,14 +9029,7 @@
       "reason": "No meaningful winter-weather signal in the next 72 hours",
       "timing": null,
       "forecast": null,
-      "alerts": [
-        {
-          "event": "Frost Advisory",
-          "headline": "Frost Advisory issued October 11 at 1:01AM PDT until October 11 at 9:00AM PDT by NWS Portland OR",
-          "severity": "Minor",
-          "ends": "2026-10-11T09:00:00-07:00"
-        }
-      ],
+      "alerts": [],
       "temperatureMin": 34,
       "maxPrecipProbability": 1,
       "maxWindMph": 12,
@@ -9118,14 +9042,7 @@
           "reason": "No meaningful winter-weather signal in the next 72 hours",
           "timing": null,
           "forecast": null,
-          "alerts": [
-            {
-              "event": "Frost Advisory",
-              "headline": "Frost Advisory issued October 11 at 1:01AM PDT until October 11 at 9:00AM PDT by NWS Portland OR",
-              "severity": "Minor",
-              "ends": "2026-10-11T09:00:00-07:00"
-            }
-          ],
+          "alerts": [],
           "temperatureMin": 34,
           "maxPrecipProbability": 1,
           "maxWindMph": 12,
@@ -9158,8 +9075,8 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 46,
-      "maxPrecipProbability": 9,
+      "temperatureMin": 43,
+      "maxPrecipProbability": 10,
       "maxWindMph": 15,
       "lat": 43.70943,
       "lon": -98.0298,
@@ -9171,8 +9088,8 @@
           "timing": null,
           "forecast": null,
           "alerts": [],
-          "temperatureMin": 46,
-          "maxPrecipProbability": 9,
+          "temperatureMin": 43,
+          "maxPrecipProbability": 10,
           "maxWindMph": 15,
           "lat": 43.70943,
           "lon": -98.0298,
@@ -9204,8 +9121,8 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 48,
-      "maxPrecipProbability": 7,
+      "temperatureMin": 47,
+      "maxPrecipProbability": 4,
       "maxWindMph": 15,
       "lat": 43.54369,
       "lon": -96.72796,
@@ -9217,8 +9134,8 @@
           "timing": null,
           "forecast": null,
           "alerts": [],
-          "temperatureMin": 48,
-          "maxPrecipProbability": 7,
+          "temperatureMin": 47,
+          "maxPrecipProbability": 4,
           "maxWindMph": 15,
           "lat": 43.54369,
           "lon": -96.72796,
@@ -9296,8 +9213,8 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 40,
-      "maxPrecipProbability": 32,
-      "maxWindMph": 12,
+      "maxPrecipProbability": 21,
+      "maxWindMph": 13,
       "lat": 44.89941,
       "lon": -97.11507,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.8994&lon=-97.1151",
@@ -9309,8 +9226,8 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 40,
-          "maxPrecipProbability": 32,
-          "maxWindMph": 12,
+          "maxPrecipProbability": 21,
+          "maxWindMph": 13,
           "lat": 44.89941,
           "lon": -97.11507,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.8994&lon=-97.1151",
@@ -9341,21 +9258,21 @@
       "forecast": null,
       "alerts": [
         {
+          "event": "Wind Advisory",
+          "headline": "Wind Advisory issued October 11 at 10:31AM MDT until October 12 at 12:00AM MDT by NWS Salt Lake City UT",
+          "severity": "Moderate",
+          "ends": "2026-10-12T00:00:00-06:00"
+        },
+        {
           "event": "Flood Watch",
           "headline": "Flood Watch issued October 11 at 6:42AM MDT until October 12 at 6:00PM MDT by NWS Salt Lake City UT",
           "severity": "Severe",
           "ends": "2026-10-12T18:00:00-06:00"
-        },
-        {
-          "event": "Wind Advisory",
-          "headline": "Wind Advisory issued October 10 at 9:47PM MDT until October 12 at 6:00AM MDT by NWS Salt Lake City UT",
-          "severity": "Moderate",
-          "ends": "2026-10-12T06:00:00-06:00"
         }
       ],
       "temperatureMin": 35,
-      "maxPrecipProbability": 99,
-      "maxWindMph": 21,
+      "maxPrecipProbability": 96,
+      "maxWindMph": 28,
       "lat": 39.71023,
       "lon": -111.83632,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=39.7102&lon=-111.8363",
@@ -9367,21 +9284,21 @@
           "forecast": null,
           "alerts": [
             {
+              "event": "Wind Advisory",
+              "headline": "Wind Advisory issued October 11 at 10:31AM MDT until October 12 at 12:00AM MDT by NWS Salt Lake City UT",
+              "severity": "Moderate",
+              "ends": "2026-10-12T00:00:00-06:00"
+            },
+            {
               "event": "Flood Watch",
               "headline": "Flood Watch issued October 11 at 6:42AM MDT until October 12 at 6:00PM MDT by NWS Salt Lake City UT",
               "severity": "Severe",
               "ends": "2026-10-12T18:00:00-06:00"
-            },
-            {
-              "event": "Wind Advisory",
-              "headline": "Wind Advisory issued October 10 at 9:47PM MDT until October 12 at 6:00AM MDT by NWS Salt Lake City UT",
-              "severity": "Moderate",
-              "ends": "2026-10-12T06:00:00-06:00"
             }
           ],
           "temperatureMin": 35,
-          "maxPrecipProbability": 99,
-          "maxWindMph": 21,
+          "maxPrecipProbability": 96,
+          "maxWindMph": 28,
           "lat": 39.71023,
           "lon": -111.83632,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=39.7102&lon=-111.8363",
@@ -9413,6 +9330,12 @@
       "forecast": "Rain And Snow Showers",
       "alerts": [
         {
+          "event": "Wind Advisory",
+          "headline": "Wind Advisory issued October 11 at 10:31AM MDT until October 12 at 12:00AM MDT by NWS Salt Lake City UT",
+          "severity": "Moderate",
+          "ends": "2026-10-12T00:00:00-06:00"
+        },
+        {
           "event": "Flood Watch",
           "headline": "Flood Watch issued October 11 at 6:42AM MDT until October 12 at 6:00PM MDT by NWS Salt Lake City UT",
           "severity": "Severe",
@@ -9421,7 +9344,7 @@
       ],
       "temperatureMin": 33,
       "maxPrecipProbability": 100,
-      "maxWindMph": 15,
+      "maxWindMph": 17,
       "lat": 40.74578,
       "lon": -111.61159,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=40.7458&lon=-111.6116",
@@ -9433,6 +9356,12 @@
           "forecast": "Rain And Snow Showers",
           "alerts": [
             {
+              "event": "Wind Advisory",
+              "headline": "Wind Advisory issued October 11 at 10:31AM MDT until October 12 at 12:00AM MDT by NWS Salt Lake City UT",
+              "severity": "Moderate",
+              "ends": "2026-10-12T00:00:00-06:00"
+            },
+            {
               "event": "Flood Watch",
               "headline": "Flood Watch issued October 11 at 6:42AM MDT until October 12 at 6:00PM MDT by NWS Salt Lake City UT",
               "severity": "Severe",
@@ -9441,7 +9370,7 @@
           ],
           "temperatureMin": 33,
           "maxPrecipProbability": 100,
-          "maxWindMph": 15,
+          "maxWindMph": 17,
           "lat": 40.74578,
           "lon": -111.61159,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=40.7458&lon=-111.6116",
@@ -9472,6 +9401,12 @@
       "forecast": null,
       "alerts": [
         {
+          "event": "Wind Advisory",
+          "headline": "Wind Advisory issued October 11 at 10:31AM MDT until October 12 at 12:00AM MDT by NWS Salt Lake City UT",
+          "severity": "Moderate",
+          "ends": "2026-10-12T00:00:00-06:00"
+        },
+        {
           "event": "Flood Watch",
           "headline": "Flood Watch issued October 11 at 6:42AM MDT until October 12 at 6:00PM MDT by NWS Salt Lake City UT",
           "severity": "Severe",
@@ -9480,7 +9415,7 @@
       ],
       "temperatureMin": 37,
       "maxPrecipProbability": 99,
-      "maxWindMph": 15,
+      "maxWindMph": 16,
       "lat": 41.49577,
       "lon": -111.94383,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.4958&lon=-111.9438",
@@ -9492,6 +9427,12 @@
           "forecast": null,
           "alerts": [
             {
+              "event": "Wind Advisory",
+              "headline": "Wind Advisory issued October 11 at 10:31AM MDT until October 12 at 12:00AM MDT by NWS Salt Lake City UT",
+              "severity": "Moderate",
+              "ends": "2026-10-12T00:00:00-06:00"
+            },
+            {
               "event": "Flood Watch",
               "headline": "Flood Watch issued October 11 at 6:42AM MDT until October 12 at 6:00PM MDT by NWS Salt Lake City UT",
               "severity": "Severe",
@@ -9500,7 +9441,7 @@
           ],
           "temperatureMin": 37,
           "maxPrecipProbability": 99,
-          "maxWindMph": 15,
+          "maxWindMph": 16,
           "lat": 41.49577,
           "lon": -111.94383,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.4958&lon=-111.9438",
@@ -9532,6 +9473,12 @@
       "forecast": null,
       "alerts": [
         {
+          "event": "Wind Advisory",
+          "headline": "Wind Advisory issued October 11 at 10:31AM MDT until October 11 at 9:00PM MDT by NWS Salt Lake City UT",
+          "severity": "Moderate",
+          "ends": "2026-10-11T21:00:00-06:00"
+        },
+        {
           "event": "Flood Watch",
           "headline": "Flood Watch issued October 11 at 6:42AM MDT until October 12 at 6:00PM MDT by NWS Salt Lake City UT",
           "severity": "Severe",
@@ -9539,7 +9486,7 @@
         }
       ],
       "temperatureMin": 33,
-      "maxPrecipProbability": 100,
+      "maxPrecipProbability": 98,
       "maxWindMph": 15,
       "lat": 41.03606,
       "lon": -111.67688,
@@ -9552,6 +9499,12 @@
           "forecast": null,
           "alerts": [
             {
+              "event": "Wind Advisory",
+              "headline": "Wind Advisory issued October 11 at 10:31AM MDT until October 11 at 9:00PM MDT by NWS Salt Lake City UT",
+              "severity": "Moderate",
+              "ends": "2026-10-11T21:00:00-06:00"
+            },
+            {
               "event": "Flood Watch",
               "headline": "Flood Watch issued October 11 at 6:42AM MDT until October 12 at 6:00PM MDT by NWS Salt Lake City UT",
               "severity": "Severe",
@@ -9559,7 +9512,7 @@
             }
           ],
           "temperatureMin": 33,
-          "maxPrecipProbability": 100,
+          "maxPrecipProbability": 98,
           "maxWindMph": 15,
           "lat": 41.03606,
           "lon": -111.67688,
@@ -9592,7 +9545,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 30,
-      "maxPrecipProbability": 2,
+      "maxPrecipProbability": 3,
       "maxWindMph": 5,
       "lat": 47.1954,
       "lon": -120.93925,
@@ -9605,7 +9558,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 30,
-          "maxPrecipProbability": 2,
+          "maxPrecipProbability": 3,
           "maxWindMph": 5,
           "lat": 47.1954,
           "lon": -120.93925,
@@ -9639,15 +9592,9 @@
       "alerts": [
         {
           "event": "Frost Advisory",
-          "headline": "Frost Advisory issued October 10 at 10:50PM PDT until October 12 at 8:00AM PDT by NWS Seattle WA",
+          "headline": "Frost Advisory issued October 11 at 7:34AM PDT until October 12 at 8:00AM PDT by NWS Seattle WA",
           "severity": "Minor",
           "ends": "2026-10-12T08:00:00-07:00"
-        },
-        {
-          "event": "Frost Advisory",
-          "headline": "Frost Advisory issued October 10 at 10:50PM PDT until October 11 at 8:00AM PDT by NWS Seattle WA",
-          "severity": "Minor",
-          "ends": "2026-10-11T08:00:00-07:00"
         }
       ],
       "temperatureMin": 36,
@@ -9665,15 +9612,9 @@
           "alerts": [
             {
               "event": "Frost Advisory",
-              "headline": "Frost Advisory issued October 10 at 10:50PM PDT until October 12 at 8:00AM PDT by NWS Seattle WA",
+              "headline": "Frost Advisory issued October 11 at 7:34AM PDT until October 12 at 8:00AM PDT by NWS Seattle WA",
               "severity": "Minor",
               "ends": "2026-10-12T08:00:00-07:00"
-            },
-            {
-              "event": "Frost Advisory",
-              "headline": "Frost Advisory issued October 10 at 10:50PM PDT until October 11 at 8:00AM PDT by NWS Seattle WA",
-              "severity": "Minor",
-              "ends": "2026-10-11T08:00:00-07:00"
             }
           ],
           "temperatureMin": 36,
@@ -9741,7 +9682,7 @@
           "alerts": [
             {
               "event": "Frost Advisory",
-              "headline": "Frost Advisory issued October 10 at 10:50PM PDT until October 12 at 8:00AM PDT by NWS Seattle WA",
+              "headline": "Frost Advisory issued October 11 at 7:34AM PDT until October 12 at 8:00AM PDT by NWS Seattle WA",
               "severity": "Minor",
               "ends": "2026-10-12T08:00:00-07:00"
             }
@@ -9825,8 +9766,8 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 29,
-      "maxPrecipProbability": 3,
+      "temperatureMin": 31,
+      "maxPrecipProbability": 16,
       "maxWindMph": 12,
       "lat": 47.65966,
       "lon": -117.42908,
@@ -9838,8 +9779,8 @@
           "timing": null,
           "forecast": null,
           "alerts": [],
-          "temperatureMin": 29,
-          "maxPrecipProbability": 3,
+          "temperatureMin": 31,
+          "maxPrecipProbability": 16,
           "maxWindMph": 12,
           "lat": 47.65966,
           "lon": -117.42908,
@@ -9917,15 +9858,15 @@
       "forecast": null,
       "alerts": [
         {
-          "event": "High Wind Watch",
-          "headline": "High Wind Watch issued October 11 at 12:37AM MDT until October 12 at 6:00AM MDT by NWS Riverton WY",
+          "event": "High Wind Warning",
+          "headline": "High Wind Warning issued October 11 at 10:32AM MDT until October 12 at 6:00AM MDT by NWS Riverton WY",
           "severity": "Severe",
           "ends": "2026-10-12T06:00:00-06:00"
         }
       ],
       "temperatureMin": 35,
-      "maxPrecipProbability": 81,
-      "maxWindMph": 30,
+      "maxPrecipProbability": 87,
+      "maxWindMph": 24,
       "lat": 42.86663,
       "lon": -106.31308,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=42.8666&lon=-106.3131",
@@ -9937,15 +9878,15 @@
           "forecast": null,
           "alerts": [
             {
-              "event": "High Wind Watch",
-              "headline": "High Wind Watch issued October 11 at 12:37AM MDT until October 12 at 6:00AM MDT by NWS Riverton WY",
+              "event": "High Wind Warning",
+              "headline": "High Wind Warning issued October 11 at 10:32AM MDT until October 12 at 6:00AM MDT by NWS Riverton WY",
               "severity": "Severe",
               "ends": "2026-10-12T06:00:00-06:00"
             }
           ],
           "temperatureMin": 35,
-          "maxPrecipProbability": 81,
-          "maxWindMph": 30,
+          "maxPrecipProbability": 87,
+          "maxWindMph": 24,
           "lat": 42.86663,
           "lon": -106.31308,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=42.8666&lon=-106.3131",
@@ -9977,8 +9918,8 @@
       "forecast": "Rain And Snow Showers",
       "alerts": [
         {
-          "event": "High Wind Watch",
-          "headline": "High Wind Watch issued October 11 at 12:53AM MDT until October 12 at 6:00AM MDT by NWS Cheyenne WY",
+          "event": "High Wind Warning",
+          "headline": "High Wind Warning issued October 11 at 10:49AM MDT until October 12 at 6:00AM MDT by NWS Cheyenne WY",
           "severity": "Severe",
           "ends": "2026-10-12T06:00:00-06:00"
         }
@@ -9997,8 +9938,8 @@
           "forecast": "Rain And Snow Showers",
           "alerts": [
             {
-              "event": "High Wind Watch",
-              "headline": "High Wind Watch issued October 11 at 12:53AM MDT until October 12 at 6:00AM MDT by NWS Cheyenne WY",
+              "event": "High Wind Warning",
+              "headline": "High Wind Warning issued October 11 at 10:49AM MDT until October 12 at 6:00AM MDT by NWS Cheyenne WY",
               "severity": "Severe",
               "ends": "2026-10-12T06:00:00-06:00"
             }
@@ -10032,26 +9973,40 @@
       "roadSources": [
         "https://www.wyoroad.info/"
       ],
-      "status": "WATCH",
-      "reason": "Winter precipitation signal within 72 hours",
-      "timing": "2026-10-14T06:00:00-06:00",
-      "forecast": "Rain And Snow Showers Likely",
-      "alerts": [],
-      "temperatureMin": 33,
-      "maxPrecipProbability": 80,
-      "maxWindMph": 31,
-      "lat": 41.58746,
-      "lon": -109.2029,
-      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.5875&lon=-109.2029",
+      "status": "CLEAR",
+      "reason": "No meaningful winter-weather signal in the next 72 hours",
+      "timing": null,
+      "forecast": null,
+      "alerts": [
+        {
+          "event": "High Wind Warning",
+          "headline": "High Wind Warning issued October 11 at 10:32AM MDT until October 12 at 6:00AM MDT by NWS Riverton WY",
+          "severity": "Severe",
+          "ends": "2026-10-12T06:00:00-06:00"
+        }
+      ],
+      "temperatureMin": 32,
+      "maxPrecipProbability": 90,
+      "maxWindMph": 26,
+      "lat": 41.54357,
+      "lon": -109.85903,
+      "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.5436&lon=-109.8590",
       "points": [
         {
           "status": "CLEAR",
           "reason": "No meaningful winter-weather signal in the next 72 hours",
           "timing": null,
           "forecast": null,
-          "alerts": [],
+          "alerts": [
+            {
+              "event": "High Wind Warning",
+              "headline": "High Wind Warning issued October 11 at 10:32AM MDT until October 12 at 6:00AM MDT by NWS Riverton WY",
+              "severity": "Severe",
+              "ends": "2026-10-12T06:00:00-06:00"
+            }
+          ],
           "temperatureMin": 32,
-          "maxPrecipProbability": 84,
+          "maxPrecipProbability": 90,
           "maxWindMph": 26,
           "lat": 41.54357,
           "lon": -109.85903,
@@ -10059,21 +10014,28 @@
           "query": "Little America, Wyoming"
         },
         {
-          "status": "WATCH",
-          "reason": "Winter precipitation signal within 72 hours",
-          "timing": "2026-10-14T06:00:00-06:00",
-          "forecast": "Rain And Snow Showers Likely",
-          "alerts": [],
-          "temperatureMin": 33,
-          "maxPrecipProbability": 80,
-          "maxWindMph": 31,
+          "status": "CLEAR",
+          "reason": "No meaningful winter-weather signal in the next 72 hours",
+          "timing": null,
+          "forecast": null,
+          "alerts": [
+            {
+              "event": "High Wind Warning",
+              "headline": "High Wind Warning issued October 11 at 10:32AM MDT until October 12 at 6:00AM MDT by NWS Riverton WY",
+              "severity": "Severe",
+              "ends": "2026-10-12T06:00:00-06:00"
+            }
+          ],
+          "temperatureMin": 32,
+          "maxPrecipProbability": 81,
+          "maxWindMph": 32,
           "lat": 41.58746,
           "lon": -109.2029,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.5875&lon=-109.2029",
           "query": "Rock Springs, Wyoming"
         }
       ],
-      "triggerPoint": "Rock Springs, Wyoming",
+      "triggerPoint": "Little America, Wyoming",
       "error": null
     },
     {
