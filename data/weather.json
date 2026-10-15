@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T21:04:24.805807+00:00",
+  "updatedAt": "2026-10-15T01:13:03.736477+00:00",
   "dataState": "live",
   "sourceNote": "National Weather Service city + corridor forecast/alert screen; DOT/511 links supplied for verification.",
   "changes": [],
@@ -477,7 +477,7 @@
       "alerts": [],
       "temperatureMin": 43,
       "maxPrecipProbability": 0,
-      "maxWindMph": 3,
+      "maxWindMph": 5,
       "lat": 41.73542,
       "lon": -122.63447,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.7354&lon=-122.6345",
@@ -542,7 +542,7 @@
         }
       ],
       "temperatureMin": 30,
-      "maxPrecipProbability": 88,
+      "maxPrecipProbability": 86,
       "maxWindMph": 22,
       "lat": 39.98526,
       "lon": -104.82053,
@@ -608,7 +608,7 @@
         }
       ],
       "temperatureMin": 30,
-      "maxPrecipProbability": 95,
+      "maxPrecipProbability": 79,
       "maxWindMph": 24,
       "lat": 39.37221,
       "lon": -104.85609,
@@ -677,7 +677,7 @@
         }
       ],
       "temperatureMin": 31,
-      "maxPrecipProbability": 78,
+      "maxPrecipProbability": 27,
       "maxWindMph": 25,
       "lat": 38.83388,
       "lon": -104.82136,
@@ -746,7 +746,7 @@
         }
       ],
       "temperatureMin": 32,
-      "maxPrecipProbability": 95,
+      "maxPrecipProbability": 86,
       "maxWindMph": 20,
       "lat": 39.73915,
       "lon": -104.9847,
@@ -809,13 +809,13 @@
       ],
       "notes": [],
       "status": "PREPARE",
-      "reason": "Corridor signal \u2014 Red Mountain / Coal Bank / Molas corridor: Winter Weather Advisory",
-      "timing": "2026-10-14T16:00:00-06:00",
-      "forecast": "Snow Showers; Snow Showers Likely",
+      "reason": "Corridor signal \u2014 Red Mountain / Coal Bank / Molas corridor: Winter precipitation signal within 24 hours",
+      "timing": "2026-10-14T20:00:00-06:00",
+      "forecast": "Snow Showers Likely; Chance Snow Showers",
       "alerts": [],
       "temperatureMin": 32,
-      "maxPrecipProbability": 68,
-      "maxWindMph": 10,
+      "maxPrecipProbability": 14,
+      "maxWindMph": 5,
       "lat": 37.27528,
       "lon": -107.88007,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=37.2753&lon=-107.8801",
@@ -842,9 +842,9 @@
           "name": "Red Mountain / Coal Bank / Molas corridor",
           "routes": "US-550",
           "status": "PREPARE",
-          "reason": "Winter Weather Advisory",
-          "timing": "2026-10-14T16:00:00-06:00",
-          "forecast": "Snow Showers; Snow Showers Likely",
+          "reason": "Winter precipitation signal within 24 hours",
+          "timing": "2026-10-14T20:00:00-06:00",
+          "forecast": "Snow Showers Likely; Chance Snow Showers",
           "triggerPoint": "Silverton, Colorado",
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=37.8119&lon=-107.6645",
           "impactedMarkets": [
@@ -979,7 +979,7 @@
         }
       ],
       "temperatureMin": 32,
-      "maxPrecipProbability": 98,
+      "maxPrecipProbability": 86,
       "maxWindMph": 20,
       "lat": 39.70471,
       "lon": -105.08137,
@@ -1036,9 +1036,9 @@
       ],
       "notes": [],
       "status": "PREPARE",
-      "reason": "Corridor signal \u2014 Red Mountain / Coal Bank / Molas corridor: Winter Weather Advisory",
-      "timing": "2026-10-14T16:00:00-06:00",
-      "forecast": "Snow Showers; Snow Showers Likely",
+      "reason": "Corridor signal \u2014 Red Mountain / Coal Bank / Molas corridor: Winter precipitation signal within 24 hours",
+      "timing": "2026-10-14T20:00:00-06:00",
+      "forecast": "Snow Showers Likely; Chance Snow Showers",
       "alerts": [],
       "temperatureMin": 34,
       "maxPrecipProbability": 67,
@@ -1054,9 +1054,9 @@
           "name": "Red Mountain / Coal Bank / Molas corridor",
           "routes": "US-550",
           "status": "PREPARE",
-          "reason": "Winter Weather Advisory",
-          "timing": "2026-10-14T16:00:00-06:00",
-          "forecast": "Snow Showers; Snow Showers Likely",
+          "reason": "Winter precipitation signal within 24 hours",
+          "timing": "2026-10-14T20:00:00-06:00",
+          "forecast": "Snow Showers Likely; Chance Snow Showers",
           "triggerPoint": "Silverton, Colorado",
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=37.8119&lon=-107.6645",
           "impactedMarkets": [
@@ -1109,7 +1109,7 @@
         }
       ],
       "temperatureMin": 28,
-      "maxPrecipProbability": 83,
+      "maxPrecipProbability": 67,
       "maxWindMph": 30,
       "lat": 39.09166,
       "lon": -104.87276,
@@ -1176,7 +1176,7 @@
         }
       ],
       "temperatureMin": 26,
-      "maxPrecipProbability": 46,
+      "maxPrecipProbability": 11,
       "maxWindMph": 20,
       "lat": 37.26945,
       "lon": -107.00976,
@@ -1360,7 +1360,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 39,
-      "maxPrecipProbability": 1,
+      "maxPrecipProbability": 0,
       "maxWindMph": 10,
       "lat": 43.6135,
       "lon": -116.20345,
@@ -1559,7 +1559,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 42,
-      "maxPrecipProbability": 1,
+      "maxPrecipProbability": 0,
       "maxWindMph": 16,
       "lat": 46.41655,
       "lon": -117.01766,
@@ -1618,7 +1618,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 38,
-      "maxPrecipProbability": 1,
+      "maxPrecipProbability": 0,
       "maxWindMph": 10,
       "lat": 43.61211,
       "lon": -116.39151,
@@ -1678,7 +1678,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 38,
-      "maxPrecipProbability": 1,
+      "maxPrecipProbability": 0,
       "maxWindMph": 14,
       "lat": 43.54072,
       "lon": -116.56346,
@@ -1937,7 +1937,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 31,
-      "maxPrecipProbability": 96,
+      "maxPrecipProbability": 99,
       "maxWindMph": 24,
       "lat": 43.66663,
       "lon": -92.97464,
@@ -2056,7 +2056,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 48,
-      "maxPrecipProbability": 7,
+      "maxPrecipProbability": 2,
       "maxWindMph": 15,
       "lat": 33.629,
       "lon": -91.79096,
@@ -2430,7 +2430,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 25,
-      "maxPrecipProbability": 1,
+      "maxPrecipProbability": 0,
       "maxWindMph": 13,
       "lat": 46.00382,
       "lon": -112.53474,
@@ -2489,7 +2489,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 29,
-      "maxPrecipProbability": 0,
+      "maxPrecipProbability": 2,
       "maxWindMph": 18,
       "lat": 48.37246,
       "lon": -114.18152,
@@ -2725,7 +2725,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 30,
-      "maxPrecipProbability": 0,
+      "maxPrecipProbability": 1,
       "maxWindMph": 15,
       "lat": 48.41108,
       "lon": -114.33763,
@@ -2792,7 +2792,7 @@
         }
       ],
       "temperatureMin": 31,
-      "maxPrecipProbability": 11,
+      "maxPrecipProbability": 20,
       "maxWindMph": 28,
       "lat": 46.80833,
       "lon": -100.78374,
@@ -2852,7 +2852,7 @@
       "alerts": [
         {
           "event": "Wind Advisory",
-          "headline": "Wind Advisory issued October 14 at 1:22PM CDT until October 16 at 1:00AM CDT by NWS Grand Forks ND",
+          "headline": "Wind Advisory issued October 14 at 6:29PM CDT until October 16 at 1:00AM CDT by NWS Grand Forks ND",
           "severity": "Moderate",
           "ends": "2026-10-16T01:00:00-05:00"
         }
@@ -2983,7 +2983,7 @@
       "alerts": [
         {
           "event": "Wind Advisory",
-          "headline": "Wind Advisory issued October 14 at 1:22PM CDT until October 16 at 1:00AM CDT by NWS Grand Forks ND",
+          "headline": "Wind Advisory issued October 14 at 6:29PM CDT until October 16 at 1:00AM CDT by NWS Grand Forks ND",
           "severity": "Moderate",
           "ends": "2026-10-16T01:00:00-05:00"
         }
@@ -3049,7 +3049,7 @@
       "alerts": [
         {
           "event": "Wind Advisory",
-          "headline": "Wind Advisory issued October 14 at 1:22PM CDT until October 16 at 1:00AM CDT by NWS Grand Forks ND",
+          "headline": "Wind Advisory issued October 14 at 6:29PM CDT until October 16 at 1:00AM CDT by NWS Grand Forks ND",
           "severity": "Moderate",
           "ends": "2026-10-16T01:00:00-05:00"
         }
@@ -3121,7 +3121,7 @@
         }
       ],
       "temperatureMin": 32,
-      "maxPrecipProbability": 11,
+      "maxPrecipProbability": 20,
       "maxWindMph": 31,
       "lat": 46.91054,
       "lon": -98.70844,
@@ -3181,7 +3181,7 @@
       "alerts": [
         {
           "event": "Wind Advisory",
-          "headline": "Wind Advisory issued October 14 at 1:22PM CDT until October 16 at 1:00AM CDT by NWS Grand Forks ND",
+          "headline": "Wind Advisory issued October 14 at 6:29PM CDT until October 16 at 1:00AM CDT by NWS Grand Forks ND",
           "severity": "Moderate",
           "ends": "2026-10-16T01:00:00-05:00"
         }
@@ -3246,7 +3246,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 34,
-      "maxPrecipProbability": 94,
+      "maxPrecipProbability": 99,
       "maxWindMph": 20,
       "lat": 41.43333,
       "lon": -96.49808,
@@ -3305,7 +3305,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 32,
-      "maxPrecipProbability": 84,
+      "maxPrecipProbability": 82,
       "maxWindMph": 20,
       "lat": 41.12389,
       "lon": -100.76542,
@@ -3363,7 +3363,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 35,
-      "maxPrecipProbability": 92,
+      "maxPrecipProbability": 98,
       "maxWindMph": 20,
       "lat": 41.15444,
       "lon": -96.04224,
@@ -3423,7 +3423,7 @@
       "alerts": [
         {
           "event": "Freeze Watch",
-          "headline": "Freeze Watch issued October 14 at 12:39PM MDT until October 16 at 9:00AM MDT by NWS Cheyenne WY",
+          "headline": "Freeze Watch issued October 14 at 5:42PM MDT until October 16 at 9:00AM MDT by NWS Cheyenne WY",
           "severity": "Severe",
           "ends": "2026-10-16T09:00:00-06:00"
         }
@@ -3489,7 +3489,7 @@
       "alerts": [
         {
           "event": "Freeze Watch",
-          "headline": "Freeze Watch issued October 14 at 12:39PM MDT until October 16 at 9:00AM MDT by NWS Cheyenne WY",
+          "headline": "Freeze Watch issued October 14 at 5:42PM MDT until October 16 at 9:00AM MDT by NWS Cheyenne WY",
           "severity": "Severe",
           "ends": "2026-10-16T09:00:00-06:00"
         }
@@ -3561,8 +3561,8 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 36,
-      "maxPrecipProbability": 29,
-      "maxWindMph": 15,
+      "maxPrecipProbability": 5,
+      "maxWindMph": 10,
       "lat": 36.72806,
       "lon": -108.21869,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=36.7281&lon=-108.2187",
@@ -3692,7 +3692,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 30,
-      "maxPrecipProbability": 1,
+      "maxPrecipProbability": 0,
       "maxWindMph": 15,
       "lat": 40.83242,
       "lon": -115.76312,
@@ -4066,8 +4066,8 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 34,
-      "maxPrecipProbability": 1,
-      "maxWindMph": 14,
+      "maxPrecipProbability": 0,
+      "maxWindMph": 13,
       "lat": 44.77487,
       "lon": -117.83438,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.7749&lon=-117.8344",
@@ -4184,7 +4184,7 @@
       "alerts": [],
       "temperatureMin": 45,
       "maxPrecipProbability": 8,
-      "maxWindMph": 7,
+      "maxWindMph": 5,
       "lat": 44.05207,
       "lon": -123.08675,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.0521&lon=-123.0867",
@@ -4697,7 +4697,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 33,
-      "maxPrecipProbability": 15,
+      "maxPrecipProbability": 17,
       "maxWindMph": 24,
       "lat": 45.4647,
       "lon": -98.48648,
@@ -5049,7 +5049,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 34,
-      "maxPrecipProbability": 6,
+      "maxPrecipProbability": 1,
       "maxWindMph": 7,
       "lat": 41.73549,
       "lon": -111.83439,
@@ -5107,7 +5107,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 42,
-      "maxPrecipProbability": 6,
+      "maxPrecipProbability": 1,
       "maxWindMph": 8,
       "lat": 41.17689,
       "lon": -112.00383,
@@ -5166,8 +5166,8 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 41,
-      "maxPrecipProbability": 22,
-      "maxWindMph": 8,
+      "maxPrecipProbability": 6,
+      "maxWindMph": 6,
       "lat": 40.76078,
       "lon": -111.89105,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=40.7608&lon=-111.8911",
@@ -5225,7 +5225,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 37,
-      "maxPrecipProbability": 41,
+      "maxPrecipProbability": 21,
       "maxWindMph": 7,
       "lat": 39.97551,
       "lon": -111.78521,
@@ -5283,7 +5283,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 42,
-      "maxPrecipProbability": 6,
+      "maxPrecipProbability": 1,
       "maxWindMph": 8,
       "lat": 41.19189,
       "lon": -111.97133,
@@ -5342,7 +5342,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 42,
-      "maxPrecipProbability": 18,
+      "maxPrecipProbability": 4,
       "maxWindMph": 8,
       "lat": 40.87161,
       "lon": -111.89216,
@@ -6227,7 +6227,7 @@
       "alerts": [
         {
           "event": "Freeze Watch",
-          "headline": "Freeze Watch issued October 14 at 12:39PM MDT until October 16 at 9:00AM MDT by NWS Cheyenne WY",
+          "headline": "Freeze Watch issued October 14 at 5:42PM MDT until October 16 at 9:00AM MDT by NWS Cheyenne WY",
           "severity": "Severe",
           "ends": "2026-10-16T09:00:00-06:00"
         }
@@ -6292,7 +6292,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 25,
-      "maxPrecipProbability": 52,
+      "maxPrecipProbability": 20,
       "maxWindMph": 15,
       "lat": 41.26828,
       "lon": -110.96324,
@@ -6351,7 +6351,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 25,
-      "maxPrecipProbability": 77,
+      "maxPrecipProbability": 76,
       "maxWindMph": 25,
       "lat": 44.29109,
       "lon": -105.50222,
@@ -6410,16 +6410,16 @@
       "forecast": "Rain And Snow",
       "alerts": [
         {
+          "event": "Freeze Watch",
+          "headline": "Freeze Watch issued October 14 at 5:42PM MDT until October 16 at 9:00AM MDT by NWS Cheyenne WY",
+          "severity": "Severe",
+          "ends": "2026-10-16T09:00:00-06:00"
+        },
+        {
           "event": "Winter Weather Advisory",
           "headline": "Winter Weather Advisory issued October 14 at 12:53PM MDT until October 15 at 12:00PM MDT by NWS Cheyenne WY",
           "severity": "Moderate",
           "ends": "2026-10-15T12:00:00-06:00"
-        },
-        {
-          "event": "Freeze Watch",
-          "headline": "Freeze Watch issued October 14 at 12:39PM MDT until October 16 at 9:00AM MDT by NWS Cheyenne WY",
-          "severity": "Severe",
-          "ends": "2026-10-16T09:00:00-06:00"
         }
       ],
       "temperatureMin": 20,
@@ -6489,7 +6489,7 @@
         }
       ],
       "temperatureMin": 25,
-      "maxPrecipProbability": 76,
+      "maxPrecipProbability": 72,
       "maxWindMph": 18,
       "lat": 41.58746,
       "lon": -109.2029,
@@ -7097,13 +7097,13 @@
           "alerts": [
             {
               "event": "Winter Weather Advisory",
-              "headline": "Winter Weather Advisory issued October 14 at 1:08PM MDT until October 15 at 6:00AM MDT by NWS Grand Junction CO",
+              "headline": "Winter Weather Advisory issued October 14 at 5:58PM MDT until October 15 at 6:00AM MDT by NWS Grand Junction CO",
               "severity": "Moderate",
               "ends": "2026-10-15T06:00:00-06:00"
             }
           ],
           "temperatureMin": 19,
-          "maxPrecipProbability": 96,
+          "maxPrecipProbability": 87,
           "maxWindMph": 5,
           "lat": 39.64026,
           "lon": -106.3742,
@@ -7144,7 +7144,7 @@
         }
       ],
       "temperatureMin": 28,
-      "maxPrecipProbability": 83,
+      "maxPrecipProbability": 67,
       "maxWindMph": 30,
       "lat": 39.09166,
       "lon": -104.87276,
@@ -7164,7 +7164,7 @@
             }
           ],
           "temperatureMin": 28,
-          "maxPrecipProbability": 83,
+          "maxPrecipProbability": 67,
           "maxWindMph": 30,
           "lat": 39.09166,
           "lon": -104.87276,
@@ -7192,19 +7192,12 @@
         "https://www.cotrip.org/"
       ],
       "status": "PREPARE",
-      "reason": "Winter Weather Advisory",
-      "timing": "2026-10-14T16:00:00-06:00",
-      "forecast": "Snow Showers; Snow Showers Likely",
-      "alerts": [
-        {
-          "event": "Winter Weather Advisory",
-          "headline": "Winter Weather Advisory issued October 14 at 1:08PM MDT until October 14 at 6:00PM MDT by NWS Grand Junction CO",
-          "severity": "Moderate",
-          "ends": "2026-10-14T18:00:00-06:00"
-        }
-      ],
+      "reason": "Winter precipitation signal within 24 hours",
+      "timing": "2026-10-14T20:00:00-06:00",
+      "forecast": "Snow Showers Likely; Chance Snow Showers",
+      "alerts": [],
       "temperatureMin": 18,
-      "maxPrecipProbability": 79,
+      "maxPrecipProbability": 59,
       "maxWindMph": 10,
       "lat": 37.81194,
       "lon": -107.66451,
@@ -7212,19 +7205,12 @@
       "points": [
         {
           "status": "PREPARE",
-          "reason": "Winter Weather Advisory",
-          "timing": "2026-10-14T16:00:00-06:00",
-          "forecast": "Snow Showers; Snow Showers Likely",
-          "alerts": [
-            {
-              "event": "Winter Weather Advisory",
-              "headline": "Winter Weather Advisory issued October 14 at 1:08PM MDT until October 14 at 6:00PM MDT by NWS Grand Junction CO",
-              "severity": "Moderate",
-              "ends": "2026-10-14T18:00:00-06:00"
-            }
-          ],
+          "reason": "Winter precipitation signal within 24 hours",
+          "timing": "2026-10-14T20:00:00-06:00",
+          "forecast": "Snow Showers Likely; Chance Snow Showers",
+          "alerts": [],
           "temperatureMin": 18,
-          "maxPrecipProbability": 79,
+          "maxPrecipProbability": 59,
           "maxWindMph": 10,
           "lat": 37.81194,
           "lon": -107.66451,
@@ -7258,7 +7244,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 23,
-      "maxPrecipProbability": 36,
+      "maxPrecipProbability": 9,
       "maxWindMph": 15,
       "lat": 37.67,
       "lon": -106.63976,
@@ -7271,7 +7257,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 23,
-          "maxPrecipProbability": 36,
+          "maxPrecipProbability": 9,
           "maxWindMph": 15,
           "lat": 37.67,
           "lon": -106.63976,
@@ -7292,7 +7278,7 @@
             }
           ],
           "temperatureMin": 26,
-          "maxPrecipProbability": 46,
+          "maxPrecipProbability": 11,
           "maxWindMph": 20,
           "lat": 37.26945,
           "lon": -107.00976,
@@ -7326,7 +7312,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 39,
-      "maxPrecipProbability": 1,
+      "maxPrecipProbability": 0,
       "maxWindMph": 10,
       "lat": 43.6135,
       "lon": -116.20345,
@@ -7339,7 +7325,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 39,
-          "maxPrecipProbability": 1,
+          "maxPrecipProbability": 0,
           "maxWindMph": 10,
           "lat": 43.6135,
           "lon": -116.20345,
@@ -7735,7 +7721,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 25,
-      "maxPrecipProbability": 1,
+      "maxPrecipProbability": 0,
       "maxWindMph": 13,
       "lat": 46.00382,
       "lon": -112.53474,
@@ -7748,7 +7734,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 25,
-          "maxPrecipProbability": 1,
+          "maxPrecipProbability": 0,
           "maxWindMph": 13,
           "lat": 46.00382,
           "lon": -112.53474,
@@ -7872,8 +7858,8 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 28,
-      "maxPrecipProbability": 0,
-      "maxWindMph": 29,
+      "maxPrecipProbability": 6,
+      "maxWindMph": 32,
       "lat": 48.44136,
       "lon": -113.21815,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=48.4414&lon=-113.2181",
@@ -7885,8 +7871,8 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 28,
-          "maxPrecipProbability": 0,
-          "maxWindMph": 29,
+          "maxPrecipProbability": 6,
+          "maxWindMph": 32,
           "lat": 48.44136,
           "lon": -113.21815,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=48.4414&lon=-113.2181",
@@ -7925,7 +7911,7 @@
         }
       ],
       "temperatureMin": 31,
-      "maxPrecipProbability": 11,
+      "maxPrecipProbability": 20,
       "maxWindMph": 28,
       "lat": 46.80833,
       "lon": -100.78374,
@@ -7945,7 +7931,7 @@
             }
           ],
           "temperatureMin": 31,
-          "maxPrecipProbability": 11,
+          "maxPrecipProbability": 20,
           "maxWindMph": 28,
           "lat": 46.80833,
           "lon": -100.78374,
@@ -8038,7 +8024,7 @@
       "alerts": [
         {
           "event": "Wind Advisory",
-          "headline": "Wind Advisory issued October 14 at 1:22PM CDT until October 16 at 1:00AM CDT by NWS Grand Forks ND",
+          "headline": "Wind Advisory issued October 14 at 6:29PM CDT until October 16 at 1:00AM CDT by NWS Grand Forks ND",
           "severity": "Moderate",
           "ends": "2026-10-16T01:00:00-05:00"
         }
@@ -8058,7 +8044,7 @@
           "alerts": [
             {
               "event": "Wind Advisory",
-              "headline": "Wind Advisory issued October 14 at 1:22PM CDT until October 16 at 1:00AM CDT by NWS Grand Forks ND",
+              "headline": "Wind Advisory issued October 14 at 6:29PM CDT until October 16 at 1:00AM CDT by NWS Grand Forks ND",
               "severity": "Moderate",
               "ends": "2026-10-16T01:00:00-05:00"
             }
@@ -8098,7 +8084,7 @@
       "alerts": [
         {
           "event": "Wind Advisory",
-          "headline": "Wind Advisory issued October 14 at 1:22PM CDT until October 16 at 1:00AM CDT by NWS Grand Forks ND",
+          "headline": "Wind Advisory issued October 14 at 6:29PM CDT until October 16 at 1:00AM CDT by NWS Grand Forks ND",
           "severity": "Moderate",
           "ends": "2026-10-16T01:00:00-05:00"
         }
@@ -8118,7 +8104,7 @@
           "alerts": [
             {
               "event": "Wind Advisory",
-              "headline": "Wind Advisory issued October 14 at 1:22PM CDT until October 16 at 1:00AM CDT by NWS Grand Forks ND",
+              "headline": "Wind Advisory issued October 14 at 6:29PM CDT until October 16 at 1:00AM CDT by NWS Grand Forks ND",
               "severity": "Moderate",
               "ends": "2026-10-16T01:00:00-05:00"
             }
@@ -8156,7 +8142,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 32,
-      "maxPrecipProbability": 84,
+      "maxPrecipProbability": 82,
       "maxWindMph": 20,
       "lat": 41.12389,
       "lon": -100.76542,
@@ -8169,7 +8155,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 32,
-          "maxPrecipProbability": 84,
+          "maxPrecipProbability": 82,
           "maxWindMph": 20,
           "lat": 41.12389,
           "lon": -100.76542,
@@ -8202,7 +8188,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 35,
-      "maxPrecipProbability": 95,
+      "maxPrecipProbability": 98,
       "maxWindMph": 18,
       "lat": 41.25626,
       "lon": -95.94043,
@@ -8215,7 +8201,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 35,
-          "maxPrecipProbability": 95,
+          "maxPrecipProbability": 98,
           "maxWindMph": 18,
           "lat": 41.25626,
           "lon": -95.94043,
@@ -8249,7 +8235,7 @@
       "alerts": [
         {
           "event": "Freeze Watch",
-          "headline": "Freeze Watch issued October 14 at 12:39PM MDT until October 16 at 9:00AM MDT by NWS Cheyenne WY",
+          "headline": "Freeze Watch issued October 14 at 5:42PM MDT until October 16 at 9:00AM MDT by NWS Cheyenne WY",
           "severity": "Severe",
           "ends": "2026-10-16T09:00:00-06:00"
         }
@@ -8269,7 +8255,7 @@
           "alerts": [
             {
               "event": "Freeze Watch",
-              "headline": "Freeze Watch issued October 14 at 12:39PM MDT until October 16 at 9:00AM MDT by NWS Cheyenne WY",
+              "headline": "Freeze Watch issued October 14 at 5:42PM MDT until October 16 at 9:00AM MDT by NWS Cheyenne WY",
               "severity": "Severe",
               "ends": "2026-10-16T09:00:00-06:00"
             }
@@ -8307,8 +8293,8 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 36,
-      "maxPrecipProbability": 29,
-      "maxWindMph": 15,
+      "maxPrecipProbability": 5,
+      "maxWindMph": 10,
       "lat": 36.72806,
       "lon": -108.21869,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=36.7281&lon=-108.2187",
@@ -8320,8 +8306,8 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 36,
-          "maxPrecipProbability": 29,
-          "maxWindMph": 15,
+          "maxPrecipProbability": 5,
+          "maxWindMph": 10,
           "lat": 36.72806,
           "lon": -108.21869,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=36.7281&lon=-108.2187",
@@ -8352,8 +8338,8 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 35,
-      "maxPrecipProbability": 27,
-      "maxWindMph": 15,
+      "maxPrecipProbability": 5,
+      "maxWindMph": 10,
       "lat": 36.82223,
       "lon": -107.99285,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=36.8222&lon=-107.9929",
@@ -8365,8 +8351,8 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 35,
-          "maxPrecipProbability": 27,
-          "maxWindMph": 15,
+          "maxPrecipProbability": 5,
+          "maxWindMph": 10,
           "lat": 36.82223,
           "lon": -107.99285,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=36.8222&lon=-107.9929",
@@ -8580,8 +8566,8 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 34,
-      "maxPrecipProbability": 1,
-      "maxWindMph": 14,
+      "maxPrecipProbability": 0,
+      "maxWindMph": 13,
       "lat": 44.77487,
       "lon": -117.83438,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.7749&lon=-117.8344",
@@ -8593,8 +8579,8 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 34,
-          "maxPrecipProbability": 1,
-          "maxWindMph": 14,
+          "maxPrecipProbability": 0,
+          "maxWindMph": 13,
           "lat": 44.77487,
           "lon": -117.83438,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.7749&lon=-117.8344",
@@ -8626,7 +8612,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 29,
-      "maxPrecipProbability": 1,
+      "maxPrecipProbability": 0,
       "maxWindMph": 9,
       "lat": 45.50652,
       "lon": -118.42135,
@@ -8639,7 +8625,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 29,
-          "maxPrecipProbability": 1,
+          "maxPrecipProbability": 0,
           "maxWindMph": 9,
           "lat": 45.50652,
           "lon": -118.42135,
@@ -8856,7 +8842,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 49,
-      "maxPrecipProbability": 2,
+      "maxPrecipProbability": 1,
       "maxWindMph": 14,
       "lat": 43.74651,
       "lon": -122.46172,
@@ -8869,7 +8855,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 49,
-          "maxPrecipProbability": 2,
+          "maxPrecipProbability": 1,
           "maxWindMph": 14,
           "lat": 43.74651,
           "lon": -122.46172,
@@ -9083,7 +9069,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 34,
-      "maxPrecipProbability": 43,
+      "maxPrecipProbability": 13,
       "maxWindMph": 9,
       "lat": 39.71023,
       "lon": -111.83632,
@@ -9096,7 +9082,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 34,
-          "maxPrecipProbability": 43,
+          "maxPrecipProbability": 13,
           "maxWindMph": 9,
           "lat": 39.71023,
           "lon": -111.83632,
@@ -9129,7 +9115,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 31,
-      "maxPrecipProbability": 53,
+      "maxPrecipProbability": 14,
       "maxWindMph": 10,
       "lat": 40.74578,
       "lon": -111.61159,
@@ -9142,7 +9128,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 31,
-          "maxPrecipProbability": 53,
+          "maxPrecipProbability": 14,
           "maxWindMph": 10,
           "lat": 40.74578,
           "lon": -111.61159,
@@ -9174,7 +9160,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 36,
-      "maxPrecipProbability": 5,
+      "maxPrecipProbability": 1,
       "maxWindMph": 9,
       "lat": 41.49577,
       "lon": -111.94383,
@@ -9187,7 +9173,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 36,
-          "maxPrecipProbability": 5,
+          "maxPrecipProbability": 1,
           "maxWindMph": 9,
           "lat": 41.49577,
           "lon": -111.94383,
@@ -9220,7 +9206,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 30,
-      "maxPrecipProbability": 28,
+      "maxPrecipProbability": 3,
       "maxWindMph": 12,
       "lat": 41.03606,
       "lon": -111.67688,
@@ -9233,7 +9219,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 30,
-          "maxPrecipProbability": 28,
+          "maxPrecipProbability": 3,
           "maxWindMph": 12,
           "lat": 41.03606,
           "lon": -111.67688,
@@ -9618,16 +9604,16 @@
       "forecast": "Rain And Snow",
       "alerts": [
         {
+          "event": "Freeze Watch",
+          "headline": "Freeze Watch issued October 14 at 5:42PM MDT until October 16 at 9:00AM MDT by NWS Cheyenne WY",
+          "severity": "Severe",
+          "ends": "2026-10-16T09:00:00-06:00"
+        },
+        {
           "event": "Winter Weather Advisory",
           "headline": "Winter Weather Advisory issued October 14 at 12:53PM MDT until October 15 at 12:00PM MDT by NWS Cheyenne WY",
           "severity": "Moderate",
           "ends": "2026-10-15T12:00:00-06:00"
-        },
-        {
-          "event": "Freeze Watch",
-          "headline": "Freeze Watch issued October 14 at 12:39PM MDT until October 16 at 9:00AM MDT by NWS Cheyenne WY",
-          "severity": "Severe",
-          "ends": "2026-10-16T09:00:00-06:00"
         }
       ],
       "temperatureMin": 22,
@@ -9644,16 +9630,16 @@
           "forecast": "Rain And Snow",
           "alerts": [
             {
+              "event": "Freeze Watch",
+              "headline": "Freeze Watch issued October 14 at 5:42PM MDT until October 16 at 9:00AM MDT by NWS Cheyenne WY",
+              "severity": "Severe",
+              "ends": "2026-10-16T09:00:00-06:00"
+            },
+            {
               "event": "Winter Weather Advisory",
               "headline": "Winter Weather Advisory issued October 14 at 12:53PM MDT until October 15 at 12:00PM MDT by NWS Cheyenne WY",
               "severity": "Moderate",
               "ends": "2026-10-15T12:00:00-06:00"
-            },
-            {
-              "event": "Freeze Watch",
-              "headline": "Freeze Watch issued October 14 at 12:39PM MDT until October 16 at 9:00AM MDT by NWS Cheyenne WY",
-              "severity": "Severe",
-              "ends": "2026-10-16T09:00:00-06:00"
             }
           ],
           "temperatureMin": 22,
@@ -9698,7 +9684,7 @@
         }
       ],
       "temperatureMin": 26,
-      "maxPrecipProbability": 45,
+      "maxPrecipProbability": 42,
       "maxWindMph": 12,
       "lat": 41.54357,
       "lon": -109.85903,
@@ -9718,7 +9704,7 @@
             }
           ],
           "temperatureMin": 26,
-          "maxPrecipProbability": 45,
+          "maxPrecipProbability": 42,
           "maxWindMph": 12,
           "lat": 41.54357,
           "lon": -109.85903,
@@ -9739,7 +9725,7 @@
             }
           ],
           "temperatureMin": 25,
-          "maxPrecipProbability": 76,
+          "maxPrecipProbability": 72,
           "maxWindMph": 18,
           "lat": 41.58746,
           "lon": -109.2029,
@@ -9772,7 +9758,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 25,
-      "maxPrecipProbability": 77,
+      "maxPrecipProbability": 76,
       "maxWindMph": 25,
       "lat": 44.29109,
       "lon": -105.50222,
@@ -9785,7 +9771,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 25,
-          "maxPrecipProbability": 77,
+          "maxPrecipProbability": 76,
           "maxWindMph": 25,
           "lat": 44.29109,
           "lon": -105.50222,
