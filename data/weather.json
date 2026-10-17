@@ -1,23 +1,8 @@
 {
-  "updatedAt": "2026-10-16T21:03:39.965776+00:00",
+  "updatedAt": "2026-10-17T01:13:34.870537+00:00",
   "dataState": "live",
   "sourceNote": "National Weather Service city + corridor forecast/alert screen; DOT/511 links supplied for verification.",
-  "changes": [
-    {
-      "id": "CO-durango",
-      "name": "Durango",
-      "state": "CO",
-      "from": "CLEAR",
-      "to": "WATCH"
-    },
-    {
-      "id": "CO-montrose",
-      "name": "Montrose",
-      "state": "CO",
-      "from": "CLEAR",
-      "to": "WATCH"
-    }
-  ],
+  "changes": [],
   "markets": [
     {
       "id": "AK-juneau",
@@ -47,7 +32,7 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 40,
+      "temperatureMin": 41,
       "maxPrecipProbability": 100,
       "maxWindMph": 10,
       "lat": 58.30194,
@@ -185,8 +170,8 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 47,
-      "maxPrecipProbability": 0,
-      "maxWindMph": 12,
+      "maxPrecipProbability": 1,
+      "maxWindMph": 13,
       "lat": 37.36354,
       "lon": -118.39511,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=37.3635&lon=-118.3951",
@@ -243,7 +228,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 54,
-      "maxPrecipProbability": 0,
+      "maxPrecipProbability": 3,
       "maxWindMph": 5,
       "lat": 40.58654,
       "lon": -122.39168,
@@ -477,7 +462,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 41,
-      "maxPrecipProbability": 1,
+      "maxPrecipProbability": 9,
       "maxWindMph": 8,
       "lat": 41.73542,
       "lon": -122.63447,
@@ -656,7 +641,7 @@
       "alerts": [
         {
           "event": "Freeze Warning",
-          "headline": "Freeze Warning issued October 16 at 9:25AM MDT until October 17 at 9:00AM MDT by NWS Pueblo CO",
+          "headline": "Freeze Warning issued October 16 at 5:11PM MDT until October 17 at 9:00AM MDT by NWS Pueblo CO",
           "severity": "Severe",
           "ends": "2026-10-17T09:00:00-06:00"
         }
@@ -788,7 +773,7 @@
       "forecast": "Chance Rain And Snow Showers",
       "alerts": [],
       "temperatureMin": 35,
-      "maxPrecipProbability": 34,
+      "maxPrecipProbability": 36,
       "maxWindMph": 5,
       "lat": 37.27528,
       "lon": -107.88007,
@@ -1066,7 +1051,7 @@
       "alerts": [
         {
           "event": "Freeze Warning",
-          "headline": "Freeze Warning issued October 16 at 9:25AM MDT until October 17 at 9:00AM MDT by NWS Pueblo CO",
+          "headline": "Freeze Warning issued October 16 at 5:11PM MDT until October 17 at 9:00AM MDT by NWS Pueblo CO",
           "severity": "Severe",
           "ends": "2026-10-17T09:00:00-06:00"
         }
@@ -1139,7 +1124,7 @@
         }
       ],
       "temperatureMin": 28,
-      "maxPrecipProbability": 25,
+      "maxPrecipProbability": 27,
       "maxWindMph": 5,
       "lat": 37.26945,
       "lon": -107.00976,
@@ -1257,7 +1242,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 35,
-      "maxPrecipProbability": 0,
+      "maxPrecipProbability": 2,
       "maxWindMph": 7,
       "lat": 43.46964,
       "lon": -111.96664,
@@ -1456,7 +1441,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 40,
-      "maxPrecipProbability": 0,
+      "maxPrecipProbability": 1,
       "maxWindMph": 16,
       "lat": 45.92655,
       "lon": -116.12237,
@@ -1515,7 +1500,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 44,
-      "maxPrecipProbability": 0,
+      "maxPrecipProbability": 1,
       "maxWindMph": 17,
       "lat": 46.41655,
       "lon": -117.01766,
@@ -1694,7 +1679,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 39,
-      "maxPrecipProbability": 0,
+      "maxPrecipProbability": 5,
       "maxWindMph": 14,
       "lat": 42.8713,
       "lon": -112.44553,
@@ -1834,7 +1819,7 @@
       "alerts": [
         {
           "event": "Freeze Warning",
-          "headline": "Freeze Warning issued October 16 at 12:25PM CDT until October 17 at 9:00AM CDT by NWS Twin Cities/Chanhassen MN",
+          "headline": "Freeze Warning issued October 16 at 4:57PM CDT until October 17 at 9:00AM CDT by NWS Twin Cities/Chanhassen MN",
           "severity": "Severe",
           "ends": "2026-10-17T09:00:00-05:00"
         }
@@ -1906,7 +1891,7 @@
           "ends": "2026-10-17T09:00:00-05:00"
         }
       ],
-      "temperatureMin": 30,
+      "temperatureMin": 31,
       "maxPrecipProbability": 0,
       "maxWindMph": 16,
       "lat": 43.66663,
@@ -1967,7 +1952,7 @@
       "alerts": [
         {
           "event": "Freeze Warning",
-          "headline": "Freeze Warning issued October 16 at 12:25PM CDT until October 17 at 9:00AM CDT by NWS Twin Cities/Chanhassen MN",
+          "headline": "Freeze Warning issued October 16 at 4:57PM CDT until October 17 at 9:00AM CDT by NWS Twin Cities/Chanhassen MN",
           "severity": "Severe",
           "ends": "2026-10-17T09:00:00-05:00"
         }
@@ -2031,14 +2016,7 @@
       "reason": "No meaningful winter-weather signal in the next 72 hours",
       "timing": null,
       "forecast": null,
-      "alerts": [
-        {
-          "event": "Red Flag Warning",
-          "headline": "Red Flag Warning issued October 16 at 1:18PM CDT until October 16 at 8:00PM CDT by NWS Little Rock AR",
-          "severity": "Severe",
-          "ends": "2026-10-16T20:00:00-05:00"
-        }
-      ],
+      "alerts": [],
       "temperatureMin": 43,
       "maxPrecipProbability": 0,
       "maxWindMph": 15,
@@ -2157,9 +2135,9 @@
       "forecast": null,
       "alerts": [
         {
-          "event": "Frost Advisory",
-          "headline": "Frost Advisory issued October 16 at 12:25PM CDT until October 17 at 9:00AM CDT by NWS Twin Cities/Chanhassen MN",
-          "severity": "Minor",
+          "event": "Freeze Warning",
+          "headline": "Freeze Warning issued October 16 at 4:57PM CDT until October 17 at 9:00AM CDT by NWS Twin Cities/Chanhassen MN",
+          "severity": "Severe",
           "ends": "2026-10-17T09:00:00-05:00"
         }
       ],
@@ -2225,7 +2203,7 @@
       "alerts": [
         {
           "event": "Freeze Warning",
-          "headline": "Freeze Warning issued October 16 at 12:25PM CDT until October 17 at 9:00AM CDT by NWS Twin Cities/Chanhassen MN",
+          "headline": "Freeze Warning issued October 16 at 4:57PM CDT until October 17 at 9:00AM CDT by NWS Twin Cities/Chanhassen MN",
           "severity": "Severe",
           "ends": "2026-10-17T09:00:00-05:00"
         }
@@ -2501,7 +2479,7 @@
         }
       ],
       "temperatureMin": 33,
-      "maxPrecipProbability": 1,
+      "maxPrecipProbability": 4,
       "maxWindMph": 24,
       "lat": 48.37246,
       "lon": -114.18152,
@@ -2626,7 +2604,7 @@
         }
       ],
       "temperatureMin": 33,
-      "maxPrecipProbability": 1,
+      "maxPrecipProbability": 3,
       "maxWindMph": 21,
       "lat": 48.19579,
       "lon": -114.31291,
@@ -2686,7 +2664,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 37,
-      "maxPrecipProbability": 0,
+      "maxPrecipProbability": 1,
       "maxWindMph": 15,
       "lat": 46.87215,
       "lon": -113.994,
@@ -2751,7 +2729,7 @@
         }
       ],
       "temperatureMin": 32,
-      "maxPrecipProbability": 1,
+      "maxPrecipProbability": 4,
       "maxWindMph": 21,
       "lat": 48.41108,
       "lon": -114.33763,
@@ -2812,7 +2790,7 @@
       "alerts": [],
       "temperatureMin": 36,
       "maxPrecipProbability": 0,
-      "maxWindMph": 14,
+      "maxWindMph": 13,
       "lat": 46.80833,
       "lon": -100.78374,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8083&lon=-100.7837",
@@ -2930,7 +2908,7 @@
       "alerts": [],
       "temperatureMin": 34,
       "maxPrecipProbability": 0,
-      "maxWindMph": 18,
+      "maxWindMph": 15,
       "lat": 46.87918,
       "lon": -102.78962,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8792&lon=-102.7896",
@@ -3290,7 +3268,7 @@
       "alerts": [
         {
           "event": "Freeze Warning",
-          "headline": "Freeze Warning issued October 16 at 2:16PM CDT until October 17 at 10:00AM CDT by NWS North Platte NE",
+          "headline": "Freeze Warning issued October 16 at 5:01PM CDT until October 17 at 10:00AM CDT by NWS North Platte NE",
           "severity": "Severe",
           "ends": "2026-10-17T10:00:00-05:00"
         }
@@ -3552,7 +3530,7 @@
         }
       ],
       "temperatureMin": 37,
-      "maxPrecipProbability": 16,
+      "maxPrecipProbability": 21,
       "maxWindMph": 5,
       "lat": 36.72806,
       "lon": -108.21869,
@@ -3683,7 +3661,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 34,
-      "maxPrecipProbability": 0,
+      "maxPrecipProbability": 1,
       "maxWindMph": 10,
       "lat": 40.83242,
       "lon": -115.76312,
@@ -3998,7 +3976,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 42,
-      "maxPrecipProbability": 1,
+      "maxPrecipProbability": 12,
       "maxWindMph": 10,
       "lat": 42.19458,
       "lon": -122.70948,
@@ -4057,8 +4035,8 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 36,
-      "maxPrecipProbability": 0,
-      "maxWindMph": 13,
+      "maxPrecipProbability": 1,
+      "maxWindMph": 12,
       "lat": 44.77487,
       "lon": -117.83438,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.7749&lon=-117.8344",
@@ -4115,7 +4093,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 37,
-      "maxPrecipProbability": 3,
+      "maxPrecipProbability": 14,
       "maxWindMph": 12,
       "lat": 44.05817,
       "lon": -121.31531,
@@ -4252,7 +4230,7 @@
         }
       ],
       "temperatureMin": 36,
-      "maxPrecipProbability": 0,
+      "maxPrecipProbability": 1,
       "maxWindMph": 28,
       "lat": 45.32458,
       "lon": -118.08772,
@@ -4311,7 +4289,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 26,
-      "maxPrecipProbability": 4,
+      "maxPrecipProbability": 10,
       "maxWindMph": 6,
       "lat": 43.6704,
       "lon": -121.50364,
@@ -4370,7 +4348,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 43,
-      "maxPrecipProbability": 2,
+      "maxPrecipProbability": 10,
       "maxWindMph": 7,
       "lat": 42.32652,
       "lon": -122.87559,
@@ -4648,7 +4626,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 31,
-      "maxPrecipProbability": 3,
+      "maxPrecipProbability": 14,
       "maxWindMph": 6,
       "lat": 44.29095,
       "lon": -121.54921,
@@ -4971,7 +4949,7 @@
       "alerts": [],
       "temperatureMin": 40,
       "maxPrecipProbability": 0,
-      "maxWindMph": 14,
+      "maxWindMph": 15,
       "lat": 44.49082,
       "lon": -103.85937,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.4908&lon=-103.8594",
@@ -5094,7 +5072,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 38,
-      "maxPrecipProbability": 0,
+      "maxPrecipProbability": 1,
       "maxWindMph": 5,
       "lat": 41.73549,
       "lon": -111.83439,
@@ -5152,7 +5130,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 44,
-      "maxPrecipProbability": 0,
+      "maxPrecipProbability": 7,
       "maxWindMph": 7,
       "lat": 41.17689,
       "lon": -112.00383,
@@ -5211,7 +5189,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 47,
-      "maxPrecipProbability": 1,
+      "maxPrecipProbability": 10,
       "maxWindMph": 5,
       "lat": 40.76078,
       "lon": -111.89105,
@@ -5270,7 +5248,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 41,
-      "maxPrecipProbability": 2,
+      "maxPrecipProbability": 20,
       "maxWindMph": 7,
       "lat": 39.97551,
       "lon": -111.78521,
@@ -5328,7 +5306,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 44,
-      "maxPrecipProbability": 0,
+      "maxPrecipProbability": 7,
       "maxWindMph": 7,
       "lat": 41.19189,
       "lon": -111.97133,
@@ -5387,7 +5365,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 47,
-      "maxPrecipProbability": 0,
+      "maxPrecipProbability": 9,
       "maxWindMph": 6,
       "lat": 40.87161,
       "lon": -111.89216,
@@ -5947,7 +5925,7 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 37,
+      "temperatureMin": 36,
       "maxPrecipProbability": 4,
       "maxWindMph": 16,
       "lat": 47.65966,
@@ -6323,7 +6301,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 29,
-      "maxPrecipProbability": 0,
+      "maxPrecipProbability": 1,
       "maxWindMph": 9,
       "lat": 41.26828,
       "lon": -110.96324,
@@ -6441,7 +6419,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 31,
-      "maxPrecipProbability": 1,
+      "maxPrecipProbability": 2,
       "maxWindMph": 15,
       "lat": 41.31137,
       "lon": -105.5911,
@@ -6611,7 +6589,7 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 40,
+      "temperatureMin": 41,
       "maxPrecipProbability": 100,
       "maxWindMph": 10,
       "lat": 58.30194,
@@ -6624,7 +6602,7 @@
           "timing": null,
           "forecast": null,
           "alerts": [],
-          "temperatureMin": 40,
+          "temperatureMin": 41,
           "maxPrecipProbability": 100,
           "maxWindMph": 10,
           "lat": 58.30194,
@@ -6839,7 +6817,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 41,
-      "maxPrecipProbability": 0,
+      "maxPrecipProbability": 5,
       "maxWindMph": 8,
       "lat": 41.31024,
       "lon": -122.31225,
@@ -6852,7 +6830,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 41,
-          "maxPrecipProbability": 0,
+          "maxPrecipProbability": 5,
           "maxWindMph": 8,
           "lat": 41.31024,
           "lon": -122.31225,
@@ -7100,7 +7078,7 @@
       "alerts": [
         {
           "event": "Freeze Warning",
-          "headline": "Freeze Warning issued October 16 at 9:25AM MDT until October 17 at 9:00AM MDT by NWS Pueblo CO",
+          "headline": "Freeze Warning issued October 16 at 5:11PM MDT until October 17 at 9:00AM MDT by NWS Pueblo CO",
           "severity": "Severe",
           "ends": "2026-10-17T09:00:00-06:00"
         }
@@ -7120,7 +7098,7 @@
           "alerts": [
             {
               "event": "Freeze Warning",
-              "headline": "Freeze Warning issued October 16 at 9:25AM MDT until October 17 at 9:00AM MDT by NWS Pueblo CO",
+              "headline": "Freeze Warning issued October 16 at 5:11PM MDT until October 17 at 9:00AM MDT by NWS Pueblo CO",
               "severity": "Severe",
               "ends": "2026-10-17T09:00:00-06:00"
             }
@@ -7240,7 +7218,7 @@
             }
           ],
           "temperatureMin": 28,
-          "maxPrecipProbability": 25,
+          "maxPrecipProbability": 27,
           "maxWindMph": 5,
           "lat": 37.26945,
           "lon": -107.00976,
@@ -7341,7 +7319,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 32,
-      "maxPrecipProbability": 0,
+      "maxPrecipProbability": 1,
       "maxWindMph": 7,
       "lat": 43.46658,
       "lon": -112.03414,
@@ -7354,7 +7332,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 32,
-          "maxPrecipProbability": 0,
+          "maxPrecipProbability": 1,
           "maxWindMph": 7,
           "lat": 43.46658,
           "lon": -112.03414,
@@ -7433,7 +7411,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 40,
-      "maxPrecipProbability": 0,
+      "maxPrecipProbability": 2,
       "maxWindMph": 17,
       "lat": 45.76155,
       "lon": -116.3007,
@@ -7446,7 +7424,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 40,
-          "maxPrecipProbability": 0,
+          "maxPrecipProbability": 2,
           "maxWindMph": 17,
           "lat": 45.76155,
           "lon": -116.3007,
@@ -7480,7 +7458,7 @@
       "alerts": [
         {
           "event": "Freeze Warning",
-          "headline": "Freeze Warning issued October 16 at 12:25PM CDT until October 17 at 9:00AM CDT by NWS Twin Cities/Chanhassen MN",
+          "headline": "Freeze Warning issued October 16 at 4:57PM CDT until October 17 at 9:00AM CDT by NWS Twin Cities/Chanhassen MN",
           "severity": "Severe",
           "ends": "2026-10-17T09:00:00-05:00"
         }
@@ -7500,7 +7478,7 @@
           "alerts": [
             {
               "event": "Freeze Warning",
-              "headline": "Freeze Warning issued October 16 at 12:25PM CDT until October 17 at 9:00AM CDT by NWS Twin Cities/Chanhassen MN",
+              "headline": "Freeze Warning issued October 16 at 4:57PM CDT until October 17 at 9:00AM CDT by NWS Twin Cities/Chanhassen MN",
               "severity": "Severe",
               "ends": "2026-10-17T09:00:00-05:00"
             }
@@ -7606,9 +7584,9 @@
       "forecast": null,
       "alerts": [
         {
-          "event": "Frost Advisory",
-          "headline": "Frost Advisory issued October 16 at 12:25PM CDT until October 17 at 9:00AM CDT by NWS Twin Cities/Chanhassen MN",
-          "severity": "Minor",
+          "event": "Freeze Warning",
+          "headline": "Freeze Warning issued October 16 at 4:57PM CDT until October 17 at 9:00AM CDT by NWS Twin Cities/Chanhassen MN",
+          "severity": "Severe",
           "ends": "2026-10-17T09:00:00-05:00"
         }
       ],
@@ -7626,9 +7604,9 @@
           "forecast": null,
           "alerts": [
             {
-              "event": "Frost Advisory",
-              "headline": "Frost Advisory issued October 16 at 12:25PM CDT until October 17 at 9:00AM CDT by NWS Twin Cities/Chanhassen MN",
-              "severity": "Minor",
+              "event": "Freeze Warning",
+              "headline": "Freeze Warning issued October 16 at 4:57PM CDT until October 17 at 9:00AM CDT by NWS Twin Cities/Chanhassen MN",
+              "severity": "Severe",
               "ends": "2026-10-17T09:00:00-05:00"
             }
           ],
@@ -7756,7 +7734,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 37,
-      "maxPrecipProbability": 1,
+      "maxPrecipProbability": 3,
       "maxWindMph": 9,
       "lat": 47.19159,
       "lon": -114.8918,
@@ -7769,7 +7747,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 37,
-          "maxPrecipProbability": 1,
+          "maxPrecipProbability": 3,
           "maxWindMph": 9,
           "lat": 47.19159,
           "lon": -114.8918,
@@ -7849,7 +7827,7 @@
       "alerts": [
         {
           "event": "High Wind Warning",
-          "headline": "High Wind Warning issued October 16 at 12:23PM MDT until October 18 at 12:00AM MDT by NWS Great Falls MT",
+          "headline": "High Wind Warning issued October 16 at 6:06PM MDT until October 18 at 12:00AM MDT by NWS Great Falls MT",
           "severity": "Severe",
           "ends": "2026-10-18T00:00:00-06:00"
         }
@@ -7869,7 +7847,7 @@
           "alerts": [
             {
               "event": "High Wind Warning",
-              "headline": "High Wind Warning issued October 16 at 12:23PM MDT until October 18 at 12:00AM MDT by NWS Great Falls MT",
+              "headline": "High Wind Warning issued October 16 at 6:06PM MDT until October 18 at 12:00AM MDT by NWS Great Falls MT",
               "severity": "Severe",
               "ends": "2026-10-18T00:00:00-06:00"
             }
@@ -7909,7 +7887,7 @@
       "alerts": [],
       "temperatureMin": 36,
       "maxPrecipProbability": 0,
-      "maxWindMph": 14,
+      "maxWindMph": 13,
       "lat": 46.80833,
       "lon": -100.78374,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8083&lon=-100.7837",
@@ -7922,7 +7900,7 @@
           "alerts": [],
           "temperatureMin": 36,
           "maxPrecipProbability": 0,
-          "maxWindMph": 14,
+          "maxWindMph": 13,
           "lat": 46.80833,
           "lon": -100.78374,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8083&lon=-100.7837",
@@ -7954,7 +7932,7 @@
       "alerts": [],
       "temperatureMin": 34,
       "maxPrecipProbability": 0,
-      "maxWindMph": 18,
+      "maxWindMph": 15,
       "lat": 46.87918,
       "lon": -102.78962,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8792&lon=-102.7896",
@@ -7967,7 +7945,7 @@
           "alerts": [],
           "temperatureMin": 34,
           "maxPrecipProbability": 0,
-          "maxWindMph": 18,
+          "maxWindMph": 15,
           "lat": 46.87918,
           "lon": -102.78962,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=46.8792&lon=-102.7896",
@@ -8091,7 +8069,7 @@
       "alerts": [
         {
           "event": "Freeze Warning",
-          "headline": "Freeze Warning issued October 16 at 2:16PM CDT until October 17 at 10:00AM CDT by NWS North Platte NE",
+          "headline": "Freeze Warning issued October 16 at 5:01PM CDT until October 17 at 10:00AM CDT by NWS North Platte NE",
           "severity": "Severe",
           "ends": "2026-10-17T10:00:00-05:00"
         }
@@ -8111,7 +8089,7 @@
           "alerts": [
             {
               "event": "Freeze Warning",
-              "headline": "Freeze Warning issued October 16 at 2:16PM CDT until October 17 at 10:00AM CDT by NWS North Platte NE",
+              "headline": "Freeze Warning issued October 16 at 5:01PM CDT until October 17 at 10:00AM CDT by NWS North Platte NE",
               "severity": "Severe",
               "ends": "2026-10-17T10:00:00-05:00"
             }
@@ -8262,7 +8240,7 @@
         }
       ],
       "temperatureMin": 37,
-      "maxPrecipProbability": 16,
+      "maxPrecipProbability": 21,
       "maxWindMph": 5,
       "lat": 36.72806,
       "lon": -108.21869,
@@ -8282,7 +8260,7 @@
             }
           ],
           "temperatureMin": 37,
-          "maxPrecipProbability": 16,
+          "maxPrecipProbability": 21,
           "maxWindMph": 5,
           "lat": 36.72806,
           "lon": -108.21869,
@@ -8321,7 +8299,7 @@
         }
       ],
       "temperatureMin": 36,
-      "maxPrecipProbability": 18,
+      "maxPrecipProbability": 23,
       "maxWindMph": 5,
       "lat": 36.82223,
       "lon": -107.99285,
@@ -8341,7 +8319,7 @@
             }
           ],
           "temperatureMin": 36,
-          "maxPrecipProbability": 18,
+          "maxPrecipProbability": 23,
           "maxWindMph": 5,
           "lat": 36.82223,
           "lon": -107.99285,
@@ -8420,7 +8398,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 36,
-      "maxPrecipProbability": 0,
+      "maxPrecipProbability": 2,
       "maxWindMph": 10,
       "lat": 41.11159,
       "lon": -114.96449,
@@ -8433,7 +8411,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 36,
-          "maxPrecipProbability": 0,
+          "maxPrecipProbability": 2,
           "maxWindMph": 10,
           "lat": 41.11159,
           "lon": -114.96449,
@@ -8466,7 +8444,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 44,
-      "maxPrecipProbability": 0,
+      "maxPrecipProbability": 1,
       "maxWindMph": 20,
       "lat": 39.51824,
       "lon": -119.98881,
@@ -8479,7 +8457,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 44,
-          "maxPrecipProbability": 0,
+          "maxPrecipProbability": 1,
           "maxWindMph": 20,
           "lat": 39.51824,
           "lon": -119.98881,
@@ -8556,8 +8534,8 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 36,
-      "maxPrecipProbability": 0,
-      "maxWindMph": 13,
+      "maxPrecipProbability": 1,
+      "maxWindMph": 12,
       "lat": 44.77487,
       "lon": -117.83438,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.7749&lon=-117.8344",
@@ -8569,8 +8547,8 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 36,
-          "maxPrecipProbability": 0,
-          "maxWindMph": 13,
+          "maxPrecipProbability": 1,
+          "maxWindMph": 12,
           "lat": 44.77487,
           "lon": -117.83438,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.7749&lon=-117.8344",
@@ -8602,7 +8580,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 29,
-      "maxPrecipProbability": 0,
+      "maxPrecipProbability": 1,
       "maxWindMph": 9,
       "lat": 45.50652,
       "lon": -118.42135,
@@ -8615,7 +8593,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 29,
-          "maxPrecipProbability": 0,
+          "maxPrecipProbability": 1,
           "maxWindMph": 9,
           "lat": 45.50652,
           "lon": -118.42135,
@@ -8740,7 +8718,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 31,
-      "maxPrecipProbability": 3,
+      "maxPrecipProbability": 14,
       "maxWindMph": 6,
       "lat": 44.29095,
       "lon": -121.54921,
@@ -8753,7 +8731,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 31,
-          "maxPrecipProbability": 3,
+          "maxPrecipProbability": 14,
           "maxWindMph": 6,
           "lat": 44.29095,
           "lon": -121.54921,
@@ -8786,7 +8764,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 42,
-      "maxPrecipProbability": 1,
+      "maxPrecipProbability": 12,
       "maxWindMph": 10,
       "lat": 42.19458,
       "lon": -122.70948,
@@ -8799,7 +8777,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 42,
-          "maxPrecipProbability": 1,
+          "maxPrecipProbability": 12,
           "maxWindMph": 10,
           "lat": 42.19458,
           "lon": -122.70948,
@@ -8997,7 +8975,7 @@
       "alerts": [],
       "temperatureMin": 40,
       "maxPrecipProbability": 0,
-      "maxWindMph": 14,
+      "maxWindMph": 15,
       "lat": 44.49082,
       "lon": -103.85937,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.4908&lon=-103.8594",
@@ -9010,7 +8988,7 @@
           "alerts": [],
           "temperatureMin": 40,
           "maxPrecipProbability": 0,
-          "maxWindMph": 14,
+          "maxWindMph": 15,
           "lat": 44.49082,
           "lon": -103.85937,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.4908&lon=-103.8594",
@@ -9101,7 +9079,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 40,
-      "maxPrecipProbability": 3,
+      "maxPrecipProbability": 25,
       "maxWindMph": 5,
       "lat": 39.71023,
       "lon": -111.83632,
@@ -9114,7 +9092,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 40,
-          "maxPrecipProbability": 3,
+          "maxPrecipProbability": 25,
           "maxWindMph": 5,
           "lat": 39.71023,
           "lon": -111.83632,
@@ -9147,7 +9125,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 38,
-      "maxPrecipProbability": 2,
+      "maxPrecipProbability": 12,
       "maxWindMph": 6,
       "lat": 40.74578,
       "lon": -111.61159,
@@ -9160,7 +9138,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 38,
-          "maxPrecipProbability": 2,
+          "maxPrecipProbability": 12,
           "maxWindMph": 6,
           "lat": 40.74578,
           "lon": -111.61159,
@@ -9192,7 +9170,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 41,
-      "maxPrecipProbability": 0,
+      "maxPrecipProbability": 2,
       "maxWindMph": 8,
       "lat": 41.49577,
       "lon": -111.94383,
@@ -9205,7 +9183,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 41,
-          "maxPrecipProbability": 0,
+          "maxPrecipProbability": 2,
           "maxWindMph": 8,
           "lat": 41.49577,
           "lon": -111.94383,
@@ -9238,7 +9216,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 36,
-      "maxPrecipProbability": 0,
+      "maxPrecipProbability": 5,
       "maxWindMph": 6,
       "lat": 41.03606,
       "lon": -111.67688,
@@ -9251,7 +9229,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 36,
-          "maxPrecipProbability": 0,
+          "maxPrecipProbability": 5,
           "maxWindMph": 6,
           "lat": 41.03606,
           "lon": -111.67688,
@@ -9484,7 +9462,7 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 37,
+      "temperatureMin": 36,
       "maxPrecipProbability": 4,
       "maxWindMph": 16,
       "lat": 47.65966,
@@ -9497,7 +9475,7 @@
           "timing": null,
           "forecast": null,
           "alerts": [],
-          "temperatureMin": 37,
+          "temperatureMin": 36,
           "maxPrecipProbability": 4,
           "maxWindMph": 16,
           "lat": 47.65966,
