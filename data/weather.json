@@ -1,63 +1,28 @@
 {
-  "updatedAt": "2026-11-12T21:05:14.634452+00:00",
+  "updatedAt": "2026-11-13T02:07:28.922336+00:00",
   "dataState": "live",
   "sourceNote": "National Weather Service city + corridor forecast/alert screen; DOT/511 links supplied for verification.",
   "changes": [
     {
-      "id": "CA-bishop",
-      "name": "Bishop",
+      "id": "CA-susanville",
+      "name": "Susanville",
       "state": "CA",
       "from": "WATCH",
-      "to": "ACTIVATE"
+      "to": "PREPARE"
     },
     {
-      "id": "CA-south-lake-tahoe",
-      "name": "South Lake Tahoe",
-      "state": "CA",
-      "from": "WATCH",
-      "to": "ACTIVATE"
-    },
-    {
-      "id": "CA-truckee",
-      "name": "Truckee",
-      "state": "CA",
-      "from": "WATCH",
-      "to": "ACTIVATE"
-    },
-    {
-      "id": "NV-carson-city",
-      "name": "Carson City",
+      "id": "NV-reno",
+      "name": "Reno",
       "state": "NV",
       "from": "WATCH",
-      "to": "CLEAR"
+      "to": "PREPARE"
     },
     {
-      "id": "NV-gardnerville",
-      "name": "Gardnerville",
+      "id": "NV-sparks",
+      "name": "Sparks",
       "state": "NV",
       "from": "WATCH",
-      "to": "CLEAR"
-    },
-    {
-      "id": "OR-la-pine",
-      "name": "La Pine",
-      "state": "OR",
-      "from": "CLEAR",
-      "to": "WATCH"
-    },
-    {
-      "id": "UT-riverdale",
-      "name": "Riverdale",
-      "state": "UT",
-      "from": "WATCH",
-      "to": "CLEAR"
-    },
-    {
-      "id": "UT-south-ogden",
-      "name": "South Ogden",
-      "state": "UT",
-      "from": "WATCH",
-      "to": "CLEAR"
+      "to": "PREPARE"
     }
   ],
   "markets": [
@@ -89,8 +54,8 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 37,
-      "maxPrecipProbability": 75,
+      "temperatureMin": 38,
+      "maxPrecipProbability": 56,
       "maxWindMph": 20,
       "lat": 58.30194,
       "lon": -134.41972,
@@ -425,10 +390,10 @@
         "https://www.lesschwab.com/stores/ca"
       ],
       "notes": [],
-      "status": "WATCH",
-      "reason": "Winter precipitation signal within 72 hours",
-      "timing": "2026-11-13T04:00:00-08:00",
-      "forecast": "Chance Rain And Snow",
+      "status": "PREPARE",
+      "reason": "Corridor signal \u2014 Susanville / Fredonyer Summit: Winter precipitation signal within 24 hours",
+      "timing": "2026-11-13T14:00:00-08:00",
+      "forecast": "Rain And Snow",
       "alerts": [
         {
           "event": "Wind Advisory",
@@ -450,8 +415,8 @@
           "id": "ca-susanville-fredonyer-summit",
           "name": "Susanville / Fredonyer Summit",
           "routes": "CA-36 / US-395",
-          "status": "WATCH",
-          "reason": "Winter precipitation signal within 72 hours",
+          "status": "PREPARE",
+          "reason": "Winter precipitation signal within 24 hours",
           "timing": "2026-11-13T14:00:00-08:00",
           "forecast": "Rain And Snow",
           "triggerPoint": "Westwood, California",
@@ -462,10 +427,12 @@
         }
       ],
       "trigger": {
-        "type": "market",
-        "name": "Susanville"
+        "type": "corridor",
+        "name": "Susanville / Fredonyer Summit",
+        "routes": "CA-36 / US-395",
+        "point": "Westwood, California"
       },
-      "prAction": "Monitor the next forecast cycle for Susanville; no outreach yet unless road impacts strengthen."
+      "prAction": "Line up a local store spokesperson and verify road conditions for Susanville / Fredonyer Summit; prepare an outreach angle."
     },
     {
       "id": "CA-truckee",
@@ -569,13 +536,13 @@
       "alerts": [
         {
           "event": "High Wind Warning",
-          "headline": "High Wind Warning issued November 12 at 6:28AM PST until November 13 at 1:00PM PST by NWS Medford OR",
+          "headline": "High Wind Warning issued November 12 at 1:17PM PST until November 13 at 1:00PM PST by NWS Medford OR",
           "severity": "Severe",
           "ends": "2026-11-13T13:00:00-08:00"
         },
         {
           "event": "Wind Advisory",
-          "headline": "Wind Advisory issued November 12 at 6:28AM PST until November 12 at 10:00PM PST by NWS Medford OR",
+          "headline": "Wind Advisory issued November 12 at 1:17PM PST until November 12 at 10:00PM PST by NWS Medford OR",
           "severity": "Moderate",
           "ends": "2026-11-12T22:00:00-08:00"
         }
@@ -1469,7 +1436,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 40,
-      "maxPrecipProbability": 50,
+      "maxPrecipProbability": 65,
       "maxWindMph": 7,
       "lat": 47.67768,
       "lon": -116.78047,
@@ -1846,7 +1813,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 39,
-      "maxPrecipProbability": 56,
+      "maxPrecipProbability": 74,
       "maxWindMph": 8,
       "lat": 47.71796,
       "lon": -116.95159,
@@ -1921,7 +1888,7 @@
       "alerts": [],
       "temperatureMin": 22,
       "maxPrecipProbability": 0,
-      "maxWindMph": 10,
+      "maxWindMph": 5,
       "lat": 44.73191,
       "lon": -93.21772,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.7319&lon=-93.2177",
@@ -1981,7 +1948,7 @@
       "alerts": [],
       "temperatureMin": 21,
       "maxPrecipProbability": 1,
-      "maxWindMph": 10,
+      "maxWindMph": 9,
       "lat": 43.66663,
       "lon": -92.97464,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=43.6666&lon=-92.9746",
@@ -2040,7 +2007,7 @@
       "alerts": [],
       "temperatureMin": 22,
       "maxPrecipProbability": 0,
-      "maxWindMph": 10,
+      "maxWindMph": 5,
       "lat": 45.1608,
       "lon": -93.23495,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=45.1608&lon=-93.2349",
@@ -2099,7 +2066,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 33,
-      "maxPrecipProbability": 23,
+      "maxPrecipProbability": 25,
       "maxWindMph": 10,
       "lat": 33.629,
       "lon": -91.79096,
@@ -2157,7 +2124,7 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 19,
+      "temperatureMin": 18,
       "maxPrecipProbability": 0,
       "maxWindMph": 16,
       "lat": 46.87386,
@@ -2217,7 +2184,7 @@
       "alerts": [],
       "temperatureMin": 23,
       "maxPrecipProbability": 0,
-      "maxWindMph": 10,
+      "maxWindMph": 5,
       "lat": 44.8833,
       "lon": -93.283,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.8833&lon=-93.2830",
@@ -2275,7 +2242,7 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 21,
+      "temperatureMin": 20,
       "maxPrecipProbability": 0,
       "maxWindMph": 5,
       "lat": 45.62163,
@@ -3003,7 +2970,7 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 19,
+      "temperatureMin": 18,
       "maxPrecipProbability": 0,
       "maxWindMph": 16,
       "lat": 46.87719,
@@ -3062,7 +3029,7 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 18,
+      "temperatureMin": 17,
       "maxPrecipProbability": 0,
       "maxWindMph": 16,
       "lat": 47.92526,
@@ -3180,7 +3147,7 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 19,
+      "temperatureMin": 18,
       "maxPrecipProbability": 0,
       "maxWindMph": 18,
       "lat": 46.87497,
@@ -3357,7 +3324,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 23,
-      "maxPrecipProbability": 3,
+      "maxPrecipProbability": 1,
       "maxWindMph": 7,
       "lat": 41.15444,
       "lon": -96.04224,
@@ -3805,8 +3772,8 @@
         "https://www.lesschwab.com/stores/nv"
       ],
       "notes": [],
-      "status": "WATCH",
-      "reason": "Corridor signal \u2014 Reno / Donner approaches: Winter precipitation signal within 72 hours",
+      "status": "PREPARE",
+      "reason": "Corridor signal \u2014 Reno / Donner approaches: Winter precipitation signal within 24 hours",
       "timing": "2026-11-13T17:00:00-08:00",
       "forecast": "Rain And Snow; Slight Chance Rain And Snow",
       "alerts": [
@@ -3830,8 +3797,8 @@
           "id": "nv-reno-donner-approaches",
           "name": "Reno / Donner approaches",
           "routes": "I-80 / US-395",
-          "status": "WATCH",
-          "reason": "Winter precipitation signal within 72 hours",
+          "status": "PREPARE",
+          "reason": "Winter precipitation signal within 24 hours",
           "timing": "2026-11-13T17:00:00-08:00",
           "forecast": "Rain And Snow; Slight Chance Rain And Snow",
           "triggerPoint": "Verdi, Nevada",
@@ -3848,7 +3815,7 @@
         "routes": "I-80 / US-395",
         "point": "Verdi, Nevada"
       },
-      "prAction": "Monitor the next forecast cycle for Reno / Donner approaches; no outreach yet unless road impacts strengthen."
+      "prAction": "Line up a local store spokesperson and verify road conditions for Reno / Donner approaches; prepare an outreach angle."
     },
     {
       "id": "NV-sparks",
@@ -3873,8 +3840,8 @@
         "https://www.lesschwab.com/stores/nv"
       ],
       "notes": [],
-      "status": "WATCH",
-      "reason": "Corridor signal \u2014 Reno / Donner approaches: Winter precipitation signal within 72 hours",
+      "status": "PREPARE",
+      "reason": "Corridor signal \u2014 Reno / Donner approaches: Winter precipitation signal within 24 hours",
       "timing": "2026-11-13T17:00:00-08:00",
       "forecast": "Rain And Snow; Slight Chance Rain And Snow",
       "alerts": [
@@ -3898,8 +3865,8 @@
           "id": "nv-reno-donner-approaches",
           "name": "Reno / Donner approaches",
           "routes": "I-80 / US-395",
-          "status": "WATCH",
-          "reason": "Winter precipitation signal within 72 hours",
+          "status": "PREPARE",
+          "reason": "Winter precipitation signal within 24 hours",
           "timing": "2026-11-13T17:00:00-08:00",
           "forecast": "Rain And Snow; Slight Chance Rain And Snow",
           "triggerPoint": "Verdi, Nevada",
@@ -3916,7 +3883,7 @@
         "routes": "I-80 / US-395",
         "point": "Verdi, Nevada"
       },
-      "prAction": "Monitor the next forecast cycle for Reno / Donner approaches; no outreach yet unless road impacts strengthen."
+      "prAction": "Line up a local store spokesperson and verify road conditions for Reno / Donner approaches; prepare an outreach angle."
     },
     {
       "id": "NV-winnemucca",
@@ -4036,7 +4003,7 @@
       "alerts": [
         {
           "event": "Wind Advisory",
-          "headline": "Wind Advisory issued November 12 at 6:28AM PST until November 13 at 10:00AM PST by NWS Medford OR",
+          "headline": "Wind Advisory issued November 12 at 1:17PM PST until November 13 at 10:00AM PST by NWS Medford OR",
           "severity": "Moderate",
           "ends": "2026-11-13T10:00:00-08:00"
         }
@@ -4160,7 +4127,7 @@
       "alerts": [
         {
           "event": "Wind Advisory",
-          "headline": "Wind Advisory issued November 12 at 12:20PM PST until November 13 at 4:00PM PST by NWS Pendleton OR",
+          "headline": "Wind Advisory issued November 12 at 2:55PM PST until November 13 at 4:00PM PST by NWS Pendleton OR",
           "severity": "Moderate",
           "ends": "2026-11-13T16:00:00-08:00"
         }
@@ -4285,7 +4252,7 @@
       "alerts": [
         {
           "event": "Wind Advisory",
-          "headline": "Wind Advisory issued November 12 at 12:20PM PST until November 13 at 7:00PM PST by NWS Pendleton OR",
+          "headline": "Wind Advisory issued November 12 at 2:55PM PST until November 13 at 7:00PM PST by NWS Pendleton OR",
           "severity": "Moderate",
           "ends": "2026-11-13T19:00:00-08:00"
         }
@@ -4410,7 +4377,7 @@
       "alerts": [
         {
           "event": "Wind Advisory",
-          "headline": "Wind Advisory issued November 12 at 6:28AM PST until November 13 at 10:00AM PST by NWS Medford OR",
+          "headline": "Wind Advisory issued November 12 at 1:17PM PST until November 13 at 10:00AM PST by NWS Medford OR",
           "severity": "Moderate",
           "ends": "2026-11-13T10:00:00-08:00"
         }
@@ -4476,15 +4443,9 @@
       "alerts": [
         {
           "event": "Wind Advisory",
-          "headline": "Wind Advisory issued November 12 at 12:20PM PST until November 13 at 7:00PM PST by NWS Pendleton OR",
+          "headline": "Wind Advisory issued November 12 at 2:55PM PST until November 13 at 7:00PM PST by NWS Pendleton OR",
           "severity": "Moderate",
           "ends": "2026-11-13T19:00:00-08:00"
-        },
-        {
-          "event": "Dense Fog Advisory",
-          "headline": "Dense Fog Advisory issued November 12 at 12:20PM PST until November 12 at 3:00PM PST by NWS Pendleton OR",
-          "severity": "Moderate",
-          "ends": "2026-11-12T15:00:00-08:00"
         }
       ],
       "temperatureMin": 41,
@@ -4883,7 +4844,7 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 21,
+      "temperatureMin": 20,
       "maxPrecipProbability": 1,
       "maxWindMph": 20,
       "lat": 43.70943,
@@ -5997,7 +5958,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 39,
-      "maxPrecipProbability": 63,
+      "maxPrecipProbability": 77,
       "maxWindMph": 9,
       "lat": 47.65966,
       "lon": -117.42908,
@@ -6056,7 +6017,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 40,
-      "maxPrecipProbability": 63,
+      "maxPrecipProbability": 78,
       "maxWindMph": 8,
       "lat": 47.67323,
       "lon": -117.23937,
@@ -6660,8 +6621,8 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 37,
-      "maxPrecipProbability": 75,
+      "temperatureMin": 38,
+      "maxPrecipProbability": 56,
       "maxWindMph": 20,
       "lat": 58.30194,
       "lon": -134.41972,
@@ -6673,8 +6634,8 @@
           "timing": null,
           "forecast": null,
           "alerts": [],
-          "temperatureMin": 37,
-          "maxPrecipProbability": 75,
+          "temperatureMin": 38,
+          "maxPrecipProbability": 56,
           "maxWindMph": 20,
           "lat": 58.30194,
           "lon": -134.41972,
@@ -6967,8 +6928,8 @@
       "roadSources": [
         "https://quickmap.dot.ca.gov/"
       ],
-      "status": "WATCH",
-      "reason": "Winter precipitation signal within 72 hours",
+      "status": "PREPARE",
+      "reason": "Winter precipitation signal within 24 hours",
       "timing": "2026-11-13T14:00:00-08:00",
       "forecast": "Rain And Snow",
       "alerts": [
@@ -6987,8 +6948,8 @@
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=40.3060&lon=-121.0058",
       "points": [
         {
-          "status": "WATCH",
-          "reason": "Winter precipitation signal within 72 hours",
+          "status": "PREPARE",
+          "reason": "Winter precipitation signal within 24 hours",
           "timing": "2026-11-13T14:00:00-08:00",
           "forecast": "Rain And Snow",
           "alerts": [
@@ -7576,7 +7537,7 @@
       "alerts": [],
       "temperatureMin": 21,
       "maxPrecipProbability": 0,
-      "maxWindMph": 10,
+      "maxWindMph": 5,
       "lat": 43.64801,
       "lon": -93.36827,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=43.6480&lon=-93.3683",
@@ -7589,7 +7550,7 @@
           "alerts": [],
           "temperatureMin": 21,
           "maxPrecipProbability": 0,
-          "maxWindMph": 10,
+          "maxWindMph": 5,
           "lat": 43.64801,
           "lon": -93.36827,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=43.6480&lon=-93.3683",
@@ -7619,7 +7580,7 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 19,
+      "temperatureMin": 18,
       "maxPrecipProbability": 0,
       "maxWindMph": 16,
       "lat": 46.87386,
@@ -7632,7 +7593,7 @@
           "timing": null,
           "forecast": null,
           "alerts": [],
-          "temperatureMin": 19,
+          "temperatureMin": 18,
           "maxPrecipProbability": 0,
           "maxWindMph": 16,
           "lat": 46.87386,
@@ -7689,7 +7650,7 @@
       "alerts": [],
       "temperatureMin": 23,
       "maxPrecipProbability": 0,
-      "maxWindMph": 10,
+      "maxWindMph": 5,
       "lat": 44.97997,
       "lon": -93.26384,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.9800&lon=-93.2638",
@@ -7702,7 +7663,7 @@
           "alerts": [],
           "temperatureMin": 23,
           "maxPrecipProbability": 0,
-          "maxWindMph": 10,
+          "maxWindMph": 5,
           "lat": 44.97997,
           "lon": -93.26384,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=44.9800&lon=-93.2638",
@@ -8052,7 +8013,7 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 19,
+      "temperatureMin": 18,
       "maxPrecipProbability": 0,
       "maxWindMph": 16,
       "lat": 46.87719,
@@ -8065,7 +8026,7 @@
           "timing": null,
           "forecast": null,
           "alerts": [],
-          "temperatureMin": 19,
+          "temperatureMin": 18,
           "maxPrecipProbability": 0,
           "maxWindMph": 16,
           "lat": 46.87719,
@@ -8098,7 +8059,7 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 18,
+      "temperatureMin": 17,
       "maxPrecipProbability": 0,
       "maxWindMph": 16,
       "lat": 47.92526,
@@ -8111,7 +8072,7 @@
           "timing": null,
           "forecast": null,
           "alerts": [],
-          "temperatureMin": 18,
+          "temperatureMin": 17,
           "maxPrecipProbability": 0,
           "maxWindMph": 16,
           "lat": 47.92526,
@@ -8190,8 +8151,8 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 23,
-      "maxPrecipProbability": 3,
-      "maxWindMph": 7,
+      "maxPrecipProbability": 0,
+      "maxWindMph": 6,
       "lat": 41.25626,
       "lon": -95.94043,
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.2563&lon=-95.9404",
@@ -8203,8 +8164,8 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 23,
-          "maxPrecipProbability": 3,
-          "maxWindMph": 7,
+          "maxPrecipProbability": 0,
+          "maxWindMph": 6,
           "lat": 41.25626,
           "lon": -95.94043,
           "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=41.2563&lon=-95.9404",
@@ -8486,8 +8447,8 @@
       "roadSources": [
         "https://www.nvroads.com/"
       ],
-      "status": "WATCH",
-      "reason": "Winter precipitation signal within 72 hours",
+      "status": "PREPARE",
+      "reason": "Winter precipitation signal within 24 hours",
       "timing": "2026-11-13T17:00:00-08:00",
       "forecast": "Rain And Snow; Slight Chance Rain And Snow",
       "alerts": [
@@ -8506,8 +8467,8 @@
       "weatherUrl": "https://forecast.weather.gov/MapClick.php?lat=39.5182&lon=-119.9888",
       "points": [
         {
-          "status": "WATCH",
-          "reason": "Winter precipitation signal within 72 hours",
+          "status": "PREPARE",
+          "reason": "Winter precipitation signal within 24 hours",
           "timing": "2026-11-13T17:00:00-08:00",
           "forecast": "Rain And Snow; Slight Chance Rain And Snow",
           "alerts": [
@@ -8701,7 +8662,7 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 48,
+      "temperatureMin": 47,
       "maxPrecipProbability": 100,
       "maxWindMph": 18,
       "lat": 45.66984,
@@ -8714,7 +8675,7 @@
           "timing": null,
           "forecast": null,
           "alerts": [],
-          "temperatureMin": 48,
+          "temperatureMin": 47,
           "maxPrecipProbability": 100,
           "maxWindMph": 18,
           "lat": 45.66984,
@@ -8747,7 +8708,7 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 39,
+      "temperatureMin": 38,
       "maxPrecipProbability": 99,
       "maxWindMph": 8,
       "lat": 45.30401,
@@ -8760,7 +8721,7 @@
           "timing": null,
           "forecast": null,
           "alerts": [],
-          "temperatureMin": 39,
+          "temperatureMin": 38,
           "maxPrecipProbability": 99,
           "maxWindMph": 8,
           "lat": 45.30401,
@@ -8841,7 +8802,7 @@
       "alerts": [
         {
           "event": "Wind Advisory",
-          "headline": "Wind Advisory issued November 12 at 6:28AM PST until November 13 at 10:00AM PST by NWS Medford OR",
+          "headline": "Wind Advisory issued November 12 at 1:17PM PST until November 13 at 10:00AM PST by NWS Medford OR",
           "severity": "Moderate",
           "ends": "2026-11-13T10:00:00-08:00"
         }
@@ -8861,7 +8822,7 @@
           "alerts": [
             {
               "event": "Wind Advisory",
-              "headline": "Wind Advisory issued November 12 at 6:28AM PST until November 13 at 10:00AM PST by NWS Medford OR",
+              "headline": "Wind Advisory issued November 12 at 1:17PM PST until November 13 at 10:00AM PST by NWS Medford OR",
               "severity": "Moderate",
               "ends": "2026-11-13T10:00:00-08:00"
             }
@@ -8944,7 +8905,7 @@
       "timing": null,
       "forecast": null,
       "alerts": [],
-      "temperatureMin": 21,
+      "temperatureMin": 20,
       "maxPrecipProbability": 1,
       "maxWindMph": 20,
       "lat": 43.70943,
@@ -8957,7 +8918,7 @@
           "timing": null,
           "forecast": null,
           "alerts": [],
-          "temperatureMin": 21,
+          "temperatureMin": 20,
           "maxPrecipProbability": 1,
           "maxWindMph": 20,
           "lat": 43.70943,
@@ -9532,7 +9493,7 @@
       "forecast": null,
       "alerts": [],
       "temperatureMin": 39,
-      "maxPrecipProbability": 63,
+      "maxPrecipProbability": 77,
       "maxWindMph": 9,
       "lat": 47.65966,
       "lon": -117.42908,
@@ -9545,7 +9506,7 @@
           "forecast": null,
           "alerts": [],
           "temperatureMin": 39,
-          "maxPrecipProbability": 63,
+          "maxPrecipProbability": 77,
           "maxWindMph": 9,
           "lat": 47.65966,
           "lon": -117.42908,
